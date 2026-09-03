@@ -1,0 +1,71 @@
+name: BTM Competitor Scan
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Runs at both possible UTC times for 11 PM Central.
+    # The timezone check below makes sure only the correct one proceeds.
+    - cron: "0 4 * * 3"
+    - cron: "0 5 * * 3"
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Central Time
+        id: timecheck
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run_scan=true" >> "$GITHUB_OUTPUT"
+          else
+            CENTRAL_DAY=$(TZ=America/Chicago date +%u)
+            CENTRAL_HOUR=$(TZ=America/Chicago date +%H)
+
+            if [ "$CENTRAL_DAY" = "2" ] && [ "$CENTRAL_HOUR" = "23" ]; then
+              echo "run_scan=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "run_scan=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Check out repository
+        if: steps.timecheck.outputs.run_scan == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.timecheck.outputs.run_scan == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scanner requirements
+        if: steps.timecheck.outputs.run_scan == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml playwright
+          playwright install chromium
+
+      - name: Run BTM competitor scan
+        if: steps.timecheck.outputs.run_scan == 'true'
+        run: |
+          python scanner/scan.py
+
+      - name: Commit updated tracker data
+        if: steps.timecheck.outputs.run_scan == 'true'
+        run: |
+          git config user.name "BTM Competitor Tracker"
+          git config user.email "actions@github.com"
+          git add "**/data/scans.json" "**/data/trends.json" "**/data/model-mix.json"
+
+          if git diff --cached --quiet; then
+            echo "No tracker changes to commit."
+          else
+            git commit -m "Update competitor scan data"
+            git push
+          fi
