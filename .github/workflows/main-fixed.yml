@@ -43,5 +43,6 @@ jobs:
             echo "No tracker changes to commit."
           else
             git commit -m "Update competitor scan data"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
