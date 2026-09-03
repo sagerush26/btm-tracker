@@ -298,6 +298,14 @@
       "date": "2026-05-22",
       "total": 1942,
       "scanId": "scan-070"
+    },
+    {
+      "date": "2026-09-03",
+      "totalMarket": 1942,
+      "btm": 241,
+      "competitors": 1701,
+      "total": 1942,
+      "scanId": "scan-071"
     }
   ],
   "priceTrend": [
