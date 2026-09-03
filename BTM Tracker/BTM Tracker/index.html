@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTM Competitor Tracker — Lake of the Ozarks</title>
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="dashboard">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BTM Tracker Logo">
+        <rect width="36" height="36" rx="8" fill="var(--color-primary)"/>
+        <path d="M8 24L13 14L18 20L23 12L28 18" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="13" cy="14" r="2" fill="white"/>
+        <circle cx="23" cy="12" r="2" fill="white"/>
+      </svg>
+      <div>
+        <div class="sidebar-logo-text">BTM Tracker</div>
+        <div class="sidebar-logo-sub">Competitor Intel</div>
+      </div>
+    </div>
+
+    <div class="nav-section">Views</div>
+    <a class="nav-item active" data-view="overview" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      Overview
+    </a>
+    <a class="nav-item" data-view="inventory" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>
+      Inventory Table
+    </a>
+    <a class="nav-item" data-view="competitors" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+      Competitors
+    </a>
+    <a class="nav-item" data-view="modelmix" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M12 3v9l6.36 3.64"/></svg>
+      Model Mix
+    </a>
+    <a class="nav-item" data-view="trends" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h20"/><path d="M5 20V10l4 4 4-8 4 6 3-4"/></svg>
+      Trends
+    </a>
+    <a class="nav-item" data-view="changes" href="#">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+      Change Log
+    </a>
+
+    <div class="sidebar-footer">
+      <span>Big Thunder Marine</span>
+    </div>
+  </aside>
+
+  <!-- MOBILE OVERLAY -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <h1 class="header-title" id="pageTitle">Market Overview</h1>
+    <div class="condition-toggle" id="conditionToggle">
+      <button class="condition-btn active" data-condition="all">All</button>
+      <button class="condition-btn" data-condition="new">New</button>
+      <button class="condition-btn" data-condition="used">Pre-Owned</button>
+    </div>
+    <div class="header-actions">
+      <div class="scan-selector">
+        <label class="scan-selector-label" for="scanDateSelect">Scan:</label>
+        <select id="scanDateSelect" class="scan-date-select">
+          <option value="latest">Latest</option>
+        </select>
+      </div>
+      <div class="scan-status">
+        <span class="scan-dot"></span>
+        <span id="scanStatus">Last scan: Loading...</span>
+      </div>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <!-- OVERVIEW VIEW -->
+    <div class="view-section active" id="view-overview">
+      <div class="kpi-grid" id="kpiGrid"></div>
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Inventory by Dealer</div>
+              <div class="chart-subtitle">Total boats in stock</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartInventory"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">New vs Used Split</div>
+              <div class="chart-subtitle">Condition breakdown by dealer</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartCondition"></canvas></div>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-card chart-card-full">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Market Share by Inventory Volume</div>
+              <div class="chart-subtitle">Percentage of total boats across Lake of the Ozarks dealers</div>
+            </div>
+          </div>
+          <div class="chart-wrapper-constrained"><canvas id="chartMarketShare"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INVENTORY TABLE VIEW -->
+    <div class="view-section" id="view-inventory">
+      <div class="table-card">
+        <div class="table-header">
+          <div class="chart-title">Competitor Inventory Comparison</div>
+          <div class="chart-subtitle">Sorted by total inventory</div>
+        </div>
+        <div class="table-wrapper">
+          <table id="inventoryTable">
+            <thead>
+              <tr>
+                <th data-sort="name">Dealer <span class="sort-arrow">↕</span></th>
+                <th data-sort="total">Total <span class="sort-arrow">↕</span></th>
+                <th data-sort="new">New <span class="sort-arrow">↕</span></th>
+                <th data-sort="used">Used <span class="sort-arrow">↕</span></th>
+                <th data-sort="avg">Avg Price <span class="sort-arrow">↕</span></th>
+                <th>Price Range</th>
+                <th>Brands</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPETITORS VIEW -->
+    <div class="view-section" id="view-competitors">
+      <div class="detail-grid" id="competitorGrid"></div>
+    </div>
+
+    <!-- MODEL MIX VIEW -->
+    <div class="view-section" id="view-modelmix">
+      <!-- Dealer Filter -->
+      <div class="mix-filter-bar">
+        <label class="mix-filter-label" for="mixDealerSelect">Showing:</label>
+        <select id="mixDealerSelect" class="mix-filter-select">
+          <option value="market">Entire Market</option>
+          <option value="btm">Big Thunder Marine (You)</option>
+        </select>
+        <span class="mix-filter-count" id="mixBoatCount"></span>
+      </div>
+
+      <!-- Segment / Category -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">By Boat Type</div>
+              <div class="chart-subtitle">Segment breakdown of current inventory</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="mixCategory"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">By Boat Type</div>
+              <div class="chart-subtitle">Segment share of inventory</div>
+            </div>
+          </div>
+          <div class="chart-wrapper-constrained"><canvas id="mixCategoryPie"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Length -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">By Length</div>
+              <div class="chart-subtitle">Size distribution of inventory</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="mixLength"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">By Propulsion</div>
+              <div class="chart-subtitle">Inboard vs Outboard vs Sterndrive</div>
+            </div>
+          </div>
+          <div class="chart-wrapper-constrained"><canvas id="mixPropulsion"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Condition + Brand -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">New vs Used</div>
+              <div class="chart-subtitle">Condition breakdown</div>
+            </div>
+          </div>
+          <div class="chart-wrapper-constrained"><canvas id="mixCondition"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Top Brands</div>
+              <div class="chart-subtitle">Most represented brands in inventory</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="mixBrand"></canvas></div>
+        </div>
+      </div>
+
+      <!-- BTM vs Market Comparison -->
+      <div class="chart-card chart-card-full">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">BTM vs Market — Segment Comparison</div>
+            <div class="chart-subtitle">How Big Thunder Marine's inventory mix compares to all competitors combined</div>
+          </div>
+        </div>
+        <div class="chart-wrapper" style="min-height:340px"><canvas id="mixComparison"></canvas></div>
+      </div>
+
+      <!-- BTM vs Market — Propulsion Comparison -->
+      <div class="chart-card chart-card-full">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">BTM vs Market — Propulsion Comparison</div>
+            <div class="chart-subtitle">Propulsion type distribution: Big Thunder Marine vs all competitors</div>
+          </div>
+        </div>
+        <div class="chart-wrapper" style="min-height:260px"><canvas id="mixPropComparison"></canvas></div>
+      </div>
+    </div>
+
+    <!-- TRENDS VIEW -->
+    <div class="view-section" id="view-trends">
+      <!-- Date Range Filter -->
+      <div class="date-range-bar">
+        <div class="date-range-group">
+          <label class="date-range-label" for="trendStartDate">From:</label>
+          <input type="date" id="trendStartDate" class="date-input">
+          <label class="date-range-label" for="trendEndDate">To:</label>
+          <input type="date" id="trendEndDate" class="date-input">
+          <button class="date-range-btn" id="applyDateRange">Apply</button>
+          <button class="date-range-btn secondary" id="resetDateRange">Reset</button>
+        </div>
+        <div class="compare-toggle-group">
+          <button class="compare-btn" id="compareBtn">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M8 3H3v5M3 16v5h5M21 16v5h-5M21 3l-7 7M3 21l7-7"/></svg>
+            Compare Scans
+          </button>
+        </div>
+      </div>
+
+      <!-- Compare Panel (hidden by default) -->
+      <div class="compare-panel" id="comparePanel" style="display:none">
+        <div class="compare-header">
+          <span class="compare-title">Comparing Scans</span>
+          <button class="compare-close" id="compareClose">&times;</button>
+        </div>
+        <div class="compare-selectors">
+          <div class="compare-selector">
+            <label class="compare-label">Scan A:</label>
+            <select id="compareScanA" class="compare-select"></select>
+          </div>
+          <span class="compare-vs">vs</span>
+          <div class="compare-selector">
+            <label class="compare-label">Scan B:</label>
+            <select id="compareScanB" class="compare-select"></select>
+          </div>
+          <button class="date-range-btn" id="runCompare">Compare</button>
+        </div>
+        <div id="compareResults"></div>
+      </div>
+      <!-- Insights Banner -->
+      <div class="insights-banner" id="insightsBanner">
+        <div class="insights-banner-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+        </div>
+        <div class="insights-banner-content" id="insightsBannerText">
+          Trend data will build over time as scans detect inventory changes. First scan establishes the baseline.
+        </div>
+      </div>
+
+      <!-- Trend KPIs -->
+      <div class="kpi-grid" id="trendKpiGrid"></div>
+
+      <!-- What's Selling Charts Row -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Sold by Category</div>
+              <div class="chart-subtitle">Boat types that move fastest</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartSoldCategory"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Sold by Price Band</div>
+              <div class="chart-subtitle">Which price ranges sell quickest</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartSoldPrice"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Length + Condition Row -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Sold by Length</div>
+              <div class="chart-subtitle">Size ranges moving off the lot</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartSoldLength"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">New vs Used Sales</div>
+              <div class="chart-subtitle">Condition split of sold boats</div>
+            </div>
+          </div>
+          <div class="chart-wrapper-constrained"><canvas id="chartSoldCondition"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Inventory Trend Line -->
+      <div class="chart-row">
+        <div class="chart-card chart-card-full">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Inventory Trend Over Time</div>
+              <div class="chart-subtitle">Total market inventory vs Big Thunder Marine — tracked each scan</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartInventoryTrend"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Avg Price Trend Line -->
+      <div class="chart-row">
+        <div class="chart-card chart-card-full">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Average Price Trend</div>
+              <div class="chart-subtitle">Market average vs BTM average price per scan</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartPriceTrend"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Top Sold Brands -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Top Selling Brands</div>
+              <div class="chart-subtitle">Brands with the most units sold</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartSoldBrand"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Sales by Dealer</div>
+              <div class="chart-subtitle">Which dealers are moving the most boats</div>
+            </div>
+          </div>
+          <div class="chart-wrapper"><canvas id="chartSoldDealer"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Recent Activity Tables -->
+      <div class="chart-row">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Recently Sold</div>
+              <div class="chart-subtitle">Boats likely sold (removed from inventory)</div>
+            </div>
+          </div>
+          <div class="trend-table-wrapper" id="recentlySoldTable">
+            <div class="empty-state-mini">No sales detected yet — data builds after future scans.</div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <div class="chart-title">Recently Added</div>
+              <div class="chart-subtitle">New listings added to dealer inventories</div>
+            </div>
+          </div>
+          <div class="trend-table-wrapper" id="recentlyAddedTable">
+            <div class="empty-state-mini">No new listings detected yet — data builds after future scans.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Insights Timeline -->
+      <div class="chart-card chart-card-full">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Insight Log</div>
+            <div class="chart-subtitle">Key observations from each scan</div>
+          </div>
+        </div>
+        <div class="insights-timeline" id="insightsTimeline"></div>
+      </div>
+    </div>
+
+    <!-- CHANGES VIEW -->
+    <div class="view-section" id="view-changes">
+      <!-- Date Range Filter for Changes -->
+      <div class="date-range-bar">
+        <div class="date-range-group">
+          <label class="date-range-label" for="changesStartDate">From:</label>
+          <input type="date" id="changesStartDate" class="date-input">
+          <label class="date-range-label" for="changesEndDate">To:</label>
+          <input type="date" id="changesEndDate" class="date-input">
+          <button class="date-range-btn" id="applyChangesDateRange">Apply</button>
+          <button class="date-range-btn secondary" id="resetChangesDateRange">Reset</button>
+        </div>
+      </div>
+      <div class="changes-section" id="changesSection">
+        <div class="empty-state">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+          <div class="empty-state-title">No Changes Detected Yet</div>
+          <div class="empty-state-desc">Changes will appear here after the next scan compares inventory against today's baseline. Scans run nightly at midnight.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- MOBILE BOTTOM NAV -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+  <a class="bottom-nav-item active" data-view="overview" href="#">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    <span>Overview</span>
+  </a>
+  <a class="bottom-nav-item" data-view="inventory" href="#">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+    <span>Inventory</span>
+  </a>
+  <a class="bottom-nav-item" data-view="modelmix" href="#">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M12 3v9l6.36 3.64"/></svg>
+    <span>Mix</span>
+  </a>
+  <a class="bottom-nav-item" data-view="trends" href="#">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h20"/><path d="M5 20V10l4 4 4-8 4 6 3-4"/></svg>
+    <span>Trends</span>
+  </a>
+  <a class="bottom-nav-item" data-view="changes" href="#">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+    <span>Changes</span>
+  </a>
+</nav>
+
+<script src="./app.js"></script>
+</body>
+</html>

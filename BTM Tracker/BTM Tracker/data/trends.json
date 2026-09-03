@@ -1,0 +1,2792 @@
+{
+  "soldByCategory": {
+    "Cruiser/Cabin": 106,
+    "Pontoon/Tritoon": 229,
+    "Bowrider": 262,
+    "Center Console": 40,
+    "Wakeboard/Ski": 130,
+    "Fishing": 166,
+    "Deck Boat": 264,
+    "PWC/Jet Ski": 225,
+    "Other": 43,
+    "Performance": 55,
+    "Yacht": 6
+  },
+  "soldByPriceBand": {
+    "Under $25K": 76,
+    "$25K-$50K": 183,
+    "$50K-$100K": 382,
+    "$100K-$200K": 458,
+    "$200K-$500K": 305,
+    "$500K+": 122
+  },
+  "soldByLengthBand": {
+    "40ft+": 92,
+    "Unknown": 893,
+    "20-25ft": 143,
+    "25-30ft": 202,
+    "30-35ft": 36,
+    "35-40ft": 84,
+    "Under 20ft": 76
+  },
+  "soldByCondition": {
+    "New": 1180,
+    "Used": 367
+  },
+  "soldByBrand": {
+    "Cruisers Yachts": 12,
+    "Aviara": 12,
+    "Harris": 24,
+    "Sea Ray": 82,
+    "Scout": 4,
+    "Chaparral": 16,
+    "Boston Whaler": 4,
+    "Grady-White": 5,
+    "Princess": 4,
+    "Aquila": 4,
+    "Bennington": 15,
+    "Regal": 11,
+    "Malibu": 24,
+    "Godfrey": 19,
+    "Four Winns": 62,
+    "Stingray": 29,
+    "Alumacraft": 26,
+    "Axopar": 75,
+    "Beneteau": 38,
+    "G3": 126,
+    "Scarab": 99,
+    "SunCatcher": 99,
+    "Yamaha": 412,
+    "Sea-Doo": 13,
+    "Premier": 19,
+    "Sun Tracker": 13,
+    "Triton": 13,
+    "Cobalt": 18,
+    "Kawasaki": 13,
+    "Suncruiser": 13,
+    "Sunsation": 22,
+    "Nautique": 1,
+    "Tiara Yachts": 1,
+    "MasterCraft": 1,
+    "Barletta": 30,
+    "PlayCraft": 2,
+    "Iron": 1,
+    "MTI": 15,
+    "Performance": 3,
+    "Outerlimits": 1,
+    "Cigarette": 4,
+    "Deep Impact": 1,
+    "Princecraft": 1,
+    "Skater": 3,
+    "South Bay": 1,
+    "Renegade Powerboats": 1,
+    "Nor-Tech": 1,
+    "Wright Performance": 1,
+    "Mystic": 1,
+    "Nordic": 1,
+    "Formula": 11,
+    "Fountain": 6,
+    "Baja": 2,
+    "Baha Mach 1": 2,
+    "Crownline": 4,
+    "Cypress Cay": 2,
+    "Avalon": 3,
+    "Yamaha Boats": 2,
+    "Wellcraft": 17,
+    "Moomba": 2,
+    "iKon": 17,
+    "Ranger": 2,
+    "Montara": 5,
+    "Dutch American": 1,
+    "Monterey": 2,
+    "Tige": 1,
+    "Premier Pontoons": 3,
+    "Robalo": 1,
+    "SeaRay": 1,
+    "Axis": 12,
+    "Supra": 1,
+    "Coach": 1,
+    "Cruisers": 1,
+    "HCB": 2,
+    "Black Thunder": 1,
+    "Statement": 1,
+    "Schaefer": 1,
+    "Volvo Penta": 1
+  },
+  "soldByDealer": {
+    "Kelly's Port": 29,
+    "Iguana Marine Group": 41,
+    "Premier Advantage Marine": 20,
+    "Heartland Marine": 36,
+    "Premier 54 Motorsports": 28,
+    "MarineMax Lake Ozark": 23,
+    "Performance Boat Center": 55,
+    "Formula Boats of Missouri": 10,
+    "Marty's Marine": 57,
+    "Performance Marine Watersports": 1,
+    "Stateamind Water Sports": 59,
+    "All About Boats": 7,
+    "Village Marina & Yacht Club": 21,
+    "Big Thunder Marine": 12,
+    "kellys-port": 35,
+    "village-marina": 14,
+    "big-thunder-marine": 17,
+    "iguana-marine": 36,
+    "formula-boats-mo": 6,
+    "stateamind": 23,
+    "martys-marine": 26,
+    "all-about-boats": 2,
+    "premier-advantage": 11,
+    "marinemax": 7,
+    "heartland-marine": 17,
+    "premier-54": 4
+  },
+  "addedByCategory": {},
+  "inventoryTrend": [
+    {
+      "date": "2026-04-23",
+      "totalMarket": 1925,
+      "btm": 249,
+      "competitors": 1676
+    },
+    {
+      "date": "2026-04-24",
+      "totalMarket": 1930,
+      "btm": 249,
+      "competitors": 1681
+    },
+    {
+      "date": "2026-04-25",
+      "totalMarket": 1927,
+      "btm": 249,
+      "competitors": 1678
+    },
+    {
+      "date": "2026-04-26",
+      "totalMarket": 1931,
+      "btm": 249,
+      "competitors": 1683
+    },
+    {
+      "date": "2026-04-27",
+      "totalMarket": 1926,
+      "btm": 249,
+      "competitors": 1677
+    },
+    {
+      "date": "2026-04-28",
+      "totalMarket": 1921,
+      "btm": 249,
+      "competitors": 1679
+    },
+    {
+      "date": "2026-04-29",
+      "total": 1917,
+      "scanId": "scan-047"
+    },
+    {
+      "date": "2026-04-30",
+      "total": 1922,
+      "scanId": "scan-048"
+    },
+    {
+      "date": "2026-05-01",
+      "total": 1925,
+      "scanId": "scan-049"
+    },
+    {
+      "date": "2026-05-02",
+      "total": 1935,
+      "scanId": "scan-050"
+    },
+    {
+      "date": "2026-05-03",
+      "total": 1931,
+      "scanId": "scan-051"
+    },
+    {
+      "date": "2026-05-04",
+      "total": 1930,
+      "scanId": "scan-052"
+    },
+    {
+      "date": "2026-05-05",
+      "total": 1916,
+      "scanId": "scan-053"
+    },
+    {
+      "date": "2026-05-06",
+      "total": 1921,
+      "scanId": "scan-054"
+    },
+    {
+      "date": "2026-05-07",
+      "total": 1945,
+      "scanId": "scan-055"
+    },
+    {
+      "date": "2026-05-08",
+      "total": 1946,
+      "scanId": "scan-056"
+    },
+    {
+      "date": "2026-05-09",
+      "total": 1947,
+      "scanId": "scan-057"
+    },
+    {
+      "date": "2026-05-10",
+      "total": 1947,
+      "scanId": "scan-058"
+    },
+    {
+      "date": "2026-05-11",
+      "total": 1939,
+      "scanId": "scan-059"
+    },
+    {
+      "date": "2026-05-12",
+      "total": 1943,
+      "scanId": "scan-060"
+    },
+    {
+      "date": "2026-05-13",
+      "total": 1943,
+      "scanId": "scan-061"
+    },
+    {
+      "date": "2026-05-14",
+      "total": 1937,
+      "scanId": "scan-062"
+    },
+    {
+      "date": "2026-05-15",
+      "total": 1918,
+      "scanId": "scan-063"
+    },
+    {
+      "date": "2026-05-16",
+      "total": 1913,
+      "scanId": "scan-064"
+    },
+    {
+      "date": "2026-05-17",
+      "total": 1935,
+      "scanId": "scan-065"
+    },
+    {
+      "date": "2026-05-18",
+      "total": 1932,
+      "scanId": "scan-066"
+    },
+    {
+      "date": "2026-05-19",
+      "total": 1934,
+      "scanId": "scan-067"
+    },
+    {
+      "date": "2026-05-20",
+      "total": 1938,
+      "scanId": "scan-068"
+    },
+    {
+      "date": "2026-05-21",
+      "total": 1926,
+      "scanId": "scan-069"
+    },
+    {
+      "date": "2026-05-22",
+      "total": 1942,
+      "scanId": "scan-070"
+    }
+  ],
+  "priceTrend": [
+    {
+      "date": "2026-04-23",
+      "marketAvg": 262298,
+      "btmAvg": 887595
+    },
+    {
+      "date": "2026-04-24",
+      "marketAvg": 260113,
+      "btmAvg": 881609
+    },
+    {
+      "date": "2026-04-25",
+      "marketAvg": 308240,
+      "btmAvg": 1284829
+    },
+    {
+      "date": "2026-04-26",
+      "marketAvg": 243420,
+      "btmAvg": 676721
+    },
+    {
+      "date": "2026-04-27",
+      "marketAvg": 264432,
+      "btmAvg": 1104070
+    },
+    {
+      "date": "2026-04-28",
+      "marketAvg": 272805,
+      "btmAvg": 1134892
+    },
+    {
+      "date": "2026-04-29",
+      "avgPrice": 256510.0,
+      "scanId": "scan-047"
+    },
+    {
+      "date": "2026-04-30",
+      "avgPrice": 234992.81,
+      "scanId": "scan-048"
+    },
+    {
+      "date": "2026-05-01",
+      "avgPrice": 238289.5,
+      "scanId": "scan-049"
+    },
+    {
+      "date": "2026-05-02",
+      "avgPrice": 295466.25,
+      "scanId": "scan-050"
+    },
+    {
+      "date": "2026-05-03",
+      "avgPrice": 249850.62,
+      "scanId": "scan-051"
+    },
+    {
+      "date": "2026-05-04",
+      "avgPrice": 257705.4,
+      "scanId": "scan-052"
+    },
+    {
+      "date": "2026-05-05",
+      "avgPrice": 224029.42,
+      "scanId": "scan-053"
+    },
+    {
+      "date": "2026-05-06",
+      "avgPrice": 226969.78,
+      "scanId": "scan-054"
+    },
+    {
+      "date": "2026-05-07",
+      "avgPrice": 228822.83,
+      "scanId": "scan-055"
+    },
+    {
+      "date": "2026-05-08",
+      "avgPrice": 236596.38,
+      "scanId": "scan-056"
+    },
+    {
+      "date": "2026-05-09",
+      "avgPrice": 224322.13,
+      "scanId": "scan-057"
+    },
+    {
+      "date": "2026-05-10",
+      "avgPrice": 258778.97,
+      "scanId": "scan-058"
+    },
+    {
+      "date": "2026-05-11",
+      "avgPrice": 302056.66,
+      "scanId": "scan-059"
+    },
+    {
+      "date": "2026-05-12",
+      "avgPrice": 245410.16,
+      "scanId": "scan-060"
+    },
+    {
+      "date": "2026-05-13",
+      "avgPrice": 230994.35,
+      "scanId": "scan-061"
+    },
+    {
+      "date": "2026-05-14",
+      "avgPrice": 255421.24,
+      "scanId": "scan-062"
+    },
+    {
+      "date": "2026-05-15",
+      "avgPrice": 268720.08,
+      "scanId": "scan-063"
+    },
+    {
+      "date": "2026-05-16",
+      "avgPrice": 288037.65,
+      "scanId": "scan-064"
+    },
+    {
+      "date": "2026-05-17",
+      "avgPrice": 257077.02,
+      "scanId": "scan-065"
+    },
+    {
+      "date": "2026-05-18",
+      "avgPrice": 253811.01,
+      "scanId": "scan-066"
+    },
+    {
+      "date": "2026-05-19",
+      "avgPrice": 264599.26,
+      "scanId": "scan-067"
+    },
+    {
+      "date": "2026-05-20",
+      "avgPrice": 328574.87,
+      "scanId": "scan-068"
+    },
+    {
+      "date": "2026-05-21",
+      "avgPrice": 278695.69,
+      "scanId": "scan-069"
+    },
+    {
+      "date": "2026-05-22",
+      "avgPrice": 267210.23,
+      "scanId": "scan-070"
+    }
+  ],
+  "recentlySold": [
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 83,
+      "newTotal": 82
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 101,
+      "newTotal": 100
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 5,
+      "previousTotal": 42,
+      "newTotal": 37
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 3,
+      "previousTotal": 98,
+      "newTotal": 95
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 3,
+      "previousTotal": 104,
+      "newTotal": 101
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 112,
+      "newTotal": 108
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 241,
+      "newTotal": 240
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 43,
+      "newTotal": 42
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 8,
+      "previousTotal": 120,
+      "newTotal": 112
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 2,
+      "previousTotal": 157,
+      "newTotal": 155
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 242,
+      "newTotal": 241
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 3,
+      "previousTotal": 46,
+      "newTotal": 43
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 85,
+      "newTotal": 83
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 6,
+      "previousTotal": 99,
+      "newTotal": 93
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 243,
+      "newTotal": 242
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 42,
+      "newTotal": 41
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 4,
+      "previousTotal": 89,
+      "newTotal": 85
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 43,
+      "newTotal": 42
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 121,
+      "newTotal": 120
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 8,
+      "previousTotal": 108,
+      "newTotal": 100
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 3,
+      "previousTotal": 61,
+      "newTotal": 58
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 52,
+      "newTotal": 51
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 13,
+      "previousTotal": 93,
+      "newTotal": 80
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 4,
+      "previousTotal": 56,
+      "newTotal": 52
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 113,
+      "newTotal": 109
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 240,
+      "newTotal": 239
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 122,
+      "newTotal": 121
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 2,
+      "previousTotal": 99,
+      "newTotal": 97
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 3,
+      "previousTotal": 64,
+      "newTotal": 61
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 3,
+      "previousTotal": 243,
+      "newTotal": 240
+    },
+    {
+      "date": "2026-05-11",
+      "scanId": "scan-059",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 5,
+      "previousTotal": 88,
+      "newTotal": 83
+    },
+    {
+      "date": "2026-05-11",
+      "scanId": "scan-059",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 151,
+      "newTotal": 150
+    },
+    {
+      "date": "2026-05-11",
+      "scanId": "scan-059",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 2,
+      "previousTotal": 245,
+      "newTotal": 243
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 1,
+      "previousTotal": 94,
+      "newTotal": 93
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 2,
+      "previousTotal": 101,
+      "newTotal": 99
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 65,
+      "newTotal": 64
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 2,
+      "previousTotal": 124,
+      "newTotal": 122
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 5,
+      "previousTotal": 99,
+      "newTotal": 94
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 102,
+      "newTotal": 101
+    },
+    {
+      "date": "2026-05-08",
+      "scanId": "scan-056",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 4,
+      "previousTotal": 106,
+      "newTotal": 102
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 5,
+      "previousTotal": 88,
+      "newTotal": 83
+    },
+    {
+      "date": "2026-05-06",
+      "scanId": "scan-054",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 8,
+      "previousTotal": 43,
+      "newTotal": 35
+    },
+    {
+      "date": "2026-05-06",
+      "scanId": "scan-054",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 148,
+      "newTotal": 147
+    },
+    {
+      "date": "2026-05-05",
+      "scanId": "scan-053",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 8,
+      "previousTotal": 101,
+      "newTotal": 93
+    },
+    {
+      "date": "2026-05-05",
+      "scanId": "scan-053",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 112,
+      "newTotal": 108
+    },
+    {
+      "date": "2026-05-05",
+      "scanId": "scan-053",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 2,
+      "previousTotal": 150,
+      "newTotal": 148
+    },
+    {
+      "date": "2026-05-04",
+      "scanId": "scan-052",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 5,
+      "previousTotal": 48,
+      "newTotal": 43
+    },
+    {
+      "date": "2026-05-04",
+      "scanId": "scan-052",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 2,
+      "previousTotal": 114,
+      "newTotal": 112
+    },
+    {
+      "date": "2026-05-04",
+      "scanId": "scan-052",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 151,
+      "newTotal": 150
+    },
+    {
+      "date": "2026-05-04",
+      "scanId": "scan-052",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 242,
+      "newTotal": 241
+    }
+  ],
+  "recentlyAdded": [
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 51,
+      "newTotal": 52
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 6,
+      "previousTotal": 37,
+      "newTotal": 43
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 55,
+      "newTotal": 56
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 9,
+      "previousTotal": 108,
+      "newTotal": 117
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 240,
+      "newTotal": 241
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 54,
+      "newTotal": 55
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 103,
+      "newTotal": 104
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 2,
+      "previousTotal": 59,
+      "newTotal": 61
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 5,
+      "previousTotal": 93,
+      "newTotal": 98
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 53,
+      "newTotal": 54
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 10,
+      "previousTotal": 94,
+      "newTotal": 104
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 93,
+      "newTotal": 94
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 116,
+      "newTotal": 120
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 5,
+      "previousTotal": 41,
+      "newTotal": 46
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 156,
+      "newTotal": 157
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 120,
+      "newTotal": 121
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 12,
+      "previousTotal": 81,
+      "newTotal": 93
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 3,
+      "previousTotal": 100,
+      "newTotal": 103
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 2,
+      "previousTotal": 97,
+      "newTotal": 99
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 58,
+      "newTotal": 59
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 3,
+      "previousTotal": 113,
+      "newTotal": 116
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 155,
+      "newTotal": 156
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 4,
+      "previousTotal": 239,
+      "newTotal": 243
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 1,
+      "previousTotal": 80,
+      "newTotal": 81
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 87,
+      "newTotal": 89
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 52,
+      "newTotal": 53
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 109,
+      "newTotal": 113
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 85,
+      "newTotal": 87
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 2,
+      "previousTotal": 106,
+      "newTotal": 108
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 83,
+      "newTotal": 85
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 154,
+      "newTotal": 155
+    },
+    {
+      "date": "2026-05-12",
+      "scanId": "scan-060",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 4,
+      "previousTotal": 150,
+      "newTotal": 154
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 51,
+      "newTotal": 52
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 87,
+      "newTotal": 88
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 1,
+      "previousTotal": 112,
+      "newTotal": 113
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 244,
+      "newTotal": 245
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 4,
+      "previousTotal": 83,
+      "newTotal": 87
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 105,
+      "newTotal": 106
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 3,
+      "previousTotal": 62,
+      "newTotal": 65
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 243,
+      "newTotal": 244
+    },
+    {
+      "date": "2026-05-08",
+      "scanId": "scan-056",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 50,
+      "newTotal": 51
+    },
+    {
+      "date": "2026-05-08",
+      "scanId": "scan-056",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 104,
+      "newTotal": 105
+    },
+    {
+      "date": "2026-05-08",
+      "scanId": "scan-056",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 61,
+      "newTotal": 62
+    },
+    {
+      "date": "2026-05-08",
+      "scanId": "scan-056",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 2,
+      "previousTotal": 241,
+      "newTotal": 243
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 49,
+      "newTotal": 50
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 8,
+      "previousTotal": 35,
+      "newTotal": 43
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 4,
+      "previousTotal": 120,
+      "newTotal": 124
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 5,
+      "previousTotal": 94,
+      "newTotal": 99
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 5,
+      "previousTotal": 101,
+      "newTotal": 106
+    },
+    {
+      "date": "2026-05-07",
+      "scanId": "scan-055",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 2,
+      "previousTotal": 59,
+      "newTotal": 61
+    }
+  ],
+  "insights": [
+    {
+      "date": "2026-04-14",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-14",
+      "type": "trend",
+      "text": "Stateamind Water Sports added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-14",
+      "type": "trend",
+      "text": "Marty's Marine added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "trend",
+      "text": "Premier 54 Motorsports added 7 new listings to inventory."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "trend",
+      "text": "Big Thunder Marine added 3 new listings to inventory."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "trend",
+      "text": "Heartland Marine added 3 new listings to inventory."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "trend",
+      "text": "Kelly's Port added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "trend",
+      "text": "Surdyke Yamaha & Marina added 12 new listings to inventory."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 7 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "trend",
+      "text": "Premier Advantage Marine inventory decreased by 5 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "trend",
+      "text": "Big Thunder Marine added 4 new listings to inventory."
+    },
+    {
+      "date": "2026-04-16",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark added 3 new listings to inventory."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "trend",
+      "text": "Village Marina & Yacht Club inventory decreased by 14 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "trend",
+      "text": "Iguana Marine Group inventory decreased by 10 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "trend",
+      "text": "Premier 54 Motorsports added 9 new listings to inventory."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "trend",
+      "text": "Marty's Marine added 6 new listings to inventory."
+    },
+    {
+      "date": "2026-04-17",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-18",
+      "type": "trend",
+      "text": "Stateamind Water Sports inventory decreased by 14 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-18",
+      "type": "trend",
+      "text": "Iguana Marine Group added 7 new listings to inventory."
+    },
+    {
+      "date": "2026-04-18",
+      "type": "trend",
+      "text": "Premier 54 Motorsports added 4 new listings to inventory."
+    },
+    {
+      "date": "2026-04-18",
+      "type": "trend",
+      "text": "Marty's Marine added 4 new listings to inventory."
+    },
+    {
+      "date": "2026-04-18",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-19",
+      "type": "trend",
+      "text": "Stateamind Water Sports added 10 new listings to inventory."
+    },
+    {
+      "date": "2026-04-19",
+      "type": "trend",
+      "text": "Heartland Marine inventory decreased by 4 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-19",
+      "type": "trend",
+      "text": "Big Thunder Marine added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-19",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 2 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-19",
+      "type": "trend",
+      "text": "Kelly's Port inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-20",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 6 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-20",
+      "type": "trend",
+      "text": "All About Boats inventory decreased by 2 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-21",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 3 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-21",
+      "type": "trend",
+      "text": "Heartland Marine added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-21",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-21",
+      "type": "trend",
+      "text": "Kelly's Port added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-21",
+      "type": "trend",
+      "text": "Village Marina & Yacht Club inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-22",
+      "type": "trend",
+      "text": "Marty's Marine added 8 new listings to inventory."
+    },
+    {
+      "date": "2026-04-22",
+      "type": "trend",
+      "text": "Big Thunder Marine inventory decreased by 5 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-22",
+      "type": "trend",
+      "text": "Village Marina & Yacht Club inventory decreased by 3 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-22",
+      "type": "trend",
+      "text": "Formula Boats of Missouri inventory decreased by 2 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-22",
+      "type": "trend",
+      "text": "Heartland Marine inventory decreased by 2 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-23",
+      "type": "trend",
+      "text": "Marty's Marine added 3 new listings to inventory."
+    },
+    {
+      "date": "2026-04-23",
+      "type": "trend",
+      "text": "Village Marina & Yacht Club added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-23",
+      "type": "trend",
+      "text": "Big Thunder Marine inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-23",
+      "type": "trend",
+      "text": "MarineMax Lake Ozark added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-23",
+      "type": "trend",
+      "text": "Kelly's Port added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-24",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 3 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-24",
+      "type": "trend",
+      "text": "Iguana Marine Group added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-24",
+      "type": "trend",
+      "text": "Stateamind Water Sports added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-24",
+      "type": "trend",
+      "text": "Premier 54 Motorsports added 2 new listings to inventory."
+    },
+    {
+      "date": "2026-04-24",
+      "type": "trend",
+      "text": "Village Marina & Yacht Club added 1 new listings to inventory."
+    },
+    {
+      "date": "2026-04-25",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 4 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-25",
+      "type": "trend",
+      "text": "Heartland Marine added 3 new listings to inventory."
+    },
+    {
+      "date": "2026-04-25",
+      "type": "trend",
+      "text": "Premier 54 Motorsports inventory decreased by 2 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-26",
+      "type": "trend",
+      "text": "Marty's Marine added 6 new listings to inventory."
+    },
+    {
+      "date": "2026-04-26",
+      "type": "trend",
+      "text": "Iguana Marine Group inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-27",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 5 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-27",
+      "type": "trend",
+      "text": "Heartland Marine inventory decreased by 1 boats -- potential sales activity."
+    },
+    {
+      "date": "2026-04-28",
+      "type": "trend",
+      "text": "Kelly's Port added 7 new listings to inventory."
+    },
+    {
+      "date": "2026-04-28",
+      "type": "trend",
+      "text": "Marty's Marine inventory decreased by 5 boats -- potential sales activity."
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 1 (147 -> 148). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 4 (123 -> 119). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "village-marina",
+      "type": "sold",
+      "text": "Village Marina & Yacht Club inventory decreased by 5 (65 -> 60). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 1 (80 -> 81). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 1 (104 -> 105). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-047",
+      "date": "2026-04-29",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 2 (33 -> 35). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 4 (249 -> 245). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 4 (119 -> 123). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "village-marina",
+      "type": "sold",
+      "text": "Village Marina & Yacht Club inventory decreased by 2 (60 -> 58). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 1 (99 -> 98). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "formula-boats-mo",
+      "type": "sold",
+      "text": "Formula Boats of Missouri inventory decreased by 1 (58 -> 57). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 1 (81 -> 82). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "stateamind",
+      "type": "sold",
+      "text": "Stateamind Water Sports inventory decreased by 1 (92 -> 91). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-048",
+      "date": "2026-04-30",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 9 (35 -> 44). New listings added.",
+      "change": 9
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 3 (245 -> 242). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 1 (58 -> 59). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 1 (98 -> 99). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "formula-boats-mo",
+      "type": "sold",
+      "text": "Formula Boats of Missouri inventory decreased by 1 (57 -> 56). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 1 (91 -> 92). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 2 (105 -> 107). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-049",
+      "date": "2026-05-01",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 2 (44 -> 46). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 1 (148 -> 149). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 4 (123 -> 119). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 2 (99 -> 101). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 2 (92 -> 94). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 12 (107 -> 119). New listings added.",
+      "change": 12
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 2 (46 -> 44). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-050",
+      "date": "2026-05-02",
+      "competitorId": "all-about-boats",
+      "type": "sold",
+      "text": "All About Boats inventory decreased by 1 (49 -> 48). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 2 (149 -> 151). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 5 (119 -> 114). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 8 (101 -> 93). Possible boats sold.",
+      "change": -8
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "premier-advantage",
+      "type": "sold",
+      "text": "Premier Advantage Marine inventory decreased by 3 (107 -> 104). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 5 (82 -> 87). New listings added.",
+      "change": 5
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 4 (44 -> 48). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-051",
+      "date": "2026-05-03",
+      "competitorId": "all-about-boats",
+      "type": "added",
+      "text": "All About Boats inventory increased by 1 (48 -> 49). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-052",
+      "date": "2026-05-04",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 1 (242 -> 241). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-052",
+      "date": "2026-05-04",
+      "competitorId": "marinemax",
+      "type": "sold",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 (151 -> 150). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-052",
+      "date": "2026-05-04",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 2 (114 -> 112). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-052",
+      "date": "2026-05-04",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 8 (93 -> 101). New listings added.",
+      "change": 8
+    },
+    {
+      "scanId": "scan-052",
+      "date": "2026-05-04",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 5 (48 -> 43). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-053",
+      "date": "2026-05-05",
+      "competitorId": "marinemax",
+      "type": "sold",
+      "text": "MarineMax Lake Ozark inventory decreased by 2 (150 -> 148). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-053",
+      "date": "2026-05-05",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 4 (112 -> 108). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-053",
+      "date": "2026-05-05",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 8 (101 -> 93). Possible boats sold.",
+      "change": -8
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "marinemax",
+      "type": "sold",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 (148 -> 147). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 4 (108 -> 112). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 8 (93 -> 101). New listings added.",
+      "change": 8
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 1 (87 -> 88). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 1 (119 -> 120). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-054",
+      "date": "2026-05-06",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 8 (43 -> 35). Possible boats sold.",
+      "change": -8
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 4 (147 -> 151). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 2 (59 -> 61). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 5 (101 -> 106). New listings added.",
+      "change": 5
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "heartland-marine",
+      "type": "sold",
+      "text": "Heartland Marine inventory decreased by 5 (88 -> 83). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 5 (94 -> 99). New listings added.",
+      "change": 5
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 4 (120 -> 124). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 8 (35 -> 43). New listings added.",
+      "change": 8
+    },
+    {
+      "scanId": "scan-055",
+      "date": "2026-05-07",
+      "competitorId": "all-about-boats",
+      "type": "added",
+      "text": "All About Boats inventory increased by 1 (49 -> 50). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-056",
+      "date": "2026-05-08",
+      "competitorId": "big-thunder-marine",
+      "type": "added",
+      "text": "Big Thunder Marine inventory increased by 2 (241 -> 243). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-056",
+      "date": "2026-05-08",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 1 (61 -> 62). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-056",
+      "date": "2026-05-08",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 4 (106 -> 102). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-056",
+      "date": "2026-05-08",
+      "competitorId": "premier-advantage",
+      "type": "added",
+      "text": "Premier Advantage Marine inventory increased by 1 (104 -> 105). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-056",
+      "date": "2026-05-08",
+      "competitorId": "all-about-boats",
+      "type": "added",
+      "text": "All About Boats inventory increased by 1 (50 -> 51). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "big-thunder-marine",
+      "type": "added",
+      "text": "Big Thunder Marine inventory increased by 1 (243 -> 244). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 3 (62 -> 65). New listings added.",
+      "change": 3
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 1 (102 -> 101). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "premier-advantage",
+      "type": "added",
+      "text": "Premier Advantage Marine inventory increased by 1 (105 -> 106). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 4 (83 -> 87). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "stateamind",
+      "type": "sold",
+      "text": "Stateamind Water Sports inventory decreased by 5 (99 -> 94). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-057",
+      "date": "2026-05-09",
+      "competitorId": "premier-54",
+      "type": "sold",
+      "text": "Premier 54 Motorsports inventory decreased by 2 (124 -> 122). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "big-thunder-marine",
+      "type": "added",
+      "text": "Big Thunder Marine inventory increased by 1 (244 -> 245). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 1 (112 -> 113). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "village-marina",
+      "type": "sold",
+      "text": "Village Marina & Yacht Club inventory decreased by 1 (65 -> 64). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 2 (101 -> 99). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 1 (87 -> 88). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "stateamind",
+      "type": "sold",
+      "text": "Stateamind Water Sports inventory decreased by 1 (94 -> 93). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-058",
+      "date": "2026-05-10",
+      "competitorId": "all-about-boats",
+      "type": "added",
+      "text": "All About Boats inventory increased by 1 (51 -> 52). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-059",
+      "date": "2026-05-11",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 2 (245 -> 243). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-059",
+      "date": "2026-05-11",
+      "competitorId": "marinemax",
+      "type": "sold",
+      "text": "MarineMax Lake Ozark inventory decreased by 1 (151 -> 150). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-059",
+      "date": "2026-05-11",
+      "competitorId": "heartland-marine",
+      "type": "sold",
+      "text": "Heartland Marine inventory decreased by 5 (88 -> 83). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-060",
+      "date": "2026-05-12",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 4 (150 -> 154). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 3 (243 -> 240). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 1 (154 -> 155). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "village-marina",
+      "type": "sold",
+      "text": "Village Marina & Yacht Club inventory decreased by 3 (64 -> 61). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 2 (99 -> 97). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 2 (83 -> 85). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-062",
+      "date": "2026-05-14",
+      "competitorId": "premier-54",
+      "type": "sold",
+      "text": "Premier 54 Motorsports inventory decreased by 1 (122 -> 121). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 1 (240 -> 239). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 4 (113 -> 109). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "premier-advantage",
+      "type": "added",
+      "text": "Premier Advantage Marine inventory increased by 2 (106 -> 108). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "formula-boats-mo",
+      "type": "sold",
+      "text": "Formula Boats of Missouri inventory decreased by 4 (56 -> 52). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 2 (85 -> 87). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "stateamind",
+      "type": "sold",
+      "text": "Stateamind Water Sports inventory decreased by 13 (93 -> 80). Possible boats sold.",
+      "change": -13
+    },
+    {
+      "scanId": "scan-063",
+      "date": "2026-05-15",
+      "competitorId": "all-about-boats",
+      "type": "sold",
+      "text": "All About Boats inventory decreased by 1 (52 -> 51). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 4 (109 -> 113). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "village-marina",
+      "type": "sold",
+      "text": "Village Marina & Yacht Club inventory decreased by 3 (61 -> 58). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "premier-advantage",
+      "type": "sold",
+      "text": "Premier Advantage Marine inventory decreased by 8 (108 -> 100). Possible boats sold.",
+      "change": -8
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "formula-boats-mo",
+      "type": "added",
+      "text": "Formula Boats of Missouri inventory increased by 1 (52 -> 53). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "heartland-marine",
+      "type": "added",
+      "text": "Heartland Marine inventory increased by 2 (87 -> 89). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 1 (80 -> 81). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "premier-54",
+      "type": "sold",
+      "text": "Premier 54 Motorsports inventory decreased by 1 (121 -> 120). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-064",
+      "date": "2026-05-16",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 1 (43 -> 42). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "big-thunder-marine",
+      "type": "added",
+      "text": "Big Thunder Marine inventory increased by 4 (239 -> 243). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 1 (155 -> 156). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 3 (113 -> 116). New listings added.",
+      "change": 3
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 1 (58 -> 59). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 2 (97 -> 99). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "premier-advantage",
+      "type": "added",
+      "text": "Premier Advantage Marine inventory increased by 3 (100 -> 103). New listings added.",
+      "change": 3
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "heartland-marine",
+      "type": "sold",
+      "text": "Heartland Marine inventory decreased by 4 (89 -> 85). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 12 (81 -> 93). New listings added.",
+      "change": 12
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "premier-54",
+      "type": "added",
+      "text": "Premier 54 Motorsports inventory increased by 1 (120 -> 121). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-065",
+      "date": "2026-05-17",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 1 (42 -> 41). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-066",
+      "date": "2026-05-18",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 1 (243 -> 242). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-066",
+      "date": "2026-05-18",
+      "competitorId": "marinemax",
+      "type": "added",
+      "text": "MarineMax Lake Ozark inventory increased by 1 (156 -> 157). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-066",
+      "date": "2026-05-18",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 6 (99 -> 93). Possible boats sold.",
+      "change": -6
+    },
+    {
+      "scanId": "scan-066",
+      "date": "2026-05-18",
+      "competitorId": "heartland-marine",
+      "type": "sold",
+      "text": "Heartland Marine inventory decreased by 2 (85 -> 83). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-066",
+      "date": "2026-05-18",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 5 (41 -> 46). New listings added.",
+      "change": 5
+    },
+    {
+      "scanId": "scan-067",
+      "date": "2026-05-19",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 4 (116 -> 120). New listings added.",
+      "change": 4
+    },
+    {
+      "scanId": "scan-067",
+      "date": "2026-05-19",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 1 (93 -> 94). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-067",
+      "date": "2026-05-19",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 3 (46 -> 43). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 1 (242 -> 241). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "marinemax",
+      "type": "sold",
+      "text": "MarineMax Lake Ozark inventory decreased by 2 (157 -> 155). Possible boats sold.",
+      "change": -2
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 8 (120 -> 112). Possible boats sold.",
+      "change": -8
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "iguana-marine",
+      "type": "added",
+      "text": "Iguana Marine Group inventory increased by 10 (94 -> 104). New listings added.",
+      "change": 10
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "formula-boats-mo",
+      "type": "added",
+      "text": "Formula Boats of Missouri inventory increased by 1 (53 -> 54). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "stateamind",
+      "type": "added",
+      "text": "Stateamind Water Sports inventory increased by 5 (93 -> 98). New listings added.",
+      "change": 5
+    },
+    {
+      "scanId": "scan-068",
+      "date": "2026-05-20",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 1 (43 -> 42). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "big-thunder-marine",
+      "type": "sold",
+      "text": "Big Thunder Marine inventory decreased by 1 (241 -> 240). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "kellys-port",
+      "type": "sold",
+      "text": "Kelly's Port inventory decreased by 4 (112 -> 108). Possible boats sold.",
+      "change": -4
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "village-marina",
+      "type": "added",
+      "text": "Village Marina & Yacht Club inventory increased by 2 (59 -> 61). New listings added.",
+      "change": 2
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 3 (104 -> 101). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "premier-advantage",
+      "type": "added",
+      "text": "Premier Advantage Marine inventory increased by 1 (103 -> 104). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "formula-boats-mo",
+      "type": "added",
+      "text": "Formula Boats of Missouri inventory increased by 1 (54 -> 55). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "stateamind",
+      "type": "sold",
+      "text": "Stateamind Water Sports inventory decreased by 3 (98 -> 95). Possible boats sold.",
+      "change": -3
+    },
+    {
+      "scanId": "scan-069",
+      "date": "2026-05-21",
+      "competitorId": "martys-marine",
+      "type": "sold",
+      "text": "Marty's Marine inventory decreased by 5 (42 -> 37). Possible boats sold.",
+      "change": -5
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "big-thunder-marine",
+      "type": "added",
+      "text": "Big Thunder Marine inventory increased by 1 (240 -> 241). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "kellys-port",
+      "type": "added",
+      "text": "Kelly's Port inventory increased by 9 (108 -> 117). New listings added.",
+      "change": 9
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "iguana-marine",
+      "type": "sold",
+      "text": "Iguana Marine Group inventory decreased by 1 (101 -> 100). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "formula-boats-mo",
+      "type": "added",
+      "text": "Formula Boats of Missouri inventory increased by 1 (55 -> 56). New listings added.",
+      "change": 1
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "heartland-marine",
+      "type": "sold",
+      "text": "Heartland Marine inventory decreased by 1 (83 -> 82). Possible boats sold.",
+      "change": -1
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "martys-marine",
+      "type": "added",
+      "text": "Marty's Marine inventory increased by 6 (37 -> 43). New listings added.",
+      "change": 6
+    },
+    {
+      "scanId": "scan-070",
+      "date": "2026-05-22",
+      "competitorId": "all-about-boats",
+      "type": "added",
+      "text": "All About Boats inventory increased by 1 (51 -> 52). New listings added.",
+      "change": 1
+    }
+  ],
+  "summary": {
+    "date": "2026-05-22",
+    "scanId": "scan-070",
+    "marketTotal": 1942,
+    "credibleChangesCount": 7,
+    "soldCount": 2,
+    "addedCount": 18
+  }
+}
