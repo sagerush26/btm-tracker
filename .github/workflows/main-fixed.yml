@@ -28,8 +28,7 @@ jobs:
       - name: Run BTM competitor scan
         run: |
           python scanner/scan.py
-
-            - name: Commit updated data
+      - name: Commit updated data
         run: |
           git config user.name "BTM Competitor Tracker"
           git config user.email "actions@users.noreply.github.com"
@@ -46,6 +45,5 @@ jobs:
           fi
 
           git commit -m "Update competitor scan data"
-
           git pull --rebase origin main
           git push origin HEAD:main
