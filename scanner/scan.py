@@ -3,349 +3,715 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from statistics import mean
-from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
 
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
 
 # ============================================================
 # BTM COMPETITOR TRACKER
+# Live inventory scanner
 #
-# IMPORTANT:
-# - This scanner DOES NOT silently carry old numbers forward.
-# - If a dealer cannot be verified, the scan fails.
-# - The website date only advances after a fully valid scan.
+# RULES
+# - Boats only
+# - New + Used + Brokerage/Consignment
+# - All company locations represented by each inventory URL
+# - Exclude PWC, trailers, loose motors/outboards, vehicles, parts
+# - Deduplicate inventory
+# - Never silently publish an obviously failed scrape as current
 # ============================================================
 
 
-def find_root():
-    here = Path.cwd()
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
 
-    if (here / "data" / "competitors.json").exists():
-        return here
+COMPETITORS_FILE = DATA_DIR / "competitors.json"
+SCANS_FILE = DATA_DIR / "scans.json"
+TRENDS_FILE = DATA_DIR / "trends.json"
+MODEL_MIX_FILE = DATA_DIR / "model-mix.json"
+LIVE_LISTINGS_FILE = DATA_DIR / "live-listings.json"
 
-    matches = list(here.glob("**/data/competitors.json"))
-
-    if not matches:
-        raise FileNotFoundError("Could not find data/competitors.json")
-
-    return matches[0].parent.parent
-
-
-ROOT = find_root()
-DATA = ROOT / "data"
-
-COMPETITORS_FILE = DATA / "competitors.json"
-SCANS_FILE = DATA / "scans.json"
-TRENDS_FILE = DATA / "trends.json"
-MODEL_MIX_FILE = DATA / "model-mix.json"
+MAX_PAGES = 30
+PAGE_TIMEOUT = 60000
 
 
-def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+# ------------------------------------------------------------
+# BASIC HELPERS
+# ------------------------------------------------------------
+
+def load_json(path, default):
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"WARNING: Could not read {path}: {exc}")
+        return default
 
 
 def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False),
+        encoding="utf-8"
+    )
 
 
-def clean_text(text):
-    return re.sub(r"\s+", " ", text or "").strip()
+def clean(text):
+    return re.sub(r"\s+", " ", str(text or "")).strip()
 
 
-def money_values(text):
+def normalize(text):
+    return clean(text).lower()
+
+
+def money_to_number(value):
+    if value is None:
+        return None
+
+    text = clean(value)
+
+    matches = re.findall(
+        r"\$\s*([0-9]{1,3}(?:,[0-9]{3})+(?:\.\d{2})?|[0-9]{4,}(?:\.\d{2})?)",
+        text
+    )
+
+    if not matches:
+        return None
+
     values = []
 
-    for match in re.findall(r"\$\s*([0-9][0-9,]{3,})", text):
+    for match in matches:
         try:
-            value = int(match.replace(",", ""))
-
-            if 1000 <= value <= 10_000_000:
-                values.append(value)
-
-        except ValueError:
+            number = float(match.replace(",", ""))
+            if number >= 1000:
+                values.append(number)
+        except Exception:
             pass
 
-    return list(dict.fromkeys(values))
+    if not values:
+        return None
+
+    return min(values)
 
 
-def first_valid_match(text, patterns):
-    lower = text.lower()
+def extract_year(text):
+    match = re.search(r"\b(19[8-9]\d|20[0-3]\d)\b", text or "")
+    if match:
+        return int(match.group(1))
+    return None
+
+
+def extract_stock(text):
+    patterns = [
+        r"stock\s*(?:number|#|no\.?)?\s*[:#]?\s*([A-Z0-9\-]+)",
+        r"stock\s*[:#]\s*([A-Z0-9\-]+)",
+        r"stk\s*#?\s*[:#]?\s*([A-Z0-9\-]+)",
+        r"hin\s*[:#]?\s*([A-Z0-9\-]{8,})",
+    ]
 
     for pattern in patterns:
-        matches = re.findall(pattern, lower, re.I)
-
-        for match in matches:
-            try:
-                if isinstance(match, tuple):
-                    match = match[-1]
-
-                value = int(str(match).replace(",", ""))
-
-                if 1 <= value <= 1000:
-                    return value
-
-            except Exception:
-                continue
+        match = re.search(pattern, text or "", re.I)
+        if match:
+            return clean(match.group(1)).upper()
 
     return None
 
 
-def general_total_from_text(text):
+def extract_length(text):
     patterns = [
-        r"showing\s+\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)",
-        r"showing\s+([\d,]+)\s+boats?",
-        r"([\d,]+)\s+total\s+results?",
-        r"([\d,]+)\s+results?",
-        r"([\d,]+)\s+boats?\s+found",
-        r"([\d,]+)\s+boats?\s+available",
-        r"inventory\s*\(\s*([\d,]+)\s*\)",
+        r"(?:length|loa|length overall)\s*[:\-]?\s*(\d{1,3}(?:\.\d+)?)\s*(?:ft|feet|')",
+        r"\b(\d{2}(?:\.\d+)?)\s*(?:ft|feet|')\b",
     ]
 
-    return first_valid_match(text, patterns)
+    for pattern in patterns:
+        match = re.search(pattern, text or "", re.I)
+        if match:
+            try:
+                value = float(match.group(1))
+                if 8 <= value <= 150:
+                    return value
+            except Exception:
+                pass
+
+    return None
 
 
-def condition_counts(text, total=None):
-    lower = text.lower()
+def extract_condition(text):
+    t = normalize(text)
 
-    new_count = first_valid_match(
-        lower,
-        [
-            r"\bnew\s*\(\s*([\d,]+)\s*\)",
-            r"\bnew boats?\s*\(\s*([\d,]+)\s*\)",
-            r"\bnew\s+([\d,]+)\b",
-        ],
-    )
+    if any(word in t for word in [
+        "pre-owned",
+        "preowned",
+        "used",
+        "brokerage",
+        "consignment"
+    ]):
+        return "Used"
 
-    used_count = first_valid_match(
-        lower,
-        [
-            r"\bused\s*\(\s*([\d,]+)\s*\)",
-            r"\bpre[- ]owned\s*\(\s*([\d,]+)\s*\)",
-            r"\bused boats?\s*\(\s*([\d,]+)\s*\)",
-        ],
-    )
+    if re.search(r"\bnew\b", t):
+        return "New"
 
-    if total:
-        if new_count is not None and new_count > total:
-            new_count = None
-
-        if used_count is not None and used_count > total:
-            used_count = None
-
-    return new_count, used_count
+    return "Unknown"
 
 
-async def scroll_page(page):
-    previous_height = 0
-
-    for _ in range(15):
-        try:
-            current_height = await page.evaluate("document.body.scrollHeight")
-
-            await page.evaluate(
-                "window.scrollTo(0, document.body.scrollHeight)"
-            )
-
-            await page.wait_for_timeout(700)
-
-            buttons = page.locator(
-                "button:has-text('Load More'),"
-                "a:has-text('Load More'),"
-                "button:has-text('Show More'),"
-                "a:has-text('Show More'),"
-                "button:has-text('View More'),"
-                "a:has-text('View More')"
-            )
-
-            count = await buttons.count()
-
-            for i in range(min(count, 3)):
-                try:
-                    button = buttons.nth(i)
-
-                    if await button.is_visible():
-                        await button.click(timeout=2000)
-                        await page.wait_for_timeout(800)
-
-                except Exception:
-                    pass
-
-            if current_height == previous_height:
-                break
-
-            previous_height = current_height
-
-        except Exception:
-            break
-
-
-async def unique_listing_links(page):
-    selectors = [
-        "a[href*='/inventory/']",
-        "a[href*='/boat-inventory/']",
-        "a[href*='/boats-for-sale/']",
-        "a[href*='/listing/']",
-        "a[href*='/listings/']",
-        "a[href*='unitdetails']",
-        "a[href*='unit-detail']",
-        "a[href*='inventory-details']",
+def extract_location(text):
+    patterns = [
+        r"(?:location|located at|store)\s*[:\-]\s*([^\n|]{3,80})",
     ]
 
-    links = set()
+    for pattern in patterns:
+        match = re.search(pattern, text or "", re.I)
+        if match:
+            return clean(match.group(1))
 
-    for selector in selectors:
+    return None
+
+
+EXCLUDED_WORDS = [
+    "personal watercraft",
+    "watercraft",
+    "waverunner",
+    "wave runner",
+    "jet ski",
+    "jetski",
+    "sea-doo",
+    "seadoo",
+    "trailer",
+    "motorcycle",
+    "automobile",
+    "truck",
+    "super duty",
+    "f-150",
+    "f-250",
+    "f-350",
+    "f-450",
+    "kenworth",
+    "motorhome",
+    "rv conversion",
+    "golf cart",
+    "atv",
+    "utv",
+    "side by side",
+    "snowmobile",
+    "generator",
+]
+
+
+OUTBOARD_ONLY_PATTERNS = [
+    r"\boutboard motor\b",
+    r"\boutboard engine\b",
+    r"\bengine only\b",
+    r"\bmotor only\b",
+    r"\bloose engine\b",
+    r"\bloose motor\b",
+]
+
+
+def is_boat_record(text, url=""):
+    t = normalize(text)
+    u = normalize(url)
+
+    for word in EXCLUDED_WORDS:
+        if word in t or word in u:
+            return False
+
+    for pattern in OUTBOARD_ONLY_PATTERNS:
+        if re.search(pattern, t, re.I):
+            return False
+
+    # Explicit boat indicators are strong positives.
+    positive_words = [
+        "boat",
+        "pontoon",
+        "tritoon",
+        "yacht",
+        "center console",
+        "bowrider",
+        "runabout",
+        "wake boat",
+        "surf boat",
+        "cruiser",
+        "catamaran",
+        "deck boat",
+        "fishing boat",
+        "cuddy",
+        "performance boat",
+    ]
+
+    if any(word in t for word in positive_words):
+        return True
+
+    # Most dealer cards do not literally say "boat".
+    # A year + model/price/stock combination is treated as inventory
+    # unless an excluded vehicle type was detected above.
+    year = extract_year(text)
+    stock = extract_stock(text)
+    price = money_to_number(text)
+
+    if year and (stock or price):
+        return True
+
+    return False
+
+
+def listing_key(record):
+    dealer = record.get("dealerId", "")
+
+    if record.get("stockNumber"):
+        return f"{dealer}|stock|{record['stockNumber'].upper()}"
+
+    url = record.get("url")
+    if url:
+        return f"{dealer}|url|{url.split('?')[0].rstrip('/').lower()}"
+
+    return "|".join([
+        dealer,
+        str(record.get("year") or ""),
+        normalize(record.get("title")),
+        str(record.get("price") or "")
+    ])
+
+
+def dedupe(records):
+    result = {}
+    for record in records:
+        result[listing_key(record)] = record
+    return list(result.values())
+
+
+# ------------------------------------------------------------
+# PAGE HELPERS
+# ------------------------------------------------------------
+
+async def goto(page, url):
+    print(f"    Loading: {url}")
+
+    try:
+        response = await page.goto(
+            url,
+            wait_until="domcontentloaded",
+            timeout=PAGE_TIMEOUT
+        )
+
+        await page.wait_for_timeout(2500)
+
+        if response and response.status >= 400:
+            raise RuntimeError(f"HTTP {response.status}")
+
+        return True
+
+    except PlaywrightTimeoutError:
+        print(f"    WARNING: Timeout loading {url}")
+        return False
+
+    except Exception as exc:
+        print(f"    WARNING: Could not load {url}: {exc}")
+        return False
+
+
+async def auto_scroll(page):
+    try:
+        for _ in range(12):
+            await page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
+            await page.wait_for_timeout(400)
+
+        await page.evaluate("window.scrollTo(0, 0)")
+    except Exception:
+        pass
+
+
+async def page_text(page):
+    try:
+        return await page.locator("body").inner_text(timeout=10000)
+    except Exception:
+        return ""
+
+
+async def get_links(page):
+    try:
+        return await page.locator("a").evaluate_all(
+            """els => els.map(a => ({
+                href: a.href || '',
+                text: (a.innerText || a.textContent || '').trim()
+            }))"""
+        )
+    except Exception:
+        return []
+
+
+# ------------------------------------------------------------
+# INVENTORY LINK DETECTION
+# ------------------------------------------------------------
+
+DETAIL_HINTS = [
+    "/inventory/",
+    "/boat/",
+    "/boats/",
+    "/product/",
+    "/listing/",
+    "/listings/",
+    "unitdetail",
+    "unit-detail",
+    "vehicle-details",
+    "inventory-detail",
+    "inventorydetail",
+    "boat-details",
+    "boatdetail",
+    "details/",
+    "viewdetails",
+]
+
+
+BAD_LINK_HINTS = [
+    "facebook.com",
+    "instagram.com",
+    "youtube.com",
+    "linkedin.com",
+    "mailto:",
+    "tel:",
+    "/contact",
+    "/about",
+    "/service",
+    "/parts",
+    "/finance",
+    "/privacy",
+    "/terms",
+    "/careers",
+    "/events",
+    "/blog",
+    "/news",
+]
+
+
+def looks_like_detail_link(url, text, dealer_url):
+    if not url:
+        return False
+
+    u = normalize(url)
+    txt = normalize(text)
+
+    if any(x in u for x in BAD_LINK_HINTS):
+        return False
+
+    try:
+        base_host = urlparse(dealer_url).netloc.replace("www.", "")
+        link_host = urlparse(url).netloc.replace("www.", "")
+
+        if base_host and link_host and base_host != link_host:
+            return False
+    except Exception:
+        return False
+
+    if any(hint in u for hint in DETAIL_HINTS):
+        if any(word in txt for word in [
+            "details",
+            "view",
+            "learn more",
+            "more info",
+            "price",
+            "new",
+            "used",
+            "pre-owned"
+        ]):
+            return True
+
+        if extract_year(txt):
+            return True
+
+    if extract_year(txt) and len(txt) > 8:
+        return True
+
+    return False
+
+
+# ------------------------------------------------------------
+# CARD EXTRACTION
+# ------------------------------------------------------------
+
+CARD_SELECTORS = [
+    "[data-inventory-item]",
+    "[data-unit]",
+    "[data-listing]",
+    ".inventory-item",
+    ".inventory-listing",
+    ".inventory-card",
+    ".unit",
+    ".unit-card",
+    ".vehicle",
+    ".vehicle-card",
+    ".listing",
+    ".listing-card",
+    ".product-item",
+    ".product-card",
+    ".boat-card",
+    ".boat-listing",
+    "article",
+]
+
+
+async def extract_cards(page, competitor):
+    candidates = []
+
+    for selector in CARD_SELECTORS:
         try:
             elements = page.locator(selector)
             count = await elements.count()
 
+            if count < 2:
+                continue
+
+            # Avoid gigantic selectors that match layout wrappers.
+            if count > 300:
+                continue
+
+            local = []
+
             for i in range(count):
+                element = elements.nth(i)
+
                 try:
-                    href = await elements.nth(i).get_attribute("href")
-
-                    if not href:
-                        continue
-
-                    href_lower = href.lower()
-
-                    # Ignore generic inventory landing pages.
-                    if href_lower.rstrip("/").endswith(
-                        (
-                            "/inventory",
-                            "/boats-for-sale",
-                            "/listings",
-                        )
-                    ):
-                        continue
-
-                    links.add(href)
-
+                    text = clean(await element.inner_text(timeout=2000))
                 except Exception:
                     continue
 
+                if len(text) < 15 or len(text) > 5000:
+                    continue
+
+                try:
+                    href = await element.locator("a").first.get_attribute("href")
+                except Exception:
+                    href = None
+
+                if href:
+                    href = urljoin(competitor["url"], href)
+
+                if not is_boat_record(text, href or ""):
+                    continue
+
+                title = ""
+
+                try:
+                    title = clean(
+                        await element.locator(
+                            "h1,h2,h3,h4,.title,.name,.model"
+                        ).first.inner_text(timeout=1000)
+                    )
+                except Exception:
+                    pass
+
+                if not title:
+                    lines = [clean(x) for x in text.splitlines() if clean(x)]
+                    title = lines[0] if lines else "Boat"
+
+                record = {
+                    "dealerId": competitor["id"],
+                    "dealer": competitor["name"],
+                    "title": title,
+                    "year": extract_year(text),
+                    "condition": extract_condition(text),
+                    "price": money_to_number(text),
+                    "stockNumber": extract_stock(text),
+                    "length": extract_length(text),
+                    "location": extract_location(text),
+                    "url": href,
+                    "rawText": text[:1500]
+                }
+
+                local.append(record)
+
+            local = dedupe(local)
+
+            if len(local) > len(candidates):
+                candidates = local
+
         except Exception:
             continue
 
-    return links
+    return candidates
 
 
-async def repeated_card_count(page):
-    selectors = [
-        "[class*='inventory-item']",
-        "[class*='inventoryItem']",
-        "[class*='inventory-card']",
-        "[class*='vehicle-card']",
-        "[class*='listing-card']",
-        "[class*='boat-card']",
-        "[class*='unit-card']",
-        "[class*='product-card']",
-    ]
+# ------------------------------------------------------------
+# LINK-BASED EXTRACTION
+# ------------------------------------------------------------
 
-    counts = []
+async def extract_listing_links(page, competitor):
+    links = await get_links(page)
 
-    for selector in selectors:
+    found = []
+
+    for link in links:
+        href = link.get("href", "")
+        text = link.get("text", "")
+
+        if looks_like_detail_link(href, text, competitor["url"]):
+            found.append(href)
+
+    # Preserve order while deduping.
+    return list(dict.fromkeys(found))
+
+
+async def extract_detail_page(context, competitor, url):
+    page = await context.new_page()
+
+    try:
+        if not await goto(page, url):
+            return None
+
+        text = clean(await page_text(page))
+
+        if not is_boat_record(text, url):
+            return None
+
+        title = ""
+
         try:
-            count = await page.locator(selector).count()
-
-            if 2 <= count <= 500:
-                counts.append(count)
-
+            title = clean(await page.locator("h1").first.inner_text(timeout=3000))
         except Exception:
+            pass
+
+        if not title:
+            title = clean((await page.title()).split("|")[0])
+
+        return {
+            "dealerId": competitor["id"],
+            "dealer": competitor["name"],
+            "title": title or "Boat",
+            "year": extract_year(title or text),
+            "condition": extract_condition(text),
+            "price": money_to_number(text),
+            "stockNumber": extract_stock(text),
+            "length": extract_length(text),
+            "location": extract_location(text),
+            "url": url,
+            "rawText": text[:1500]
+        }
+
+    finally:
+        await page.close()
+
+
+# ------------------------------------------------------------
+# PAGINATION
+# ------------------------------------------------------------
+
+def set_page_parameter(url, page_number):
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+
+    if "pg" in query:
+        query["pg"] = [str(page_number)]
+    elif "page" in query and str(query["page"][0]).isdigit():
+        query["page"] = [str(page_number)]
+    else:
+        query["pg"] = [str(page_number)]
+
+    new_query = urlencode(query, doseq=True)
+
+    return urlunparse((
+        parsed.scheme,
+        parsed.netloc,
+        parsed.path,
+        parsed.params,
+        new_query,
+        parsed.fragment
+    ))
+
+
+async def find_next_link(page, current_url):
+    links = await get_links(page)
+
+    candidates = []
+
+    for link in links:
+        href = link.get("href", "")
+        text = normalize(link.get("text", ""))
+
+        if not href:
             continue
 
-    return max(counts) if counts else None
+        if text in ["next", "next >", ">", "›", "»"]:
+            candidates.append(href)
+            continue
+
+        if "next" in text and len(text) < 30:
+            candidates.append(href)
+
+    for href in candidates:
+        full = urljoin(current_url, href)
+        if full != current_url:
+            return full
+
+    return None
 
 
-def surdyke_boat_only_url(url):
-    """
-    The stored Surdyke URL can include boats + PWC + outboards.
-    Force this scanner to request Boat inventory only.
-    """
+# ------------------------------------------------------------
+# DISPLAYED TOTAL DETECTION
+# ------------------------------------------------------------
 
-    parts = urlsplit(url)
-
-    query = [
-        (key, value)
-        for key, value in parse_qsl(parts.query, keep_blank_values=True)
-        if key.lower() != "category"
-    ]
-
-    query.append(("category", "boat"))
-
-    return urlunsplit(
-        (
-            parts.scheme,
-            parts.netloc,
-            parts.path,
-            urlencode(query),
-            parts.fragment,
-        )
-    )
+TOTAL_PATTERNS = [
+    r"showing\s+\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)\s+results",
+    r"showing\s+\d+\s+to\s+\d+\s+of\s+([\d,]+)\s+results",
+    r"\b([\d,]+)\s+results\b",
+    r"showing\s+([\d,]+)\s+boats?\b",
+    r"\b([\d,]+)\s+boats?\s+found\b",
+    r"\b([\d,]+)\s+boats?\s+for\s+sale\b",
+]
 
 
-def dealer_specific_total(dealer_id, text):
-    lower = text.lower()
+def displayed_total(text):
+    values = []
 
-    patterns = {
-        "performance-boat-center": [
-            r"showing\s+([\d,]+)\s+boats?",
-            r"([\d,]+)\s+boats?",
-        ],
+    for pattern in TOTAL_PATTERNS:
+        for match in re.findall(pattern, text or "", re.I):
+            try:
+                value = int(match.replace(",", ""))
+                if 1 <= value <= 10000:
+                    values.append(value)
+            except Exception:
+                pass
 
-        "kellys-port": [
-            r"showing\s+\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)\s+results?",
-        ],
+    if not values:
+        return None
 
-        "iguana-marine": [
-            r"([\d,]+)\s+total\s+results?",
-            r"([\d,]+)\s+results?",
-        ],
-
-        "stateamind": [
-            r"([\d,]+)\s+total\s+results?",
-            r"([\d,]+)\s+results?",
-        ],
-
-        "all-about-boats": [
-            r"\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)\s+results?",
-            r"showing\s+\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)",
-        ],
-
-        "surdyke-yamaha": [
-            r"showing\s+\d+\s*[-–]\s*\d+\s+of\s+([\d,]+)",
-            r"([\d,]+)\s+results?",
-        ],
-    }
-
-    dealer_patterns = patterns.get(dealer_id, [])
-
-    if dealer_patterns:
-        value = first_valid_match(lower, dealer_patterns)
-
-        if value:
-            return value
-
-    return general_total_from_text(lower)
+    # Prefer the largest plausible inventory total.
+    return max(values)
 
 
-async def scrape_dealer(browser, dealer):
-    dealer_id = dealer["id"]
-    name = dealer["name"]
-    configured_url = dealer["url"]
+# ------------------------------------------------------------
+# DEALER-SPECIFIC START URLS
+# ------------------------------------------------------------
 
-    url = configured_url
+def dealer_start_urls(competitor):
+    dealer_id = competitor["id"]
+    base = competitor["url"]
 
+    # Kelly's Port:
+    # explicitly crawl both current New and Used inventory routes.
+    if dealer_id == "kellys-port":
+        return [
+            "https://www.kellysport.com/new-boats-for-sale-lake-of-the-ozarks-missouri--inventory?sortby=length_overall%7Casc&sz=50",
+            "https://www.kellysport.com/used-boats-for-sale-lake-of-the-ozarks-missouri--inventory?condition=pre-owned&sortby=length_overall%7Casc&sz=50",
+        ]
+
+    # Surdyke:
+    # category=boat is mandatory. Do not scan mixed PWC/outboard inventory.
     if dealer_id == "surdyke-yamaha":
-        url = surdyke_boat_only_url(configured_url)
+        return [
+            "https://www.surdykeyamaha.com/--inventory?category=boat&sz=50"
+        ]
 
+    return [base]
+
+
+# ------------------------------------------------------------
+# SCRAPE ONE DEALER
+# ------------------------------------------------------------
+
+async def scrape_dealer(browser, competitor):
     print("")
     print("=" * 70)
-    print(f"SCANNING: {name}")
-    print(f"URL: {url}")
+    print(f"SCANNING: {competitor['name']}")
     print("=" * 70)
 
     context = await browser.new_context(
@@ -353,565 +719,565 @@ async def scrape_dealer(browser, dealer):
         user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
+            "Chrome/131.0.0.0 Safari/537.36"
+        )
     )
 
     page = await context.new_page()
 
+    all_records = []
+    all_detail_links = []
+    seen_pages = set()
+    totals_seen = []
+
     try:
-        response = await page.goto(
-            url,
-            wait_until="domcontentloaded",
-            timeout=90000,
-        )
+        for start_url in dealer_start_urls(competitor):
 
-        if response:
-            print(f"HTTP STATUS: {response.status}")
+            current_url = start_url
 
-        await page.wait_for_timeout(4000)
+            for page_number in range(1, MAX_PAGES + 1):
 
-        await scroll_page(page)
+                if current_url in seen_pages:
+                    break
 
-        body_text = await page.locator("body").inner_text(timeout=20000)
-        body_text = clean_text(body_text)
+                seen_pages.add(current_url)
 
-        if len(body_text) < 100:
-            raise RuntimeError("Page returned almost no readable content")
+                ok = await goto(page, current_url)
 
-        displayed_total = dealer_specific_total(
-            dealer_id,
-            body_text,
-        )
+                if not ok:
+                    break
 
-        links = await unique_listing_links(page)
-        card_count = await repeated_card_count(page)
+                await auto_scroll(page)
 
-        print(f"Displayed total: {displayed_total}")
-        print(f"Unique listing links found: {len(links)}")
-        print(f"Repeated card count: {card_count}")
+                text = await page_text(page)
 
-        total = displayed_total
+                total = displayed_total(text)
 
-        verification_method = "displayed-count"
+                if total:
+                    totals_seen.append(total)
+                    print(f"    Displayed inventory total: {total}")
 
-        # If there is no explicit dealer result count,
-        # fall back to identifiable listing links/cards.
-        if total is None:
-            if len(links) >= 2:
-                total = len(links)
-                verification_method = "unique-listing-links"
+                cards = await extract_cards(page, competitor)
 
-            elif card_count and card_count >= 2:
-                total = card_count
-                verification_method = "listing-card-count"
+                if cards:
+                    print(f"    Boat records found on page: {len(cards)}")
+                    all_records.extend(cards)
 
-        if total is None or total <= 0:
-            raise RuntimeError(
-                "Could not verify a current inventory total"
+                links = await extract_listing_links(page, competitor)
+
+                if links:
+                    print(f"    Possible detail links: {len(links)}")
+                    all_detail_links.extend(links)
+
+                next_url = await find_next_link(page, current_url)
+
+                if next_url and next_url not in seen_pages:
+                    current_url = next_url
+                    continue
+
+                # Dealer Spike-style sites frequently support pg=
+                # even when "Next" isn't easy to detect.
+                if total and total > len(dedupe(all_records)):
+                    guessed = set_page_parameter(start_url, page_number + 1)
+
+                    if guessed not in seen_pages:
+                        current_url = guessed
+                        continue
+
+                break
+
+        all_records = dedupe(all_records)
+        all_detail_links = list(dict.fromkeys(all_detail_links))
+
+        print(f"    Unique card records: {len(all_records)}")
+        print(f"    Unique detail links: {len(all_detail_links)}")
+
+        # If cards were weak, inspect detail pages.
+        # Also use detail pages to enrich missing stock/price fields.
+        record_urls = {
+            r.get("url")
+            for r in all_records
+            if r.get("url")
+        }
+
+        detail_targets = [
+            url for url in all_detail_links
+            if url not in record_urls
+        ]
+
+        # Prevent a malformed navigation page from creating thousands
+        # of detail requests.
+        detail_targets = detail_targets[:500]
+
+        if len(all_records) < 5 or (
+            totals_seen and len(all_records) < max(totals_seen) * 0.60
+        ):
+            print("    Card extraction incomplete. Reading detail pages...")
+
+            semaphore = asyncio.Semaphore(6)
+
+            async def guarded_detail(url):
+                async with semaphore:
+                    try:
+                        return await extract_detail_page(
+                            context,
+                            competitor,
+                            url
+                        )
+                    except Exception as exc:
+                        print(f"    Detail error: {url}: {exc}")
+                        return None
+
+            details = await asyncio.gather(
+                *(guarded_detail(url) for url in detail_targets)
             )
 
-        if total > 1000:
-            raise RuntimeError(
-                f"Implausible total returned: {total}"
-            )
+            for record in details:
+                if record:
+                    all_records.append(record)
 
-        new_count, used_count = condition_counts(
-            body_text,
-            total,
+            all_records = dedupe(all_records)
+
+        # Final boat-only filter
+        all_records = [
+            record
+            for record in all_records
+            if is_boat_record(
+                record.get("rawText", "") + " " + record.get("title", ""),
+                record.get("url", "")
+            )
+        ]
+
+        all_records = dedupe(all_records)
+
+        new_count = sum(
+            1 for r in all_records
+            if r.get("condition") == "New"
         )
 
-        prices = money_values(body_text)
+        used_count = sum(
+            1 for r in all_records
+            if r.get("condition") == "Used"
+        )
 
-        if prices:
-            avg_price = int(mean(prices))
-            low_price = min(prices)
-            high_price = max(prices)
+        unknown_count = (
+            len(all_records) - new_count - used_count
+        )
 
-            price_range = (
-                f"${low_price:,.0f} - ${high_price:,.0f}"
-            )
+        prices = [
+            r["price"]
+            for r in all_records
+            if isinstance(r.get("price"), (int, float))
+            and r["price"] >= 1000
+        ]
 
-        else:
-            avg_price = 0
-            price_range = "Unavailable"
+        average_price = (
+            round(sum(prices) / len(prices))
+            if prices else None
+        )
+
+        site_total = max(totals_seen) if totals_seen else None
+        parsed_total = len(all_records)
+
+        # ----------------------------------------------------
+        # VERIFICATION
+        # ----------------------------------------------------
+
+        verified = True
+        reason = "Verified"
+
+        if parsed_total == 0:
+            verified = False
+            reason = "No boat listings extracted"
+
+        # Displayed totals can include non-boats on some dealer sites.
+        # Therefore allow up to 20% difference after boat filtering.
+        if site_total and parsed_total:
+            difference = abs(site_total - parsed_total)
+            tolerance = max(3, round(site_total * 0.20))
+
+            if difference > tolerance:
+                verified = False
+                reason = (
+                    f"Displayed total {site_total}, "
+                    f"but extracted {parsed_total} boat records"
+                )
+
+        verified_at = (
+            datetime.now(timezone.utc).isoformat()
+            if verified else None
+        )
 
         result = {
-            "competitorId": dealer_id,
-            "totalBoats": total,
-            "newBoats": new_count if new_count is not None else 0,
-            "usedBoats": used_count if used_count is not None else 0,
-            "avgPrice": avg_price,
-            "avgPriceNew": 0,
-            "avgPriceUsed": 0,
-            "priceRange": price_range,
-            "verification": {
-                "status": "verified",
-                "method": verification_method,
-                "sourceCount": displayed_total,
-                "listingLinksFound": len(links),
-                "cardCount": card_count,
-                "checkedAt": datetime.now(timezone.utc).isoformat(),
-                "url": url,
-            },
+            "dealerId": competitor["id"],
+            "dealer": competitor["name"],
+            "url": competitor["url"],
+            "status": "verified" if verified else "failed",
+            "verified": verified,
+            "verificationReason": reason,
+            "verifiedAt": verified_at,
+            "displayedTotal": site_total,
+            "totalInventory": parsed_total if verified else None,
+            "newInventory": new_count if verified else None,
+            "usedInventory": used_count if verified else None,
+            "unknownCondition": unknown_count if verified else None,
+            "averagePrice": average_price if verified else None,
+            "pricedListings": len(prices) if verified else None,
+            "recordsExtracted": parsed_total
         }
 
-        print(
-            f"VERIFIED: {name} = {total} boats "
-            f"using {verification_method}"
-        )
+        if verified:
+            print(
+                f"VERIFIED: {competitor['name']} | "
+                f"{parsed_total} boats | "
+                f"{new_count} new | "
+                f"{used_count} used"
+            )
+        else:
+            print(
+                f"FAILED: {competitor['name']} | {reason}"
+            )
 
-        return result
+        return result, all_records
 
     except Exception as exc:
-        print(f"FAILED: {name}")
-        print(f"REASON: {exc}")
+        print(f"FAILED: {competitor['name']} | {exc}")
 
         return {
-            "competitorId": dealer_id,
-            "dealerName": name,
-            "error": str(exc),
-            "verification": {
-                "status": "failed",
-                "checkedAt": datetime.now(timezone.utc).isoformat(),
-                "url": url,
-            },
-        }
+            "dealerId": competitor["id"],
+            "dealer": competitor["name"],
+            "url": competitor["url"],
+            "status": "failed",
+            "verified": False,
+            "verificationReason": str(exc),
+            "verifiedAt": None,
+            "displayedTotal": None,
+            "totalInventory": None,
+            "newInventory": None,
+            "usedInventory": None,
+            "unknownCondition": None,
+            "averagePrice": None,
+            "pricedListings": None,
+            "recordsExtracted": 0
+        }, []
 
     finally:
         await context.close()
 
 
-def next_scan_id(scans):
-    existing = scans.get("scans", [])
+# ------------------------------------------------------------
+# SCAN HISTORY
+# ------------------------------------------------------------
 
-    highest = 0
+def build_scan_record(results):
+    now = datetime.now(timezone.utc)
 
-    for scan in existing:
-        scan_id = str(scan.get("scanId", ""))
+    verified = [
+        result for result in results
+        if result["verified"]
+    ]
 
-        match = re.search(r"(\d+)$", scan_id)
-
-        if match:
-            highest = max(
-                highest,
-                int(match.group(1)),
-            )
-
-    return f"scan-{highest + 1:03d}"
-
-
-def previous_result_map(scans):
-    if not scans.get("scans"):
-        return {}
-
-    latest = scans["scans"][-1]
+    failed = [
+        result for result in results
+        if not result["verified"]
+    ]
 
     return {
-        item["competitorId"]: item
-        for item in latest.get("results", [])
-    }
-
-
-def make_changes(previous, results, scan_id, scan_date):
-    changes = []
-
-    for current in results:
-        dealer_id = current["competitorId"]
-
-        old = previous.get(dealer_id)
-
-        if not old:
-            continue
-
-        before = old.get("totalBoats", 0)
-        after = current.get("totalBoats", 0)
-
-        delta = after - before
-
-        if delta == 0:
-            continue
-
-        changes.append(
-            {
-                "scanId": scan_id,
-                "date": scan_date,
-                "competitorId": dealer_id,
-                "previousTotal": before,
-                "newTotal": after,
-                "change": delta,
-                "description": (
-                    f"{dealer_id}: "
-                    f"{before} -> {after} ({delta:+d})"
-                ),
-            }
-        )
-
-    return changes
-
-
-def update_trends(
-    trends,
-    results,
-    scan_id,
-    scan_date,
-):
-    total_market = sum(
-        result.get("totalBoats", 0)
-        for result in results
-    )
-
-    btm = next(
-        (
-            result.get("totalBoats", 0)
-            for result in results
-            if result["competitorId"]
-            == "big-thunder-marine"
+        "id": f"scan-{now.strftime('%Y%m%d-%H%M%S')}",
+        "timestamp": now.isoformat(),
+        "date": now.date().isoformat(),
+        "status": (
+            "complete"
+            if not failed
+            else "partial"
         ),
-        0,
-    )
-
-    competitors_total = total_market - btm
-
-    inventory = trends.setdefault(
-        "inventoryTrend",
-        [],
-    )
-
-    inventory.append(
-        {
-            "date": scan_date,
-            "totalMarket": total_market,
-            "btm": btm,
-            "competitors": competitors_total,
-            "total": total_market,
-            "scanId": scan_id,
-        }
-    )
-
-    trends["inventoryTrend"] = inventory[-180:]
-
-
-def update_model_mix(
-    model_mix,
-    competitors,
-    results,
-):
-    metadata = {
-        dealer["id"]: dealer
-        for dealer in competitors["competitors"]
+        "verifiedDealers": len(verified),
+        "failedDealers": len(failed),
+        "dealers": results
     }
 
-    existing = {
-        dealer["id"]: dealer
-        for dealer in model_mix.get("dealers", [])
+
+def update_scans(scan_record):
+    data = load_json(SCANS_FILE, {"scans": []})
+
+    if isinstance(data, list):
+        data = {"scans": data}
+
+    if "scans" not in data:
+        data["scans"] = []
+
+    data["scans"].append(scan_record)
+
+    # Keep roughly one year of daily scans.
+    data["scans"] = data["scans"][-400:]
+
+    save_json(SCANS_FILE, data)
+
+
+def update_competitors(scan_record):
+    data = load_json(
+        COMPETITORS_FILE,
+        {"lastScan": None, "competitors": []}
+    )
+
+    # lastScan means the scanner actually ran.
+    data["lastScan"] = scan_record["timestamp"]
+
+    result_map = {
+        result["dealerId"]: result
+        for result in scan_record["dealers"]
     }
 
-    updated = []
+    for competitor in data.get("competitors", []):
+        result = result_map.get(competitor["id"])
 
-    for result in results:
-        dealer_id = result["competitorId"]
+        if not result:
+            continue
 
-        old = dict(
-            existing.get(
-                dealer_id,
-                {},
-            )
-        )
+        competitor["scanStatus"] = result["status"]
+        competitor["verificationReason"] = result["verificationReason"]
 
-        meta = metadata.get(
-            dealer_id,
-            {},
-        )
-
-        old["id"] = dealer_id
-        old["name"] = meta.get(
-            "name",
-            dealer_id,
-        )
-
-        old["isOwn"] = bool(
-            meta.get(
-                "isOwn",
-                False,
-            )
-        )
-
-        old["totalBoats"] = result.get(
-            "totalBoats",
-            0,
-        )
-
-        old["newBoats"] = result.get(
-            "newBoats",
-            0,
-        )
-
-        old["usedBoats"] = result.get(
-            "usedBoats",
-            0,
-        )
-
-        old["avgPriceNew"] = result.get(
-            "avgPriceNew",
-            0,
-        )
-
-        old["avgPriceUsed"] = result.get(
-            "avgPriceUsed",
-            0,
-        )
-
-        old["byCondition"] = {
-            "New": result.get(
-                "newBoats",
-                0,
-            ),
-            "Used": result.get(
-                "usedBoats",
-                0,
-            ),
-        }
+        if result["verified"]:
+            competitor["lastVerified"] = result["verifiedAt"]
+            competitor["totalInventory"] = result["totalInventory"]
+            competitor["newInventory"] = result["newInventory"]
+            competitor["usedInventory"] = result["usedInventory"]
+            competitor["averagePrice"] = result["averagePrice"]
 
         # IMPORTANT:
-        # Brand/category/model breakdowns remain unchanged
-        # until we build listing-level extraction.
-        for key in [
-            "byCategory",
-            "byCategoryNew",
-            "byCategoryUsed",
-            "byLength",
-            "byLengthNew",
-            "byLengthUsed",
-            "byPropulsion",
-            "byPropulsionNew",
-            "byPropulsionUsed",
-            "byBrand",
-            "byBrandNew",
-            "byBrandUsed",
-        ]:
-            old.setdefault(key, {})
+        # Failed scans do NOT overwrite the last verified inventory.
+        # That prevents stale/failed numbers from being labeled as fresh.
 
-        updated.append(old)
+    save_json(COMPETITORS_FILE, data)
 
-    model_mix["dealers"] = updated
-    model_mix["lastUpdated"] = (
-        datetime.now(timezone.utc).isoformat()
+
+# ------------------------------------------------------------
+# TRENDS
+# ------------------------------------------------------------
+
+def update_trends():
+    scans_data = load_json(SCANS_FILE, {"scans": []})
+
+    scans = (
+        scans_data.get("scans", [])
+        if isinstance(scans_data, dict)
+        else scans_data
     )
 
-    model_mix["marketTotals"] = {
-        "totalBoats": sum(
-            item.get("totalBoats", 0)
-            for item in updated
-        ),
-        "newBoats": sum(
-            item.get("newBoats", 0)
-            for item in updated
-        ),
-        "usedBoats": sum(
-            item.get("usedBoats", 0)
-            for item in updated
-        ),
+    trend_rows = []
+
+    for scan in scans[-90:]:
+        row = {
+            "date": scan.get("date"),
+            "timestamp": scan.get("timestamp"),
+            "dealers": {}
+        }
+
+        for dealer in scan.get("dealers", []):
+            if dealer.get("verified"):
+                row["dealers"][dealer["dealerId"]] = {
+                    "total": dealer.get("totalInventory"),
+                    "new": dealer.get("newInventory"),
+                    "used": dealer.get("usedInventory"),
+                    "averagePrice": dealer.get("averagePrice")
+                }
+
+        trend_rows.append(row)
+
+    save_json(
+        TRENDS_FILE,
+        {
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "trends": trend_rows
+        }
+    )
+
+
+# ------------------------------------------------------------
+# MODEL MIX
+# ------------------------------------------------------------
+
+def brand_from_title(title, known_brands):
+    t = normalize(title)
+
+    matches = []
+
+    for brand in known_brands:
+        if "various" in normalize(brand):
+            continue
+
+        if normalize(brand) in t:
+            matches.append(brand)
+
+    if not matches:
+        return "Other / Unknown"
+
+    return max(matches, key=len)
+
+
+def update_model_mix(all_records, competitors):
+    competitor_map = {
+        c["id"]: c
+        for c in competitors
     }
 
+    dealer_mix = {}
+
+    for record in all_records:
+        dealer_id = record["dealerId"]
+
+        if dealer_id not in dealer_mix:
+            dealer_mix[dealer_id] = {
+                "total": 0,
+                "brands": {},
+                "conditions": {
+                    "New": 0,
+                    "Used": 0,
+                    "Unknown": 0
+                }
+            }
+
+        dealer_mix[dealer_id]["total"] += 1
+
+        condition = record.get("condition", "Unknown")
+
+        if condition not in ["New", "Used"]:
+            condition = "Unknown"
+
+        dealer_mix[dealer_id]["conditions"][condition] += 1
+
+        competitor = competitor_map.get(dealer_id, {})
+        brand = brand_from_title(
+            record.get("title", ""),
+            competitor.get("brands", [])
+        )
+
+        dealer_mix[dealer_id]["brands"][brand] = (
+            dealer_mix[dealer_id]["brands"].get(brand, 0) + 1
+        )
+
+    save_json(
+        MODEL_MIX_FILE,
+        {
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "dealers": dealer_mix
+        }
+    )
+
+
+# ------------------------------------------------------------
+# LIVE LISTING ARCHIVE
+# ------------------------------------------------------------
+
+def save_live_listings(records):
+    cleaned_records = []
+
+    for record in records:
+        copy = dict(record)
+        copy.pop("rawText", None)
+        cleaned_records.append(copy)
+
+    save_json(
+        LIVE_LISTINGS_FILE,
+        {
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "count": len(cleaned_records),
+            "listings": cleaned_records
+        }
+    )
+
+
+# ------------------------------------------------------------
+# MAIN
+# ------------------------------------------------------------
 
 async def main():
     print("")
     print("BTM COMPETITOR TRACKER")
-    print("Starting VERIFIED inventory scan")
-    print(f"Tracker root: {ROOT}")
+    print("LIVE INVENTORY SCAN")
+    print(datetime.now(timezone.utc).isoformat())
     print("")
 
-    competitors = load_json(
-        COMPETITORS_FILE
-    )
+    config = load_json(COMPETITORS_FILE, None)
 
-    scans = load_json(
-        SCANS_FILE
-    )
-
-    trends = load_json(
-        TRENDS_FILE
-    )
-
-    model_mix = load_json(
-        MODEL_MIX_FILE
-    )
-
-    dealers = competitors.get(
-        "competitors",
-        [],
-    )
-
-    if not dealers:
+    if not config:
         raise RuntimeError(
-            "No dealers found in competitors.json"
+            f"Could not load {COMPETITORS_FILE}"
         )
 
-    print(
-        f"Dealers configured: {len(dealers)}"
-    )
+    competitors = config.get("competitors", [])
+
+    if not competitors:
+        raise RuntimeError("No competitors configured")
 
     results = []
-    failures = []
+    all_records = []
 
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(
-            headless=True
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage"
+            ]
         )
 
-        for dealer in dealers:
-            result = await scrape_dealer(
-                browser,
-                dealer,
-            )
+        try:
+            # Sequential dealer scanning is intentional.
+            # It is less likely to trigger dealer-site bot protection.
+            for competitor in competitors:
+                result, records = await scrape_dealer(
+                    browser,
+                    competitor
+                )
 
-            if (
-                result.get("verification", {})
-                .get("status")
-                == "verified"
-            ):
                 results.append(result)
 
-            else:
-                failures.append(result)
+                if result["verified"]:
+                    all_records.extend(records)
 
-        await browser.close()
+        finally:
+            await browser.close()
+
+    all_records = dedupe(all_records)
+
+    scan_record = build_scan_record(results)
+
+    update_scans(scan_record)
+    update_competitors(scan_record)
+    update_trends()
+    update_model_mix(all_records, competitors)
+    save_live_listings(all_records)
 
     print("")
     print("=" * 70)
-    print("SCAN VALIDATION")
+    print("SCAN COMPLETE")
     print("=" * 70)
     print(
         f"Verified dealers: "
-        f"{len(results)}/{len(dealers)}"
+        f"{scan_record['verifiedDealers']}/{len(competitors)}"
     )
-
-    if failures:
-        print("")
-        print("FAILED DEALERS:")
-
-        for failure in failures:
-            print(
-                f"- {failure.get('dealerName')}: "
-                f"{failure.get('error')}"
-            )
-
-        print("")
-        print(
-            "SCAN REJECTED."
-        )
-
-        print(
-            "NO NEW DATE WILL BE WRITTEN."
-        )
-
-        print(
-            "Existing website data remains unchanged."
-        )
-
-        raise RuntimeError(
-            f"{len(failures)} dealer(s) "
-            "could not be verified"
-        )
-
-    # --------------------------------------------------------
-    # ONLY GET HERE WHEN EVERY DEALER VERIFIED SUCCESSFULLY.
-    # --------------------------------------------------------
-
-    scan_date = datetime.now().date().isoformat()
-    scan_id = next_scan_id(scans)
-
-    previous = previous_result_map(scans)
-
-    changes = make_changes(
-        previous,
-        results,
-        scan_id,
-        scan_date,
+    print(
+        f"Failed dealers: "
+        f"{scan_record['failedDealers']}/{len(competitors)}"
     )
-
-    new_scan = {
-        "date": scan_date,
-        "scanId": scan_id,
-        "results": results,
-    }
-
-    scans.setdefault(
-        "scans",
-        [],
-    ).append(new_scan)
-
-    scans.setdefault(
-        "changes",
-        [],
-    ).extend(changes)
-
-    scans["lastUpdated"] = (
-        datetime.now(timezone.utc).isoformat()
-    )
-
-    update_trends(
-        trends,
-        results,
-        scan_id,
-        scan_date,
-    )
-
-    update_model_mix(
-        model_mix,
-        competitors,
-        results,
-    )
-
-    competitors["lastScan"] = scan_date
-
-    save_json(
-        SCANS_FILE,
-        scans,
-    )
-
-    save_json(
-        TRENDS_FILE,
-        trends,
-    )
-
-    save_json(
-        MODEL_MIX_FILE,
-        model_mix,
-    )
-
-    save_json(
-        COMPETITORS_FILE,
-        competitors,
-    )
-
+    print(f"Verified live boat records: {len(all_records)}")
     print("")
-    print("=" * 70)
-    print("VERIFIED SCAN COMPLETE")
-    print("=" * 70)
 
-    print(f"Scan ID: {scan_id}")
-    print(f"Scan date: {scan_date}")
-    print(
-        f"Verified dealers: "
-        f"{len(results)}/{len(dealers)}"
-    )
+    if scan_record["failedDealers"]:
+        print("DEALERS REQUIRING ATTENTION:")
 
-    print(
-        f"Inventory changes detected: "
-        f"{len(changes)}"
-    )
+        for result in results:
+            if not result["verified"]:
+                print(
+                    f" - {result['dealer']}: "
+                    f"{result['verificationReason']}"
+                )
 
-    print("")
-    print(
-        "JSON files updated successfully."
-    )
-
-    print(
-        "Website may now display "
-        "the new verified scan date."
-    )
+        # IMPORTANT:
+        # Do not exit with an error here.
+        # Verified dealers should still be saved and published.
+        # Failed dealers retain their prior verified values.
 
 
 if __name__ == "__main__":
