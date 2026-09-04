@@ -29,20 +29,23 @@ jobs:
         run: |
           python scanner/scan.py
 
-      - name: Commit updated tracker data
+            - name: Commit updated data
         run: |
           git config user.name "BTM Competitor Tracker"
-          git config user.email "actions@github.com"
+          git config user.email "actions@users.noreply.github.com"
 
           git add data/scans.json
           git add data/trends.json
           git add data/model-mix.json
           git add data/competitors.json
+          git add data/live-listings.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
-            echo "No tracker changes to commit."
-          else
-            git commit -m "Update competitor scan data"
-            git pull --rebase origin main
-            git push origin main
+            echo "No data changes to commit."
+            exit 0
           fi
+
+          git commit -m "Update competitor scan data"
+
+          git pull --rebase origin main
+          git push origin HEAD:main
