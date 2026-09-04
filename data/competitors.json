@@ -1,6 +1,5 @@
 {
-  "lastScan": "2026-09-03T21:49:08.649277+00:00",
-  "nextScan": "2026-09-04T06:00:00Z",
+  "lastScan": null,
   "competitors": [
     {
       "id": "big-thunder-marine",
@@ -22,13 +21,13 @@
         "Manitou",
         "South Bay"
       ],
-      "location": "Lake of the Ozarks, MO",
+      "location": "All Locations",
       "isOwn": true
     },
     {
       "id": "marinemax",
-      "name": "MarineMax Lake Ozark",
-      "url": "https://www.marinemax.com/boats-for-sale/stores/lake-ozark",
+      "name": "MarineMax",
+      "url": "https://www.marinemax.com/collections/all",
       "brands": [
         "Sea Ray",
         "Harris",
@@ -41,12 +40,12 @@
         "Aquila",
         "Cruisers Yachts"
       ],
-      "location": "Lake Ozark, MO"
+      "location": "All Locations"
     },
     {
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
-      "url": "https://www.performanceboatcenter.com/default.asp?page=xAllInventory",
+      "url": "https://www.performanceboatcenter.com/all-boats/",
       "brands": [
         "MTI",
         "Sunsation",
@@ -55,12 +54,12 @@
         "Princecraft",
         "South Bay"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "kellys-port",
       "name": "Kelly's Port",
-      "url": "https://www.kellysport.com/--inventory",
+      "url": "https://www.kellysport.com/--inventory?sortby=length_overall%7Casc&sz=50",
       "brands": [
         "Bennington",
         "Regal",
@@ -68,19 +67,19 @@
         "Nautique",
         "Tiara Yachts"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
-      "url": "https://www.villagemarina.com/default.asp?page=inventory",
+      "url": "https://www.villagemarina.com/default.asp?page=xAllInventory",
       "brands": [
         "Cobalt",
         "Marker One",
         "Carver Yachts",
         "Marquis Yachts"
       ],
-      "location": "Lake Ozark, MO"
+      "location": "All Locations"
     },
     {
       "id": "iguana-marine",
@@ -93,7 +92,7 @@
         "Malibu",
         "Rinker"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "premier-advantage",
@@ -107,7 +106,7 @@
         "Alumacraft",
         "iKon"
       ],
-      "location": "Sunrise Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "formula-boats-mo",
@@ -116,7 +115,7 @@
       "brands": [
         "Formula"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "performance-marine",
@@ -127,7 +126,7 @@
         "Supra",
         "Moomba"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "heartland-marine",
@@ -136,7 +135,7 @@
       "brands": [
         "Various (consignment/brokerage)"
       ],
-      "location": "Camdenton, MO"
+      "location": "All Locations"
     },
     {
       "id": "stateamind",
@@ -151,7 +150,7 @@
         "Godfrey",
         "Statement"
       ],
-      "location": "Lake of the Ozarks, MO"
+      "location": "All Locations"
     },
     {
       "id": "premier-54",
@@ -162,7 +161,7 @@
         "Robalo",
         "Premier Pontoons"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "martys-marine",
@@ -174,19 +173,19 @@
         "Charger",
         "Mercury"
       ],
-      "location": "Lake of the Ozarks, MO"
+      "location": "All Locations"
     },
     {
       "id": "surdyke-yamaha",
       "name": "Surdyke Yamaha & Marina",
-      "url": "https://www.surdykeyamaha.com/--inventory?category=boat&category=outboard&category=personal+watercraft",
+      "url": "https://www.surdykeyamaha.com/--inventory?category=boat&sz=50",
       "brands": [
         "Yamaha",
         "Scarab",
         "G3",
         "Axopar"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     },
     {
       "id": "all-about-boats",
@@ -197,7 +196,7 @@
         "Pursuit",
         "SunChaser"
       ],
-      "location": "Osage Beach, MO"
+      "location": "All Locations"
     }
   ]
 }
