@@ -1,5 +1,5 @@
 {
-  "lastScan": null,
+  "lastScan": "2026-09-04T15:29:35.268861+00:00",
   "competitors": [
     {
       "id": "big-thunder-marine",
@@ -22,7 +22,14 @@
         "South Bay"
       ],
       "location": "All Locations",
-      "isOwn": true
+      "isOwn": true,
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-04T14:55:31.655489+00:00",
+      "totalInventory": 3,
+      "newInventory": 0,
+      "usedInventory": 3,
+      "averagePrice": 291508
     },
     {
       "id": "marinemax",
@@ -40,7 +47,9 @@
         "Aquila",
         "Cruisers Yachts"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "performance-boat-center",
@@ -54,7 +63,9 @@
         "Princecraft",
         "South Bay"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "kellys-port",
@@ -67,7 +78,9 @@
         "Nautique",
         "Tiara Yachts"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "village-marina",
@@ -79,7 +92,9 @@
         "Carver Yachts",
         "Marquis Yachts"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "iguana-marine",
@@ -92,7 +107,9 @@
         "Malibu",
         "Rinker"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "Displayed total 103, but extracted 10 boat records"
     },
     {
       "id": "premier-advantage",
@@ -106,7 +123,9 @@
         "Alumacraft",
         "iKon"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "Displayed total 5256, but extracted 6 boat records"
     },
     {
       "id": "formula-boats-mo",
@@ -115,7 +134,9 @@
       "brands": [
         "Formula"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "performance-marine",
@@ -126,7 +147,9 @@
         "Supra",
         "Moomba"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "Displayed total 40, but extracted 1 boat records"
     },
     {
       "id": "heartland-marine",
@@ -135,7 +158,14 @@
       "brands": [
         "Various (consignment/brokerage)"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-04T15:23:23.346490+00:00",
+      "totalInventory": 52,
+      "newInventory": 8,
+      "usedInventory": 0,
+      "averagePrice": 55936
     },
     {
       "id": "stateamind",
@@ -150,7 +180,9 @@
         "Godfrey",
         "Statement"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "Displayed total 99, but extracted 2 boat records"
     },
     {
       "id": "premier-54",
@@ -161,7 +193,14 @@
         "Robalo",
         "Premier Pontoons"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-04T15:28:52.227482+00:00",
+      "totalInventory": 3,
+      "newInventory": 0,
+      "usedInventory": 3,
+      "averagePrice": 106567
     },
     {
       "id": "martys-marine",
@@ -173,7 +212,14 @@
         "Charger",
         "Mercury"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-04T15:29:29.794222+00:00",
+      "totalInventory": 23,
+      "newInventory": 0,
+      "usedInventory": 23,
+      "averagePrice": 137397
     },
     {
       "id": "surdyke-yamaha",
@@ -185,7 +231,9 @@
         "G3",
         "Axopar"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     },
     {
       "id": "all-about-boats",
@@ -196,7 +244,9 @@
         "Pursuit",
         "SunChaser"
       ],
-      "location": "All Locations"
+      "location": "All Locations",
+      "scanStatus": "failed",
+      "verificationReason": "No boat listings extracted"
     }
   ]
 }
