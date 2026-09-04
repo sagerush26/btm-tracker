@@ -1,50 +1,1559 @@
 {
-  "generatedAt": "2026-09-04T15:29:35.287880+00:00",
-  "dealers": {
-    "big-thunder-marine": {
-      "total": 3,
-      "brands": {
-        "Other / Unknown": 3
+  "lastUpdated": "2026-05-21T06:13:21.072518+00:00",
+  "dealers": [
+    {
+      "id": "big-thunder-marine",
+      "name": "Big Thunder Marine",
+      "isOwn": true,
+      "totalBoats": 241,
+      "newBoats": 156,
+      "usedBoats": 85,
+      "avgPriceNew": 980092.0,
+      "avgPriceUsed": 666404.0,
+      "byCondition": {
+        "New": 156,
+        "Used": 85
       },
-      "conditions": {
-        "New": 0,
-        "Used": 3,
-        "Unknown": 0
+      "byCategory": {
+        "Other": 10,
+        "Performance": 8,
+        "Center Console": 4,
+        "Yacht": 4,
+        "Bowrider": 1
+      },
+      "byCategoryNew": {
+        "Other": 8,
+        "Performance": 3,
+        "Center Console": 4,
+        "Yacht": 3,
+        "Bowrider": 1
+      },
+      "byCategoryUsed": {
+        "Performance": 5,
+        "Other": 2,
+        "Yacht": 1
+      },
+      "byLength": {
+        "Unknown": 9,
+        "40ft+": 10,
+        "35-40ft": 5,
+        "30-35ft": 2,
+        "25-30ft": 1
+      },
+      "byLengthNew": {
+        "Unknown": 6,
+        "40ft+": 8,
+        "35-40ft": 2,
+        "30-35ft": 2,
+        "25-30ft": 1
+      },
+      "byLengthUsed": {
+        "40ft+": 2,
+        "35-40ft": 3,
+        "Unknown": 3
+      },
+      "byPropulsion": {
+        "Outboard": 26,
+        "Sterndrive / IO": 1
+      },
+      "byPropulsionNew": {
+        "Outboard": 18,
+        "Sterndrive / IO": 1
+      },
+      "byPropulsionUsed": {
+        "Outboard": 8
+      },
+      "byBrand": {
+        "Dutch American": 3,
+        "Cigarette": 2,
+        "Invictus": 2,
+        "Pirelli": 1,
+        "Catamaran": 1,
+        "Fountain": 5,
+        "Donzi": 2,
+        "Chris Craft": 4,
+        "Monterey": 1,
+        "Jeanneau": 1,
+        "Fjord": 1,
+        "Tig\u00e9": 1,
+        "Opus": 1,
+        "Eliminator": 1,
+        "Anthem": 1
+      },
+      "byBrandNew": {
+        "Dutch American": 3,
+        "Cigarette": 1,
+        "Invictus": 2,
+        "Pirelli": 1,
+        "Catamaran": 1,
+        "Donzi": 2,
+        "Chris Craft": 3,
+        "Monterey": 1,
+        "Jeanneau": 1,
+        "Fountain": 1,
+        "Tig\u00e9": 1,
+        "Opus": 1,
+        "Anthem": 1
+      },
+      "byBrandUsed": {
+        "Cigarette": 1,
+        "Fountain": 4,
+        "Fjord": 1,
+        "Chris Craft": 1,
+        "Eliminator": 1
       }
     },
-    "heartland-marine": {
-      "total": 52,
-      "brands": {
-        "Other / Unknown": 52
+    {
+      "id": "marinemax",
+      "name": "MarineMax Lake Ozark",
+      "isOwn": false,
+      "totalBoats": 155,
+      "newBoats": 126,
+      "usedBoats": 29,
+      "avgPriceNew": 525380.0,
+      "avgPriceUsed": 362420.0,
+      "byCondition": {
+        "New": 126,
+        "Used": 29
       },
-      "conditions": {
-        "New": 8,
-        "Used": 0,
-        "Unknown": 44
+      "byCategory": {
+        "Cruiser / Cabin": 10,
+        "Yacht": 3,
+        "Other": 22,
+        "Bowrider": 9,
+        "Wakeboard / Ski": 1
+      },
+      "byCategoryNew": {
+        "Cruiser / Cabin": 4,
+        "Yacht": 2,
+        "Other": 12,
+        "Bowrider": 6,
+        "Wakeboard / Ski": 1
+      },
+      "byCategoryUsed": {
+        "Bowrider": 3,
+        "Other": 10,
+        "Cruiser / Cabin": 6,
+        "Yacht": 1
+      },
+      "byLength": {
+        "40ft+": 11,
+        "35-40ft": 10,
+        "25-30ft": 16,
+        "20-25ft": 2,
+        "30-35ft": 6
+      },
+      "byLengthNew": {
+        "40ft+": 5,
+        "35-40ft": 2,
+        "25-30ft": 14,
+        "20-25ft": 2,
+        "30-35ft": 2
+      },
+      "byLengthUsed": {
+        "35-40ft": 8,
+        "40ft+": 6,
+        "30-35ft": 4,
+        "25-30ft": 2
+      },
+      "byPropulsion": {
+        "Outboard": 18,
+        "Sterndrive / IO": 27
+      },
+      "byPropulsionNew": {
+        "Outboard": 15,
+        "Sterndrive / IO": 10
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 17,
+        "Outboard": 3
+      },
+      "byBrand": {
+        "Cruisers Yachts": 3,
+        "Aviara": 2,
+        "Sea Ray": 27,
+        "Harris": 9,
+        "Cobalt": 2,
+        "Princess": 1,
+        "Aquila": 1
+      },
+      "byBrandNew": {
+        "Cruisers Yachts": 3,
+        "Aviara": 2,
+        "Sea Ray": 12,
+        "Harris": 8
+      },
+      "byBrandUsed": {
+        "Cobalt": 2,
+        "Sea Ray": 15,
+        "Harris": 1,
+        "Princess": 1,
+        "Aquila": 1
       }
     },
-    "premier-54": {
-      "total": 3,
-      "brands": {
-        "Other / Unknown": 2,
-        "Chaparral": 1
+    {
+      "id": "performance-boat-center",
+      "name": "Performance Boat Center",
+      "isOwn": false,
+      "totalBoats": 177,
+      "newBoats": 30,
+      "usedBoats": 100,
+      "avgPriceNew": 433842,
+      "avgPriceUsed": 551244,
+      "byCondition": {
+        "New": 30,
+        "Used": 100
       },
-      "conditions": {
-        "New": 0,
-        "Used": 3,
-        "Unknown": 0
+      "byCategory": {},
+      "byCategoryNew": {},
+      "byCategoryUsed": {},
+      "byLength": {},
+      "byLengthNew": {},
+      "byLengthUsed": {},
+      "byPropulsion": {},
+      "byPropulsionNew": {},
+      "byPropulsionUsed": {},
+      "byBrand": {},
+      "byBrandNew": {},
+      "byBrandUsed": {}
+    },
+    {
+      "id": "kellys-port",
+      "name": "Kelly's Port",
+      "isOwn": false,
+      "totalBoats": 117,
+      "newBoats": 75,
+      "usedBoats": 42,
+      "avgPriceNew": 382291.38,
+      "avgPriceUsed": 33086.53,
+      "byCondition": {
+        "New": 75,
+        "Used": 42
+      },
+      "byCategory": {},
+      "byCategoryNew": {},
+      "byCategoryUsed": {},
+      "byLength": {},
+      "byLengthNew": {},
+      "byLengthUsed": {},
+      "byPropulsion": {},
+      "byPropulsionNew": {},
+      "byPropulsionUsed": {},
+      "byBrand": {},
+      "byBrandNew": {},
+      "byBrandUsed": {}
+    },
+    {
+      "id": "village-marina",
+      "name": "Village Marina & Yacht Club",
+      "isOwn": false,
+      "totalBoats": 61,
+      "newBoats": 20,
+      "usedBoats": 41,
+      "avgPriceNew": 0.0,
+      "avgPriceUsed": 151227.76,
+      "byCondition": {
+        "New": 20,
+        "Used": 41
+      },
+      "byCategory": {
+        "Bowrider": 42,
+        "Wakeboard / Ski": 6,
+        "Yacht": 4,
+        "Other": 8,
+        "Cruiser / Cabin": 1
+      },
+      "byCategoryNew": {
+        "Bowrider": 17,
+        "Wakeboard / Ski": 3
+      },
+      "byCategoryUsed": {
+        "Bowrider": 25,
+        "Yacht": 4,
+        "Wakeboard / Ski": 3,
+        "Other": 8,
+        "Cruiser / Cabin": 1
+      },
+      "byLength": {
+        "Unknown": 61
+      },
+      "byLengthNew": {
+        "Unknown": 20
+      },
+      "byLengthUsed": {
+        "Unknown": 41
+      },
+      "byPropulsion": {
+        "Sterndrive / IO": 55,
+        "Outboard": 5,
+        "Inboard": 1
+      },
+      "byPropulsionNew": {
+        "Sterndrive / IO": 20
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 35,
+        "Outboard": 5,
+        "Inboard": 1
+      },
+      "byBrand": {
+        "Cobalt": 44,
+        "Aviara": 1,
+        "Supra": 1,
+        "Four Winns": 2,
+        "Sea Ray": 6,
+        "Rinker": 1,
+        "Regal": 1,
+        "Carver Yachts": 3,
+        "Formula": 1,
+        "Yamaha": 1
+      },
+      "byBrandNew": {
+        "Cobalt": 20
+      },
+      "byBrandUsed": {
+        "Cobalt": 24,
+        "Aviara": 1,
+        "Supra": 1,
+        "Four Winns": 2,
+        "Sea Ray": 6,
+        "Rinker": 1,
+        "Regal": 1,
+        "Carver Yachts": 3,
+        "Formula": 1,
+        "Yamaha": 1
       }
     },
-    "martys-marine": {
-      "total": 23,
-      "brands": {
-        "Other / Unknown": 23
+    {
+      "id": "iguana-marine",
+      "name": "Iguana Marine Group",
+      "isOwn": false,
+      "totalBoats": 100,
+      "newBoats": 63,
+      "usedBoats": 37,
+      "avgPriceNew": 476533.85,
+      "avgPriceUsed": 123358.3,
+      "byCondition": {
+        "New": 63,
+        "Used": 37
       },
-      "conditions": {
-        "New": 0,
-        "Used": 23,
-        "Unknown": 0
+      "byCategory": {
+        "Other": 17,
+        "Wakeboard / Ski": 33,
+        "Bowrider": 7,
+        "Pontoon / Tritoon": 22,
+        "Cruiser / Cabin": 2,
+        "Yacht": 6,
+        "Center Console": 2,
+        "Fishing": 2,
+        "Deck Boat": 1
+      },
+      "byCategoryNew": {
+        "Other": 8,
+        "Wakeboard / Ski": 20,
+        "Bowrider": 3,
+        "Pontoon / Tritoon": 19,
+        "Yacht": 6,
+        "Center Console": 2
+      },
+      "byCategoryUsed": {
+        "Wakeboard / Ski": 13,
+        "Other": 9,
+        "Cruiser / Cabin": 2,
+        "Fishing": 2,
+        "Deck Boat": 1,
+        "Bowrider": 4,
+        "Pontoon / Tritoon": 3
+      },
+      "byLength": {
+        "Unknown": 91,
+        "25-30ft": 1
+      },
+      "byLengthNew": {
+        "Unknown": 57,
+        "25-30ft": 1
+      },
+      "byLengthUsed": {
+        "Unknown": 34
+      },
+      "byPropulsion": {
+        "Outboard": 45,
+        "Sterndrive / IO": 14,
+        "Inboard": 33
+      },
+      "byPropulsionNew": {
+        "Outboard": 32,
+        "Sterndrive / IO": 6,
+        "Inboard": 20
+      },
+      "byPropulsionUsed": {
+        "Inboard": 13,
+        "Sterndrive / IO": 8,
+        "Outboard": 13
+      },
+      "byBrand": {
+        "Ikon": 5,
+        "Formula Boats": 5,
+        "Malibu": 18,
+        "Axis": 10,
+        "Ikon Boats": 1,
+        "Supra": 2,
+        "Godfrey Tritoons": 2,
+        "Coach Pontoons": 3,
+        "Four Winns": 2,
+        "Chaparral": 1,
+        "Cruisers Yachts": 2,
+        "Hcb Yachts": 4,
+        "Black Thunder Powerboats": 2,
+        "Statement Marine": 2,
+        "Godfrey Pontoons": 1,
+        "Bass Cat": 1,
+        "Lund": 1,
+        "Hurricane": 1,
+        "MasterCraft": 1,
+        "Godfrey": 12,
+        "Yamaha": 1,
+        "Regal": 2,
+        "Cobalt V3": 1,
+        "Monterey Boats": 1,
+        "Formula": 1,
+        "Crest": 1,
+        "Axis Wake Research": 1,
+        "Godfrey Pontoon Boats": 2,
+        "Monterey": 1,
+        "Nautique": 1,
+        "Schaefer Yachts": 2,
+        "Caymas Boats": 1,
+        "Avalon": 1
+      },
+      "byBrandNew": {
+        "Ikon": 4,
+        "Formula Boats": 4,
+        "Malibu": 12,
+        "Ikon Boats": 1,
+        "Godfrey Tritoons": 2,
+        "Coach Pontoons": 3,
+        "Hcb Yachts": 4,
+        "Statement Marine": 2,
+        "Godfrey Pontoons": 1,
+        "MasterCraft": 1,
+        "Godfrey": 11,
+        "Axis": 6,
+        "Regal": 1,
+        "Formula": 1,
+        "Axis Wake Research": 1,
+        "Godfrey Pontoon Boats": 2,
+        "Schaefer Yachts": 2
+      },
+      "byBrandUsed": {
+        "Axis": 4,
+        "Malibu": 6,
+        "Supra": 2,
+        "Four Winns": 2,
+        "Formula Boats": 1,
+        "Chaparral": 1,
+        "Cruisers Yachts": 2,
+        "Black Thunder Powerboats": 2,
+        "Bass Cat": 1,
+        "Lund": 1,
+        "Hurricane": 1,
+        "Yamaha": 1,
+        "Cobalt V3": 1,
+        "Monterey Boats": 1,
+        "Crest": 1,
+        "Regal": 1,
+        "Monterey": 1,
+        "Nautique": 1,
+        "Godfrey": 1,
+        "Caymas Boats": 1,
+        "Ikon": 1,
+        "Avalon": 1
+      }
+    },
+    {
+      "id": "premier-advantage",
+      "name": "Premier Advantage Marine",
+      "isOwn": false,
+      "totalBoats": 104,
+      "newBoats": 92,
+      "usedBoats": 12,
+      "avgPriceNew": 101456.76,
+      "avgPriceUsed": 39483.33,
+      "byCondition": {
+        "New": 92,
+        "Used": 12
+      },
+      "byCategory": {
+        "Other": 78,
+        "Cruiser / Cabin": 1,
+        "Performance": 3,
+        "Pontoon / Tritoon": 5,
+        "Fishing": 8,
+        "Bowrider": 2,
+        "Wakeboard / Ski": 7
+      },
+      "byCategoryNew": {
+        "Other": 73,
+        "Performance": 2,
+        "Fishing": 8,
+        "Bowrider": 1,
+        "Wakeboard / Ski": 7,
+        "Pontoon / Tritoon": 1
+      },
+      "byCategoryUsed": {
+        "Cruiser / Cabin": 1,
+        "Performance": 1,
+        "Other": 5,
+        "Pontoon / Tritoon": 4,
+        "Bowrider": 1
+      },
+      "byLength": {
+        "Unknown": 104
+      },
+      "byLengthNew": {
+        "Unknown": 92
+      },
+      "byLengthUsed": {
+        "Unknown": 12
+      },
+      "byPropulsion": {
+        "Sterndrive / IO": 32,
+        "Outboard": 72
+      },
+      "byPropulsionNew": {
+        "Sterndrive / IO": 27,
+        "Outboard": 65
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 5,
+        "Outboard": 7
+      },
+      "byBrand": {
+        "Four Winns": 37,
+        "Sea Ray": 1,
+        "Baja": 1,
+        "Baha": 1,
+        "Premier": 4,
+        "Regal": 1,
+        "Bennington": 3,
+        "Avalon": 1,
+        "Wellcraft": 11,
+        "Chaparral": 2,
+        "Cobalt": 1,
+        "Stingray": 17,
+        "Ikon": 5,
+        "Alumacraft": 16,
+        "Montara": 3
+      },
+      "byBrandNew": {
+        "Four Winns": 37,
+        "Premier": 4,
+        "Wellcraft": 11,
+        "Ikon": 5,
+        "Alumacraft": 16,
+        "Stingray": 16,
+        "Montara": 3
+      },
+      "byBrandUsed": {
+        "Sea Ray": 1,
+        "Baja": 1,
+        "Baha": 1,
+        "Regal": 1,
+        "Bennington": 3,
+        "Avalon": 1,
+        "Chaparral": 2,
+        "Cobalt": 1,
+        "Stingray": 1
+      }
+    },
+    {
+      "id": "formula-boats-mo",
+      "name": "Formula Boats of Missouri",
+      "isOwn": false,
+      "totalBoats": 56,
+      "newBoats": 23,
+      "usedBoats": 33,
+      "avgPriceNew": 782579.5,
+      "avgPriceUsed": 419949.94,
+      "byCondition": {
+        "New": 23,
+        "Used": 33
+      },
+      "byCategory": {
+        "Center Console": 9,
+        "Other": 5,
+        "Performance": 23,
+        "Bowrider": 14,
+        "Yacht": 1,
+        "Cruiser / Cabin": 3,
+        "Wakeboard / Ski": 1
+      },
+      "byCategoryNew": {
+        "Center Console": 5,
+        "Other": 1,
+        "Performance": 13,
+        "Bowrider": 4
+      },
+      "byCategoryUsed": {
+        "Performance": 10,
+        "Center Console": 4,
+        "Other": 4,
+        "Yacht": 1,
+        "Cruiser / Cabin": 3,
+        "Bowrider": 10,
+        "Wakeboard / Ski": 1
+      },
+      "byLength": {
+        "35-40ft": 22,
+        "25-30ft": 7,
+        "40ft+": 10,
+        "30-35ft": 16,
+        "20-25ft": 1
+      },
+      "byLengthNew": {
+        "35-40ft": 10,
+        "25-30ft": 2,
+        "40ft+": 5,
+        "30-35ft": 5,
+        "20-25ft": 1
+      },
+      "byLengthUsed": {
+        "40ft+": 5,
+        "35-40ft": 12,
+        "30-35ft": 11,
+        "25-30ft": 5
+      },
+      "byPropulsion": {
+        "Sterndrive / IO": 40,
+        "Outboard": 15,
+        "Inboard": 1
+      },
+      "byPropulsionNew": {
+        "Sterndrive / IO": 17,
+        "Outboard": 6
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 23,
+        "Outboard": 9,
+        "Inboard": 1
+      },
+      "byBrand": {
+        "Formula": 45,
+        "Barletta": 1,
+        "Pursuit": 2,
+        "Scout": 1,
+        "Cobalt": 2,
+        "Boston Whaler": 1,
+        "Nautique": 1,
+        "Regal": 1,
+        "Blackfin": 1,
+        "Monterey": 1
+      },
+      "byBrandNew": {
+        "Formula": 22,
+        "Barletta": 1
+      },
+      "byBrandUsed": {
+        "Formula": 23,
+        "Pursuit": 2,
+        "Scout": 1,
+        "Cobalt": 2,
+        "Boston Whaler": 1,
+        "Nautique": 1,
+        "Regal": 1,
+        "Blackfin": 1,
+        "Monterey": 1
+      }
+    },
+    {
+      "id": "performance-marine",
+      "name": "Performance Marine Watersports",
+      "isOwn": false,
+      "totalBoats": 111,
+      "newBoats": 92,
+      "usedBoats": 19,
+      "avgPriceNew": 203084,
+      "avgPriceUsed": 143836,
+      "byCategory": {
+        "Wakeboard/Ski": 28,
+        "Pontoon/Tritoon": 2,
+        "Other": 4
+      },
+      "byCategoryNew": {
+        "Wakeboard/Ski": 16,
+        "Pontoon/Tritoon": 2,
+        "Other": 3
+      },
+      "byCategoryUsed": {
+        "Wakeboard/Ski": 12,
+        "Other": 1
+      },
+      "byLength": {
+        "40ft+": 5,
+        "Unknown": 27,
+        "25-30ft": 2
+      },
+      "byLengthNew": {
+        "Unknown": 17,
+        "25-30ft": 2,
+        "40ft+": 2
+      },
+      "byLengthUsed": {
+        "40ft+": 3,
+        "Unknown": 10
+      },
+      "byPropulsion": {
+        "Inboard": 28,
+        "Outboard": 2,
+        "Sterndrive/IO": 4
+      },
+      "byPropulsionNew": {
+        "Inboard": 16,
+        "Outboard": 2,
+        "Sterndrive/IO": 3
+      },
+      "byPropulsionUsed": {
+        "Inboard": 12,
+        "Sterndrive/IO": 1
+      },
+      "byBrand": {
+        "Supra": 9,
+        "Moomba": 7,
+        "Crest": 2,
+        "MasterCraft": 12,
+        "Balise": 3,
+        "HeyDay": 1
+      },
+      "byBrandNew": {
+        "Supra": 4,
+        "Crest": 2,
+        "Moomba": 3,
+        "MasterCraft": 9,
+        "Balise": 3
+      },
+      "byBrandUsed": {
+        "Supra": 5,
+        "Moomba": 4,
+        "HeyDay": 1,
+        "MasterCraft": 3
+      },
+      "byCondition": {
+        "New": 92,
+        "Used": 19
+      }
+    },
+    {
+      "id": "heartland-marine",
+      "name": "Heartland Marine",
+      "isOwn": false,
+      "totalBoats": 82,
+      "newBoats": 31,
+      "usedBoats": 51,
+      "avgPriceNew": 82545.16,
+      "avgPriceUsed": 50294.1,
+      "byCondition": {
+        "New": 31,
+        "Used": 51
+      },
+      "byCategory": {
+        "Bowrider": 12,
+        "Pontoon / Tritoon": 44,
+        "Other": 14,
+        "Wakeboard / Ski": 2,
+        "Performance": 2,
+        "Deck Boat": 2,
+        "Cruiser / Cabin": 6
+      },
+      "byCategoryNew": {
+        "Pontoon / Tritoon": 31
+      },
+      "byCategoryUsed": {
+        "Bowrider": 12,
+        "Pontoon / Tritoon": 13,
+        "Other": 14,
+        "Wakeboard / Ski": 2,
+        "Performance": 2,
+        "Deck Boat": 2,
+        "Cruiser / Cabin": 6
+      },
+      "byLength": {
+        "Unknown": 82
+      },
+      "byLengthNew": {
+        "Unknown": 31
+      },
+      "byLengthUsed": {
+        "Unknown": 51
+      },
+      "byPropulsion": {
+        "Sterndrive / IO": 30,
+        "Outboard": 52
+      },
+      "byPropulsionNew": {
+        "Outboard": 31
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 30,
+        "Outboard": 21
+      },
+      "byBrand": {
+        "Cobalt": 6,
+        "South Bay": 1,
+        "Manitou": 8,
+        "Sylvan": 19,
+        "Chaparral": 7,
+        "Formula": 3,
+        "Sea Ray": 6,
+        "Monterey": 3,
+        "Berkshire": 8,
+        "Bennington": 3,
+        "Lowe": 1,
+        "Sun Tracker": 1,
+        "Yamaha": 1,
+        "Hurricane": 2,
+        "Bryant": 1,
+        "Envision": 1,
+        "Playcraft": 2,
+        "Four Winns": 2,
+        "Sea Doo": 1,
+        "Rinker": 1,
+        "Crownline": 1,
+        "Mariah": 1,
+        "Thompson": 1,
+        "Harris-Kayot": 1,
+        "Chris Craft": 1
+      },
+      "byBrandNew": {
+        "South Bay": 1,
+        "Sylvan": 18,
+        "Manitou": 4,
+        "Berkshire": 8
+      },
+      "byBrandUsed": {
+        "Cobalt": 6,
+        "Manitou": 4,
+        "Chaparral": 7,
+        "Formula": 3,
+        "Sylvan": 1,
+        "Sea Ray": 6,
+        "Monterey": 3,
+        "Bennington": 3,
+        "Lowe": 1,
+        "Sun Tracker": 1,
+        "Yamaha": 1,
+        "Hurricane": 2,
+        "Bryant": 1,
+        "Envision": 1,
+        "Playcraft": 2,
+        "Four Winns": 2,
+        "Sea Doo": 1,
+        "Rinker": 1,
+        "Crownline": 1,
+        "Mariah": 1,
+        "Thompson": 1,
+        "Harris-Kayot": 1,
+        "Chris Craft": 1
+      }
+    },
+    {
+      "id": "stateamind",
+      "name": "Stateamind Water Sports",
+      "isOwn": false,
+      "totalBoats": 95,
+      "newBoats": 58,
+      "usedBoats": 37,
+      "avgPriceNew": 674175.09,
+      "avgPriceUsed": 100856.88,
+      "byCondition": {
+        "New": 58,
+        "Used": 37
+      },
+      "byCategory": {
+        "Other": 6,
+        "Wakeboard / Ski": 9,
+        "Bowrider": 1,
+        "Pontoon / Tritoon": 4,
+        "Cruiser / Cabin": 2,
+        "Yacht": 2
+      },
+      "byCategoryNew": {
+        "Other": 4,
+        "Wakeboard / Ski": 1,
+        "Bowrider": 1,
+        "Pontoon / Tritoon": 4,
+        "Yacht": 2
+      },
+      "byCategoryUsed": {
+        "Wakeboard / Ski": 8,
+        "Other": 2,
+        "Cruiser / Cabin": 2
+      },
+      "byLength": {
+        "Unknown": 24
+      },
+      "byLengthNew": {
+        "Unknown": 12
+      },
+      "byLengthUsed": {
+        "Unknown": 12
+      },
+      "byPropulsion": {
+        "Outboard": 13,
+        "Inboard": 9,
+        "Sterndrive / IO": 2
+      },
+      "byPropulsionNew": {
+        "Outboard": 11,
+        "Inboard": 1
+      },
+      "byPropulsionUsed": {
+        "Inboard": 8,
+        "Sterndrive / IO": 2,
+        "Outboard": 2
+      },
+      "byBrand": {
+        "Ikon": 4,
+        "Malibu": 3,
+        "Axis": 4,
+        "Ikon Boats": 1,
+        "Supra": 1,
+        "Godfrey Tritoons": 1,
+        "Coach Pontoons": 2,
+        "Four Winns": 1,
+        "Chaparral": 1,
+        "Cruisers Yachts": 2,
+        "Hcb Yachts": 2,
+        "MasterCraft": 1,
+        "Godfrey Monaco": 1
+      },
+      "byBrandNew": {
+        "Ikon": 4,
+        "Malibu": 1,
+        "Ikon Boats": 1,
+        "Godfrey Tritoons": 1,
+        "Coach Pontoons": 2,
+        "Hcb Yachts": 2,
+        "Godfrey Monaco": 1
+      },
+      "byBrandUsed": {
+        "Axis": 4,
+        "Malibu": 2,
+        "Supra": 1,
+        "Four Winns": 1,
+        "Chaparral": 1,
+        "Cruisers Yachts": 2,
+        "MasterCraft": 1
+      }
+    },
+    {
+      "id": "premier-54",
+      "name": "Premier 54 Motorsports",
+      "isOwn": false,
+      "totalBoats": 121,
+      "newBoats": 77,
+      "usedBoats": 44,
+      "avgPriceNew": 99594.83,
+      "avgPriceUsed": 82095.12,
+      "byCondition": {
+        "New": 77,
+        "Used": 44
+      },
+      "byCategory": {
+        "Power": 121
+      },
+      "byCategoryNew": {
+        "Power": 77
+      },
+      "byCategoryUsed": {
+        "Power": 44
+      },
+      "byLength": {
+        "25-30ft": 52,
+        "20-25ft": 45,
+        "30-35ft": 20,
+        "35-40ft": 1,
+        "Unknown": 3
+      },
+      "byLengthNew": {
+        "25-30ft": 31,
+        "20-25ft": 27,
+        "30-35ft": 16,
+        "35-40ft": 1,
+        "Unknown": 2
+      },
+      "byLengthUsed": {
+        "20-25ft": 18,
+        "25-30ft": 21,
+        "30-35ft": 4,
+        "Unknown": 1
+      },
+      "byPropulsion": {
+        "Outboard": 49,
+        "Sterndrive / IO": 69,
+        "Inboard": 3
+      },
+      "byPropulsionNew": {
+        "Outboard": 36,
+        "Sterndrive / IO": 41
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 28,
+        "Outboard": 13,
+        "Inboard": 3
+      },
+      "byBrand": {
+        "Premier": 29,
+        "Chaparral": 62,
+        "Crownline": 3,
+        "Lowe": 1,
+        "Montara": 1,
+        "Nautic Star": 1,
+        "Regal": 3,
+        "Tige": 2,
+        "Robalo": 4,
+        "Sea Ray": 4,
+        "Manitou": 1,
+        "Four Winns": 2,
+        "Mb Sports": 1,
+        "Ebbtide": 1,
+        "MasterCraft": 1,
+        "Bennington": 1,
+        "Centurion": 1,
+        "Bayliner": 2,
+        "Playcraft": 1
+      },
+      "byBrandNew": {
+        "Premier": 28,
+        "Chaparral": 45,
+        "Robalo": 4
+      },
+      "byBrandUsed": {
+        "Chaparral": 17,
+        "Crownline": 3,
+        "Lowe": 1,
+        "Montara": 1,
+        "Nautic Star": 1,
+        "Regal": 3,
+        "Tige": 2,
+        "Sea Ray": 4,
+        "Manitou": 1,
+        "Four Winns": 2,
+        "Premier": 1,
+        "Mb Sports": 1,
+        "Ebbtide": 1,
+        "MasterCraft": 1,
+        "Bennington": 1,
+        "Centurion": 1,
+        "Bayliner": 2,
+        "Playcraft": 1
+      }
+    },
+    {
+      "id": "martys-marine",
+      "name": "Marty's Marine",
+      "isOwn": false,
+      "totalBoats": 43,
+      "newBoats": 36,
+      "usedBoats": 7,
+      "avgPriceNew": 68396.0,
+      "avgPriceUsed": 0.0,
+      "byCondition": {
+        "New": 36,
+        "Used": 7
+      },
+      "byCategory": {
+        "Pontoon / Tritoon": 43
+      },
+      "byCategoryNew": {
+        "Pontoon / Tritoon": 36
+      },
+      "byCategoryUsed": {
+        "Pontoon / Tritoon": 7
+      },
+      "byLength": {
+        "20-25ft": 12,
+        "25-30ft": 30,
+        "30-35ft": 1
+      },
+      "byLengthNew": {
+        "20-25ft": 11,
+        "25-30ft": 25
+      },
+      "byLengthUsed": {
+        "30-35ft": 1,
+        "25-30ft": 5,
+        "20-25ft": 1
+      },
+      "byPropulsion": {
+        "Outboard": 43
+      },
+      "byPropulsionNew": {
+        "Outboard": 36
+      },
+      "byPropulsionUsed": {
+        "Outboard": 7
+      },
+      "byBrand": {
+        "Barletta": 38,
+        "Playcraft": 4,
+        "Regency": 1
+      },
+      "byBrandNew": {
+        "Barletta": 36
+      },
+      "byBrandUsed": {
+        "Playcraft": 4,
+        "Barletta": 2,
+        "Regency": 1
+      }
+    },
+    {
+      "id": "surdyke-yamaha",
+      "name": "Surdyke Yamaha & Marina",
+      "isOwn": false,
+      "totalBoats": 427,
+      "newBoats": 296,
+      "usedBoats": 93,
+      "avgPriceNew": 82765,
+      "avgPriceUsed": 59486,
+      "byCondition": {
+        "New": 296,
+        "Used": 93
+      },
+      "byCategory": {},
+      "byCategoryNew": {},
+      "byCategoryUsed": {},
+      "byLength": {},
+      "byLengthNew": {},
+      "byLengthUsed": {},
+      "byPropulsion": {},
+      "byPropulsionNew": {},
+      "byPropulsionUsed": {},
+      "byBrand": {},
+      "byBrandNew": {},
+      "byBrandUsed": {}
+    },
+    {
+      "id": "all-about-boats",
+      "name": "All About Boats",
+      "isOwn": false,
+      "totalBoats": 52,
+      "newBoats": 36,
+      "usedBoats": 16,
+      "avgPriceNew": 148315.38,
+      "avgPriceUsed": 83418.75,
+      "byCondition": {
+        "New": 36,
+        "Used": 16
+      },
+      "byCategory": {
+        "Other": 44,
+        "Wakeboard / Ski": 2,
+        "Cruiser / Cabin": 1,
+        "Bowrider": 4,
+        "Pontoon / Tritoon": 1
+      },
+      "byCategoryNew": {
+        "Other": 35,
+        "Wakeboard / Ski": 1
+      },
+      "byCategoryUsed": {
+        "Other": 9,
+        "Wakeboard / Ski": 1,
+        "Cruiser / Cabin": 1,
+        "Bowrider": 4,
+        "Pontoon / Tritoon": 1
+      },
+      "byLength": {
+        "Unknown": 52
+      },
+      "byLengthNew": {
+        "Unknown": 36
+      },
+      "byLengthUsed": {
+        "Unknown": 16
+      },
+      "byPropulsion": {
+        "Outboard": 21,
+        "Sterndrive / IO": 30,
+        "Jet": 1
+      },
+      "byPropulsionNew": {
+        "Outboard": 17,
+        "Sterndrive / IO": 19
+      },
+      "byPropulsionUsed": {
+        "Sterndrive / IO": 11,
+        "Outboard": 4,
+        "Jet": 1
+      },
+      "byBrand": {
+        "Amp": 3,
+        "Crownline": 27,
+        "Starcraft": 10,
+        "Pursuit": 2,
+        "Finseeker": 1,
+        "Harris": 1,
+        "Regency": 1,
+        "Regal": 2,
+        "Cypress Cay": 1,
+        "Jc": 1,
+        "Sea-Doo": 1,
+        "Sea Ray": 1,
+        "Bennington": 1
+      },
+      "byBrandNew": {
+        "Amp": 3,
+        "Crownline": 19,
+        "Starcraft": 10,
+        "Pursuit": 2,
+        "Finseeker": 1,
+        "Harris": 1
+      },
+      "byBrandUsed": {
+        "Crownline": 8,
+        "Regency": 1,
+        "Regal": 2,
+        "Cypress Cay": 1,
+        "Jc": 1,
+        "Sea-Doo": 1,
+        "Sea Ray": 1,
+        "Bennington": 1
       }
     }
-  }
+  ],
+  "marketTotals": {
+    "totalBoats": 1942,
+    "newBoats": 1211,
+    "usedBoats": 646,
+    "byCondition": {
+      "New": 1211,
+      "Used": 646
+    },
+    "byCategory": {
+      "Other": 208,
+      "Performance": 36,
+      "Center Console": 15,
+      "Yacht": 20,
+      "Bowrider": 92,
+      "Cruiser / Cabin": 26,
+      "Wakeboard / Ski": 61,
+      "Pontoon / Tritoon": 119,
+      "Fishing": 10,
+      "Deck Boat": 3,
+      "Wakeboard/Ski": 28,
+      "Pontoon/Tritoon": 2,
+      "Power": 121
+    },
+    "byCategoryNew": {
+      "Other": 144,
+      "Performance": 18,
+      "Center Console": 11,
+      "Yacht": 13,
+      "Bowrider": 33,
+      "Cruiser / Cabin": 4,
+      "Wakeboard / Ski": 33,
+      "Pontoon / Tritoon": 91,
+      "Fishing": 8,
+      "Wakeboard/Ski": 16,
+      "Pontoon/Tritoon": 2,
+      "Power": 77
+    },
+    "byCategoryUsed": {
+      "Performance": 18,
+      "Other": 64,
+      "Yacht": 7,
+      "Bowrider": 59,
+      "Cruiser / Cabin": 22,
+      "Wakeboard / Ski": 28,
+      "Fishing": 2,
+      "Deck Boat": 3,
+      "Pontoon / Tritoon": 28,
+      "Center Console": 4,
+      "Wakeboard/Ski": 12,
+      "Power": 44
+    },
+    "byLength": {
+      "Unknown": 453,
+      "40ft+": 36,
+      "35-40ft": 38,
+      "30-35ft": 45,
+      "25-30ft": 109,
+      "20-25ft": 60
+    },
+    "byLengthNew": {
+      "Unknown": 273,
+      "40ft+": 20,
+      "35-40ft": 15,
+      "30-35ft": 25,
+      "25-30ft": 76,
+      "20-25ft": 41
+    },
+    "byLengthUsed": {
+      "40ft+": 16,
+      "35-40ft": 23,
+      "Unknown": 180,
+      "30-35ft": 20,
+      "25-30ft": 33,
+      "20-25ft": 19
+    },
+    "byPropulsion": {
+      "Outboard": 361,
+      "Sterndrive / IO": 300,
+      "Inboard": 75,
+      "Sterndrive/IO": 4,
+      "Jet": 1
+    },
+    "byPropulsionNew": {
+      "Outboard": 269,
+      "Sterndrive / IO": 141,
+      "Inboard": 37,
+      "Sterndrive/IO": 3
+    },
+    "byPropulsionUsed": {
+      "Outboard": 92,
+      "Sterndrive / IO": 159,
+      "Inboard": 38,
+      "Sterndrive/IO": 1,
+      "Jet": 1
+    },
+    "byBrand": {
+      "Dutch American": 3,
+      "Cigarette": 2,
+      "Invictus": 2,
+      "Pirelli": 1,
+      "Catamaran": 1,
+      "Fountain": 5,
+      "Donzi": 2,
+      "Chris Craft": 5,
+      "Monterey": 6,
+      "Jeanneau": 1,
+      "Fjord": 1,
+      "Tig\u00e9": 1,
+      "Opus": 1,
+      "Eliminator": 1,
+      "Anthem": 1,
+      "Cruisers Yachts": 7,
+      "Aviara": 3,
+      "Sea Ray": 45,
+      "Harris": 10,
+      "Cobalt": 55,
+      "Princess": 1,
+      "Aquila": 1,
+      "Supra": 13,
+      "Four Winns": 46,
+      "Rinker": 2,
+      "Regal": 10,
+      "Carver Yachts": 3,
+      "Formula": 50,
+      "Yamaha": 3,
+      "Ikon": 14,
+      "Formula Boats": 5,
+      "Malibu": 21,
+      "Axis": 14,
+      "Ikon Boats": 2,
+      "Godfrey Tritoons": 3,
+      "Coach Pontoons": 5,
+      "Chaparral": 73,
+      "Hcb Yachts": 6,
+      "Black Thunder Powerboats": 2,
+      "Statement Marine": 2,
+      "Godfrey Pontoons": 1,
+      "Bass Cat": 1,
+      "Lund": 1,
+      "Hurricane": 3,
+      "MasterCraft": 15,
+      "Godfrey": 12,
+      "Cobalt V3": 1,
+      "Monterey Boats": 1,
+      "Crest": 3,
+      "Axis Wake Research": 1,
+      "Godfrey Pontoon Boats": 2,
+      "Nautique": 2,
+      "Schaefer Yachts": 2,
+      "Caymas Boats": 1,
+      "Avalon": 2,
+      "Baja": 1,
+      "Baha": 1,
+      "Premier": 33,
+      "Bennington": 8,
+      "Wellcraft": 11,
+      "Stingray": 17,
+      "Alumacraft": 16,
+      "Montara": 4,
+      "Barletta": 39,
+      "Pursuit": 4,
+      "Scout": 1,
+      "Boston Whaler": 1,
+      "Blackfin": 1,
+      "Moomba": 7,
+      "Balise": 3,
+      "HeyDay": 1,
+      "South Bay": 1,
+      "Manitou": 9,
+      "Sylvan": 19,
+      "Berkshire": 8,
+      "Lowe": 2,
+      "Sun Tracker": 1,
+      "Bryant": 1,
+      "Envision": 1,
+      "Playcraft": 7,
+      "Sea Doo": 1,
+      "Crownline": 31,
+      "Mariah": 1,
+      "Thompson": 1,
+      "Harris-Kayot": 1,
+      "Godfrey Monaco": 1,
+      "Nautic Star": 1,
+      "Tige": 2,
+      "Robalo": 4,
+      "Mb Sports": 1,
+      "Ebbtide": 1,
+      "Centurion": 1,
+      "Bayliner": 2,
+      "Regency": 2,
+      "Amp": 3,
+      "Starcraft": 10,
+      "Finseeker": 1,
+      "Cypress Cay": 1,
+      "Jc": 1,
+      "Sea-Doo": 1
+    },
+    "byBrandNew": {
+      "Dutch American": 3,
+      "Cigarette": 1,
+      "Invictus": 2,
+      "Pirelli": 1,
+      "Catamaran": 1,
+      "Donzi": 2,
+      "Chris Craft": 3,
+      "Monterey": 1,
+      "Jeanneau": 1,
+      "Fountain": 1,
+      "Tig\u00e9": 1,
+      "Opus": 1,
+      "Anthem": 1,
+      "Cruisers Yachts": 3,
+      "Aviara": 2,
+      "Sea Ray": 12,
+      "Harris": 9,
+      "Cobalt": 20,
+      "Ikon": 13,
+      "Formula Boats": 4,
+      "Malibu": 13,
+      "Ikon Boats": 2,
+      "Godfrey Tritoons": 3,
+      "Coach Pontoons": 5,
+      "Hcb Yachts": 6,
+      "Statement Marine": 2,
+      "Godfrey Pontoons": 1,
+      "MasterCraft": 10,
+      "Godfrey": 11,
+      "Axis": 6,
+      "Regal": 1,
+      "Formula": 23,
+      "Axis Wake Research": 1,
+      "Godfrey Pontoon Boats": 2,
+      "Schaefer Yachts": 2,
+      "Four Winns": 37,
+      "Premier": 32,
+      "Wellcraft": 11,
+      "Alumacraft": 16,
+      "Stingray": 16,
+      "Montara": 3,
+      "Barletta": 37,
+      "Supra": 4,
+      "Crest": 2,
+      "Moomba": 3,
+      "Balise": 3,
+      "South Bay": 1,
+      "Sylvan": 18,
+      "Manitou": 4,
+      "Berkshire": 8,
+      "Godfrey Monaco": 1,
+      "Chaparral": 45,
+      "Robalo": 4,
+      "Amp": 3,
+      "Crownline": 19,
+      "Starcraft": 10,
+      "Pursuit": 2,
+      "Finseeker": 1
+    },
+    "byBrandUsed": {
+      "Cigarette": 1,
+      "Fountain": 4,
+      "Fjord": 1,
+      "Chris Craft": 2,
+      "Eliminator": 1,
+      "Cobalt": 35,
+      "Sea Ray": 33,
+      "Harris": 1,
+      "Princess": 1,
+      "Aquila": 1,
+      "Aviara": 1,
+      "Supra": 9,
+      "Four Winns": 9,
+      "Rinker": 2,
+      "Regal": 9,
+      "Carver Yachts": 3,
+      "Formula": 27,
+      "Yamaha": 3,
+      "Axis": 8,
+      "Malibu": 8,
+      "Formula Boats": 1,
+      "Chaparral": 28,
+      "Cruisers Yachts": 4,
+      "Black Thunder Powerboats": 2,
+      "Bass Cat": 1,
+      "Lund": 1,
+      "Hurricane": 3,
+      "Cobalt V3": 1,
+      "Monterey Boats": 1,
+      "Crest": 1,
+      "Monterey": 5,
+      "Nautique": 2,
+      "Godfrey": 1,
+      "Caymas Boats": 1,
+      "Ikon": 1,
+      "Avalon": 2,
+      "Baja": 1,
+      "Baha": 1,
+      "Bennington": 8,
+      "Stingray": 1,
+      "Pursuit": 2,
+      "Scout": 1,
+      "Boston Whaler": 1,
+      "Blackfin": 1,
+      "Moomba": 4,
+      "HeyDay": 1,
+      "MasterCraft": 5,
+      "Manitou": 5,
+      "Sylvan": 1,
+      "Lowe": 2,
+      "Sun Tracker": 1,
+      "Bryant": 1,
+      "Envision": 1,
+      "Playcraft": 7,
+      "Sea Doo": 1,
+      "Crownline": 12,
+      "Mariah": 1,
+      "Thompson": 1,
+      "Harris-Kayot": 1,
+      "Montara": 1,
+      "Nautic Star": 1,
+      "Tige": 2,
+      "Premier": 1,
+      "Mb Sports": 1,
+      "Ebbtide": 1,
+      "Centurion": 1,
+      "Bayliner": 2,
+      "Barletta": 2,
+      "Regency": 2,
+      "Cypress Cay": 1,
+      "Jc": 1,
+      "Sea-Doo": 1
+    }
+  },
+  "scanId": "scan-070",
+  "date": "2026-05-22"
 }
