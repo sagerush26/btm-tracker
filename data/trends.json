@@ -114,32 +114,20 @@
     "Volvo Penta": 1
   },
   "soldByDealer": {
-    "Kelly's Port": 29,
-    "Iguana Marine Group": 41,
-    "Premier Advantage Marine": 20,
-    "Heartland Marine": 36,
-    "Premier 54 Motorsports": 28,
-    "MarineMax Lake Ozark": 23,
+    "Kelly's Port": 64,
+    "Iguana Marine Group": 77,
+    "Premier Advantage Marine": 31,
+    "Heartland Marine": 53,
+    "Premier 54 Motorsports": 32,
+    "MarineMax Lake Ozark": 30,
     "Performance Boat Center": 55,
-    "Formula Boats of Missouri": 10,
-    "Marty's Marine": 57,
+    "Formula Boats of Missouri": 16,
+    "Marty's Marine": 83,
     "Performance Marine Watersports": 1,
-    "Stateamind Water Sports": 59,
-    "All About Boats": 7,
-    "Village Marina & Yacht Club": 21,
-    "Big Thunder Marine": 12,
-    "kellys-port": 35,
-    "village-marina": 14,
-    "big-thunder-marine": 17,
-    "iguana-marine": 36,
-    "formula-boats-mo": 6,
-    "stateamind": 23,
-    "martys-marine": 26,
-    "all-about-boats": 2,
-    "premier-advantage": 11,
-    "marinemax": 7,
-    "heartland-marine": 17,
-    "premier-54": 4
+    "Stateamind Water Sports": 82,
+    "All About Boats": 9,
+    "Village Marina & Yacht Club": 35,
+    "Big Thunder Marine": 29
   },
   "addedByCategory": {},
   "inventoryTrend": [
@@ -298,6 +286,12 @@
       "date": "2026-05-22",
       "total": 1942,
       "scanId": "scan-070"
+    },
+    {
+      "date": "2026-09-05",
+      "totalMarket": 1162,
+      "btm": 191,
+      "competitors": 971
     }
   ],
   "priceTrend": [
@@ -450,6 +444,11 @@
       "date": "2026-05-22",
       "avgPrice": 267210.23,
       "scanId": "scan-070"
+    },
+    {
+      "date": "2026-09-05",
+      "marketAvg": 219366.43,
+      "btmAvg": 287978.25
     }
   ],
   "recentlySold": [
@@ -2779,14 +2778,19 @@
       "type": "added",
       "text": "All About Boats inventory increased by 1 (51 -> 52). New listings added.",
       "change": 1
+    },
+    {
+      "date": "2026-09-05",
+      "type": "data_quality",
+      "text": "Fresh full-market scan completed 2026-09-05 (scan-071) after a 106-day gap since the prior scan on 2026-05-22, likely due to one or more missed/failed nightly runs. This update reflects cumulative change over that full gap in a single jump, not a normal nightly delta."
     }
   ],
   "summary": {
-    "date": "2026-05-22",
-    "scanId": "scan-070",
-    "marketTotal": 1942,
-    "credibleChangesCount": 7,
-    "soldCount": 2,
-    "addedCount": 18
+    "date": "2026-09-05",
+    "scanId": "scan-071",
+    "marketTotal": 1162,
+    "credibleChangesCount": 15,
+    "soldCount": 0,
+    "addedCount": 0
   }
 }

@@ -10919,6 +10919,162 @@
           "priceRange": "$8,900.00 - $319,900.00"
         }
       ]
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "results": [
+        {
+          "competitorId": "big-thunder-marine",
+          "totalBoats": 191,
+          "newBoats": 110,
+          "usedBoats": 81,
+          "avgPrice": 287978.25,
+          "avgPriceNew": 355888.11,
+          "avgPriceUsed": 197997.69,
+          "priceRange": "$25,000 - $2,765,760"
+        },
+        {
+          "competitorId": "marinemax",
+          "totalBoats": 42,
+          "newBoats": 22,
+          "usedBoats": 20,
+          "avgPrice": 503657.64,
+          "avgPriceNew": 607598.73,
+          "avgPriceUsed": 389322.45,
+          "priceRange": "$57,900 - $1,999,900"
+        },
+        {
+          "competitorId": "performance-boat-center",
+          "totalBoats": 87,
+          "newBoats": 9,
+          "usedBoats": 78,
+          "avgPrice": 503764.07,
+          "avgPriceNew": 530575.0,
+          "avgPriceUsed": 501014.23,
+          "priceRange": "$22,500 - $2,395,000"
+        },
+        {
+          "competitorId": "kellys-port",
+          "totalBoats": 114,
+          "newBoats": 70,
+          "usedBoats": 44,
+          "avgPrice": 282827.43,
+          "avgPriceNew": 253169.81,
+          "avgPriceUsed": 317548.54,
+          "priceRange": "$59,900 - $1,526,489"
+        },
+        {
+          "competitorId": "village-marina",
+          "totalBoats": 51,
+          "newBoats": 18,
+          "usedBoats": 33,
+          "avgPrice": 141531.1,
+          "avgPriceNew": 141531.1,
+          "avgPriceUsed": 141531.1,
+          "priceRange": "$19,000 - $524,995"
+        },
+        {
+          "competitorId": "iguana-marine",
+          "totalBoats": 104,
+          "newBoats": 65,
+          "usedBoats": 39,
+          "avgPrice": 187512.8,
+          "avgPriceNew": 271344.92,
+          "avgPriceUsed": 101414.95,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-advantage",
+          "totalBoats": 98,
+          "newBoats": 14,
+          "usedBoats": 84,
+          "avgPrice": 75825.73,
+          "avgPriceNew": 101383.71,
+          "avgPriceUsed": 53462.5,
+          "priceRange": "$9,900 - $239,995"
+        },
+        {
+          "competitorId": "formula-boats-mo",
+          "totalBoats": 29,
+          "newBoats": 19,
+          "usedBoats": 10,
+          "avgPrice": 312299.0,
+          "avgPriceNew": 914454.0,
+          "avgPriceUsed": 191868.0,
+          "priceRange": "$79,995 - $914,454"
+        },
+        {
+          "competitorId": "performance-marine",
+          "totalBoats": 37,
+          "newBoats": 24,
+          "usedBoats": 13,
+          "avgPrice": 157985.1,
+          "avgPriceNew": 183746.06,
+          "avgPriceUsed": 124297.69,
+          "priceRange": "$54,990 - $509,093"
+        },
+        {
+          "competitorId": "heartland-marine",
+          "totalBoats": 51,
+          "newBoats": 16,
+          "usedBoats": 35,
+          "avgPrice": 65119.37,
+          "avgPriceNew": 78962.5,
+          "avgPriceUsed": 58791.09,
+          "priceRange": "$8,900 - $169,900"
+        },
+        {
+          "competitorId": "stateamind",
+          "totalBoats": 100,
+          "newBoats": 61,
+          "usedBoats": 39,
+          "avgPrice": 179327.04,
+          "avgPriceNew": 261691.26,
+          "avgPriceUsed": 101414.95,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-54",
+          "totalBoats": 89,
+          "newBoats": 54,
+          "usedBoats": 35,
+          "avgPrice": 149943.64,
+          "avgPriceNew": 191862.92,
+          "avgPriceUsed": 87064.71,
+          "priceRange": "$5,500 - $480,950"
+        },
+        {
+          "competitorId": "martys-marine",
+          "totalBoats": 19,
+          "newBoats": 14,
+          "usedBoats": 5,
+          "avgPrice": 61698.0,
+          "avgPriceNew": 68396.0,
+          "avgPriceUsed": 55000.0,
+          "priceRange": "$55,000 - $68,396"
+        },
+        {
+          "competitorId": "surdyke-yamaha",
+          "totalBoats": 106,
+          "newBoats": 75,
+          "usedBoats": 31,
+          "avgPrice": 107094.62,
+          "avgPriceNew": 136356.76,
+          "avgPriceUsed": 40074.87,
+          "priceRange": "$3,399 - $749,999"
+        },
+        {
+          "competitorId": "all-about-boats",
+          "totalBoats": 44,
+          "newBoats": 28,
+          "usedBoats": 16,
+          "avgPrice": 147750.0,
+          "avgPriceNew": 193215.0,
+          "avgPriceUsed": 90918.75,
+          "priceRange": "$23,900 - $550,000"
+        }
+      ]
     }
   ],
   "changes": [
@@ -12865,7 +13021,12 @@
       "previousTotal": 147,
       "newTotal": 148,
       "change": 1,
-      "description": "MarineMax Lake Ozark: 147 -> 148 (+1)"
+      "description": "MarineMax Lake Ozark: 147 -> 148 (+1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 147 -> 148 (+1)"
     },
     {
       "scanId": "scan-047",
@@ -12874,7 +13035,12 @@
       "previousTotal": 123,
       "newTotal": 119,
       "change": -4,
-      "description": "Kelly's Port: 123 -> 119 (-4)"
+      "description": "Kelly's Port: 123 -> 119 (-4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Kelly's Port: 123 -> 119 (-4)"
     },
     {
       "scanId": "scan-047",
@@ -12883,7 +13049,12 @@
       "previousTotal": 65,
       "newTotal": 60,
       "change": -5,
-      "description": "Village Marina & Yacht Club: 65 -> 60 (-5)"
+      "description": "Village Marina & Yacht Club: 65 -> 60 (-5)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Village Marina & Yacht Club: 65 -> 60 (-5)"
     },
     {
       "scanId": "scan-047",
@@ -12892,7 +13063,12 @@
       "previousTotal": 80,
       "newTotal": 81,
       "change": 1,
-      "description": "Heartland Marine: 80 -> 81 (+1)"
+      "description": "Heartland Marine: 80 -> 81 (+1)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Heartland Marine: 80 -> 81 (+1)"
     },
     {
       "scanId": "scan-047",
@@ -12901,7 +13077,12 @@
       "previousTotal": 104,
       "newTotal": 105,
       "change": 1,
-      "description": "Premier 54 Motorsports: 104 -> 105 (+1)"
+      "description": "Premier 54 Motorsports: 104 -> 105 (+1)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier 54 Motorsports: 104 -> 105 (+1)"
     },
     {
       "scanId": "scan-047",
@@ -12910,7 +13091,12 @@
       "previousTotal": 33,
       "newTotal": 35,
       "change": 2,
-      "description": "Marty's Marine: 33 -> 35 (+2)"
+      "description": "Marty's Marine: 33 -> 35 (+2)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Marty's Marine: 33 -> 35 (+2)"
     },
     {
       "scanId": "scan-048",
@@ -12919,7 +13105,12 @@
       "previousTotal": 249,
       "newTotal": 245,
       "change": -4,
-      "description": "Big Thunder Marine: 249 -> 245 (-4)"
+      "description": "Big Thunder Marine: 249 -> 245 (-4)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Big Thunder Marine: 249 -> 245 (-4)"
     },
     {
       "scanId": "scan-048",
@@ -12928,7 +13119,12 @@
       "previousTotal": 119,
       "newTotal": 123,
       "change": 4,
-      "description": "Kelly's Port: 119 -> 123 (+4)"
+      "description": "Kelly's Port: 119 -> 123 (+4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Kelly's Port: 119 -> 123 (+4)"
     },
     {
       "scanId": "scan-048",
@@ -12937,7 +13133,12 @@
       "previousTotal": 60,
       "newTotal": 58,
       "change": -2,
-      "description": "Village Marina & Yacht Club: 60 -> 58 (-2)"
+      "description": "Village Marina & Yacht Club: 60 -> 58 (-2)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Village Marina & Yacht Club: 60 -> 58 (-2)"
     },
     {
       "scanId": "scan-048",
@@ -12946,7 +13147,12 @@
       "previousTotal": 99,
       "newTotal": 98,
       "change": -1,
-      "description": "Iguana Marine Group: 99 -> 98 (-1)"
+      "description": "Iguana Marine Group: 99 -> 98 (-1)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Iguana Marine Group: 99 -> 98 (-1)"
     },
     {
       "scanId": "scan-048",
@@ -12955,7 +13161,12 @@
       "previousTotal": 58,
       "newTotal": 57,
       "change": -1,
-      "description": "Formula Boats of Missouri: 58 -> 57 (-1)"
+      "description": "Formula Boats of Missouri: 58 -> 57 (-1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 58 -> 57 (-1)"
     },
     {
       "scanId": "scan-048",
@@ -12964,7 +13175,12 @@
       "previousTotal": 81,
       "newTotal": 82,
       "change": 1,
-      "description": "Heartland Marine: 81 -> 82 (+1)"
+      "description": "Heartland Marine: 81 -> 82 (+1)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Heartland Marine: 81 -> 82 (+1)"
     },
     {
       "scanId": "scan-048",
@@ -12973,7 +13189,12 @@
       "previousTotal": 92,
       "newTotal": 91,
       "change": -1,
-      "description": "Stateamind Water Sports: 92 -> 91 (-1)"
+      "description": "Stateamind Water Sports: 92 -> 91 (-1)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Stateamind Water Sports: 92 -> 91 (-1)"
     },
     {
       "scanId": "scan-048",
@@ -12982,7 +13203,12 @@
       "previousTotal": 35,
       "newTotal": 44,
       "change": 9,
-      "description": "Marty's Marine: 35 -> 44 (+9)"
+      "description": "Marty's Marine: 35 -> 44 (+9)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 9,
+      "detail": "Marty's Marine: 35 -> 44 (+9)"
     },
     {
       "scanId": "scan-049",
@@ -12991,7 +13217,12 @@
       "previousTotal": 245,
       "newTotal": 242,
       "change": -3,
-      "description": "Big Thunder Marine: 245 -> 242 (-3)"
+      "description": "Big Thunder Marine: 245 -> 242 (-3)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Big Thunder Marine: 245 -> 242 (-3)"
     },
     {
       "scanId": "scan-049",
@@ -13000,7 +13231,12 @@
       "previousTotal": 58,
       "newTotal": 59,
       "change": 1,
-      "description": "Village Marina & Yacht Club: 58 -> 59 (+1)"
+      "description": "Village Marina & Yacht Club: 58 -> 59 (+1)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Village Marina & Yacht Club: 58 -> 59 (+1)"
     },
     {
       "scanId": "scan-049",
@@ -13009,7 +13245,12 @@
       "previousTotal": 98,
       "newTotal": 99,
       "change": 1,
-      "description": "Iguana Marine Group: 98 -> 99 (+1)"
+      "description": "Iguana Marine Group: 98 -> 99 (+1)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Iguana Marine Group: 98 -> 99 (+1)"
     },
     {
       "scanId": "scan-049",
@@ -13018,7 +13259,12 @@
       "previousTotal": 57,
       "newTotal": 56,
       "change": -1,
-      "description": "Formula Boats of Missouri: 57 -> 56 (-1)"
+      "description": "Formula Boats of Missouri: 57 -> 56 (-1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 57 -> 56 (-1)"
     },
     {
       "scanId": "scan-049",
@@ -13027,7 +13273,12 @@
       "previousTotal": 91,
       "newTotal": 92,
       "change": 1,
-      "description": "Stateamind Water Sports: 91 -> 92 (+1)"
+      "description": "Stateamind Water Sports: 91 -> 92 (+1)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Stateamind Water Sports: 91 -> 92 (+1)"
     },
     {
       "scanId": "scan-049",
@@ -13036,7 +13287,12 @@
       "previousTotal": 105,
       "newTotal": 107,
       "change": 2,
-      "description": "Premier 54 Motorsports: 105 -> 107 (+2)"
+      "description": "Premier 54 Motorsports: 105 -> 107 (+2)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Premier 54 Motorsports: 105 -> 107 (+2)"
     },
     {
       "scanId": "scan-049",
@@ -13045,7 +13301,12 @@
       "previousTotal": 44,
       "newTotal": 46,
       "change": 2,
-      "description": "Marty's Marine: 44 -> 46 (+2)"
+      "description": "Marty's Marine: 44 -> 46 (+2)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Marty's Marine: 44 -> 46 (+2)"
     },
     {
       "scanId": "scan-050",
@@ -13054,7 +13315,12 @@
       "previousTotal": 148,
       "newTotal": 149,
       "change": 1,
-      "description": "MarineMax Lake Ozark: 148 -> 149 (+1)"
+      "description": "MarineMax Lake Ozark: 148 -> 149 (+1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 148 -> 149 (+1)"
     },
     {
       "scanId": "scan-050",
@@ -13063,7 +13329,12 @@
       "previousTotal": 123,
       "newTotal": 119,
       "change": -4,
-      "description": "Kelly's Port: 123 -> 119 (-4)"
+      "description": "Kelly's Port: 123 -> 119 (-4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Kelly's Port: 123 -> 119 (-4)"
     },
     {
       "scanId": "scan-050",
@@ -13072,7 +13343,12 @@
       "previousTotal": 99,
       "newTotal": 101,
       "change": 2,
-      "description": "Iguana Marine Group: 99 -> 101 (+2)"
+      "description": "Iguana Marine Group: 99 -> 101 (+2)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Iguana Marine Group: 99 -> 101 (+2)"
     },
     {
       "scanId": "scan-050",
@@ -13081,7 +13357,12 @@
       "previousTotal": 92,
       "newTotal": 94,
       "change": 2,
-      "description": "Stateamind Water Sports: 92 -> 94 (+2)"
+      "description": "Stateamind Water Sports: 92 -> 94 (+2)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Stateamind Water Sports: 92 -> 94 (+2)"
     },
     {
       "scanId": "scan-050",
@@ -13090,7 +13371,12 @@
       "previousTotal": 107,
       "newTotal": 119,
       "change": 12,
-      "description": "Premier 54 Motorsports: 107 -> 119 (+12)"
+      "description": "Premier 54 Motorsports: 107 -> 119 (+12)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 12,
+      "detail": "Premier 54 Motorsports: 107 -> 119 (+12)"
     },
     {
       "scanId": "scan-050",
@@ -13099,7 +13385,12 @@
       "previousTotal": 46,
       "newTotal": 44,
       "change": -2,
-      "description": "Marty's Marine: 46 -> 44 (-2)"
+      "description": "Marty's Marine: 46 -> 44 (-2)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Marty's Marine: 46 -> 44 (-2)"
     },
     {
       "scanId": "scan-050",
@@ -13108,7 +13399,12 @@
       "previousTotal": 49,
       "newTotal": 48,
       "change": -1,
-      "description": "All About Boats: 49 -> 48 (-1)"
+      "description": "All About Boats: 49 -> 48 (-1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "All About Boats: 49 -> 48 (-1)"
     },
     {
       "scanId": "scan-051",
@@ -13117,7 +13413,12 @@
       "previousTotal": 149,
       "newTotal": 151,
       "change": 2,
-      "description": "MarineMax Lake Ozark: 149 -> 151 (+2)"
+      "description": "MarineMax Lake Ozark: 149 -> 151 (+2)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "MarineMax Lake Ozark: 149 -> 151 (+2)"
     },
     {
       "scanId": "scan-051",
@@ -13126,7 +13427,12 @@
       "previousTotal": 119,
       "newTotal": 114,
       "change": -5,
-      "description": "Kelly's Port: 119 -> 114 (-5)"
+      "description": "Kelly's Port: 119 -> 114 (-5)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Kelly's Port: 119 -> 114 (-5)"
     },
     {
       "scanId": "scan-051",
@@ -13135,7 +13441,12 @@
       "previousTotal": 101,
       "newTotal": 93,
       "change": -8,
-      "description": "Iguana Marine Group: 101 -> 93 (-8)"
+      "description": "Iguana Marine Group: 101 -> 93 (-8)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 8,
+      "detail": "Iguana Marine Group: 101 -> 93 (-8)"
     },
     {
       "scanId": "scan-051",
@@ -13144,7 +13455,12 @@
       "previousTotal": 107,
       "newTotal": 104,
       "change": -3,
-      "description": "Premier Advantage Marine: 107 -> 104 (-3)"
+      "description": "Premier Advantage Marine: 107 -> 104 (-3)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Premier Advantage Marine: 107 -> 104 (-3)"
     },
     {
       "scanId": "scan-051",
@@ -13153,7 +13469,12 @@
       "previousTotal": 82,
       "newTotal": 87,
       "change": 5,
-      "description": "Heartland Marine: 82 -> 87 (+5)"
+      "description": "Heartland Marine: 82 -> 87 (+5)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 5,
+      "detail": "Heartland Marine: 82 -> 87 (+5)"
     },
     {
       "scanId": "scan-051",
@@ -13162,7 +13483,12 @@
       "previousTotal": 44,
       "newTotal": 48,
       "change": 4,
-      "description": "Marty's Marine: 44 -> 48 (+4)"
+      "description": "Marty's Marine: 44 -> 48 (+4)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Marty's Marine: 44 -> 48 (+4)"
     },
     {
       "scanId": "scan-051",
@@ -13171,7 +13497,12 @@
       "previousTotal": 48,
       "newTotal": 49,
       "change": 1,
-      "description": "All About Boats: 48 -> 49 (+1)"
+      "description": "All About Boats: 48 -> 49 (+1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "All About Boats: 48 -> 49 (+1)"
     },
     {
       "scanId": "scan-052",
@@ -13180,7 +13511,12 @@
       "previousTotal": 242,
       "newTotal": 241,
       "change": -1,
-      "description": "Big Thunder Marine: 242 -> 241 (-1)"
+      "description": "Big Thunder Marine: 242 -> 241 (-1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Big Thunder Marine: 242 -> 241 (-1)"
     },
     {
       "scanId": "scan-052",
@@ -13189,7 +13525,12 @@
       "previousTotal": 151,
       "newTotal": 150,
       "change": -1,
-      "description": "MarineMax Lake Ozark: 151 -> 150 (-1)"
+      "description": "MarineMax Lake Ozark: 151 -> 150 (-1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 151 -> 150 (-1)"
     },
     {
       "scanId": "scan-052",
@@ -13198,7 +13539,12 @@
       "previousTotal": 114,
       "newTotal": 112,
       "change": -2,
-      "description": "Kelly's Port: 114 -> 112 (-2)"
+      "description": "Kelly's Port: 114 -> 112 (-2)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Kelly's Port: 114 -> 112 (-2)"
     },
     {
       "scanId": "scan-052",
@@ -13207,7 +13553,12 @@
       "previousTotal": 93,
       "newTotal": 101,
       "change": 8,
-      "description": "Iguana Marine Group: 93 -> 101 (+8)"
+      "description": "Iguana Marine Group: 93 -> 101 (+8)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 8,
+      "detail": "Iguana Marine Group: 93 -> 101 (+8)"
     },
     {
       "scanId": "scan-052",
@@ -13216,7 +13567,12 @@
       "previousTotal": 48,
       "newTotal": 43,
       "change": -5,
-      "description": "Marty's Marine: 48 -> 43 (-5)"
+      "description": "Marty's Marine: 48 -> 43 (-5)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Marty's Marine: 48 -> 43 (-5)"
     },
     {
       "scanId": "scan-053",
@@ -13225,7 +13581,12 @@
       "previousTotal": 150,
       "newTotal": 148,
       "change": -2,
-      "description": "MarineMax Lake Ozark: 150 -> 148 (-2)"
+      "description": "MarineMax Lake Ozark: 150 -> 148 (-2)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "MarineMax Lake Ozark: 150 -> 148 (-2)"
     },
     {
       "scanId": "scan-053",
@@ -13234,7 +13595,12 @@
       "previousTotal": 112,
       "newTotal": 108,
       "change": -4,
-      "description": "Kelly's Port: 112 -> 108 (-4)"
+      "description": "Kelly's Port: 112 -> 108 (-4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Kelly's Port: 112 -> 108 (-4)"
     },
     {
       "scanId": "scan-053",
@@ -13243,7 +13609,12 @@
       "previousTotal": 101,
       "newTotal": 93,
       "change": -8,
-      "description": "Iguana Marine Group: 101 -> 93 (-8)"
+      "description": "Iguana Marine Group: 101 -> 93 (-8)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 8,
+      "detail": "Iguana Marine Group: 101 -> 93 (-8)"
     },
     {
       "scanId": "scan-054",
@@ -13252,7 +13623,12 @@
       "previousTotal": 148,
       "newTotal": 147,
       "change": -1,
-      "description": "MarineMax Lake Ozark: 148 -> 147 (-1)"
+      "description": "MarineMax Lake Ozark: 148 -> 147 (-1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 148 -> 147 (-1)"
     },
     {
       "scanId": "scan-054",
@@ -13261,7 +13637,12 @@
       "previousTotal": 108,
       "newTotal": 112,
       "change": 4,
-      "description": "Kelly's Port: 108 -> 112 (+4)"
+      "description": "Kelly's Port: 108 -> 112 (+4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Kelly's Port: 108 -> 112 (+4)"
     },
     {
       "scanId": "scan-054",
@@ -13270,7 +13651,12 @@
       "previousTotal": 93,
       "newTotal": 101,
       "change": 8,
-      "description": "Iguana Marine Group: 93 -> 101 (+8)"
+      "description": "Iguana Marine Group: 93 -> 101 (+8)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 8,
+      "detail": "Iguana Marine Group: 93 -> 101 (+8)"
     },
     {
       "scanId": "scan-054",
@@ -13279,7 +13665,12 @@
       "previousTotal": 87,
       "newTotal": 88,
       "change": 1,
-      "description": "Heartland Marine: 87 -> 88 (+1)"
+      "description": "Heartland Marine: 87 -> 88 (+1)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Heartland Marine: 87 -> 88 (+1)"
     },
     {
       "scanId": "scan-054",
@@ -13288,7 +13679,12 @@
       "previousTotal": 119,
       "newTotal": 120,
       "change": 1,
-      "description": "Premier 54 Motorsports: 119 -> 120 (+1)"
+      "description": "Premier 54 Motorsports: 119 -> 120 (+1)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier 54 Motorsports: 119 -> 120 (+1)"
     },
     {
       "scanId": "scan-054",
@@ -13297,7 +13693,12 @@
       "previousTotal": 43,
       "newTotal": 35,
       "change": -8,
-      "description": "Marty's Marine: 43 -> 35 (-8)"
+      "description": "Marty's Marine: 43 -> 35 (-8)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 8,
+      "detail": "Marty's Marine: 43 -> 35 (-8)"
     },
     {
       "scanId": "scan-055",
@@ -13306,7 +13707,12 @@
       "previousTotal": 147,
       "newTotal": 151,
       "change": 4,
-      "description": "MarineMax Lake Ozark: 147 -> 151 (+4)"
+      "description": "MarineMax Lake Ozark: 147 -> 151 (+4)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "MarineMax Lake Ozark: 147 -> 151 (+4)"
     },
     {
       "scanId": "scan-055",
@@ -13315,7 +13721,12 @@
       "previousTotal": 59,
       "newTotal": 61,
       "change": 2,
-      "description": "Village Marina & Yacht Club: 59 -> 61 (+2)"
+      "description": "Village Marina & Yacht Club: 59 -> 61 (+2)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Village Marina & Yacht Club: 59 -> 61 (+2)"
     },
     {
       "scanId": "scan-055",
@@ -13324,7 +13735,12 @@
       "previousTotal": 101,
       "newTotal": 106,
       "change": 5,
-      "description": "Iguana Marine Group: 101 -> 106 (+5)"
+      "description": "Iguana Marine Group: 101 -> 106 (+5)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 5,
+      "detail": "Iguana Marine Group: 101 -> 106 (+5)"
     },
     {
       "scanId": "scan-055",
@@ -13333,7 +13749,12 @@
       "previousTotal": 88,
       "newTotal": 83,
       "change": -5,
-      "description": "Heartland Marine: 88 -> 83 (-5)"
+      "description": "Heartland Marine: 88 -> 83 (-5)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Heartland Marine: 88 -> 83 (-5)"
     },
     {
       "scanId": "scan-055",
@@ -13342,7 +13763,12 @@
       "previousTotal": 94,
       "newTotal": 99,
       "change": 5,
-      "description": "Stateamind Water Sports: 94 -> 99 (+5)"
+      "description": "Stateamind Water Sports: 94 -> 99 (+5)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 5,
+      "detail": "Stateamind Water Sports: 94 -> 99 (+5)"
     },
     {
       "scanId": "scan-055",
@@ -13351,7 +13777,12 @@
       "previousTotal": 120,
       "newTotal": 124,
       "change": 4,
-      "description": "Premier 54 Motorsports: 120 -> 124 (+4)"
+      "description": "Premier 54 Motorsports: 120 -> 124 (+4)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Premier 54 Motorsports: 120 -> 124 (+4)"
     },
     {
       "scanId": "scan-055",
@@ -13360,7 +13791,12 @@
       "previousTotal": 35,
       "newTotal": 43,
       "change": 8,
-      "description": "Marty's Marine: 35 -> 43 (+8)"
+      "description": "Marty's Marine: 35 -> 43 (+8)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 8,
+      "detail": "Marty's Marine: 35 -> 43 (+8)"
     },
     {
       "scanId": "scan-055",
@@ -13369,7 +13805,12 @@
       "previousTotal": 49,
       "newTotal": 50,
       "change": 1,
-      "description": "All About Boats: 49 -> 50 (+1)"
+      "description": "All About Boats: 49 -> 50 (+1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "All About Boats: 49 -> 50 (+1)"
     },
     {
       "scanId": "scan-056",
@@ -13378,7 +13819,12 @@
       "previousTotal": 241,
       "newTotal": 243,
       "change": 2,
-      "description": "Big Thunder Marine: 241 -> 243 (+2)"
+      "description": "Big Thunder Marine: 241 -> 243 (+2)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Big Thunder Marine: 241 -> 243 (+2)"
     },
     {
       "scanId": "scan-056",
@@ -13387,7 +13833,12 @@
       "previousTotal": 61,
       "newTotal": 62,
       "change": 1,
-      "description": "Village Marina & Yacht Club: 61 -> 62 (+1)"
+      "description": "Village Marina & Yacht Club: 61 -> 62 (+1)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Village Marina & Yacht Club: 61 -> 62 (+1)"
     },
     {
       "scanId": "scan-056",
@@ -13396,7 +13847,12 @@
       "previousTotal": 106,
       "newTotal": 102,
       "change": -4,
-      "description": "Iguana Marine Group: 106 -> 102 (-4)"
+      "description": "Iguana Marine Group: 106 -> 102 (-4)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Iguana Marine Group: 106 -> 102 (-4)"
     },
     {
       "scanId": "scan-056",
@@ -13405,7 +13861,12 @@
       "previousTotal": 104,
       "newTotal": 105,
       "change": 1,
-      "description": "Premier Advantage Marine: 104 -> 105 (+1)"
+      "description": "Premier Advantage Marine: 104 -> 105 (+1)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier Advantage Marine: 104 -> 105 (+1)"
     },
     {
       "scanId": "scan-056",
@@ -13414,7 +13875,12 @@
       "previousTotal": 50,
       "newTotal": 51,
       "change": 1,
-      "description": "All About Boats: 50 -> 51 (+1)"
+      "description": "All About Boats: 50 -> 51 (+1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "All About Boats: 50 -> 51 (+1)"
     },
     {
       "scanId": "scan-057",
@@ -13423,7 +13889,12 @@
       "previousTotal": 243,
       "newTotal": 244,
       "change": 1,
-      "description": "Big Thunder Marine: 243 -> 244 (+1)"
+      "description": "Big Thunder Marine: 243 -> 244 (+1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Big Thunder Marine: 243 -> 244 (+1)"
     },
     {
       "scanId": "scan-057",
@@ -13432,7 +13903,12 @@
       "previousTotal": 62,
       "newTotal": 65,
       "change": 3,
-      "description": "Village Marina & Yacht Club: 62 -> 65 (+3)"
+      "description": "Village Marina & Yacht Club: 62 -> 65 (+3)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 3,
+      "detail": "Village Marina & Yacht Club: 62 -> 65 (+3)"
     },
     {
       "scanId": "scan-057",
@@ -13441,7 +13917,12 @@
       "previousTotal": 102,
       "newTotal": 101,
       "change": -1,
-      "description": "Iguana Marine Group: 102 -> 101 (-1)"
+      "description": "Iguana Marine Group: 102 -> 101 (-1)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Iguana Marine Group: 102 -> 101 (-1)"
     },
     {
       "scanId": "scan-057",
@@ -13450,7 +13931,12 @@
       "previousTotal": 105,
       "newTotal": 106,
       "change": 1,
-      "description": "Premier Advantage Marine: 105 -> 106 (+1)"
+      "description": "Premier Advantage Marine: 105 -> 106 (+1)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier Advantage Marine: 105 -> 106 (+1)"
     },
     {
       "scanId": "scan-057",
@@ -13459,7 +13945,12 @@
       "previousTotal": 83,
       "newTotal": 87,
       "change": 4,
-      "description": "Heartland Marine: 83 -> 87 (+4)"
+      "description": "Heartland Marine: 83 -> 87 (+4)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Heartland Marine: 83 -> 87 (+4)"
     },
     {
       "scanId": "scan-057",
@@ -13468,7 +13959,12 @@
       "previousTotal": 99,
       "newTotal": 94,
       "change": -5,
-      "description": "Stateamind Water Sports: 99 -> 94 (-5)"
+      "description": "Stateamind Water Sports: 99 -> 94 (-5)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Stateamind Water Sports: 99 -> 94 (-5)"
     },
     {
       "scanId": "scan-057",
@@ -13477,7 +13973,12 @@
       "previousTotal": 124,
       "newTotal": 122,
       "change": -2,
-      "description": "Premier 54 Motorsports: 124 -> 122 (-2)"
+      "description": "Premier 54 Motorsports: 124 -> 122 (-2)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Premier 54 Motorsports: 124 -> 122 (-2)"
     },
     {
       "scanId": "scan-058",
@@ -13486,7 +13987,12 @@
       "previousTotal": 244,
       "newTotal": 245,
       "change": 1,
-      "description": "Big Thunder Marine: 244 -> 245 (+1)"
+      "description": "Big Thunder Marine: 244 -> 245 (+1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Big Thunder Marine: 244 -> 245 (+1)"
     },
     {
       "scanId": "scan-058",
@@ -13495,7 +14001,12 @@
       "previousTotal": 112,
       "newTotal": 113,
       "change": 1,
-      "description": "Kelly's Port: 112 -> 113 (+1)"
+      "description": "Kelly's Port: 112 -> 113 (+1)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Kelly's Port: 112 -> 113 (+1)"
     },
     {
       "scanId": "scan-058",
@@ -13504,7 +14015,12 @@
       "previousTotal": 65,
       "newTotal": 64,
       "change": -1,
-      "description": "Village Marina & Yacht Club: 65 -> 64 (-1)"
+      "description": "Village Marina & Yacht Club: 65 -> 64 (-1)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Village Marina & Yacht Club: 65 -> 64 (-1)"
     },
     {
       "scanId": "scan-058",
@@ -13513,7 +14029,12 @@
       "previousTotal": 101,
       "newTotal": 99,
       "change": -2,
-      "description": "Iguana Marine Group: 101 -> 99 (-2)"
+      "description": "Iguana Marine Group: 101 -> 99 (-2)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Iguana Marine Group: 101 -> 99 (-2)"
     },
     {
       "scanId": "scan-058",
@@ -13522,7 +14043,12 @@
       "previousTotal": 87,
       "newTotal": 88,
       "change": 1,
-      "description": "Heartland Marine: 87 -> 88 (+1)"
+      "description": "Heartland Marine: 87 -> 88 (+1)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Heartland Marine: 87 -> 88 (+1)"
     },
     {
       "scanId": "scan-058",
@@ -13531,7 +14057,12 @@
       "previousTotal": 94,
       "newTotal": 93,
       "change": -1,
-      "description": "Stateamind Water Sports: 94 -> 93 (-1)"
+      "description": "Stateamind Water Sports: 94 -> 93 (-1)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Stateamind Water Sports: 94 -> 93 (-1)"
     },
     {
       "scanId": "scan-058",
@@ -13540,7 +14071,12 @@
       "previousTotal": 51,
       "newTotal": 52,
       "change": 1,
-      "description": "All About Boats: 51 -> 52 (+1)"
+      "description": "All About Boats: 51 -> 52 (+1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "All About Boats: 51 -> 52 (+1)"
     },
     {
       "scanId": "scan-059",
@@ -13549,7 +14085,12 @@
       "previousTotal": 245,
       "newTotal": 243,
       "change": -2,
-      "description": "Big Thunder Marine: 245 -> 243 (-2)"
+      "description": "Big Thunder Marine: 245 -> 243 (-2)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Big Thunder Marine: 245 -> 243 (-2)"
     },
     {
       "scanId": "scan-059",
@@ -13558,7 +14099,12 @@
       "previousTotal": 151,
       "newTotal": 150,
       "change": -1,
-      "description": "MarineMax Lake Ozark: 151 -> 150 (-1)"
+      "description": "MarineMax Lake Ozark: 151 -> 150 (-1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 151 -> 150 (-1)"
     },
     {
       "scanId": "scan-059",
@@ -13567,7 +14113,12 @@
       "previousTotal": 88,
       "newTotal": 83,
       "change": -5,
-      "description": "Heartland Marine: 88 -> 83 (-5)"
+      "description": "Heartland Marine: 88 -> 83 (-5)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Heartland Marine: 88 -> 83 (-5)"
     },
     {
       "scanId": "scan-060",
@@ -13576,7 +14127,12 @@
       "previousTotal": 150,
       "newTotal": 154,
       "change": 4,
-      "description": "MarineMax Lake Ozark: 150 -> 154 (+4)"
+      "description": "MarineMax Lake Ozark: 150 -> 154 (+4)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "MarineMax Lake Ozark: 150 -> 154 (+4)"
     },
     {
       "scanId": "scan-062",
@@ -13585,7 +14141,12 @@
       "previousTotal": 243,
       "newTotal": 240,
       "change": -3,
-      "description": "Big Thunder Marine: 243 -> 240 (-3)"
+      "description": "Big Thunder Marine: 243 -> 240 (-3)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Big Thunder Marine: 243 -> 240 (-3)"
     },
     {
       "scanId": "scan-062",
@@ -13594,7 +14155,12 @@
       "previousTotal": 154,
       "newTotal": 155,
       "change": 1,
-      "description": "MarineMax Lake Ozark: 154 -> 155 (+1)"
+      "description": "MarineMax Lake Ozark: 154 -> 155 (+1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 154 -> 155 (+1)"
     },
     {
       "scanId": "scan-062",
@@ -13603,7 +14169,12 @@
       "previousTotal": 64,
       "newTotal": 61,
       "change": -3,
-      "description": "Village Marina & Yacht Club: 64 -> 61 (-3)"
+      "description": "Village Marina & Yacht Club: 64 -> 61 (-3)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Village Marina & Yacht Club: 64 -> 61 (-3)"
     },
     {
       "scanId": "scan-062",
@@ -13612,7 +14183,12 @@
       "previousTotal": 99,
       "newTotal": 97,
       "change": -2,
-      "description": "Iguana Marine Group: 99 -> 97 (-2)"
+      "description": "Iguana Marine Group: 99 -> 97 (-2)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Iguana Marine Group: 99 -> 97 (-2)"
     },
     {
       "scanId": "scan-062",
@@ -13621,7 +14197,12 @@
       "previousTotal": 83,
       "newTotal": 85,
       "change": 2,
-      "description": "Heartland Marine: 83 -> 85 (+2)"
+      "description": "Heartland Marine: 83 -> 85 (+2)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Heartland Marine: 83 -> 85 (+2)"
     },
     {
       "scanId": "scan-062",
@@ -13630,7 +14211,12 @@
       "previousTotal": 122,
       "newTotal": 121,
       "change": -1,
-      "description": "Premier 54 Motorsports: 122 -> 121 (-1)"
+      "description": "Premier 54 Motorsports: 122 -> 121 (-1)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Premier 54 Motorsports: 122 -> 121 (-1)"
     },
     {
       "scanId": "scan-063",
@@ -13639,7 +14225,12 @@
       "previousTotal": 240,
       "newTotal": 239,
       "change": -1,
-      "description": "Big Thunder Marine: 240 -> 239 (-1)"
+      "description": "Big Thunder Marine: 240 -> 239 (-1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Big Thunder Marine: 240 -> 239 (-1)"
     },
     {
       "scanId": "scan-063",
@@ -13648,7 +14239,12 @@
       "previousTotal": 113,
       "newTotal": 109,
       "change": -4,
-      "description": "Kelly's Port: 113 -> 109 (-4)"
+      "description": "Kelly's Port: 113 -> 109 (-4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Kelly's Port: 113 -> 109 (-4)"
     },
     {
       "scanId": "scan-063",
@@ -13657,7 +14253,12 @@
       "previousTotal": 106,
       "newTotal": 108,
       "change": 2,
-      "description": "Premier Advantage Marine: 106 -> 108 (+2)"
+      "description": "Premier Advantage Marine: 106 -> 108 (+2)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Premier Advantage Marine: 106 -> 108 (+2)"
     },
     {
       "scanId": "scan-063",
@@ -13666,7 +14267,12 @@
       "previousTotal": 56,
       "newTotal": 52,
       "change": -4,
-      "description": "Formula Boats of Missouri: 56 -> 52 (-4)"
+      "description": "Formula Boats of Missouri: 56 -> 52 (-4)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Formula Boats of Missouri: 56 -> 52 (-4)"
     },
     {
       "scanId": "scan-063",
@@ -13675,7 +14281,12 @@
       "previousTotal": 85,
       "newTotal": 87,
       "change": 2,
-      "description": "Heartland Marine: 85 -> 87 (+2)"
+      "description": "Heartland Marine: 85 -> 87 (+2)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Heartland Marine: 85 -> 87 (+2)"
     },
     {
       "scanId": "scan-063",
@@ -13684,7 +14295,12 @@
       "previousTotal": 93,
       "newTotal": 80,
       "change": -13,
-      "description": "Stateamind Water Sports: 93 -> 80 (-13)"
+      "description": "Stateamind Water Sports: 93 -> 80 (-13)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_decrease",
+      "count": 13,
+      "detail": "Stateamind Water Sports: 93 -> 80 (-13)"
     },
     {
       "scanId": "scan-063",
@@ -13693,7 +14309,12 @@
       "previousTotal": 52,
       "newTotal": 51,
       "change": -1,
-      "description": "All About Boats: 52 -> 51 (-1)"
+      "description": "All About Boats: 52 -> 51 (-1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "All About Boats: 52 -> 51 (-1)"
     },
     {
       "scanId": "scan-064",
@@ -13702,7 +14323,12 @@
       "previousTotal": 109,
       "newTotal": 113,
       "change": 4,
-      "description": "Kelly's Port: 109 -> 113 (+4)"
+      "description": "Kelly's Port: 109 -> 113 (+4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Kelly's Port: 109 -> 113 (+4)"
     },
     {
       "scanId": "scan-064",
@@ -13711,7 +14337,12 @@
       "previousTotal": 61,
       "newTotal": 58,
       "change": -3,
-      "description": "Village Marina & Yacht Club: 61 -> 58 (-3)"
+      "description": "Village Marina & Yacht Club: 61 -> 58 (-3)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Village Marina & Yacht Club: 61 -> 58 (-3)"
     },
     {
       "scanId": "scan-064",
@@ -13720,7 +14351,12 @@
       "previousTotal": 108,
       "newTotal": 100,
       "change": -8,
-      "description": "Premier Advantage Marine: 108 -> 100 (-8)"
+      "description": "Premier Advantage Marine: 108 -> 100 (-8)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_decrease",
+      "count": 8,
+      "detail": "Premier Advantage Marine: 108 -> 100 (-8)"
     },
     {
       "scanId": "scan-064",
@@ -13729,7 +14365,12 @@
       "previousTotal": 52,
       "newTotal": 53,
       "change": 1,
-      "description": "Formula Boats of Missouri: 52 -> 53 (+1)"
+      "description": "Formula Boats of Missouri: 52 -> 53 (+1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 52 -> 53 (+1)"
     },
     {
       "scanId": "scan-064",
@@ -13738,7 +14379,12 @@
       "previousTotal": 87,
       "newTotal": 89,
       "change": 2,
-      "description": "Heartland Marine: 87 -> 89 (+2)"
+      "description": "Heartland Marine: 87 -> 89 (+2)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Heartland Marine: 87 -> 89 (+2)"
     },
     {
       "scanId": "scan-064",
@@ -13747,7 +14393,12 @@
       "previousTotal": 80,
       "newTotal": 81,
       "change": 1,
-      "description": "Stateamind Water Sports: 80 -> 81 (+1)"
+      "description": "Stateamind Water Sports: 80 -> 81 (+1)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Stateamind Water Sports: 80 -> 81 (+1)"
     },
     {
       "scanId": "scan-064",
@@ -13756,7 +14407,12 @@
       "previousTotal": 121,
       "newTotal": 120,
       "change": -1,
-      "description": "Premier 54 Motorsports: 121 -> 120 (-1)"
+      "description": "Premier 54 Motorsports: 121 -> 120 (-1)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Premier 54 Motorsports: 121 -> 120 (-1)"
     },
     {
       "scanId": "scan-064",
@@ -13765,7 +14421,12 @@
       "previousTotal": 43,
       "newTotal": 42,
       "change": -1,
-      "description": "Marty's Marine: 43 -> 42 (-1)"
+      "description": "Marty's Marine: 43 -> 42 (-1)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Marty's Marine: 43 -> 42 (-1)"
     },
     {
       "scanId": "scan-065",
@@ -13774,7 +14435,12 @@
       "previousTotal": 239,
       "newTotal": 243,
       "change": 4,
-      "description": "Big Thunder Marine: 239 -> 243 (+4)"
+      "description": "Big Thunder Marine: 239 -> 243 (+4)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Big Thunder Marine: 239 -> 243 (+4)"
     },
     {
       "scanId": "scan-065",
@@ -13783,7 +14449,12 @@
       "previousTotal": 155,
       "newTotal": 156,
       "change": 1,
-      "description": "MarineMax Lake Ozark: 155 -> 156 (+1)"
+      "description": "MarineMax Lake Ozark: 155 -> 156 (+1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 155 -> 156 (+1)"
     },
     {
       "scanId": "scan-065",
@@ -13792,7 +14463,12 @@
       "previousTotal": 113,
       "newTotal": 116,
       "change": 3,
-      "description": "Kelly's Port: 113 -> 116 (+3)"
+      "description": "Kelly's Port: 113 -> 116 (+3)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 3,
+      "detail": "Kelly's Port: 113 -> 116 (+3)"
     },
     {
       "scanId": "scan-065",
@@ -13801,7 +14477,12 @@
       "previousTotal": 58,
       "newTotal": 59,
       "change": 1,
-      "description": "Village Marina & Yacht Club: 58 -> 59 (+1)"
+      "description": "Village Marina & Yacht Club: 58 -> 59 (+1)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Village Marina & Yacht Club: 58 -> 59 (+1)"
     },
     {
       "scanId": "scan-065",
@@ -13810,7 +14491,12 @@
       "previousTotal": 97,
       "newTotal": 99,
       "change": 2,
-      "description": "Iguana Marine Group: 97 -> 99 (+2)"
+      "description": "Iguana Marine Group: 97 -> 99 (+2)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Iguana Marine Group: 97 -> 99 (+2)"
     },
     {
       "scanId": "scan-065",
@@ -13819,7 +14505,12 @@
       "previousTotal": 100,
       "newTotal": 103,
       "change": 3,
-      "description": "Premier Advantage Marine: 100 -> 103 (+3)"
+      "description": "Premier Advantage Marine: 100 -> 103 (+3)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_increase",
+      "count": 3,
+      "detail": "Premier Advantage Marine: 100 -> 103 (+3)"
     },
     {
       "scanId": "scan-065",
@@ -13828,7 +14519,12 @@
       "previousTotal": 89,
       "newTotal": 85,
       "change": -4,
-      "description": "Heartland Marine: 89 -> 85 (-4)"
+      "description": "Heartland Marine: 89 -> 85 (-4)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Heartland Marine: 89 -> 85 (-4)"
     },
     {
       "scanId": "scan-065",
@@ -13837,7 +14533,12 @@
       "previousTotal": 81,
       "newTotal": 93,
       "change": 12,
-      "description": "Stateamind Water Sports: 81 -> 93 (+12)"
+      "description": "Stateamind Water Sports: 81 -> 93 (+12)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 12,
+      "detail": "Stateamind Water Sports: 81 -> 93 (+12)"
     },
     {
       "scanId": "scan-065",
@@ -13846,7 +14547,12 @@
       "previousTotal": 120,
       "newTotal": 121,
       "change": 1,
-      "description": "Premier 54 Motorsports: 120 -> 121 (+1)"
+      "description": "Premier 54 Motorsports: 120 -> 121 (+1)",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier 54 Motorsports: 120 -> 121 (+1)"
     },
     {
       "scanId": "scan-065",
@@ -13855,7 +14561,12 @@
       "previousTotal": 42,
       "newTotal": 41,
       "change": -1,
-      "description": "Marty's Marine: 42 -> 41 (-1)"
+      "description": "Marty's Marine: 42 -> 41 (-1)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Marty's Marine: 42 -> 41 (-1)"
     },
     {
       "scanId": "scan-066",
@@ -13864,7 +14575,12 @@
       "previousTotal": 243,
       "newTotal": 242,
       "change": -1,
-      "description": "Big Thunder Marine: 243 -> 242 (-1)"
+      "description": "Big Thunder Marine: 243 -> 242 (-1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Big Thunder Marine: 243 -> 242 (-1)"
     },
     {
       "scanId": "scan-066",
@@ -13873,7 +14589,12 @@
       "previousTotal": 156,
       "newTotal": 157,
       "change": 1,
-      "description": "MarineMax Lake Ozark: 156 -> 157 (+1)"
+      "description": "MarineMax Lake Ozark: 156 -> 157 (+1)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "MarineMax Lake Ozark: 156 -> 157 (+1)"
     },
     {
       "scanId": "scan-066",
@@ -13882,7 +14603,12 @@
       "previousTotal": 99,
       "newTotal": 93,
       "change": -6,
-      "description": "Iguana Marine Group: 99 -> 93 (-6)"
+      "description": "Iguana Marine Group: 99 -> 93 (-6)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 6,
+      "detail": "Iguana Marine Group: 99 -> 93 (-6)"
     },
     {
       "scanId": "scan-066",
@@ -13891,7 +14617,12 @@
       "previousTotal": 85,
       "newTotal": 83,
       "change": -2,
-      "description": "Heartland Marine: 85 -> 83 (-2)"
+      "description": "Heartland Marine: 85 -> 83 (-2)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "Heartland Marine: 85 -> 83 (-2)"
     },
     {
       "scanId": "scan-066",
@@ -13900,7 +14631,12 @@
       "previousTotal": 41,
       "newTotal": 46,
       "change": 5,
-      "description": "Marty's Marine: 41 -> 46 (+5)"
+      "description": "Marty's Marine: 41 -> 46 (+5)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 5,
+      "detail": "Marty's Marine: 41 -> 46 (+5)"
     },
     {
       "scanId": "scan-067",
@@ -13909,7 +14645,12 @@
       "previousTotal": 116,
       "newTotal": 120,
       "change": 4,
-      "description": "Kelly's Port: 116 -> 120 (+4)"
+      "description": "Kelly's Port: 116 -> 120 (+4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 4,
+      "detail": "Kelly's Port: 116 -> 120 (+4)"
     },
     {
       "scanId": "scan-067",
@@ -13918,7 +14659,12 @@
       "previousTotal": 93,
       "newTotal": 94,
       "change": 1,
-      "description": "Iguana Marine Group: 93 -> 94 (+1)"
+      "description": "Iguana Marine Group: 93 -> 94 (+1)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Iguana Marine Group: 93 -> 94 (+1)"
     },
     {
       "scanId": "scan-067",
@@ -13927,7 +14673,12 @@
       "previousTotal": 46,
       "newTotal": 43,
       "change": -3,
-      "description": "Marty's Marine: 46 -> 43 (-3)"
+      "description": "Marty's Marine: 46 -> 43 (-3)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Marty's Marine: 46 -> 43 (-3)"
     },
     {
       "scanId": "scan-068",
@@ -13936,7 +14687,12 @@
       "previousTotal": 242,
       "newTotal": 241,
       "change": -1,
-      "description": "Big Thunder Marine: 242 -> 241 (-1)"
+      "description": "Big Thunder Marine: 242 -> 241 (-1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Big Thunder Marine: 242 -> 241 (-1)"
     },
     {
       "scanId": "scan-068",
@@ -13945,7 +14701,12 @@
       "previousTotal": 157,
       "newTotal": 155,
       "change": -2,
-      "description": "MarineMax Lake Ozark: 157 -> 155 (-2)"
+      "description": "MarineMax Lake Ozark: 157 -> 155 (-2)",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax Lake Ozark",
+      "type": "inventory_decrease",
+      "count": 2,
+      "detail": "MarineMax Lake Ozark: 157 -> 155 (-2)"
     },
     {
       "scanId": "scan-068",
@@ -13954,7 +14715,12 @@
       "previousTotal": 120,
       "newTotal": 112,
       "change": -8,
-      "description": "Kelly's Port: 120 -> 112 (-8)"
+      "description": "Kelly's Port: 120 -> 112 (-8)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 8,
+      "detail": "Kelly's Port: 120 -> 112 (-8)"
     },
     {
       "scanId": "scan-068",
@@ -13963,7 +14729,12 @@
       "previousTotal": 94,
       "newTotal": 104,
       "change": 10,
-      "description": "Iguana Marine Group: 94 -> 104 (+10)"
+      "description": "Iguana Marine Group: 94 -> 104 (+10)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_increase",
+      "count": 10,
+      "detail": "Iguana Marine Group: 94 -> 104 (+10)"
     },
     {
       "scanId": "scan-068",
@@ -13972,7 +14743,12 @@
       "previousTotal": 53,
       "newTotal": 54,
       "change": 1,
-      "description": "Formula Boats of Missouri: 53 -> 54 (+1)"
+      "description": "Formula Boats of Missouri: 53 -> 54 (+1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 53 -> 54 (+1)"
     },
     {
       "scanId": "scan-068",
@@ -13981,7 +14757,12 @@
       "previousTotal": 93,
       "newTotal": 98,
       "change": 5,
-      "description": "Stateamind Water Sports: 93 -> 98 (+5)"
+      "description": "Stateamind Water Sports: 93 -> 98 (+5)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_increase",
+      "count": 5,
+      "detail": "Stateamind Water Sports: 93 -> 98 (+5)"
     },
     {
       "scanId": "scan-068",
@@ -13990,7 +14771,12 @@
       "previousTotal": 43,
       "newTotal": 42,
       "change": -1,
-      "description": "Marty's Marine: 43 -> 42 (-1)"
+      "description": "Marty's Marine: 43 -> 42 (-1)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Marty's Marine: 43 -> 42 (-1)"
     },
     {
       "scanId": "scan-069",
@@ -13999,7 +14785,12 @@
       "previousTotal": 241,
       "newTotal": 240,
       "change": -1,
-      "description": "Big Thunder Marine: 241 -> 240 (-1)"
+      "description": "Big Thunder Marine: 241 -> 240 (-1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Big Thunder Marine: 241 -> 240 (-1)"
     },
     {
       "scanId": "scan-069",
@@ -14008,7 +14799,12 @@
       "previousTotal": 112,
       "newTotal": 108,
       "change": -4,
-      "description": "Kelly's Port: 112 -> 108 (-4)"
+      "description": "Kelly's Port: 112 -> 108 (-4)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_decrease",
+      "count": 4,
+      "detail": "Kelly's Port: 112 -> 108 (-4)"
     },
     {
       "scanId": "scan-069",
@@ -14017,7 +14813,12 @@
       "previousTotal": 59,
       "newTotal": 61,
       "change": 2,
-      "description": "Village Marina & Yacht Club: 59 -> 61 (+2)"
+      "description": "Village Marina & Yacht Club: 59 -> 61 (+2)",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "type": "inventory_increase",
+      "count": 2,
+      "detail": "Village Marina & Yacht Club: 59 -> 61 (+2)"
     },
     {
       "scanId": "scan-069",
@@ -14026,7 +14827,12 @@
       "previousTotal": 104,
       "newTotal": 101,
       "change": -3,
-      "description": "Iguana Marine Group: 104 -> 101 (-3)"
+      "description": "Iguana Marine Group: 104 -> 101 (-3)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Iguana Marine Group: 104 -> 101 (-3)"
     },
     {
       "scanId": "scan-069",
@@ -14035,7 +14841,12 @@
       "previousTotal": 103,
       "newTotal": 104,
       "change": 1,
-      "description": "Premier Advantage Marine: 103 -> 104 (+1)"
+      "description": "Premier Advantage Marine: 103 -> 104 (+1)",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Premier Advantage Marine: 103 -> 104 (+1)"
     },
     {
       "scanId": "scan-069",
@@ -14044,7 +14855,12 @@
       "previousTotal": 54,
       "newTotal": 55,
       "change": 1,
-      "description": "Formula Boats of Missouri: 54 -> 55 (+1)"
+      "description": "Formula Boats of Missouri: 54 -> 55 (+1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 54 -> 55 (+1)"
     },
     {
       "scanId": "scan-069",
@@ -14053,7 +14869,12 @@
       "previousTotal": 98,
       "newTotal": 95,
       "change": -3,
-      "description": "Stateamind Water Sports: 98 -> 95 (-3)"
+      "description": "Stateamind Water Sports: 98 -> 95 (-3)",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "type": "inventory_decrease",
+      "count": 3,
+      "detail": "Stateamind Water Sports: 98 -> 95 (-3)"
     },
     {
       "scanId": "scan-069",
@@ -14062,7 +14883,12 @@
       "previousTotal": 42,
       "newTotal": 37,
       "change": -5,
-      "description": "Marty's Marine: 42 -> 37 (-5)"
+      "description": "Marty's Marine: 42 -> 37 (-5)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_decrease",
+      "count": 5,
+      "detail": "Marty's Marine: 42 -> 37 (-5)"
     },
     {
       "scanId": "scan-070",
@@ -14071,7 +14897,12 @@
       "previousTotal": 240,
       "newTotal": 241,
       "change": 1,
-      "description": "Big Thunder Marine: 240 -> 241 (+1)"
+      "description": "Big Thunder Marine: 240 -> 241 (+1)",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Big Thunder Marine: 240 -> 241 (+1)"
     },
     {
       "scanId": "scan-070",
@@ -14080,7 +14911,12 @@
       "previousTotal": 108,
       "newTotal": 117,
       "change": 9,
-      "description": "Kelly's Port: 108 -> 117 (+9)"
+      "description": "Kelly's Port: 108 -> 117 (+9)",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "type": "inventory_increase",
+      "count": 9,
+      "detail": "Kelly's Port: 108 -> 117 (+9)"
     },
     {
       "scanId": "scan-070",
@@ -14089,7 +14925,12 @@
       "previousTotal": 101,
       "newTotal": 100,
       "change": -1,
-      "description": "Iguana Marine Group: 101 -> 100 (-1)"
+      "description": "Iguana Marine Group: 101 -> 100 (-1)",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Iguana Marine Group: 101 -> 100 (-1)"
     },
     {
       "scanId": "scan-070",
@@ -14098,7 +14939,12 @@
       "previousTotal": 55,
       "newTotal": 56,
       "change": 1,
-      "description": "Formula Boats of Missouri: 55 -> 56 (+1)"
+      "description": "Formula Boats of Missouri: 55 -> 56 (+1)",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "Formula Boats of Missouri: 55 -> 56 (+1)"
     },
     {
       "scanId": "scan-070",
@@ -14107,7 +14953,12 @@
       "previousTotal": 83,
       "newTotal": 82,
       "change": -1,
-      "description": "Heartland Marine: 83 -> 82 (-1)"
+      "description": "Heartland Marine: 83 -> 82 (-1)",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "type": "inventory_decrease",
+      "count": 1,
+      "detail": "Heartland Marine: 83 -> 82 (-1)"
     },
     {
       "scanId": "scan-070",
@@ -14116,7 +14967,12 @@
       "previousTotal": 37,
       "newTotal": 43,
       "change": 6,
-      "description": "Marty's Marine: 37 -> 43 (+6)"
+      "description": "Marty's Marine: 37 -> 43 (+6)",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "type": "inventory_increase",
+      "count": 6,
+      "detail": "Marty's Marine: 37 -> 43 (+6)"
     },
     {
       "scanId": "scan-070",
@@ -14125,8 +14981,238 @@
       "previousTotal": 51,
       "newTotal": 52,
       "change": 1,
-      "description": "All About Boats: 51 -> 52 (+1)"
+      "description": "All About Boats: 51 -> 52 (+1)",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "type": "inventory_increase",
+      "count": 1,
+      "detail": "All About Boats: 51 -> 52 (+1)"
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "big-thunder-marine",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "previousTotal": 241,
+      "newTotal": 191,
+      "change": -50,
+      "type": "inventory_decrease",
+      "count": 50,
+      "description": "Big Thunder Marine: 241 -> 191 (-50)",
+      "detail": "Inventory decreased by 50 (was 241, now 191). New: 110, Used: 81. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "marinemax",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax",
+      "previousTotal": 155,
+      "newTotal": 42,
+      "change": -113,
+      "type": "inventory_decrease",
+      "count": 113,
+      "description": "MarineMax: 155 -> 42 (-113)",
+      "detail": "Inventory decreased by 113 (was 155, now 42). New: 22, Used: 20. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "performance-boat-center",
+      "dealerId": "performance-boat-center",
+      "dealerName": "Performance Boat Center",
+      "previousTotal": 177,
+      "newTotal": 87,
+      "change": -90,
+      "type": "inventory_decrease",
+      "count": 90,
+      "description": "Performance Boat Center: 177 -> 87 (-90)",
+      "detail": "Inventory decreased by 90 (was 177, now 87). New: 9, Used: 78. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "kellys-port",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "previousTotal": 117,
+      "newTotal": 114,
+      "change": -3,
+      "type": "inventory_decrease",
+      "count": 3,
+      "description": "Kelly's Port: 117 -> 114 (-3)",
+      "detail": "Inventory decreased by 3 (was 117, now 114). New: 70, Used: 44. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "village-marina",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "previousTotal": 61,
+      "newTotal": 51,
+      "change": -10,
+      "type": "inventory_decrease",
+      "count": 10,
+      "description": "Village Marina & Yacht Club: 61 -> 51 (-10)",
+      "detail": "Inventory decreased by 10 (was 61, now 51). New: 18, Used: 33. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "iguana-marine",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "previousTotal": 100,
+      "newTotal": 104,
+      "change": 4,
+      "type": "inventory_increase",
+      "count": 4,
+      "description": "Iguana Marine Group: 100 -> 104 (+4)",
+      "detail": "Inventory increased by 4 (was 100, now 104). New: 65, Used: 39. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "premier-advantage",
+      "dealerId": "premier-advantage",
+      "dealerName": "Premier Advantage Marine",
+      "previousTotal": 104,
+      "newTotal": 98,
+      "change": -6,
+      "type": "inventory_decrease",
+      "count": 6,
+      "description": "Premier Advantage Marine: 104 -> 98 (-6)",
+      "detail": "Inventory decreased by 6 (was 104, now 98). New: 14, Used: 84. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "formula-boats-mo",
+      "dealerId": "formula-boats-mo",
+      "dealerName": "Formula Boats of Missouri",
+      "previousTotal": 56,
+      "newTotal": 29,
+      "change": -27,
+      "type": "inventory_decrease",
+      "count": 27,
+      "description": "Formula Boats of Missouri: 56 -> 29 (-27)",
+      "detail": "Inventory decreased by 27 (was 56, now 29). New: 19, Used: 10. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "performance-marine",
+      "dealerId": "performance-marine",
+      "dealerName": "Performance Marine Watersports",
+      "previousTotal": 111,
+      "newTotal": 37,
+      "change": -74,
+      "type": "inventory_decrease",
+      "count": 74,
+      "description": "Performance Marine Watersports: 111 -> 37 (-74)",
+      "detail": "Inventory decreased by 74 (was 111, now 37). New: 24, Used: 13. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "heartland-marine",
+      "dealerId": "heartland-marine",
+      "dealerName": "Heartland Marine",
+      "previousTotal": 82,
+      "newTotal": 51,
+      "change": -31,
+      "type": "inventory_decrease",
+      "count": 31,
+      "description": "Heartland Marine: 82 -> 51 (-31)",
+      "detail": "Inventory decreased by 31 (was 82, now 51). New: 16, Used: 35. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "stateamind",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "previousTotal": 95,
+      "newTotal": 100,
+      "change": 5,
+      "type": "inventory_increase",
+      "count": 5,
+      "description": "Stateamind Water Sports: 95 -> 100 (+5)",
+      "detail": "Inventory increased by 5 (was 95, now 100). New: 61, Used: 39. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "premier-54",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "previousTotal": 121,
+      "newTotal": 89,
+      "change": -32,
+      "type": "inventory_decrease",
+      "count": 32,
+      "description": "Premier 54 Motorsports: 121 -> 89 (-32)",
+      "detail": "Inventory decreased by 32 (was 121, now 89). New: 54, Used: 35. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "martys-marine",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "previousTotal": 43,
+      "newTotal": 19,
+      "change": -24,
+      "type": "inventory_decrease",
+      "count": 24,
+      "description": "Marty's Marine: 43 -> 19 (-24)",
+      "detail": "Inventory decreased by 24 (was 43, now 19). New: 14, Used: 5. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "surdyke-yamaha",
+      "dealerId": "surdyke-yamaha",
+      "dealerName": "Surdyke Yamaha & Marina",
+      "previousTotal": 427,
+      "newTotal": 106,
+      "change": -321,
+      "type": "inventory_decrease",
+      "count": 321,
+      "description": "Surdyke Yamaha & Marina: 427 -> 106 (-321)",
+      "detail": "Inventory decreased by 321 (was 427, now 106). New: 75, Used: 31. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "scanId": "scan-071",
+      "date": "2026-09-05",
+      "competitorId": "all-about-boats",
+      "dealerId": "all-about-boats",
+      "dealerName": "All About Boats",
+      "previousTotal": 52,
+      "newTotal": 44,
+      "change": -8,
+      "type": "inventory_decrease",
+      "count": 8,
+      "description": "All About Boats: 52 -> 44 (-8)",
+      "detail": "Inventory decreased by 8 (was 52, now 44). New: 28, Used: 16. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change.",
+      "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
     }
   ],
-  "lastUpdated": "2026-05-21T06:13:21.045792+00:00"
+  "lastUpdated": "2026-09-05T15:15:20.548599+00:00"
 }

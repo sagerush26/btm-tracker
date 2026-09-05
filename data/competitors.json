@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-04T15:29:35.268861+00:00",
+  "lastScan": "2026-09-05T15:15:20.548599+00:00",
   "competitors": [
     {
       "id": "big-thunder-marine",
@@ -25,11 +25,11 @@
       "isOwn": true,
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-04T14:55:31.655489+00:00",
-      "totalInventory": 3,
-      "newInventory": 0,
-      "usedInventory": 3,
-      "averagePrice": 291508
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 191,
+      "newInventory": 110,
+      "usedInventory": 81,
+      "averagePrice": 287978.25
     },
     {
       "id": "marinemax",
@@ -48,8 +48,13 @@
         "Cruisers Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 42,
+      "newInventory": 22,
+      "usedInventory": 20,
+      "averagePrice": 503657.64
     },
     {
       "id": "performance-boat-center",
@@ -64,8 +69,13 @@
         "South Bay"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 87,
+      "newInventory": 9,
+      "usedInventory": 78,
+      "averagePrice": 503764.07
     },
     {
       "id": "kellys-port",
@@ -79,8 +89,13 @@
         "Tiara Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 114,
+      "newInventory": 70,
+      "usedInventory": 44,
+      "averagePrice": 282827.43
     },
     {
       "id": "village-marina",
@@ -93,8 +108,13 @@
         "Marquis Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 51,
+      "newInventory": 18,
+      "usedInventory": 33,
+      "averagePrice": 141531.1
     },
     {
       "id": "iguana-marine",
@@ -108,8 +128,13 @@
         "Rinker"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "Displayed total 103, but extracted 10 boat records"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 104,
+      "newInventory": 65,
+      "usedInventory": 39,
+      "averagePrice": 187512.8
     },
     {
       "id": "premier-advantage",
@@ -124,8 +149,13 @@
         "iKon"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "Displayed total 5256, but extracted 6 boat records"
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 98,
+      "newInventory": 14,
+      "usedInventory": 84,
+      "averagePrice": 75825.73
     },
     {
       "id": "formula-boats-mo",
@@ -135,8 +165,13 @@
         "Formula"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 29,
+      "newInventory": 19,
+      "usedInventory": 10,
+      "averagePrice": 312299.0
     },
     {
       "id": "performance-marine",
@@ -148,8 +183,13 @@
         "Moomba"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "Displayed total 40, but extracted 1 boat records"
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 37,
+      "newInventory": 24,
+      "usedInventory": 13,
+      "averagePrice": 157985.1
     },
     {
       "id": "heartland-marine",
@@ -161,11 +201,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-04T15:23:23.346490+00:00",
-      "totalInventory": 52,
-      "newInventory": 8,
-      "usedInventory": 0,
-      "averagePrice": 55936
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 51,
+      "newInventory": 16,
+      "usedInventory": 35,
+      "averagePrice": 65119.37
     },
     {
       "id": "stateamind",
@@ -181,8 +221,13 @@
         "Statement"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "Displayed total 99, but extracted 2 boat records"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 100,
+      "newInventory": 61,
+      "usedInventory": 39,
+      "averagePrice": 179327.04
     },
     {
       "id": "premier-54",
@@ -196,11 +241,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-04T15:28:52.227482+00:00",
-      "totalInventory": 3,
-      "newInventory": 0,
-      "usedInventory": 3,
-      "averagePrice": 106567
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 89,
+      "newInventory": 54,
+      "usedInventory": 35,
+      "averagePrice": 149943.64
     },
     {
       "id": "martys-marine",
@@ -214,12 +259,12 @@
       ],
       "location": "All Locations",
       "scanStatus": "verified",
-      "verificationReason": "Verified",
-      "lastVerified": "2026-09-04T15:29:29.794222+00:00",
-      "totalInventory": 23,
-      "newInventory": 0,
-      "usedInventory": 23,
-      "averagePrice": 137397
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 19,
+      "newInventory": 14,
+      "usedInventory": 5,
+      "averagePrice": 61698.0
     },
     {
       "id": "surdyke-yamaha",
@@ -232,8 +277,13 @@
         "Axopar"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 106,
+      "newInventory": 75,
+      "usedInventory": 31,
+      "averagePrice": 107094.62
     },
     {
       "id": "all-about-boats",
@@ -245,8 +295,13 @@
         "SunChaser"
       ],
       "location": "All Locations",
-      "scanStatus": "failed",
-      "verificationReason": "No boat listings extracted"
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-05T15:15:20.548599+00:00",
+      "totalInventory": 44,
+      "newInventory": 28,
+      "usedInventory": 16,
+      "averagePrice": 147750.0
     }
   ]
 }
