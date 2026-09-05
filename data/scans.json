@@ -11075,6 +11075,162 @@
           "priceRange": "$23,900 - $550,000"
         }
       ]
+    },
+    {
+      "scanId": "scan-072",
+      "date": "2026-09-05",
+      "results": [
+        {
+          "competitorId": "big-thunder-marine",
+          "totalBoats": 191,
+          "newBoats": 110,
+          "usedBoats": 81,
+          "avgPrice": 287978.25,
+          "avgPriceNew": 355888.11,
+          "avgPriceUsed": 197997.69,
+          "priceRange": "$25,000 - $2,765,760"
+        },
+        {
+          "competitorId": "marinemax",
+          "totalBoats": 42,
+          "newBoats": 22,
+          "usedBoats": 20,
+          "avgPrice": 503657.64,
+          "avgPriceNew": 607598.73,
+          "avgPriceUsed": 389322.45,
+          "priceRange": "$57,900 - $1,999,900"
+        },
+        {
+          "competitorId": "performance-boat-center",
+          "totalBoats": 87,
+          "newBoats": 9,
+          "usedBoats": 78,
+          "avgPrice": 503764.07,
+          "avgPriceNew": 530575.0,
+          "avgPriceUsed": 501014.23,
+          "priceRange": "$22,500 - $2,395,000"
+        },
+        {
+          "competitorId": "kellys-port",
+          "totalBoats": 114,
+          "newBoats": 70,
+          "usedBoats": 44,
+          "avgPrice": 282827.43,
+          "avgPriceNew": 282827.43,
+          "avgPriceUsed": 282827.43,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "village-marina",
+          "totalBoats": 51,
+          "newBoats": 18,
+          "usedBoats": 33,
+          "avgPrice": 141531.1,
+          "avgPriceNew": 141531.1,
+          "avgPriceUsed": 141531.1,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "iguana-marine",
+          "totalBoats": 104,
+          "newBoats": 65,
+          "usedBoats": 39,
+          "avgPrice": 187512.8,
+          "avgPriceNew": 271344.92,
+          "avgPriceUsed": 101414.95,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-advantage",
+          "totalBoats": 98,
+          "newBoats": 14,
+          "usedBoats": 84,
+          "avgPrice": 75825.73,
+          "avgPriceNew": 101383.71,
+          "avgPriceUsed": 53462.5,
+          "priceRange": "$9,900 - $239,995"
+        },
+        {
+          "competitorId": "formula-boats-mo",
+          "totalBoats": 29,
+          "newBoats": 19,
+          "usedBoats": 10,
+          "avgPrice": 312299.0,
+          "avgPriceNew": 914454.0,
+          "avgPriceUsed": 191868.0,
+          "priceRange": "$79,995 - $914,454"
+        },
+        {
+          "competitorId": "performance-marine",
+          "totalBoats": 37,
+          "newBoats": 24,
+          "usedBoats": 13,
+          "avgPrice": 157985.1,
+          "avgPriceNew": 183746.06,
+          "avgPriceUsed": 124297.69,
+          "priceRange": "$54,990 - $509,093"
+        },
+        {
+          "competitorId": "heartland-marine",
+          "totalBoats": 51,
+          "newBoats": 16,
+          "usedBoats": 35,
+          "avgPrice": 65119.37,
+          "avgPriceNew": 78962.5,
+          "avgPriceUsed": 58791.09,
+          "priceRange": "$8,900 - $169,900"
+        },
+        {
+          "competitorId": "stateamind",
+          "totalBoats": 100,
+          "newBoats": 61,
+          "usedBoats": 39,
+          "avgPrice": 179327.04,
+          "avgPriceNew": 261691.26,
+          "avgPriceUsed": 101414.95,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-54",
+          "totalBoats": 89,
+          "newBoats": 54,
+          "usedBoats": 35,
+          "avgPrice": 149943.64,
+          "avgPriceNew": 191862.92,
+          "avgPriceUsed": 87064.71,
+          "priceRange": "$5,500 - $480,950"
+        },
+        {
+          "competitorId": "martys-marine",
+          "totalBoats": 19,
+          "newBoats": 14,
+          "usedBoats": 5,
+          "avgPrice": 61698.0,
+          "avgPriceNew": 68396.0,
+          "avgPriceUsed": 55000.0,
+          "priceRange": "$55,000 - $68,396"
+        },
+        {
+          "competitorId": "surdyke-yamaha",
+          "totalBoats": 106,
+          "newBoats": 75,
+          "usedBoats": 31,
+          "avgPrice": 107094.62,
+          "avgPriceNew": 107094.62,
+          "avgPriceUsed": 107094.62,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "all-about-boats",
+          "totalBoats": 44,
+          "newBoats": 28,
+          "usedBoats": 16,
+          "avgPrice": 147750.0,
+          "avgPriceNew": 147750.0,
+          "avgPriceUsed": 147750.0,
+          "priceRange": "N/A"
+        }
+      ]
     }
   ],
   "changes": [
@@ -15214,5 +15370,5 @@
       "note": "Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
     }
   ],
-  "lastUpdated": "2026-09-05T15:15:20.548599+00:00"
+  "lastUpdated": "2026-09-05T15:21:18.193353+00:00"
 }

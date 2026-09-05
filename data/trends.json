@@ -292,6 +292,12 @@
       "totalMarket": 1162,
       "btm": 191,
       "competitors": 971
+    },
+    {
+      "date": "2026-09-05",
+      "totalMarket": 1162,
+      "btm": 191,
+      "competitors": 971
     }
   ],
   "priceTrend": [
@@ -444,6 +450,11 @@
       "date": "2026-05-22",
       "avgPrice": 267210.23,
       "scanId": "scan-070"
+    },
+    {
+      "date": "2026-09-05",
+      "marketAvg": 219366.43,
+      "btmAvg": 287978.25
     },
     {
       "date": "2026-09-05",
@@ -2783,13 +2794,18 @@
       "date": "2026-09-05",
       "type": "data_quality",
       "text": "Fresh full-market scan completed 2026-09-05 (scan-071) after a 106-day gap since the prior scan on 2026-05-22, likely due to one or more missed/failed nightly runs. This update reflects cumulative change over that full gap in a single jump, not a normal nightly delta."
+    },
+    {
+      "date": "2026-09-05",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-09-05 (scan-072). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
     }
   ],
   "summary": {
     "date": "2026-09-05",
-    "scanId": "scan-071",
+    "scanId": "scan-072",
     "marketTotal": 1162,
-    "credibleChangesCount": 15,
+    "credibleChangesCount": 0,
     "soldCount": 0,
     "addedCount": 0
   }
