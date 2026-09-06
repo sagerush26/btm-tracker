@@ -3,11 +3,11 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 191,
+      "total": 190,
       "new": 110,
-      "used": 81,
+      "used": 80,
       "category": {
-        "Pontoon / Tritoon": 35,
+        "Pontoon / Tritoon": 34,
         "Wakeboard / Ski": 37,
         "Center Console": 38,
         "Cruiser / Cabin": 28,
@@ -68,7 +68,6 @@
         "Princecraft": 1,
         "CYPRESS CAY": 1,
         "BLUE WATER": 1,
-        "Bennington": 1,
         "Correct Craft": 1,
         "Four Winns": 1,
         "Unknown": 2,
@@ -557,12 +556,12 @@
           "used"
         ],
         [
-          104900,
-          "used"
-        ],
-        [
           101810,
           "new"
+        ],
+        [
+          99900,
+          "used"
         ],
         [
           99900,
@@ -710,10 +709,6 @@
         ],
         [
           41900,
-          "used"
-        ],
-        [
-          39997,
           "used"
         ],
         [
@@ -1028,9 +1023,9 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 87,
+      "total": 86,
       "new": 9,
-      "used": 78,
+      "used": 77,
       "category": {
         "Fishing": 1,
         "Other": 28,
@@ -1047,7 +1042,7 @@
         "IRON": 2,
         "Concept": 2,
         "Regal": 1,
-        "MTI": 16,
+        "MTI": 15,
         "Ford": 1,
         "Performance Powerboats": 1,
         "Interceptor": 1,
@@ -1164,10 +1159,6 @@
         ],
         [
           2395000,
-          "used"
-        ],
-        [
-          775000,
           "used"
         ],
         [
@@ -2045,15 +2036,15 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 37,
-      "new": 24,
+      "total": 38,
+      "new": 25,
       "used": 13,
       "category": {
-        "Wakeboard / Ski": 31,
+        "Wakeboard / Ski": 32,
         "Pontoon / Tritoon": 6
       },
       "brand": {
-        "Mastercraft": 21,
+        "Mastercraft": 22,
         "Supra": 4,
         "Crest": 3,
         "Balise": 3,
@@ -2093,6 +2084,10 @@
         ],
         [
           129980,
+          "new"
+        ],
+        [
+          239267,
           "new"
         ],
         [
@@ -2140,7 +2135,7 @@
           "new"
         ],
         [
-          154990,
+          144990,
           "used"
         ],
         [
@@ -2186,7 +2181,7 @@
       ],
       "priceLow": 54990,
       "priceHigh": 509093,
-      "priceQuality": "partial-81pct"
+      "priceQuality": "partial-82pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",

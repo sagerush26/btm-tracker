@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-09-05T15:21:18.193353+00:00",
+  "lastUpdated": "2026-09-06T06:06:20.984014+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 191,
+      "totalBoats": 190,
       "newBoats": 110,
-      "usedBoats": 81,
+      "usedBoats": 80,
       "avgPriceNew": 355888.11,
-      "avgPriceUsed": 197997.69,
+      "avgPriceUsed": 199934.41,
       "byCondition": {
         "New": 110,
-        "Used": 81
+        "Used": 80
       },
       "byCategory": {
-        "Pontoon / Tritoon": 35,
+        "Pontoon / Tritoon": 34,
         "Wakeboard / Ski": 37,
         "Center Console": 38,
         "Cruiser / Cabin": 28,
@@ -76,7 +76,6 @@
         "Princecraft": 1,
         "CYPRESS CAY": 1,
         "BLUE WATER": 1,
-        "Bennington": 1,
         "Correct Craft": 1,
         "Four Winns": 1,
         "Unknown": 2,
@@ -126,14 +125,14 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 87,
+      "totalBoats": 86,
       "newBoats": 9,
-      "usedBoats": 78,
+      "usedBoats": 77,
       "avgPriceNew": 530575.0,
-      "avgPriceUsed": 501014.23,
+      "avgPriceUsed": 497455.97,
       "byCondition": {
         "New": 9,
-        "Used": 78
+        "Used": 77
       },
       "byCategory": {
         "Fishing": 1,
@@ -151,7 +150,7 @@
         "IRON": 2,
         "Concept": 2,
         "Regal": 1,
-        "MTI": 16,
+        "MTI": 15,
         "Ford": 1,
         "Performance Powerboats": 1,
         "Interceptor": 1,
@@ -357,21 +356,21 @@
       "id": "performance-marine",
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "totalBoats": 37,
-      "newBoats": 24,
+      "totalBoats": 38,
+      "newBoats": 25,
       "usedBoats": 13,
-      "avgPriceNew": 183746.06,
-      "avgPriceUsed": 124297.69,
+      "avgPriceNew": 186830.56,
+      "avgPriceUsed": 123528.46,
       "byCondition": {
-        "New": 24,
+        "New": 25,
         "Used": 13
       },
       "byCategory": {
-        "Wakeboard / Ski": 31,
+        "Wakeboard / Ski": 32,
         "Pontoon / Tritoon": 6
       },
       "byBrand": {
-        "Mastercraft": 21,
+        "Mastercraft": 22,
         "Supra": 4,
         "Crest": 3,
         "Balise": 3,
@@ -595,16 +594,16 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1162,
-    "newBoats": 599,
-    "usedBoats": 563,
+    "totalBoats": 1161,
+    "newBoats": 600,
+    "usedBoats": 561,
     "byCondition": {
-      "New": 599,
-      "Used": 563
+      "New": 600,
+      "Used": 561
     },
     "byCategory": {
-      "Pontoon / Tritoon": 233,
-      "Wakeboard / Ski": 168,
+      "Pontoon / Tritoon": 232,
+      "Wakeboard / Ski": 169,
       "Center Console": 89,
       "Cruiser / Cabin": 79,
       "Bowrider": 172,
@@ -623,15 +622,15 @@
       "Fountain": 22,
       "Axis": 22,
       "Malibu": 22,
-      "Mastercraft": 21,
+      "Mastercraft": 22,
       "Tige": 20,
       "Viaggio": 20,
       "Premier": 20,
       "Stingray": 17,
-      "MTI": 16,
       "Barletta": 16,
       "Alumacraft": 16,
       "Sunsation Powerboats": 15,
+      "MTI": 15,
       "Sylvan": 15,
       "Monterey": 13,
       "Cobalt": 13,
@@ -654,10 +653,10 @@
       "Donzi": 6,
       "ATX": 6,
       "Nautique": 6,
-      "Bennington": 6,
       "Statement Marine": 6,
       "Montara": 5,
       "Nauticstar": 5,
+      "Bennington": 5,
       "Moomba": 4,
       "Crest": 4,
       "Aviara": 4,
@@ -747,6 +746,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-072",
-  "date": "2026-09-05"
+  "scanId": "scan-073",
+  "date": "2026-09-06"
 }
