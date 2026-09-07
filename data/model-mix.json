@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T06:06:20.984014+00:00",
+  "lastUpdated": "2026-09-07T06:06:36.825582+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -89,20 +89,20 @@
       "id": "marinemax",
       "name": "MarineMax",
       "isOwn": false,
-      "totalBoats": 42,
+      "totalBoats": 41,
       "newBoats": 22,
-      "usedBoats": 20,
+      "usedBoats": 19,
       "avgPriceNew": 607598.73,
-      "avgPriceUsed": 389322.45,
+      "avgPriceUsed": 403502.58,
       "byCondition": {
         "New": 22,
-        "Used": 20
+        "Used": 19
       },
       "byCategory": {
         "Cruiser / Cabin": 12,
         "Yacht": 11,
         "Performance": 5,
-        "Pontoon / Tritoon": 7,
+        "Pontoon / Tritoon": 6,
         "Other": 1,
         "Fishing": 3,
         "Bowrider": 3
@@ -110,7 +110,7 @@
       "byBrand": {
         "Sea Ray": 20,
         "Cobalt": 2,
-        "Harris": 7,
+        "Harris": 6,
         "Ocean Alexander": 1,
         "Aquila": 1,
         "Aviara": 4,
@@ -594,15 +594,15 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1161,
+    "totalBoats": 1160,
     "newBoats": 600,
-    "usedBoats": 561,
+    "usedBoats": 560,
     "byCondition": {
       "New": 600,
-      "Used": 561
+      "Used": 560
     },
     "byCategory": {
-      "Pontoon / Tritoon": 232,
+      "Pontoon / Tritoon": 231,
       "Wakeboard / Ski": 169,
       "Center Console": 89,
       "Cruiser / Cabin": 79,
@@ -649,10 +649,10 @@
       "HCB": 8,
       "Invictus": 7,
       "JC Tritoon": 7,
-      "Harris": 7,
       "Donzi": 6,
       "ATX": 6,
       "Nautique": 6,
+      "Harris": 6,
       "Statement Marine": 6,
       "Montara": 5,
       "Nauticstar": 5,
@@ -746,6 +746,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-073",
-  "date": "2026-09-06"
+  "scanId": "scan-074",
+  "date": "2026-09-07"
 }

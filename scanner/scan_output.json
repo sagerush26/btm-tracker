@@ -823,14 +823,14 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 42,
+      "total": 41,
       "new": 22,
-      "used": 20,
+      "used": 19,
       "category": {
         "Cruiser / Cabin": 12,
         "Yacht": 11,
         "Performance": 5,
-        "Pontoon / Tritoon": 7,
+        "Pontoon / Tritoon": 6,
         "Other": 1,
         "Fishing": 3,
         "Bowrider": 3
@@ -838,7 +838,7 @@
       "brand": {
         "Sea Ray": 20,
         "Cobalt": 2,
-        "Harris": 7,
+        "Harris": 6,
         "Ocean Alexander": 1,
         "Aquila": 1,
         "Aviara": 4,
@@ -913,10 +913,6 @@
         ],
         [
           1999900,
-          "used"
-        ],
-        [
-          119900,
           "used"
         ],
         [
