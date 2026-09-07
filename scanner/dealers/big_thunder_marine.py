@@ -55,11 +55,24 @@ Reliability caveats
 * The feed includes a `lot_status` field. Listings whose status indicates
   they're already sold-pending ("Pending Sale", "Sale Pending", etc.) or are
   a factory "Production Slot" (not yet a physical unit on the lot) are
-  excluded from the count entirely -- this matches what the live website
-  itself displays as current for-sale inventory (verified against a manual
-  browser audit: API returns 208 raw rows, 191 after this filter, vs. 188
-  counted by hand on the live site the same day -- well within normal
-  day-to-day drift, whereas the raw 208 was not).
+  excluded from the count entirely.
+
+Location scoping (fixed 2026-09-07)
+------------------------------------
+``company_id=72`` on this API is Big Thunder Marine's overall account, but it
+pools listings from THREE physical locations sharing one feed: Lake of the
+Ozarks, Key Harbor, and Haulover Marine Center. Each listing carries a
+``company_location.name`` field identifying which one it belongs to.
+Confirmed by direct comparison against the dealer's own site filter
+(bigthundermarine.com/boats-for-sale/?company_location_name=Lake%20of%20the%20Ozarks)
+on 2026-09-07: querying company_id=72 with no location scoping returned 207
+raw rows across all three locations (186 Lake of the Ozarks / 17 Key Harbor /
+4 Haulover Marine Center), which does not match what the live site shows for
+"boats for sale at Big Thunder Marine in Lake of the Ozarks" (184 after the
+site's own filtering, 113 new / 71 used). This tracker only covers the Lake
+of the Ozarks market, so listings are now filtered to
+``company_location.name == "Lake of the Ozarks"`` to match the live site and
+stay comparable to the other 14 Lake of the Ozarks dealers tracked here.
 """
 
 from __future__ import annotations
@@ -76,6 +89,8 @@ DEALER_NAME = "Big Thunder Marine"
 API_URL = "https://inventory.coasttechnology.org/api/v3/inventory/"
 REFERER = "https://bigthundermarine.com/"
 COMPANY_ID = "72"  # Big Thunder Marine's company id on the coasttechnology.org platform
+TARGET_LOCATION = "Lake of the Ozarks"  # this tracker only covers the LOO market;
+# the feed also pools Key Harbor and Haulover Marine Center under the same company id
 
 PER_PAGE = 50  # empirically, values > ~70 return HTTP 422 "Invalid request."
 MAX_PAGES = 40  # safety cap so a runaway pagination loop can never hang CI
@@ -187,9 +202,12 @@ def _fetch_page(session: requests.Session, page: int) -> dict[str, Any]:
     return resp.json()
 
 
+# NOTE (fixed 2026-09-07): "Pending Sale"/"Sale Pending" listings are still
+# shown as current for-sale inventory on the live site's own Lake of the
+# Ozarks filtered view (confirmed: excluding them undercounted vs. the site's
+# displayed total of 184). Only "Production Slot" (a factory pre-order slot,
+# not yet a physical unit on the lot) and "Sold" are excluded.
 _EXCLUDED_LOT_STATUSES = {
-    "pending sale",
-    "sale pending",
     "production slot",
     "sold",
 }
@@ -197,7 +215,12 @@ _EXCLUDED_LOT_STATUSES = {
 
 def _is_excluded(item: dict[str, Any]) -> bool:
     status = (item.get("lot_status") or "").strip().lower()
-    return status in _EXCLUDED_LOT_STATUSES
+    if status in _EXCLUDED_LOT_STATUSES:
+        return True
+    location = ((item.get("company_location") or {}).get("name") or "").strip()
+    if location != TARGET_LOCATION:
+        return True
+    return False
 
 
 def _fetch_all_listings() -> list[dict[str, Any]]:
