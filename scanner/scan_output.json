@@ -3,16 +3,16 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 190,
-      "new": 110,
-      "used": 80,
+      "total": 184,
+      "new": 111,
+      "used": 73,
       "category": {
-        "Pontoon / Tritoon": 34,
-        "Wakeboard / Ski": 37,
-        "Center Console": 38,
+        "Pontoon / Tritoon": 39,
+        "Wakeboard / Ski": 38,
+        "Center Console": 33,
         "Cruiser / Cabin": 28,
-        "Bowrider": 27,
-        "Performance": 11,
+        "Bowrider": 21,
+        "Performance": 10,
         "Yacht": 5,
         "Fishing": 0,
         "Power": 2,
@@ -21,20 +21,20 @@
       "brand": {
         "Steeler": 1,
         "Dutch American": 2,
-        "Cigarette": 4,
-        "Fountain": 15,
-        "Invictus": 7,
+        "Cigarette": 5,
+        "Fountain": 12,
+        "Invictus": 8,
         "Pirelli": 1,
-        "Chris Craft": 7,
+        "Chris Craft": 8,
         "YOT": 2,
-        "Monterey": 8,
+        "Monterey": 7,
         "Jeanneau": 1,
-        "Sea Ray": 8,
+        "Sea Ray": 6,
         "Schaefer": 1,
-        "Donzi": 5,
-        "Tige": 18,
+        "Donzi": 4,
+        "Tige": 19,
         "MasterCraft": 8,
-        "Capoforte": 8,
+        "Capoforte": 6,
         "Statement": 1,
         "Cobalt": 4,
         "Regal": 2,
@@ -45,18 +45,16 @@
         "Concept": 1,
         "Navan": 1,
         "Cruisers Yachts": 1,
-        "Grady-White": 1,
         "MB Sports": 12,
         "Deep Impact": 1,
         "ATX": 6,
-        "JC Tritoon": 7,
         "Montara": 1,
         "Outerlimits": 1,
-        "Viaggio": 20,
-        "Formula": 3,
-        "Nauticstar": 5,
+        "JC Tritoon": 10,
+        "Viaggio": 21,
+        "Formula": 4,
         "Chaparral": 2,
-        "Yamaha": 1,
+        "Yamaha": 2,
         "Evotti": 2,
         "CRUISERS": 1,
         "Nautique": 2,
@@ -65,14 +63,14 @@
         "Crest": 1,
         "Heritage": 1,
         "Godfrey": 1,
-        "Princecraft": 1,
         "CYPRESS CAY": 1,
+        "Nauticstar": 1,
+        "Princecraft": 1,
         "BLUE WATER": 1,
         "Correct Craft": 1,
-        "Four Winns": 1,
-        "Unknown": 2,
-        "Sailfish Boat": 1,
-        "BAD BOY": 1
+        "Baja": 1,
+        "Bennington": 1,
+        "Unknown": 1
       },
       "prices": [
         [
@@ -132,10 +130,6 @@
           "used"
         ],
         [
-          600810,
-          "new"
-        ],
-        [
           599900,
           "new"
         ],
@@ -152,24 +146,12 @@
           "used"
         ],
         [
-          528200,
-          "new"
-        ],
-        [
           499900,
           "used"
         ],
         [
-          499100,
-          "new"
-        ],
-        [
           487757,
           "used"
-        ],
-        [
-          482030,
-          "new"
         ],
         [
           469900,
@@ -340,10 +322,6 @@
           "new"
         ],
         [
-          204900,
-          "used"
-        ],
-        [
           199997,
           "used"
         ],
@@ -357,10 +335,6 @@
         ],
         [
           192459,
-          "new"
-        ],
-        [
-          191520,
           "new"
         ],
         [
@@ -408,10 +382,6 @@
           "used"
         ],
         [
-          169000,
-          "used"
-        ],
-        [
           164270,
           "new"
         ],
@@ -433,10 +403,6 @@
         ],
         [
           158414,
-          "new"
-        ],
-        [
-          157227,
           "new"
         ],
         [
@@ -512,10 +478,6 @@
           "new"
         ],
         [
-          122090,
-          "new"
-        ],
-        [
           120730,
           "new"
         ],
@@ -550,10 +512,6 @@
         [
           106995,
           "new"
-        ],
-        [
-          105000,
-          "used"
         ],
         [
           101810,
@@ -604,20 +562,12 @@
           "new"
         ],
         [
-          85614,
-          "new"
-        ],
-        [
           83997,
           "used"
         ],
         [
           83870,
           "new"
-        ],
-        [
-          79900,
-          "used"
         ],
         [
           79900,
@@ -644,10 +594,6 @@
           "used"
         ],
         [
-          72500,
-          "used"
-        ],
-        [
           65340,
           "used"
         ],
@@ -669,10 +615,6 @@
         ],
         [
           59566,
-          "used"
-        ],
-        [
-          59566,
           "new"
         ],
         [
@@ -680,11 +622,11 @@
           "used"
         ],
         [
-          55900,
+          55991,
           "used"
         ],
         [
-          53999,
+          55900,
           "used"
         ],
         [
@@ -704,19 +646,15 @@
           "used"
         ],
         [
+          49997,
+          "used"
+        ],
+        [
           49990,
           "new"
         ],
         [
           41900,
-          "used"
-        ],
-        [
-          36000,
-          "used"
-        ],
-        [
-          35995,
           "used"
         ],
         [
@@ -728,10 +666,6 @@
           "used"
         ],
         [
-          25500,
-          "used"
-        ],
-        [
           89330,
           "new"
         ],
@@ -740,16 +674,60 @@
           "new"
         ],
         [
-          610924,
+          582397,
           "new"
         ],
         [
-          610924,
+          396335,
           "new"
         ],
         [
-          287500,
+          299900,
+          "new"
+        ],
+        [
+          170220,
+          "new"
+        ],
+        [
+          169900,
           "used"
+        ],
+        [
+          112460,
+          "new"
+        ],
+        [
+          45997,
+          "used"
+        ],
+        [
+          25997,
+          "used"
+        ],
+        [
+          191520,
+          "new"
+        ],
+        [
+          149820,
+          "new"
+        ],
+        [
+          144900,
+          "used"
+        ],
+        [
+          39997,
+          "used"
+        ],
+        [
+          610924,
+          "new"
+        ],
+        [
+          610924,
+          "new"
         ],
         [
           275453,
@@ -784,18 +762,6 @@
           "new"
         ],
         [
-          145000,
-          "used"
-        ],
-        [
-          136248,
-          "new"
-        ],
-        [
-          125995,
-          "used"
-        ],
-        [
           124060,
           "new"
         ],
@@ -806,10 +772,6 @@
         [
           75310,
           "new"
-        ],
-        [
-          75000,
-          "used"
         ],
         [
           25000,
@@ -823,8 +785,8 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 41,
-      "new": 22,
+      "total": 42,
+      "new": 23,
       "used": 19,
       "category": {
         "Cruiser / Cabin": 12,
@@ -832,11 +794,11 @@
         "Performance": 5,
         "Pontoon / Tritoon": 6,
         "Other": 1,
-        "Fishing": 3,
+        "Fishing": 4,
         "Bowrider": 3
       },
       "brand": {
-        "Sea Ray": 20,
+        "Sea Ray": 21,
         "Cobalt": 2,
         "Harris": 6,
         "Ocean Alexander": 1,
@@ -1009,6 +971,10 @@
         ],
         [
           395401,
+          "new"
+        ],
+        [
+          422256,
           "new"
         ]
       ],
