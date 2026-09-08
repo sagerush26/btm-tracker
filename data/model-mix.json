@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-09-07T18:22:21.132193+00:00",
+  "lastUpdated": "2026-09-08T06:06:47.912003+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 184,
+      "totalBoats": 186,
       "newBoats": 111,
-      "usedBoats": 73,
+      "usedBoats": 75,
       "avgPriceNew": 354076.47,
-      "avgPriceUsed": 206274.19,
+      "avgPriceUsed": 206361.28,
       "byCondition": {
         "New": 111,
-        "Used": 73
+        "Used": 75
       },
       "byCategory": {
         "Pontoon / Tritoon": 39,
-        "Wakeboard / Ski": 38,
+        "Wakeboard / Ski": 39,
         "Center Console": 33,
-        "Cruiser / Cabin": 28,
+        "Cruiser / Cabin": 29,
         "Bowrider": 21,
         "Performance": 10,
         "Yacht": 5,
@@ -41,11 +41,11 @@
         "Schaefer": 1,
         "Donzi": 4,
         "Tige": 19,
-        "MasterCraft": 8,
+        "MasterCraft": 9,
         "Capoforte": 6,
         "Statement": 1,
         "Cobalt": 4,
-        "Regal": 2,
+        "Regal": 3,
         "Midnight Express": 1,
         "Anthem": 2,
         "Sunsation": 1,
@@ -357,7 +357,7 @@
       "totalBoats": 38,
       "newBoats": 25,
       "usedBoats": 13,
-      "avgPriceNew": 186830.56,
+      "avgPriceNew": 203711.21,
       "avgPriceUsed": 123528.46,
       "byCondition": {
         "New": 25,
@@ -592,18 +592,18 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1155,
+    "totalBoats": 1157,
     "newBoats": 602,
-    "usedBoats": 553,
+    "usedBoats": 555,
     "byCondition": {
       "New": 602,
-      "Used": 553
+      "Used": 555
     },
     "byCategory": {
       "Pontoon / Tritoon": 236,
-      "Wakeboard / Ski": 170,
+      "Wakeboard / Ski": 171,
       "Center Console": 84,
-      "Cruiser / Cabin": 79,
+      "Cruiser / Cabin": 80,
       "Bowrider": 166,
       "Performance": 152,
       "Yacht": 42,
@@ -630,15 +630,15 @@
       "Sunsation Powerboats": 15,
       "MTI": 15,
       "Sylvan": 15,
+      "Regal": 14,
       "Cigarette": 13,
       "Cobalt": 13,
-      "Regal": 13,
       "MB Sports": 13,
       "Monterey": 12,
+      "MasterCraft": 12,
       "Crownline": 12,
       "Wellcraft": 12,
       "iKon": 12,
-      "MasterCraft": 11,
       "JC Tritoon": 10,
       "Chris Craft": 9,
       "Skater": 9,
@@ -741,6 +741,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-075",
-  "date": "2026-09-07"
+  "scanId": "scan-076",
+  "date": "2026-09-08"
 }

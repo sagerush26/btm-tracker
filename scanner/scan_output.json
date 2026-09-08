@@ -3,14 +3,14 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 184,
+      "total": 186,
       "new": 111,
-      "used": 73,
+      "used": 75,
       "category": {
         "Pontoon / Tritoon": 39,
-        "Wakeboard / Ski": 38,
+        "Wakeboard / Ski": 39,
         "Center Console": 33,
-        "Cruiser / Cabin": 28,
+        "Cruiser / Cabin": 29,
         "Bowrider": 21,
         "Performance": 10,
         "Yacht": 5,
@@ -33,11 +33,11 @@
         "Schaefer": 1,
         "Donzi": 4,
         "Tige": 19,
-        "MasterCraft": 8,
+        "MasterCraft": 9,
         "Capoforte": 6,
         "Statement": 1,
         "Cobalt": 4,
-        "Regal": 2,
+        "Regal": 3,
         "Midnight Express": 1,
         "Anthem": 2,
         "Sunsation": 1,
@@ -310,6 +310,10 @@
           "used"
         ],
         [
+          238996,
+          "used"
+        ],
+        [
           219900,
           "used"
         ],
@@ -364,6 +368,10 @@
         [
           181876,
           "new"
+        ],
+        [
+          179997,
+          "used"
         ],
         [
           179900,
@@ -2133,6 +2141,10 @@
           "used"
         ],
         [
+          507563,
+          "new"
+        ],
+        [
           115990,
           "new"
         ],
@@ -2143,7 +2155,7 @@
       ],
       "priceLow": 54990,
       "priceHigh": 509093,
-      "priceQuality": "partial-82pct"
+      "priceQuality": "partial-84pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
