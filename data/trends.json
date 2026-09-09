@@ -322,6 +322,12 @@
       "totalMarket": 1157,
       "btm": 186,
       "competitors": 971
+    },
+    {
+      "date": "2026-09-09",
+      "totalMarket": 1156,
+      "btm": 185,
+      "competitors": 971
     }
   ],
   "priceTrend": [
@@ -504,6 +510,11 @@
       "date": "2026-09-08",
       "marketAvg": 219980.89,
       "btmAvg": 292666.79
+    },
+    {
+      "date": "2026-09-09",
+      "marketAvg": 219997.4,
+      "btmAvg": 292173.94
     }
   ],
   "recentlySold": [
@@ -2863,13 +2874,18 @@
       "date": "2026-09-08",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-09-08 (scan-076). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-09-09 (scan-077). 5 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, marinemax, surdyke-yamaha, village-marina."
     }
   ],
   "summary": {
-    "date": "2026-09-08",
-    "scanId": "scan-076",
-    "marketTotal": 1157,
-    "credibleChangesCount": 1,
+    "date": "2026-09-09",
+    "scanId": "scan-077",
+    "marketTotal": 1156,
+    "credibleChangesCount": 3,
     "soldCount": 0,
     "addedCount": 0
   }

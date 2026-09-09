@@ -3,15 +3,15 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 186,
+      "total": 185,
       "new": 111,
-      "used": 75,
+      "used": 74,
       "category": {
-        "Pontoon / Tritoon": 39,
-        "Wakeboard / Ski": 39,
+        "Pontoon / Tritoon": 40,
+        "Wakeboard / Ski": 38,
         "Center Console": 33,
         "Cruiser / Cabin": 29,
-        "Bowrider": 21,
+        "Bowrider": 20,
         "Performance": 10,
         "Yacht": 5,
         "Fishing": 0,
@@ -33,10 +33,9 @@
         "Schaefer": 1,
         "Donzi": 4,
         "Tige": 19,
-        "MasterCraft": 9,
         "Capoforte": 6,
         "Statement": 1,
-        "Cobalt": 4,
+        "Cobalt": 3,
         "Regal": 3,
         "Midnight Express": 1,
         "Anthem": 2,
@@ -48,7 +47,8 @@
         "MB Sports": 12,
         "Deep Impact": 1,
         "ATX": 6,
-        "Montara": 1,
+        "Montara": 2,
+        "MasterCraft": 8,
         "Outerlimits": 1,
         "JC Tritoon": 10,
         "Viaggio": 21,
@@ -63,12 +63,12 @@
         "Crest": 1,
         "Heritage": 1,
         "Godfrey": 1,
-        "CYPRESS CAY": 1,
         "Nauticstar": 1,
         "Princecraft": 1,
         "BLUE WATER": 1,
         "Correct Craft": 1,
         "Baja": 1,
+        "CYPRESS CAY": 1,
         "Bennington": 1,
         "Unknown": 1
       },
@@ -176,10 +176,6 @@
         [
           447282,
           "new"
-        ],
-        [
-          444997,
-          "used"
         ],
         [
           426449,
@@ -390,6 +386,10 @@
           "used"
         ],
         [
+          164997,
+          "used"
+        ],
+        [
           164270,
           "new"
         ],
@@ -530,10 +530,6 @@
           "used"
         ],
         [
-          99900,
-          "used"
-        ],
-        [
           99000,
           "used"
         ],
@@ -608,10 +604,6 @@
         [
           63246,
           "new"
-        ],
-        [
-          62900,
-          "used"
         ],
         [
           59900,
@@ -726,6 +718,10 @@
           "used"
         ],
         [
+          62900,
+          "used"
+        ],
+        [
           39997,
           "used"
         ],
@@ -796,199 +792,12 @@
       "total": 42,
       "new": 23,
       "used": 19,
-      "category": {
-        "Cruiser / Cabin": 12,
-        "Yacht": 11,
-        "Performance": 5,
-        "Pontoon / Tritoon": 6,
-        "Other": 1,
-        "Fishing": 4,
-        "Bowrider": 3
-      },
-      "brand": {
-        "Sea Ray": 21,
-        "Cobalt": 2,
-        "Harris": 6,
-        "Ocean Alexander": 1,
-        "Aquila": 1,
-        "Aviara": 4,
-        "Azimut": 1,
-        "Cruisers Yachts": 5,
-        "Saxdor": 1
-      },
-      "prices": [
-        [
-          62632,
-          "used"
-        ],
-        [
-          449000,
-          "used"
-        ],
-        [
-          349900,
-          "used"
-        ],
-        [
-          174995,
-          "used"
-        ],
-        [
-          92400,
-          "used"
-        ],
-        [
-          349900,
-          "used"
-        ],
-        [
-          499900,
-          "used"
-        ],
-        [
-          139900,
-          "used"
-        ],
-        [
-          174500,
-          "used"
-        ],
-        [
-          57900,
-          "used"
-        ],
-        [
-          745000,
-          "used"
-        ],
-        [
-          474900,
-          "used"
-        ],
-        [
-          353186,
-          "used"
-        ],
-        [
-          249900,
-          "used"
-        ],
-        [
-          524900,
-          "used"
-        ],
-        [
-          460000,
-          "new"
-        ],
-        [
-          1999900,
-          "used"
-        ],
-        [
-          549000,
-          "used"
-        ],
-        [
-          582373,
-          "new"
-        ],
-        [
-          228836,
-          "used"
-        ],
-        [
-          809000,
-          "new"
-        ],
-        [
-          650914,
-          "new"
-        ],
-        [
-          853619,
-          "new"
-        ],
-        [
-          91571,
-          "new"
-        ],
-        [
-          169321,
-          "new"
-        ],
-        [
-          115700,
-          "new"
-        ],
-        [
-          118293,
-          "new"
-        ],
-        [
-          189900,
-          "used"
-        ],
-        [
-          195356,
-          "new"
-        ],
-        [
-          208762,
-          "new"
-        ],
-        [
-          268758,
-          "new"
-        ],
-        [
-          710925,
-          "new"
-        ],
-        [
-          1178103,
-          "new"
-        ],
-        [
-          1177488,
-          "new"
-        ],
-        [
-          922918,
-          "new"
-        ],
-        [
-          1056154,
-          "new"
-        ],
-        [
-          617510,
-          "new"
-        ],
-        [
-          1283611,
-          "new"
-        ],
-        [
-          1390926,
-          "new"
-        ],
-        [
-          110469,
-          "new"
-        ],
-        [
-          395401,
-          "new"
-        ],
-        [
-          422256,
-          "new"
-        ]
-      ],
-      "priceLow": 57900,
-      "priceHigh": 1999900,
-      "priceQuality": "full"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "performance-boat-center": {
       "name": "Performance Boat Center",
@@ -1429,9 +1238,9 @@
         "Other": 47
       },
       "brand": {
+        "Axis": 11,
         "Formula": 7,
         "Supra": 2,
-        "Axis": 11,
         "iKon": 6,
         "Godfrey": 29,
         "Coach Pontoons": 2,
@@ -1464,6 +1273,10 @@
       },
       "prices": [
         [
+          89900,
+          "used"
+        ],
+        [
           155000,
           "used"
         ],
@@ -1477,10 +1290,6 @@
         ],
         [
           27500,
-          "used"
-        ],
-        [
-          98700,
           "used"
         ],
         [
@@ -1934,17 +1743,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 29,
+      "total": 30,
       "new": 19,
-      "used": 10,
+      "used": 11,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 2,
         "Cruiser / Cabin": 4,
-        "Bowrider": 22
+        "Bowrider": 23
       },
       "brand": {
-        "Formula": 26,
+        "Formula": 27,
         "Nautique": 1,
         "Cobalt": 1,
         "Regal": 1
@@ -1960,6 +1769,10 @@
         ],
         [
           365000,
+          "used"
+        ],
+        [
+          345000,
           "used"
         ],
         [
@@ -2001,20 +1814,20 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-41pct"
+      "priceQuality": "partial-43pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 38,
-      "new": 25,
+      "total": 37,
+      "new": 24,
       "used": 13,
       "category": {
-        "Wakeboard / Ski": 32,
+        "Wakeboard / Ski": 31,
         "Pontoon / Tritoon": 6
       },
       "brand": {
-        "Mastercraft": 22,
+        "Mastercraft": 21,
         "Supra": 4,
         "Crest": 3,
         "Balise": 3,
@@ -2149,13 +1962,13 @@
           "new"
         ],
         [
-          107990,
+          99990,
           "used"
         ]
       ],
       "priceLow": 54990,
       "priceHigh": 509093,
-      "priceQuality": "partial-84pct"
+      "priceQuality": "partial-86pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
@@ -2407,8 +2220,8 @@
       "new": 61,
       "used": 39,
       "category": {
-        "Yacht": 12,
         "Wakeboard / Ski": 27,
+        "Yacht": 12,
         "Fishing": 10,
         "Pontoon / Tritoon": 35,
         "Cruiser / Cabin": 3,
@@ -2417,9 +2230,9 @@
         "Center Console": 1
       },
       "brand": {
+        "Axis": 11,
         "Formula": 3,
         "Supra": 2,
-        "Axis": 11,
         "iKon": 6,
         "Godfrey": 29,
         "Coach Pontoons": 2,
@@ -2452,15 +2265,15 @@
       },
       "prices": [
         [
+          89900,
+          "used"
+        ],
+        [
           155000,
           "used"
         ],
         [
           27500,
-          "used"
-        ],
-        [
-          98700,
           "used"
         ],
         [
@@ -3183,6 +2996,10 @@
     }
   },
   "failures": [
+    [
+      "marinemax",
+      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/marinemax.py\", line 178, in scrape\n    all_products = _fetch_all_products(session)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/marinemax.py\", line 145, in _fetch_all_products\n    resp.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://www.marinemax.com/collections/all/products.json?limit=250&page=6\n"
+    ],
     [
       "kellys-port",
       "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 336, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 303, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 290, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
