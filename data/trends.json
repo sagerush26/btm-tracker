@@ -1,133 +1,28 @@
 {
-  "soldByCategory": {
-    "Cruiser/Cabin": 106,
-    "Pontoon/Tritoon": 229,
-    "Bowrider": 262,
-    "Center Console": 40,
-    "Wakeboard/Ski": 130,
-    "Fishing": 166,
-    "Deck Boat": 264,
-    "PWC/Jet Ski": 225,
-    "Other": 43,
-    "Performance": 55,
-    "Yacht": 6
-  },
-  "soldByPriceBand": {
-    "Under $25K": 76,
-    "$25K-$50K": 183,
-    "$50K-$100K": 382,
-    "$100K-$200K": 458,
-    "$200K-$500K": 305,
-    "$500K+": 122
-  },
-  "soldByLengthBand": {
-    "40ft+": 92,
-    "Unknown": 893,
-    "20-25ft": 143,
-    "25-30ft": 202,
-    "30-35ft": 36,
-    "35-40ft": 84,
-    "Under 20ft": 76
-  },
+  "soldByCategory": {},
+  "soldByPriceBand": {},
+  "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 1180,
-    "Used": 367
+    "New": 3414,
+    "Used": 2236
   },
-  "soldByBrand": {
-    "Cruisers Yachts": 12,
-    "Aviara": 12,
-    "Harris": 24,
-    "Sea Ray": 82,
-    "Scout": 4,
-    "Chaparral": 16,
-    "Boston Whaler": 4,
-    "Grady-White": 5,
-    "Princess": 4,
-    "Aquila": 4,
-    "Bennington": 15,
-    "Regal": 11,
-    "Malibu": 24,
-    "Godfrey": 19,
-    "Four Winns": 62,
-    "Stingray": 29,
-    "Alumacraft": 26,
-    "Axopar": 75,
-    "Beneteau": 38,
-    "G3": 126,
-    "Scarab": 99,
-    "SunCatcher": 99,
-    "Yamaha": 412,
-    "Sea-Doo": 13,
-    "Premier": 19,
-    "Sun Tracker": 13,
-    "Triton": 13,
-    "Cobalt": 18,
-    "Kawasaki": 13,
-    "Suncruiser": 13,
-    "Sunsation": 22,
-    "Nautique": 1,
-    "Tiara Yachts": 1,
-    "MasterCraft": 1,
-    "Barletta": 30,
-    "PlayCraft": 2,
-    "Iron": 1,
-    "MTI": 15,
-    "Performance": 3,
-    "Outerlimits": 1,
-    "Cigarette": 4,
-    "Deep Impact": 1,
-    "Princecraft": 1,
-    "Skater": 3,
-    "South Bay": 1,
-    "Renegade Powerboats": 1,
-    "Nor-Tech": 1,
-    "Wright Performance": 1,
-    "Mystic": 1,
-    "Nordic": 1,
-    "Formula": 11,
-    "Fountain": 6,
-    "Baja": 2,
-    "Baha Mach 1": 2,
-    "Crownline": 4,
-    "Cypress Cay": 2,
-    "Avalon": 3,
-    "Yamaha Boats": 2,
-    "Wellcraft": 17,
-    "Moomba": 2,
-    "iKon": 17,
-    "Ranger": 2,
-    "Montara": 5,
-    "Dutch American": 1,
-    "Monterey": 2,
-    "Tige": 1,
-    "Premier Pontoons": 3,
-    "Robalo": 1,
-    "SeaRay": 1,
-    "Axis": 12,
-    "Supra": 1,
-    "Coach": 1,
-    "Cruisers": 1,
-    "HCB": 2,
-    "Black Thunder": 1,
-    "Statement": 1,
-    "Schaefer": 1,
-    "Volvo Penta": 1
-  },
+  "soldByBrand": {},
   "soldByDealer": {
-    "Kelly's Port": 64,
-    "Iguana Marine Group": 77,
-    "Premier Advantage Marine": 31,
-    "Heartland Marine": 53,
-    "Premier 54 Motorsports": 32,
-    "MarineMax Lake Ozark": 30,
-    "Performance Boat Center": 55,
-    "Formula Boats of Missouri": 16,
-    "Marty's Marine": 83,
-    "Performance Marine Watersports": 1,
-    "Stateamind Water Sports": 82,
-    "All About Boats": 9,
-    "Village Marina & Yacht Club": 35,
-    "Big Thunder Marine": 29
+    "Kelly's Port": 67,
+    "Iguana Marine Group": 79,
+    "Premier Advantage Marine": 37,
+    "Heartland Marine": 84,
+    "Premier 54 Motorsports": 64,
+    "MarineMax": 146,
+    "Performance Boat Center": 146,
+    "Formula Boats of Missouri": 43,
+    "Marty's Marine": 107,
+    "Performance Marine Watersports": 76,
+    "Stateamind Water Sports": 84,
+    "All About Boats": 17,
+    "Village Marina & Yacht Club": 45,
+    "Big Thunder Marine": 87,
+    "Surdyke Yamaha & Marina": 321
   },
   "addedByCategory": {},
   "inventoryTrend": [
@@ -530,238 +425,14 @@
   ],
   "recentlySold": [
     {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 1,
-      "previousTotal": 83,
-      "newTotal": 82
-    },
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
+      "date": "2026-05-14",
+      "scanId": "scan-062",
       "dealer": "Iguana Marine Group",
       "competitorId": "iguana-marine",
-      "count": 1,
-      "previousTotal": 101,
-      "newTotal": 100
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 5,
-      "previousTotal": 42,
-      "newTotal": 37
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 3,
-      "previousTotal": 98,
-      "newTotal": 95
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 3,
-      "previousTotal": 104,
-      "newTotal": 101
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 4,
-      "previousTotal": 112,
-      "newTotal": 108
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 241,
-      "newTotal": 240
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 1,
-      "previousTotal": 43,
-      "newTotal": 42
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 8,
-      "previousTotal": 120,
-      "newTotal": 112
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
       "count": 2,
-      "previousTotal": 157,
-      "newTotal": 155
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 242,
-      "newTotal": 241
-    },
-    {
-      "date": "2026-05-19",
-      "scanId": "scan-067",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 3,
-      "previousTotal": 46,
-      "newTotal": 43
-    },
-    {
-      "date": "2026-05-18",
-      "scanId": "scan-066",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 2,
-      "previousTotal": 85,
-      "newTotal": 83
-    },
-    {
-      "date": "2026-05-18",
-      "scanId": "scan-066",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 6,
       "previousTotal": 99,
-      "newTotal": 93
-    },
-    {
-      "date": "2026-05-18",
-      "scanId": "scan-066",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 243,
-      "newTotal": 242
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 1,
-      "previousTotal": 42,
-      "newTotal": 41
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 4,
-      "previousTotal": 89,
-      "newTotal": 85
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 1,
-      "previousTotal": 43,
-      "newTotal": 42
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Premier 54 Motorsports",
-      "competitorId": "premier-54",
-      "count": 1,
-      "previousTotal": 121,
-      "newTotal": 120
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 8,
-      "previousTotal": 108,
-      "newTotal": 100
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 3,
-      "previousTotal": 61,
-      "newTotal": 58
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "All About Boats",
-      "competitorId": "all-about-boats",
-      "count": 1,
-      "previousTotal": 52,
-      "newTotal": 51
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 13,
-      "previousTotal": 93,
-      "newTotal": 80
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 4,
-      "previousTotal": 56,
-      "newTotal": 52
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 4,
-      "previousTotal": 113,
-      "newTotal": 109
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 240,
-      "newTotal": 239
+      "newTotal": 97,
+      "detail": "Iguana Marine Group: 99 -> 97 (-2)"
     },
     {
       "date": "2026-05-14",
@@ -770,585 +441,500 @@
       "competitorId": "premier-54",
       "count": 1,
       "previousTotal": 122,
-      "newTotal": 121
+      "newTotal": 121,
+      "detail": "Premier 54 Motorsports: 122 -> 121 (-1)"
     },
     {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 2,
-      "previousTotal": 99,
-      "newTotal": 97
-    },
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 3,
-      "previousTotal": 64,
-      "newTotal": 61
-    },
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 3,
-      "previousTotal": 243,
-      "newTotal": 240
-    },
-    {
-      "date": "2026-05-11",
-      "scanId": "scan-059",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 5,
-      "previousTotal": 88,
-      "newTotal": 83
-    },
-    {
-      "date": "2026-05-11",
-      "scanId": "scan-059",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 151,
-      "newTotal": 150
-    },
-    {
-      "date": "2026-05-11",
-      "scanId": "scan-059",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 2,
-      "previousTotal": 245,
-      "newTotal": 243
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 1,
-      "previousTotal": 94,
-      "newTotal": 93
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 2,
-      "previousTotal": 101,
-      "newTotal": 99
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 1,
-      "previousTotal": 65,
-      "newTotal": 64
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
-      "dealer": "Premier 54 Motorsports",
-      "competitorId": "premier-54",
-      "count": 2,
-      "previousTotal": 124,
-      "newTotal": 122
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 5,
-      "previousTotal": 99,
-      "newTotal": 94
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 1,
-      "previousTotal": 102,
-      "newTotal": 101
-    },
-    {
-      "date": "2026-05-08",
-      "scanId": "scan-056",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 4,
-      "previousTotal": 106,
-      "newTotal": 102
-    },
-    {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 5,
-      "previousTotal": 88,
-      "newTotal": 83
-    },
-    {
-      "date": "2026-05-06",
-      "scanId": "scan-054",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 8,
-      "previousTotal": 43,
-      "newTotal": 35
-    },
-    {
-      "date": "2026-05-06",
-      "scanId": "scan-054",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 148,
-      "newTotal": 147
-    },
-    {
-      "date": "2026-05-05",
-      "scanId": "scan-053",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 8,
-      "previousTotal": 101,
-      "newTotal": 93
-    },
-    {
-      "date": "2026-05-05",
-      "scanId": "scan-053",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 4,
-      "previousTotal": 112,
-      "newTotal": 108
-    },
-    {
-      "date": "2026-05-05",
-      "scanId": "scan-053",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 2,
-      "previousTotal": 150,
-      "newTotal": 148
-    },
-    {
-      "date": "2026-05-04",
-      "scanId": "scan-052",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 5,
-      "previousTotal": 48,
-      "newTotal": 43
-    },
-    {
-      "date": "2026-05-04",
-      "scanId": "scan-052",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 2,
-      "previousTotal": 114,
-      "newTotal": 112
-    },
-    {
-      "date": "2026-05-04",
-      "scanId": "scan-052",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 151,
-      "newTotal": 150
-    },
-    {
-      "date": "2026-05-04",
-      "scanId": "scan-052",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 242,
-      "newTotal": 241
-    }
-  ],
-  "recentlyAdded": [
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
-      "dealer": "All About Boats",
-      "competitorId": "all-about-boats",
-      "count": 1,
-      "previousTotal": 51,
-      "newTotal": 52
-    },
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 6,
-      "previousTotal": 37,
-      "newTotal": 43
-    },
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 55,
-      "newTotal": 56
-    },
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 9,
-      "previousTotal": 108,
-      "newTotal": 117
-    },
-    {
-      "date": "2026-05-22",
-      "scanId": "scan-070",
+      "date": "2026-05-15",
+      "scanId": "scan-063",
       "dealer": "Big Thunder Marine",
       "competitorId": "big-thunder-marine",
       "count": 1,
       "previousTotal": 240,
-      "newTotal": 241
+      "newTotal": 239,
+      "detail": "Big Thunder Marine: 240 -> 239 (-1)"
     },
     {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 54,
-      "newTotal": 55
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 1,
-      "previousTotal": 103,
-      "newTotal": 104
-    },
-    {
-      "date": "2026-05-21",
-      "scanId": "scan-069",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 2,
-      "previousTotal": 59,
-      "newTotal": 61
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 5,
-      "previousTotal": 93,
-      "newTotal": 98
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 53,
-      "newTotal": 54
-    },
-    {
-      "date": "2026-05-20",
-      "scanId": "scan-068",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 10,
-      "previousTotal": 94,
-      "newTotal": 104
-    },
-    {
-      "date": "2026-05-19",
-      "scanId": "scan-067",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 1,
-      "previousTotal": 93,
-      "newTotal": 94
-    },
-    {
-      "date": "2026-05-19",
-      "scanId": "scan-067",
+      "date": "2026-05-15",
+      "scanId": "scan-063",
       "dealer": "Kelly's Port",
       "competitorId": "kellys-port",
       "count": 4,
-      "previousTotal": 116,
-      "newTotal": 120
-    },
-    {
-      "date": "2026-05-18",
-      "scanId": "scan-066",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 5,
-      "previousTotal": 41,
-      "newTotal": 46
-    },
-    {
-      "date": "2026-05-18",
-      "scanId": "scan-066",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 156,
-      "newTotal": 157
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Premier 54 Motorsports",
-      "competitorId": "premier-54",
-      "count": 1,
-      "previousTotal": 120,
-      "newTotal": 121
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 12,
-      "previousTotal": 81,
-      "newTotal": 93
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 3,
-      "previousTotal": 100,
-      "newTotal": 103
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 2,
-      "previousTotal": 97,
-      "newTotal": 99
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 1,
-      "previousTotal": 58,
-      "newTotal": 59
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 3,
       "previousTotal": 113,
-      "newTotal": 116
+      "newTotal": 109,
+      "detail": "Kelly's Port: 113 -> 109 (-4)"
     },
     {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 155,
-      "newTotal": 156
-    },
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 4,
-      "previousTotal": 239,
-      "newTotal": 243
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Stateamind Water Sports",
-      "competitorId": "stateamind",
-      "count": 1,
-      "previousTotal": 80,
-      "newTotal": 81
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 2,
-      "previousTotal": 87,
-      "newTotal": 89
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
+      "date": "2026-05-15",
+      "scanId": "scan-063",
       "dealer": "Formula Boats of Missouri",
       "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 52,
-      "newTotal": 53
-    },
-    {
-      "date": "2026-05-16",
-      "scanId": "scan-064",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
       "count": 4,
-      "previousTotal": 109,
-      "newTotal": 113
+      "previousTotal": 56,
+      "newTotal": 52,
+      "detail": "Formula Boats of Missouri: 56 -> 52 (-4)"
     },
     {
       "date": "2026-05-15",
       "scanId": "scan-063",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 2,
-      "previousTotal": 85,
-      "newTotal": 87
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 13,
+      "previousTotal": 93,
+      "newTotal": 80,
+      "detail": "Stateamind Water Sports: 93 -> 80 (-13)"
     },
     {
       "date": "2026-05-15",
       "scanId": "scan-063",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 2,
-      "previousTotal": 106,
-      "newTotal": 108
-    },
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 2,
-      "previousTotal": 83,
-      "newTotal": 85
-    },
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 154,
-      "newTotal": 155
-    },
-    {
-      "date": "2026-05-12",
-      "scanId": "scan-060",
-      "dealer": "MarineMax Lake Ozark",
-      "competitorId": "marinemax",
-      "count": 4,
-      "previousTotal": 150,
-      "newTotal": 154
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
       "dealer": "All About Boats",
       "competitorId": "all-about-boats",
       "count": 1,
-      "previousTotal": 51,
-      "newTotal": 52
+      "previousTotal": 52,
+      "newTotal": 51,
+      "detail": "All About Boats: 52 -> 51 (-1)"
     },
     {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 1,
-      "previousTotal": 87,
-      "newTotal": 88
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 1,
-      "previousTotal": 112,
-      "newTotal": 113
-    },
-    {
-      "date": "2026-05-10",
-      "scanId": "scan-058",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 244,
-      "newTotal": 245
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 4,
-      "previousTotal": 83,
-      "newTotal": 87
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 1,
-      "previousTotal": 105,
-      "newTotal": 106
-    },
-    {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
+      "date": "2026-05-16",
+      "scanId": "scan-064",
       "dealer": "Village Marina & Yacht Club",
       "competitorId": "village-marina",
       "count": 3,
-      "previousTotal": 62,
-      "newTotal": 65
+      "previousTotal": 61,
+      "newTotal": 58,
+      "detail": "Village Marina & Yacht Club: 61 -> 58 (-3)"
     },
     {
-      "date": "2026-05-09",
-      "scanId": "scan-057",
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 8,
+      "previousTotal": 108,
+      "newTotal": 100,
+      "detail": "Premier Advantage Marine: 108 -> 100 (-8)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 121,
+      "newTotal": 120,
+      "detail": "Premier 54 Motorsports: 121 -> 120 (-1)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 43,
+      "newTotal": 42,
+      "detail": "Marty's Marine: 43 -> 42 (-1)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 4,
+      "previousTotal": 89,
+      "newTotal": 85,
+      "detail": "Heartland Marine: 89 -> 85 (-4)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 42,
+      "newTotal": 41,
+      "detail": "Marty's Marine: 42 -> 41 (-1)"
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
       "dealer": "Big Thunder Marine",
       "competitorId": "big-thunder-marine",
       "count": 1,
       "previousTotal": 243,
-      "newTotal": 244
+      "newTotal": 242,
+      "detail": "Big Thunder Marine: 243 -> 242 (-1)"
     },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 6,
+      "previousTotal": 99,
+      "newTotal": 93,
+      "detail": "Iguana Marine Group: 99 -> 93 (-6)"
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 85,
+      "newTotal": 83,
+      "detail": "Heartland Marine: 85 -> 83 (-2)"
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 3,
+      "previousTotal": 46,
+      "newTotal": 43,
+      "detail": "Marty's Marine: 46 -> 43 (-3)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 242,
+      "newTotal": 241,
+      "detail": "Big Thunder Marine: 242 -> 241 (-1)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 2,
+      "previousTotal": 157,
+      "newTotal": 155,
+      "detail": "MarineMax Lake Ozark: 157 -> 155 (-2)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 8,
+      "previousTotal": 120,
+      "newTotal": 112,
+      "detail": "Kelly's Port: 120 -> 112 (-8)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 1,
+      "previousTotal": 43,
+      "newTotal": 42,
+      "detail": "Marty's Marine: 43 -> 42 (-1)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 241,
+      "newTotal": 240,
+      "detail": "Big Thunder Marine: 241 -> 240 (-1)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 112,
+      "newTotal": 108,
+      "detail": "Kelly's Port: 112 -> 108 (-4)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 3,
+      "previousTotal": 104,
+      "newTotal": 101,
+      "detail": "Iguana Marine Group: 104 -> 101 (-3)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 3,
+      "previousTotal": 98,
+      "newTotal": 95,
+      "detail": "Stateamind Water Sports: 98 -> 95 (-3)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 5,
+      "previousTotal": 42,
+      "newTotal": 37,
+      "detail": "Marty's Marine: 42 -> 37 (-5)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 101,
+      "newTotal": 100,
+      "detail": "Iguana Marine Group: 101 -> 100 (-1)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 83,
+      "newTotal": 82,
+      "detail": "Heartland Marine: 83 -> 82 (-1)"
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 50,
+      "previousTotal": 241,
+      "newTotal": 191,
+      "detail": "Inventory decreased by 50 (was 241, now 191). New: 110, Used: 81. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 113,
+      "previousTotal": 155,
+      "newTotal": 42,
+      "detail": "Inventory decreased by 113 (was 155, now 42). New: 22, Used: 20. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Performance Boat Center",
+      "competitorId": "performance-boat-center",
+      "count": 90,
+      "previousTotal": 177,
+      "newTotal": 87,
+      "detail": "Inventory decreased by 90 (was 177, now 87). New: 9, Used: 78. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 3,
+      "previousTotal": 117,
+      "newTotal": 114,
+      "detail": "Inventory decreased by 3 (was 117, now 114). New: 70, Used: 44. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 10,
+      "previousTotal": 61,
+      "newTotal": 51,
+      "detail": "Inventory decreased by 10 (was 61, now 51). New: 18, Used: 33. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 6,
+      "previousTotal": 104,
+      "newTotal": 98,
+      "detail": "Inventory decreased by 6 (was 104, now 98). New: 14, Used: 84. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 27,
+      "previousTotal": 56,
+      "newTotal": 29,
+      "detail": "Inventory decreased by 27 (was 56, now 29). New: 19, Used: 10. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 74,
+      "previousTotal": 111,
+      "newTotal": 37,
+      "detail": "Inventory decreased by 74 (was 111, now 37). New: 24, Used: 13. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 31,
+      "previousTotal": 82,
+      "newTotal": 51,
+      "detail": "Inventory decreased by 31 (was 82, now 51). New: 16, Used: 35. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 32,
+      "previousTotal": 121,
+      "newTotal": 89,
+      "detail": "Inventory decreased by 32 (was 121, now 89). New: 54, Used: 35. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 24,
+      "previousTotal": 43,
+      "newTotal": 19,
+      "detail": "Inventory decreased by 24 (was 43, now 19). New: 14, Used: 5. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Surdyke Yamaha & Marina",
+      "competitorId": "surdyke-yamaha",
+      "count": 321,
+      "previousTotal": 427,
+      "newTotal": 106,
+      "detail": "Inventory decreased by 321 (was 427, now 106). New: 75, Used: 31. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 8,
+      "previousTotal": 52,
+      "newTotal": 44,
+      "detail": "Inventory decreased by 8 (was 52, now 44). New: 28, Used: 16. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-06",
+      "scanId": "scan-073",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 191,
+      "newTotal": 190,
+      "detail": "Inventory decreased by 1 (was 191, now 190). New: 110, Used: 80. Reflects the normal one-day change since the prior scan on 2026-09-05."
+    },
+    {
+      "date": "2026-09-06",
+      "scanId": "scan-073",
+      "dealer": "Performance Boat Center",
+      "competitorId": "performance-boat-center",
+      "count": 1,
+      "previousTotal": 87,
+      "newTotal": 86,
+      "detail": "Inventory decreased by 1 (was 87, now 86). New: 9, Used: 77. Reflects the normal one-day change since the prior scan on 2026-09-05."
+    },
+    {
+      "date": "2026-09-07",
+      "scanId": "scan-074",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 42,
+      "newTotal": 41,
+      "detail": "Inventory decreased by 1 (was 42, now 41). New: 22, Used: 19. Reflects the normal one-day change since the prior scan on 2026-09-06."
+    },
+    {
+      "date": "2026-09-07",
+      "scanId": "scan-075",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 6,
+      "previousTotal": 190,
+      "newTotal": 184,
+      "detail": "Inventory decreased by 6 (was 190, now 184). New: 111, Used: 73. Reflects the normal one-day change since the prior scan on 2026-09-07."
+    },
+    {
+      "date": "2026-09-09",
+      "scanId": "scan-077",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 186,
+      "newTotal": 185,
+      "detail": "Inventory decreased by 1 (was 186, now 185). New: 111, Used: 74. Reflects the normal one-day change since the prior scan on 2026-09-08."
+    },
+    {
+      "date": "2026-09-09",
+      "scanId": "scan-077",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 38,
+      "newTotal": 37,
+      "detail": "Inventory decreased by 1 (was 38, now 37). New: 24, Used: 13. Reflects the normal one-day change since the prior scan on 2026-09-08."
+    },
+    {
+      "date": "2026-09-10",
+      "scanId": "scan-078",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 2,
+      "previousTotal": 42,
+      "newTotal": 40,
+      "detail": "Inventory decreased by 2 (was 42, now 40). New: 22, Used: 18. Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "date": "2026-09-10",
+      "scanId": "scan-078",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 2,
+      "previousTotal": 104,
+      "newTotal": 102,
+      "detail": "Inventory decreased by 2 (was 104, now 102). New: 63, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "date": "2026-09-10",
+      "scanId": "scan-078",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 2,
+      "previousTotal": 100,
+      "newTotal": 98,
+      "detail": "Inventory decreased by 2 (was 100, now 98). New: 59, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-09."
+    }
+  ],
+  "recentlyAdded": [
     {
       "date": "2026-05-08",
       "scanId": "scan-056",
-      "dealer": "All About Boats",
-      "competitorId": "all-about-boats",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
       "count": 1,
-      "previousTotal": 50,
-      "newTotal": 51
+      "previousTotal": 61,
+      "newTotal": 62,
+      "detail": "Village Marina & Yacht Club: 61 -> 62 (+1)"
     },
     {
       "date": "2026-05-08",
@@ -1357,79 +943,488 @@
       "competitorId": "premier-advantage",
       "count": 1,
       "previousTotal": 104,
-      "newTotal": 105
+      "newTotal": 105,
+      "detail": "Premier Advantage Marine: 104 -> 105 (+1)"
     },
     {
       "date": "2026-05-08",
       "scanId": "scan-056",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 1,
-      "previousTotal": 61,
-      "newTotal": 62
-    },
-    {
-      "date": "2026-05-08",
-      "scanId": "scan-056",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 2,
-      "previousTotal": 241,
-      "newTotal": 243
-    },
-    {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
       "dealer": "All About Boats",
       "competitorId": "all-about-boats",
       "count": 1,
-      "previousTotal": 49,
-      "newTotal": 50
+      "previousTotal": 50,
+      "newTotal": 51,
+      "detail": "All About Boats: 50 -> 51 (+1)"
     },
     {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
-      "dealer": "Marty's Marine",
-      "competitorId": "martys-marine",
-      "count": 8,
-      "previousTotal": 35,
-      "newTotal": 43
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 243,
+      "newTotal": 244,
+      "detail": "Big Thunder Marine: 243 -> 244 (+1)"
     },
     {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 3,
+      "previousTotal": 62,
+      "newTotal": 65,
+      "detail": "Village Marina & Yacht Club: 62 -> 65 (+3)"
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 105,
+      "newTotal": 106,
+      "detail": "Premier Advantage Marine: 105 -> 106 (+1)"
+    },
+    {
+      "date": "2026-05-09",
+      "scanId": "scan-057",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 4,
+      "previousTotal": 83,
+      "newTotal": 87,
+      "detail": "Heartland Marine: 83 -> 87 (+4)"
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 244,
+      "newTotal": 245,
+      "detail": "Big Thunder Marine: 244 -> 245 (+1)"
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 1,
+      "previousTotal": 112,
+      "newTotal": 113,
+      "detail": "Kelly's Port: 112 -> 113 (+1)"
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 87,
+      "newTotal": 88,
+      "detail": "Heartland Marine: 87 -> 88 (+1)"
+    },
+    {
+      "date": "2026-05-10",
+      "scanId": "scan-058",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 51,
+      "newTotal": 52,
+      "detail": "All About Boats: 51 -> 52 (+1)"
+    },
+    {
+      "date": "2026-05-12",
+      "scanId": "scan-060",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 4,
+      "previousTotal": 150,
+      "newTotal": 154,
+      "detail": "MarineMax Lake Ozark: 150 -> 154 (+4)"
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 154,
+      "newTotal": 155,
+      "detail": "MarineMax Lake Ozark: 154 -> 155 (+1)"
+    },
+    {
+      "date": "2026-05-14",
+      "scanId": "scan-062",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 83,
+      "newTotal": 85,
+      "detail": "Heartland Marine: 83 -> 85 (+2)"
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 2,
+      "previousTotal": 106,
+      "newTotal": 108,
+      "detail": "Premier Advantage Marine: 106 -> 108 (+2)"
+    },
+    {
+      "date": "2026-05-15",
+      "scanId": "scan-063",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 85,
+      "newTotal": 87,
+      "detail": "Heartland Marine: 85 -> 87 (+2)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 109,
+      "newTotal": 113,
+      "detail": "Kelly's Port: 109 -> 113 (+4)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 52,
+      "newTotal": 53,
+      "detail": "Formula Boats of Missouri: 52 -> 53 (+1)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 87,
+      "newTotal": 89,
+      "detail": "Heartland Marine: 87 -> 89 (+2)"
+    },
+    {
+      "date": "2026-05-16",
+      "scanId": "scan-064",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 1,
+      "previousTotal": 80,
+      "newTotal": 81,
+      "detail": "Stateamind Water Sports: 80 -> 81 (+1)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 4,
+      "previousTotal": 239,
+      "newTotal": 243,
+      "detail": "Big Thunder Marine: 239 -> 243 (+4)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 155,
+      "newTotal": 156,
+      "detail": "MarineMax Lake Ozark: 155 -> 156 (+1)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 3,
+      "previousTotal": 113,
+      "newTotal": 116,
+      "detail": "Kelly's Port: 113 -> 116 (+3)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 58,
+      "newTotal": 59,
+      "detail": "Village Marina & Yacht Club: 58 -> 59 (+1)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 2,
+      "previousTotal": 97,
+      "newTotal": 99,
+      "detail": "Iguana Marine Group: 97 -> 99 (+2)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 3,
+      "previousTotal": 100,
+      "newTotal": 103,
+      "detail": "Premier Advantage Marine: 100 -> 103 (+3)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 12,
+      "previousTotal": 81,
+      "newTotal": 93,
+      "detail": "Stateamind Water Sports: 81 -> 93 (+12)"
+    },
+    {
+      "date": "2026-05-17",
+      "scanId": "scan-065",
       "dealer": "Premier 54 Motorsports",
       "competitorId": "premier-54",
-      "count": 4,
+      "count": 1,
       "previousTotal": 120,
-      "newTotal": 124
+      "newTotal": 121,
+      "detail": "Premier 54 Motorsports: 120 -> 121 (+1)"
     },
     {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "MarineMax Lake Ozark",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 156,
+      "newTotal": 157,
+      "detail": "MarineMax Lake Ozark: 156 -> 157 (+1)"
+    },
+    {
+      "date": "2026-05-18",
+      "scanId": "scan-066",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 5,
+      "previousTotal": 41,
+      "newTotal": 46,
+      "detail": "Marty's Marine: 41 -> 46 (+5)"
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 4,
+      "previousTotal": 116,
+      "newTotal": 120,
+      "detail": "Kelly's Port: 116 -> 120 (+4)"
+    },
+    {
+      "date": "2026-05-19",
+      "scanId": "scan-067",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 93,
+      "newTotal": 94,
+      "detail": "Iguana Marine Group: 93 -> 94 (+1)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 10,
+      "previousTotal": 94,
+      "newTotal": 104,
+      "detail": "Iguana Marine Group: 94 -> 104 (+10)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 53,
+      "newTotal": 54,
+      "detail": "Formula Boats of Missouri: 53 -> 54 (+1)"
+    },
+    {
+      "date": "2026-05-20",
+      "scanId": "scan-068",
       "dealer": "Stateamind Water Sports",
       "competitorId": "stateamind",
       "count": 5,
-      "previousTotal": 94,
-      "newTotal": 99
+      "previousTotal": 93,
+      "newTotal": 98,
+      "detail": "Stateamind Water Sports: 93 -> 98 (+5)"
     },
     {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 5,
-      "previousTotal": 101,
-      "newTotal": 106
-    },
-    {
-      "date": "2026-05-07",
-      "scanId": "scan-055",
+      "date": "2026-05-21",
+      "scanId": "scan-069",
       "dealer": "Village Marina & Yacht Club",
       "competitorId": "village-marina",
       "count": 2,
       "previousTotal": 59,
-      "newTotal": 61
+      "newTotal": 61,
+      "detail": "Village Marina & Yacht Club: 59 -> 61 (+2)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 103,
+      "newTotal": 104,
+      "detail": "Premier Advantage Marine: 103 -> 104 (+1)"
+    },
+    {
+      "date": "2026-05-21",
+      "scanId": "scan-069",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 54,
+      "newTotal": 55,
+      "detail": "Formula Boats of Missouri: 54 -> 55 (+1)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 240,
+      "newTotal": 241,
+      "detail": "Big Thunder Marine: 240 -> 241 (+1)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 9,
+      "previousTotal": 108,
+      "newTotal": 117,
+      "detail": "Kelly's Port: 108 -> 117 (+9)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 55,
+      "newTotal": 56,
+      "detail": "Formula Boats of Missouri: 55 -> 56 (+1)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "Marty's Marine",
+      "competitorId": "martys-marine",
+      "count": 6,
+      "previousTotal": 37,
+      "newTotal": 43,
+      "detail": "Marty's Marine: 37 -> 43 (+6)"
+    },
+    {
+      "date": "2026-05-22",
+      "scanId": "scan-070",
+      "dealer": "All About Boats",
+      "competitorId": "all-about-boats",
+      "count": 1,
+      "previousTotal": 51,
+      "newTotal": 52,
+      "detail": "All About Boats: 51 -> 52 (+1)"
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 4,
+      "previousTotal": 100,
+      "newTotal": 104,
+      "detail": "Inventory increased by 4 (was 100, now 104). New: 65, Used: 39. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-05",
+      "scanId": "scan-071",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 5,
+      "previousTotal": 95,
+      "newTotal": 100,
+      "detail": "Inventory increased by 5 (was 95, now 100). New: 61, Used: 39. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
+    },
+    {
+      "date": "2026-09-06",
+      "scanId": "scan-073",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 37,
+      "newTotal": 38,
+      "detail": "Inventory increased by 1 (was 37, now 38). New: 25, Used: 13. Reflects the normal one-day change since the prior scan on 2026-09-05."
+    },
+    {
+      "date": "2026-09-07",
+      "scanId": "scan-075",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 41,
+      "newTotal": 42,
+      "detail": "Inventory increased by 1 (was 41, now 42). New: 23, Used: 19. Reflects the normal one-day change since the prior scan on 2026-09-07."
+    },
+    {
+      "date": "2026-09-08",
+      "scanId": "scan-076",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 2,
+      "previousTotal": 184,
+      "newTotal": 186,
+      "detail": "Inventory increased by 2 (was 184, now 186). New: 111, Used: 75. Reflects the normal one-day change since the prior scan on 2026-09-07."
+    },
+    {
+      "date": "2026-09-09",
+      "scanId": "scan-077",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 29,
+      "newTotal": 30,
+      "detail": "Inventory increased by 1 (was 29, now 30). New: 19, Used: 11. Reflects the normal one-day change since the prior scan on 2026-09-08."
+    },
+    {
+      "date": "2026-09-10",
+      "scanId": "scan-078",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 89,
+      "newTotal": 90,
+      "detail": "Inventory increased by 1 (was 89, now 90). New: 54, Used: 36. Reflects the normal one-day change since the prior scan on 2026-09-09."
     }
   ],
   "insights": [
@@ -2895,6 +2890,11 @@
       "date": "2026-09-10",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-09-10 (scan-078). 5 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, premier-advantage, surdyke-yamaha, village-marina."
+    },
+    {
+      "date": "2026-09-10",
+      "type": "data_quality",
+      "text": "Sold-by-category and sold-by-brand tracking restarted today: per-scan category/brand snapshots weren't persisted before this run, so tonight's scan has nothing to diff against yet. These charts need two consecutive nightly scans with category/brand data to compute a real difference, so they'll start populating within the next couple of nightly runs. Sold-by-dealer and sold-by-condition (new/used) are already accurate as of tonight, computed from the real scan history."
     }
   ],
   "summary": {
@@ -2902,7 +2902,29 @@
     "scanId": "scan-078",
     "marketTotal": 1151,
     "credibleChangesCount": 4,
-    "soldCount": 0,
-    "addedCount": 0
-  }
+    "soldCount": 1403,
+    "addedCount": 589
+  },
+  "addedByDealer": {
+    "Big Thunder Marine": 45,
+    "Formula Boats of Missouri": 18,
+    "Performance Marine Watersports": 12,
+    "Marty's Marine": 96,
+    "Iguana Marine Group": 64,
+    "Premier Advantage Marine": 21,
+    "Heartland Marine": 41,
+    "Premier 54 Motorsports": 66,
+    "MarineMax": 35,
+    "Performance Boat Center": 21,
+    "Village Marina & Yacht Club": 19,
+    "Kelly's Port": 56,
+    "Surdyke Yamaha & Marina": 14,
+    "Stateamind Water Sports": 71,
+    "All About Boats": 10
+  },
+  "addedByCondition": {
+    "New": 3014,
+    "Used": 2137
+  },
+  "addedByBrand": {}
 }

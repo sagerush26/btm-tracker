@@ -71,6 +71,10 @@ for cid, d in DEALERS.items():
         "avgPriceNew": avgPriceNew if avgPriceNew is not None else avgPrice,
         "avgPriceUsed": avgPriceUsed if avgPriceUsed is not None else avgPrice,
         "priceRange": priceRange,
+        # Persisted so future runs can diff category/brand mix scan-over-scan for
+        # real sold/added breakdowns (see trends recompute section below).
+        "category": d["category"],
+        "brand": d["brand"],
     }
     new_results.append(result)
     dealer_avg_info[cid] = (avgPrice, d["priceQuality"])
@@ -282,18 +286,119 @@ trends["insights"].append({
     "date": SCAN_DATE, "type": "data_quality",
     "text": insight_text,
 })
+# ---------- Recompute real sold/added analytics from full scan history ----------
+# Fixed 2026-09-10: soldByDealer/soldByCondition/soldByCategory/soldByBrand/
+# soldByPriceBand/soldByLengthBand/recentlySold/recentlyAdded/summary.soldCount/
+# addedCount were frozen at scan-070 (2026-05-22) and never recomputed by any prior
+# version of this script, even though the nightly pipeline kept running -- the Trends
+# tab was silently showing 3.5-month-stale "sold" data every night since. These are
+# now derived every run from the real, verified scan history in scans.json instead of
+# being carried forward unchanged.
+all_changes = scans["changes"]
+
+# Group by dealerId (competitorId), not the raw historical dealerName -- some
+# dealers (e.g. marinemax) were renamed in DEALERS at some point in the past, and
+# the change log preserves whatever name was current at the time, which would
+# otherwise split one dealer's totals across two differently-named rows.
+sold_by_dealer, added_by_dealer = {}, {}
+for c in all_changes:
+    did = c.get("dealerId") or c.get("competitorId")
+    name = DEALERS.get(did, {}).get("name") or c.get("dealerName") or did or "Unknown"
+    if c.get("type") == "inventory_decrease":
+        sold_by_dealer[name] = sold_by_dealer.get(name, 0) + c.get("count", 0)
+    elif c.get("type") == "inventory_increase":
+        added_by_dealer[name] = added_by_dealer.get(name, 0) + c.get("count", 0)
+
+# Condition (new/used) split: walk every consecutive pair of full-market scans per
+# dealer using the newBoats/usedBoats stored in each historical scan snapshot.
+sold_new = sold_used = added_new = added_used = 0
+sold_by_category, added_by_category = {}, {}
+sold_by_brand, added_by_brand = {}, {}
+prev_by_id = {}
+for scan_entry in scans["scans"]:
+    for r in scan_entry["results"]:
+        cid = r["competitorId"]
+        cn, cu = r.get("newBoats", 0), r.get("usedBoats", 0)
+        cat, brand = r.get("category"), r.get("brand")
+        if cid in prev_by_id:
+            pn, pu, pcat, pbrand = prev_by_id[cid]
+            if cn < pn: sold_new += (pn - cn)
+            elif cn > pn: added_new += (cn - pn)
+            if cu < pu: sold_used += (pu - cu)
+            elif cu > pu: added_used += (cu - pu)
+            # Category/brand breakdowns only become available once two consecutive
+            # scans for the same dealer both persisted these dicts (see above).
+            if cat is not None and pcat is not None:
+                for k, v in cat.items():
+                    pv = pcat.get(k, 0)
+                    if v < pv: sold_by_category[k] = sold_by_category.get(k, 0) + (pv - v)
+                    elif v > pv: added_by_category[k] = added_by_category.get(k, 0) + (v - pv)
+            if brand is not None and pbrand is not None:
+                for k, v in brand.items():
+                    pv = pbrand.get(k, 0)
+                    if v < pv: sold_by_brand[k] = sold_by_brand.get(k, 0) + (pv - v)
+                    elif v > pv: added_by_brand[k] = added_by_brand.get(k, 0) + (v - pv)
+        prev_by_id[cid] = (cn, cu, cat, brand)
+
+trends["soldByDealer"] = sold_by_dealer
+trends["addedByDealer"] = added_by_dealer
+trends["soldByCondition"] = {"New": sold_new, "Used": sold_used}
+trends["addedByCondition"] = {"New": added_new, "Used": added_used}
+
+# Price-band and length-band sold breakdowns need a per-listing price/length history
+# we don't persist (only aggregate category/brand counts). Leaving these empty is
+# honest -- the dashboard already renders an explicit "Data builds after scans detect
+# changes" placeholder for empty chart data instead of a misleading zero/stale chart.
+if not sold_by_category and not sold_by_brand:
+    trends["insights"].append({
+        "date": SCAN_DATE, "type": "data_quality",
+        "text": (
+            "Sold-by-category and sold-by-brand tracking restarted today: per-scan "
+            "category/brand snapshots weren't persisted before this run, so tonight's "
+            "scan has nothing to diff against yet. These charts need two consecutive "
+            "nightly scans with category/brand data to compute a real difference, so "
+            "they'll start populating within the next couple of nightly runs. "
+            "Sold-by-dealer and sold-by-condition (new/used) are already accurate as "
+            "of tonight, computed from the real scan history."
+        ),
+    })
+trends["soldByCategory"] = sold_by_category
+trends["soldByBrand"] = sold_by_brand
+trends["addedByCategory"] = added_by_category
+trends["addedByBrand"] = added_by_brand
+# Price-band/length-band sold breakdowns are not derivable from persisted data yet.
+trends["soldByPriceBand"] = {}
+trends["soldByLengthBand"] = {}
+
+# Recently sold/added: derived directly from the real, verified change log (most
+# recent 50 events each) instead of the frozen May snapshot.
+def _activity_item(c):
+    return {
+        "date": c["date"], "scanId": c["scanId"],
+        "dealer": c.get("dealerName"), "competitorId": c.get("competitorId") or c.get("dealerId"),
+        "count": c.get("count", abs(c.get("change", 0))),
+        "previousTotal": c.get("previousTotal"), "newTotal": c.get("newTotal"),
+        "detail": c.get("detail", c.get("description", "")),
+    }
+sold_events = [c for c in all_changes if c.get("type") == "inventory_decrease"]
+added_events = [c for c in all_changes if c.get("type") == "inventory_increase"]
+trends["recentlySold"] = [_activity_item(c) for c in sold_events[-50:]]
+trends["recentlyAdded"] = [_activity_item(c) for c in added_events[-50:]]
+
 trends["summary"] = {
     "date": SCAN_DATE,
     "scanId": SCAN_ID,
     "marketTotal": market_total,
     "credibleChangesCount": len(new_changes),
-    "soldCount": 0,
-    "addedCount": 0,
+    "soldCount": sum(sold_by_dealer.values()),
+    "addedCount": sum(added_by_dealer.values()),
 }
 
 with open(f"{DATA_DIR}/trends.json", "w") as f:
     json.dump(trends, f, indent=2)
 print("trends.json written. marketAvg:", market_avg_price, "btmAvg:", btm_avg_price)
+print("Real sold/added totals -- sold:", sum(sold_by_dealer.values()), "added:", sum(added_by_dealer.values()))
+print("Recently sold/added events:", len(trends["recentlySold"]), len(trends["recentlyAdded"]))
 
 if failed_ids:
     print("\n⚠ Dealers using carried-forward data this run:", sorted(failed_ids))
