@@ -12011,6 +12011,162 @@
           "priceRange": "N/A"
         }
       ]
+    },
+    {
+      "scanId": "scan-078",
+      "date": "2026-09-10",
+      "results": [
+        {
+          "competitorId": "big-thunder-marine",
+          "totalBoats": 185,
+          "newBoats": 111,
+          "usedBoats": 74,
+          "avgPrice": 291931.01,
+          "avgPriceNew": 354076.47,
+          "avgPriceUsed": 203395.0,
+          "priceRange": "$25,000 - $2,765,760"
+        },
+        {
+          "competitorId": "marinemax",
+          "totalBoats": 40,
+          "newBoats": 22,
+          "usedBoats": 18,
+          "avgPrice": 528389.25,
+          "avgPriceNew": 622629.86,
+          "avgPriceUsed": 413206.28,
+          "priceRange": "$57,900 - $1,999,900"
+        },
+        {
+          "competitorId": "performance-boat-center",
+          "totalBoats": 86,
+          "newBoats": 9,
+          "usedBoats": 77,
+          "avgPrice": 487631.88,
+          "avgPriceNew": 530575.0,
+          "avgPriceUsed": 483170.26,
+          "priceRange": "$22,500 - $2,395,000"
+        },
+        {
+          "competitorId": "kellys-port",
+          "totalBoats": 114,
+          "newBoats": 70,
+          "usedBoats": 44,
+          "avgPrice": 282827.43,
+          "avgPriceNew": 282827.43,
+          "avgPriceUsed": 282827.43,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "village-marina",
+          "totalBoats": 51,
+          "newBoats": 18,
+          "usedBoats": 33,
+          "avgPrice": 141531.1,
+          "avgPriceNew": 141531.1,
+          "avgPriceUsed": 141531.1,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "iguana-marine",
+          "totalBoats": 102,
+          "newBoats": 63,
+          "usedBoats": 39,
+          "avgPrice": 187293.49,
+          "avgPriceNew": 275888.08,
+          "avgPriceUsed": 101093.35,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-advantage",
+          "totalBoats": 98,
+          "newBoats": 14,
+          "usedBoats": 84,
+          "avgPrice": 75825.73,
+          "avgPriceNew": 75825.73,
+          "avgPriceUsed": 75825.73,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "formula-boats-mo",
+          "totalBoats": 30,
+          "newBoats": 19,
+          "usedBoats": 11,
+          "avgPrice": 314814.46,
+          "avgPriceNew": 914454.0,
+          "avgPriceUsed": 205789.09,
+          "priceRange": "$79,995 - $914,454"
+        },
+        {
+          "competitorId": "performance-marine",
+          "totalBoats": 37,
+          "newBoats": 25,
+          "usedBoats": 12,
+          "avgPrice": 169625.58,
+          "avgPriceNew": 203711.21,
+          "avgPriceUsed": 115656.67,
+          "priceRange": "$54,990 - $509,093"
+        },
+        {
+          "competitorId": "heartland-marine",
+          "totalBoats": 51,
+          "newBoats": 16,
+          "usedBoats": 35,
+          "avgPrice": 65119.37,
+          "avgPriceNew": 78962.5,
+          "avgPriceUsed": 58791.09,
+          "priceRange": "$8,900 - $169,900"
+        },
+        {
+          "competitorId": "stateamind",
+          "totalBoats": 98,
+          "newBoats": 59,
+          "usedBoats": 39,
+          "avgPrice": 178864.46,
+          "avgPriceNew": 266062.36,
+          "avgPriceUsed": 101093.35,
+          "priceRange": "$16,499 - $1,875,000"
+        },
+        {
+          "competitorId": "premier-54",
+          "totalBoats": 90,
+          "newBoats": 54,
+          "usedBoats": 36,
+          "avgPrice": 148803.59,
+          "avgPriceNew": 191862.92,
+          "avgPriceUsed": 86060.0,
+          "priceRange": "$5,500 - $480,950"
+        },
+        {
+          "competitorId": "martys-marine",
+          "totalBoats": 19,
+          "newBoats": 14,
+          "usedBoats": 5,
+          "avgPrice": 61698.0,
+          "avgPriceNew": 68396.0,
+          "avgPriceUsed": 55000.0,
+          "priceRange": "$55,000 - $68,396"
+        },
+        {
+          "competitorId": "surdyke-yamaha",
+          "totalBoats": 106,
+          "newBoats": 75,
+          "usedBoats": 31,
+          "avgPrice": 107094.62,
+          "avgPriceNew": 107094.62,
+          "avgPriceUsed": 107094.62,
+          "priceRange": "N/A"
+        },
+        {
+          "competitorId": "all-about-boats",
+          "totalBoats": 44,
+          "newBoats": 28,
+          "usedBoats": 16,
+          "avgPrice": 147750.0,
+          "avgPriceNew": 147750.0,
+          "avgPriceUsed": 147750.0,
+          "priceRange": "N/A"
+        }
+      ]
     }
   ],
   "changes": [
@@ -16298,7 +16454,67 @@
       "description": "Performance Marine Watersports: 38 -> 37 (-1)",
       "detail": "Inventory decreased by 1 (was 38, now 37). New: 24, Used: 13. Reflects the normal one-day change since the prior scan on 2026-09-08.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-09-08."
+    },
+    {
+      "scanId": "scan-078",
+      "date": "2026-09-10",
+      "competitorId": "marinemax",
+      "dealerId": "marinemax",
+      "dealerName": "MarineMax",
+      "previousTotal": 42,
+      "newTotal": 40,
+      "change": -2,
+      "type": "inventory_decrease",
+      "count": 2,
+      "description": "MarineMax: 42 -> 40 (-2)",
+      "detail": "Inventory decreased by 2 (was 42, now 40). New: 22, Used: 18. Reflects the normal one-day change since the prior scan on 2026-09-09.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "scanId": "scan-078",
+      "date": "2026-09-10",
+      "competitorId": "iguana-marine",
+      "dealerId": "iguana-marine",
+      "dealerName": "Iguana Marine Group",
+      "previousTotal": 104,
+      "newTotal": 102,
+      "change": -2,
+      "type": "inventory_decrease",
+      "count": 2,
+      "description": "Iguana Marine Group: 104 -> 102 (-2)",
+      "detail": "Inventory decreased by 2 (was 104, now 102). New: 63, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-09.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "scanId": "scan-078",
+      "date": "2026-09-10",
+      "competitorId": "stateamind",
+      "dealerId": "stateamind",
+      "dealerName": "Stateamind Water Sports",
+      "previousTotal": 100,
+      "newTotal": 98,
+      "change": -2,
+      "type": "inventory_decrease",
+      "count": 2,
+      "description": "Stateamind Water Sports: 100 -> 98 (-2)",
+      "detail": "Inventory decreased by 2 (was 100, now 98). New: 59, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-09.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "scanId": "scan-078",
+      "date": "2026-09-10",
+      "competitorId": "premier-54",
+      "dealerId": "premier-54",
+      "dealerName": "Premier 54 Motorsports",
+      "previousTotal": 89,
+      "newTotal": 90,
+      "change": 1,
+      "type": "inventory_increase",
+      "count": 1,
+      "description": "Premier 54 Motorsports: 89 -> 90 (+1)",
+      "detail": "Inventory increased by 1 (was 89, now 90). New: 54, Used: 36. Reflects the normal one-day change since the prior scan on 2026-09-09.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-09-09."
     }
   ],
-  "lastUpdated": "2026-09-09T06:07:03.319885+00:00"
+  "lastUpdated": "2026-09-10T06:07:46.143254+00:00"
 }

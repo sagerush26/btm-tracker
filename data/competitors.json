@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-09T06:07:03.319885+00:00",
+  "lastScan": "2026-09-10T06:07:46.143254+00:00",
   "competitors": [
     {
       "id": "big-thunder-marine",
@@ -25,11 +25,11 @@
       "isOwn": true,
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 185,
       "newInventory": 111,
       "usedInventory": 74,
-      "averagePrice": 292173.94
+      "averagePrice": 291931.01
     },
     {
       "id": "marinemax",
@@ -48,13 +48,13 @@
         "Cruisers Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "carried_forward",
-      "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
-      "totalInventory": 42,
-      "newInventory": 23,
-      "usedInventory": 19,
-      "averagePrice": 510856.6
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
+      "totalInventory": 40,
+      "newInventory": 22,
+      "usedInventory": 18,
+      "averagePrice": 528389.25
     },
     {
       "id": "performance-boat-center",
@@ -71,11 +71,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 86,
       "newInventory": 9,
       "usedInventory": 77,
-      "averagePrice": 500573.06
+      "averagePrice": 487631.88
     },
     {
       "id": "kellys-port",
@@ -91,7 +91,7 @@
       "location": "All Locations",
       "scanStatus": "carried_forward",
       "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 114,
       "newInventory": 70,
       "usedInventory": 44,
@@ -110,7 +110,7 @@
       "location": "All Locations",
       "scanStatus": "carried_forward",
       "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 51,
       "newInventory": 18,
       "usedInventory": 33,
@@ -130,11 +130,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
-      "totalInventory": 104,
-      "newInventory": 65,
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
+      "totalInventory": 102,
+      "newInventory": 63,
       "usedInventory": 39,
-      "averagePrice": 187395.47
+      "averagePrice": 187293.49
     },
     {
       "id": "premier-advantage",
@@ -149,9 +149,9 @@
         "iKon"
       ],
       "location": "All Locations",
-      "scanStatus": "verified",
-      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "scanStatus": "carried_forward",
+      "verificationReason": "Live scrape failed after retry; showing last known-good values.",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 98,
       "newInventory": 14,
       "usedInventory": 84,
@@ -167,7 +167,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 30,
       "newInventory": 19,
       "usedInventory": 11,
@@ -185,11 +185,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 37,
-      "newInventory": 24,
-      "usedInventory": 13,
-      "averagePrice": 170886.97
+      "newInventory": 25,
+      "usedInventory": 12,
+      "averagePrice": 169625.58
     },
     {
       "id": "heartland-marine",
@@ -201,7 +201,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 51,
       "newInventory": 16,
       "usedInventory": 35,
@@ -222,12 +222,12 @@
       ],
       "location": "All Locations",
       "scanStatus": "verified",
-      "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
-      "totalInventory": 100,
-      "newInventory": 61,
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
+      "totalInventory": 98,
+      "newInventory": 59,
       "usedInventory": 39,
-      "averagePrice": 179204.82
+      "averagePrice": 178864.46
     },
     {
       "id": "premier-54",
@@ -241,11 +241,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
-      "totalInventory": 89,
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
+      "totalInventory": 90,
       "newInventory": 54,
-      "usedInventory": 35,
-      "averagePrice": 149943.64
+      "usedInventory": 36,
+      "averagePrice": 148803.59
     },
     {
       "id": "martys-marine",
@@ -260,7 +260,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 19,
       "newInventory": 14,
       "usedInventory": 5,
@@ -279,7 +279,7 @@
       "location": "All Locations",
       "scanStatus": "carried_forward",
       "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 106,
       "newInventory": 75,
       "usedInventory": 31,
@@ -297,7 +297,7 @@
       "location": "All Locations",
       "scanStatus": "carried_forward",
       "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-09T06:07:03.319885+00:00",
+      "lastVerified": "2026-09-10T06:07:46.143254+00:00",
       "totalInventory": 44,
       "newInventory": 28,
       "usedInventory": 16,
