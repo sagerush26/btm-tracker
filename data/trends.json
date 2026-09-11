@@ -3,25 +3,25 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3414,
-    "Used": 2236
+    "New": 3417,
+    "Used": 2240
   },
   "soldByBrand": {},
   "soldByDealer": {
     "Kelly's Port": 67,
-    "Iguana Marine Group": 79,
+    "Iguana Marine Group": 80,
     "Premier Advantage Marine": 37,
-    "Heartland Marine": 84,
+    "Heartland Marine": 85,
     "Premier 54 Motorsports": 64,
     "MarineMax": 146,
     "Performance Boat Center": 146,
     "Formula Boats of Missouri": 43,
     "Marty's Marine": 107,
     "Performance Marine Watersports": 76,
-    "Stateamind Water Sports": 84,
+    "Stateamind Water Sports": 85,
     "All About Boats": 17,
     "Village Marina & Yacht Club": 45,
-    "Big Thunder Marine": 87,
+    "Big Thunder Marine": 89,
     "Surdyke Yamaha & Marina": 321
   },
   "addedByCategory": {},
@@ -229,6 +229,12 @@
       "totalMarket": 1151,
       "btm": 185,
       "competitors": 966
+    },
+    {
+      "date": "2026-09-11",
+      "totalMarket": 1147,
+      "btm": 183,
+      "competitors": 964
     }
   ],
   "priceTrend": [
@@ -421,49 +427,14 @@
       "date": "2026-09-10",
       "marketAvg": 218994.28,
       "btmAvg": 291931.01
+    },
+    {
+      "date": "2026-09-11",
+      "marketAvg": 219094.75,
+      "btmAvg": 291587.81
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 2,
-      "previousTotal": 99,
-      "newTotal": 97,
-      "detail": "Iguana Marine Group: 99 -> 97 (-2)"
-    },
-    {
-      "date": "2026-05-14",
-      "scanId": "scan-062",
-      "dealer": "Premier 54 Motorsports",
-      "competitorId": "premier-54",
-      "count": 1,
-      "previousTotal": 122,
-      "newTotal": 121,
-      "detail": "Premier 54 Motorsports: 122 -> 121 (-1)"
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 240,
-      "newTotal": 239,
-      "detail": "Big Thunder Marine: 240 -> 239 (-1)"
-    },
-    {
-      "date": "2026-05-15",
-      "scanId": "scan-063",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 4,
-      "previousTotal": 113,
-      "newTotal": 109,
-      "detail": "Kelly's Port: 113 -> 109 (-4)"
-    },
     {
       "date": "2026-05-15",
       "scanId": "scan-063",
@@ -923,19 +894,49 @@
       "previousTotal": 100,
       "newTotal": 98,
       "detail": "Inventory decreased by 2 (was 100, now 98). New: 59, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "date": "2026-09-11",
+      "scanId": "scan-079",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 2,
+      "previousTotal": 185,
+      "newTotal": 183,
+      "detail": "Inventory decreased by 2 (was 185, now 183). New: 110, Used: 73. Reflects the normal one-day change since the prior scan on 2026-09-10."
+    },
+    {
+      "date": "2026-09-11",
+      "scanId": "scan-079",
+      "dealer": "Iguana Marine Group",
+      "competitorId": "iguana-marine",
+      "count": 1,
+      "previousTotal": 102,
+      "newTotal": 101,
+      "detail": "Inventory decreased by 1 (was 102, now 101). New: 63, Used: 38. Reflects the normal one-day change since the prior scan on 2026-09-10."
+    },
+    {
+      "date": "2026-09-11",
+      "scanId": "scan-079",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 51,
+      "newTotal": 50,
+      "detail": "Inventory decreased by 1 (was 51, now 50). New: 16, Used: 34. Reflects the normal one-day change since the prior scan on 2026-09-10."
+    },
+    {
+      "date": "2026-09-11",
+      "scanId": "scan-079",
+      "dealer": "Stateamind Water Sports",
+      "competitorId": "stateamind",
+      "count": 1,
+      "previousTotal": 98,
+      "newTotal": 97,
+      "detail": "Inventory decreased by 1 (was 98, now 97). New: 59, Used: 38. Reflects the normal one-day change since the prior scan on 2026-09-10."
     }
   ],
   "recentlyAdded": [
-    {
-      "date": "2026-05-08",
-      "scanId": "scan-056",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 1,
-      "previousTotal": 61,
-      "newTotal": 62,
-      "detail": "Village Marina & Yacht Club: 61 -> 62 (+1)"
-    },
     {
       "date": "2026-05-08",
       "scanId": "scan-056",
@@ -1425,6 +1426,16 @@
       "previousTotal": 89,
       "newTotal": 90,
       "detail": "Inventory increased by 1 (was 89, now 90). New: 54, Used: 36. Reflects the normal one-day change since the prior scan on 2026-09-09."
+    },
+    {
+      "date": "2026-09-11",
+      "scanId": "scan-079",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 40,
+      "newTotal": 41,
+      "detail": "Inventory increased by 1 (was 40, now 41). New: 22, Used: 19. Reflects the normal one-day change since the prior scan on 2026-09-10."
     }
   ],
   "insights": [
@@ -2895,15 +2906,25 @@
       "date": "2026-09-10",
       "type": "data_quality",
       "text": "Sold-by-category and sold-by-brand tracking restarted today: per-scan category/brand snapshots weren't persisted before this run, so tonight's scan has nothing to diff against yet. These charts need two consecutive nightly scans with category/brand data to compute a real difference, so they'll start populating within the next couple of nightly runs. Sold-by-dealer and sold-by-condition (new/used) are already accurate as of tonight, computed from the real scan history."
+    },
+    {
+      "date": "2026-09-11",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-09-11 (scan-079). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
+    },
+    {
+      "date": "2026-09-11",
+      "type": "data_quality",
+      "text": "Sold-by-category and sold-by-brand tracking restarted today: per-scan category/brand snapshots weren't persisted before this run, so tonight's scan has nothing to diff against yet. These charts need two consecutive nightly scans with category/brand data to compute a real difference, so they'll start populating within the next couple of nightly runs. Sold-by-dealer and sold-by-condition (new/used) are already accurate as of tonight, computed from the real scan history."
     }
   ],
   "summary": {
-    "date": "2026-09-10",
-    "scanId": "scan-078",
-    "marketTotal": 1151,
-    "credibleChangesCount": 4,
-    "soldCount": 1403,
-    "addedCount": 589
+    "date": "2026-09-11",
+    "scanId": "scan-079",
+    "marketTotal": 1147,
+    "credibleChangesCount": 5,
+    "soldCount": 1408,
+    "addedCount": 590
   },
   "addedByDealer": {
     "Big Thunder Marine": 45,
@@ -2914,7 +2935,7 @@
     "Premier Advantage Marine": 21,
     "Heartland Marine": 41,
     "Premier 54 Motorsports": 66,
-    "MarineMax": 35,
+    "MarineMax": 36,
     "Performance Boat Center": 21,
     "Village Marina & Yacht Club": 19,
     "Kelly's Port": 56,
@@ -2924,7 +2945,7 @@
   },
   "addedByCondition": {
     "New": 3014,
-    "Used": 2137
+    "Used": 2140
   },
   "addedByBrand": {}
 }
