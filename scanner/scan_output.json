@@ -775,14 +775,14 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 42,
-      "new": 22,
+      "total": 43,
+      "new": 23,
       "used": 20,
       "category": {
         "Cruiser / Cabin": 13,
         "Yacht": 11,
         "Performance": 5,
-        "Pontoon / Tritoon": 5,
+        "Pontoon / Tritoon": 6,
         "Other": 1,
         "Wakeboard / Ski": 1,
         "Bowrider": 3,
@@ -791,7 +791,7 @@
       "brand": {
         "Sea Ray": 20,
         "Cobalt": 2,
-        "Harris": 5,
+        "Harris": 6,
         "Ocean Alexander": 1,
         "Aquila": 1,
         "Aviara": 5,
@@ -898,7 +898,11 @@
           "new"
         ],
         [
-          169321,
+          299657,
+          "new"
+        ],
+        [
+          165765,
           "new"
         ],
         [
@@ -1388,27 +1392,27 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 111,
-      "new": 68,
-      "used": 43,
+      "total": 107,
+      "new": 66,
+      "used": 41,
       "category": {
         "Wakeboard / Ski": 15,
-        "Pontoon / Tritoon": 53,
+        "Pontoon / Tritoon": 51,
         "Bowrider": 26,
         "Center Console": 3,
-        "Cruiser / Cabin": 11,
-        "Other": 3
+        "Cruiser / Cabin": 10,
+        "Other": 2
       },
       "brand": {
         "MasterCraft": 1,
         "Nautique": 13,
-        "Bennington": 53,
+        "Bennington": 51,
         "Grady-White": 8,
         "Crownline": 1,
-        "Regal": 26,
+        "Regal": 25,
         "Cobalt Boats": 2,
         "Tiara Yachts": 3,
-        "Sea Ray": 2,
+        "Sea Ray": 1,
         "Cruiser": 1,
         "Prestige": 1
       },
@@ -1466,15 +1470,7 @@
           "used"
         ],
         [
-          79900,
-          "used"
-        ],
-        [
           119900,
-          "new"
-        ],
-        [
-          124900,
           "new"
         ],
         [
@@ -1482,11 +1478,11 @@
           "new"
         ],
         [
-          134900,
+          119900,
           "new"
         ],
         [
-          119900,
+          134900,
           "new"
         ],
         [
@@ -1598,7 +1594,15 @@
           "used"
         ],
         [
+          124875,
+          "used"
+        ],
+        [
           69900,
+          "used"
+        ],
+        [
+          50000,
           "used"
         ],
         [
@@ -1658,7 +1662,7 @@
           "used"
         ],
         [
-          199900,
+          189900,
           "used"
         ],
         [
@@ -1714,10 +1718,6 @@
           "used"
         ],
         [
-          149900,
-          "used"
-        ],
-        [
           175000,
           "used"
         ],
@@ -1750,9 +1750,9 @@
           "new"
         ]
       ],
-      "priceLow": 59900,
+      "priceLow": 50000,
       "priceHigh": 1526489,
-      "priceQuality": "partial-76pct"
+      "priceQuality": "partial-78pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1763,8 +1763,8 @@
       "category": {
         "Other": 1,
         "Yacht": 1,
-        "Cruiser / Cabin": 3,
-        "Bowrider": 48
+        "Bowrider": 48,
+        "Cruiser / Cabin": 3
       },
       "brand": {
         "Cobalt": 24,
@@ -1970,7 +1970,7 @@
       },
       "prices": [
         [
-          145000,
+          150000,
           "used"
         ],
         [
@@ -2672,16 +2672,16 @@
       "used": 32,
       "category": {
         "Pontoon / Tritoon": 24,
-        "Wakeboard / Ski": 2,
+        "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 20
+        "Bowrider": 21
       },
       "brand": {
-        "Chaparral": 5,
+        "Chaparral": 6,
         "Cobalt": 4,
         "Manitou": 3,
         "Sylvan": 14,
-        "Crownline": 4,
+        "Crownline": 3,
         "Sea Ray": 2,
         "Monterey": 3,
         "Four Winns": 2,
@@ -2738,10 +2738,6 @@
         ],
         [
           89900,
-          "used"
-        ],
-        [
-          85899,
           "used"
         ],
         [
@@ -2802,6 +2798,10 @@
         ],
         [
           59900,
+          "used"
+        ],
+        [
+          49900,
           "used"
         ],
         [
@@ -2941,7 +2941,7 @@
       },
       "prices": [
         [
-          145000,
+          150000,
           "used"
         ],
         [
@@ -3615,13 +3615,14 @@
       "new": 14,
       "used": 5,
       "category": {
-        "Pontoon / Tritoon": 19
+        "Pontoon / Tritoon": 18,
+        "Other": 1
       },
       "brand": {
         "Barletta": 15,
         "PlayCraft": 2,
-        "Sylvan": 1,
-        "Regency": 1
+        "Regency": 1,
+        "Premier": 1
       },
       "prices": [
         [
