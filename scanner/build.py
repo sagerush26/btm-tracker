@@ -24,9 +24,16 @@ SCAN_DATE = _now_ct.strftime("%Y-%m-%d")
 NOW_ISO = _now_utc.isoformat()
 
 _prev_scans = json.load(open(f"{DATA_DIR}/scans.json"))
-_last_scan_id = _prev_scans["scans"][-1]["scanId"]
-_last_num = int(_last_scan_id.split("-")[-1])
-SCAN_ID = f"scan-{_last_num + 1:03d}"
+_last_entry = _prev_scans["scans"][-1] if _prev_scans["scans"] else None
+# Reconciliation (2026-09-14): scanId is now derived from the calendar date
+# instead of an incrementing counter. This pipeline and the independent
+# Perplexity-run pipeline (btm-tracker.pplx.app) each used to count their OWN
+# run history, so they drifted apart (scan-082 here vs scan-080 there)
+# whenever either side missed or re-ran a night. A date-derived ID makes both
+# pipelines converge on the identical scanId for the same night's scan by
+# construction, and self-heals any future drift with no manual fix needed.
+SCAN_ID = f"scan-{SCAN_DATE.replace('-', '')}"
+_is_same_day_rerun = bool(_last_entry) and _last_entry.get("date") == SCAN_DATE
 
 # ---------- load existing baselines ----------
 scans = json.load(open(f"{DATA_DIR}/scans.json"))
@@ -80,7 +87,12 @@ for cid, d in DEALERS.items():
     dealer_avg_info[cid] = (avgPrice, d["priceQuality"])
 
 scan_new = {"scanId": SCAN_ID, "date": SCAN_DATE, "results": new_results}
-scans["scans"].append(scan_new)
+if _is_same_day_rerun:
+    # Same-day re-run (e.g. a workflow_dispatch retry after an earlier
+    # failure tonight): replace today's entry instead of duplicating it.
+    scans["scans"][-1] = scan_new
+else:
+    scans["scans"].append(scan_new)
 
 # ---------- Build changes log ----------
 prev_scan_date = scan_prev.get("date", SCAN_DATE)
@@ -139,6 +151,10 @@ for cid, d in DEALERS.items():
         "detail": detail,
         "note": gap_note,
     })
+if _is_same_day_rerun:
+    # Drop any change-log rows from the earlier same-day attempt before
+    # adding tonight's, so a rerun doesn't leave duplicate entries.
+    scans["changes"] = [c for c in scans["changes"] if c.get("scanId") != SCAN_ID]
 scans["changes"].extend(new_changes)
 scans["lastUpdated"] = NOW_ISO
 

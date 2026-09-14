@@ -989,7 +989,7 @@
     },
     {
       "date": "2026-09-14",
-      "scanId": "scan-082",
+      "scanId": "scan-20260914",
       "dealer": "Performance Marine Watersports",
       "competitorId": "performance-marine",
       "count": 1,
@@ -2992,12 +2992,12 @@
     {
       "date": "2026-09-14",
       "type": "data_quality",
-      "text": "Nightly scan completed 2026-09-14 (scan-082). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
+      "text": "Nightly scan completed 2026-09-14 (scan-20260914). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
     }
   ],
   "summary": {
     "date": "2026-09-14",
-    "scanId": "scan-082",
+    "scanId": "scan-20260914",
     "marketTotal": 1139,
     "credibleChangesCount": 1,
     "soldCount": 1426,
