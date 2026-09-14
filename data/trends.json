@@ -6,12 +6,12 @@
     "Other": 3,
     "Center Console": 1,
     "Pontoon / Tritoon": 6,
-    "Wakeboard / Ski": 1
+    "Wakeboard / Ski": 2
   },
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3425,
+    "New": 3426,
     "Used": 2250
   },
   "soldByBrand": {
@@ -22,7 +22,8 @@
     "Chaparral": 1,
     "Bennington": 2,
     "Regal": 1,
-    "Crownline": 1
+    "Crownline": 1,
+    "Mastercraft": 1
   },
   "soldByDealer": {
     "Kelly's Port": 74,
@@ -34,7 +35,7 @@
     "Performance Boat Center": 146,
     "Formula Boats of Missouri": 43,
     "Marty's Marine": 107,
-    "Performance Marine Watersports": 76,
+    "Performance Marine Watersports": 77,
     "Stateamind Water Sports": 85,
     "All About Boats": 17,
     "Village Marina & Yacht Club": 45,
@@ -275,6 +276,12 @@
       "totalMarket": 1140,
       "btm": 182,
       "competitors": 958
+    },
+    {
+      "date": "2026-09-14",
+      "totalMarket": 1139,
+      "btm": 182,
+      "competitors": 957
     }
   ],
   "priceTrend": [
@@ -482,19 +489,14 @@
       "date": "2026-09-13",
       "marketAvg": 219903.97,
       "btmAvg": 291999.81
+    },
+    {
+      "date": "2026-09-14",
+      "marketAvg": 219615.09,
+      "btmAvg": 291999.81
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-05-17",
-      "scanId": "scan-065",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 4,
-      "previousTotal": 89,
-      "newTotal": 85,
-      "detail": "Heartland Marine: 89 -> 85 (-4)"
-    },
     {
       "date": "2026-05-17",
       "scanId": "scan-065",
@@ -984,6 +986,16 @@
       "previousTotal": 111,
       "newTotal": 107,
       "detail": "Inventory decreased by 4 (was 111, now 107). New: 66, Used: 41. Reflects the normal one-day change since the prior scan on 2026-09-12."
+    },
+    {
+      "date": "2026-09-14",
+      "scanId": "scan-082",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 37,
+      "newTotal": 36,
+      "detail": "Inventory decreased by 1 (was 37, now 36). New: 23, Used: 13. Reflects the normal one-day change since the prior scan on 2026-09-13."
     }
   ],
   "recentlyAdded": [
@@ -2976,14 +2988,19 @@
       "date": "2026-09-13",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-09-13 (scan-081). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats."
+    },
+    {
+      "date": "2026-09-14",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-09-14 (scan-082). 4 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats, kellys-port, surdyke-yamaha, village-marina."
     }
   ],
   "summary": {
-    "date": "2026-09-13",
-    "scanId": "scan-081",
-    "marketTotal": 1140,
-    "credibleChangesCount": 2,
-    "soldCount": 1425,
+    "date": "2026-09-14",
+    "scanId": "scan-082",
+    "marketTotal": 1139,
+    "credibleChangesCount": 1,
+    "soldCount": 1426,
     "addedCount": 600
   },
   "addedByDealer": {
