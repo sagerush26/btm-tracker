@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 182,
+      "total": 183,
       "new": 110,
-      "used": 72,
+      "used": 73,
       "category": {
         "Pontoon / Tritoon": 39,
         "Wakeboard / Ski": 38,
-        "Center Console": 32,
+        "Center Console": 33,
         "Cruiser / Cabin": 28,
         "Bowrider": 20,
         "Performance": 10,
@@ -32,9 +32,8 @@
         "Sea Ray": 6,
         "Schaefer": 1,
         "Donzi": 4,
-        "Tige": 19,
+        "Tige": 20,
         "Capoforte": 6,
-        "Statement": 1,
         "Cobalt": 3,
         "Regal": 3,
         "Midnight Express": 1,
@@ -64,9 +63,10 @@
         "Nauticstar": 1,
         "Princecraft": 1,
         "Correct Craft": 1,
+        "CYPRESS CAY": 1,
+        "Statement": 1,
         "BLUE WATER": 1,
         "Baja": 1,
-        "CYPRESS CAY": 1,
         "Bennington": 1,
         "Unknown": 1
       },
@@ -216,12 +216,12 @@
           "new"
         ],
         [
-          329000,
-          "used"
-        ],
-        [
           326435,
           "new"
+        ],
+        [
+          319997,
+          "used"
         ],
         [
           319900,
@@ -660,6 +660,10 @@
           "used"
         ],
         [
+          59900,
+          "used"
+        ],
+        [
           89330,
           "new"
         ],
@@ -674,6 +678,10 @@
         [
           396335,
           "new"
+        ],
+        [
+          329000,
+          "used"
         ],
         [
           299900,
@@ -706,10 +714,6 @@
         [
           149820,
           "new"
-        ],
-        [
-          62900,
-          "used"
         ],
         [
           39997,
@@ -818,7 +822,7 @@
           "used"
         ],
         [
-          92400,
+          93349,
           "used"
         ],
         [
@@ -1418,11 +1422,11 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 102,
+      "total": 101,
       "new": 64,
-      "used": 38,
+      "used": 37,
       "category": {
-        "Pontoon / Tritoon": 84,
+        "Pontoon / Tritoon": 83,
         "Wakeboard / Ski": 43,
         "Center Console": 7,
         "Cruiser / Cabin": 12,
@@ -1454,7 +1458,6 @@
         "Bass Tracker": 1,
         "Triton": 1,
         "Schaefer": 1,
-        "Ranger": 1,
         "granfort": 1,
         "Crowline": 1,
         "Avalon": 2,
@@ -1617,10 +1620,6 @@
           "new"
         ],
         [
-          55000,
-          "used"
-        ],
-        [
           172000,
           "new"
         ],
@@ -1767,7 +1766,7 @@
       ],
       "priceLow": 16499,
       "priceHigh": 1875000,
-      "priceQuality": "partial-73pct"
+      "priceQuality": "partial-72pct"
     },
     "premier-advantage": {
       "name": "Premier Advantage Marine",
@@ -2162,20 +2161,20 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 47,
-      "new": 15,
-      "used": 32,
+      "total": 45,
+      "new": 14,
+      "used": 31,
       "category": {
-        "Pontoon / Tritoon": 24,
+        "Pontoon / Tritoon": 23,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 21
+        "Bowrider": 20
       },
       "brand": {
         "Chaparral": 6,
-        "Cobalt": 4,
+        "Cobalt": 3,
         "Manitou": 3,
-        "Sylvan": 14,
+        "Sylvan": 13,
         "Crownline": 3,
         "Sea Ray": 2,
         "Monterey": 3,
@@ -2241,10 +2240,6 @@
         ],
         [
           79900,
-          "used"
-        ],
-        [
-          79900,
           "new"
         ],
         [
@@ -2302,10 +2297,6 @@
         [
           45900,
           "used"
-        ],
-        [
-          39900,
-          "new"
         ],
         [
           39900,
@@ -2387,14 +2378,14 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 98,
+      "total": 97,
       "new": 60,
-      "used": 38,
+      "used": 37,
       "category": {
         "Yacht": 12,
         "Fishing": 10,
         "Wakeboard / Ski": 25,
-        "Pontoon / Tritoon": 36,
+        "Pontoon / Tritoon": 35,
         "Bowrider": 11,
         "Cruiser / Cabin": 2,
         "Other": 1,
@@ -2421,7 +2412,6 @@
         "Bass Tracker": 1,
         "Triton": 1,
         "Schaefer": 1,
-        "Ranger": 1,
         "granfort": 1,
         "Crowline": 1,
         "Avalon": 2,
@@ -2570,10 +2560,6 @@
         [
           684632,
           "new"
-        ],
-        [
-          55000,
-          "used"
         ],
         [
           172000,
@@ -2727,8 +2713,8 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 88,
-      "new": 53,
+      "total": 87,
+      "new": 52,
       "used": 35,
       "category": {
         "Fishing": 9,
@@ -2736,13 +2722,13 @@
         "Cruiser / Cabin": 3,
         "Wakeboard / Ski": 16,
         "Other": 6,
-        "Performance": 35,
+        "Performance": 34,
         "Bowrider": 3
       },
       "brand": {
         "Premier": 18,
         "Crownline": 3,
-        "Chaparral": 44,
+        "Chaparral": 43,
         "Lowe": 2,
         "Montara": 1,
         "Nautic Star": 1,
@@ -2951,10 +2937,6 @@
           "new"
         ],
         [
-          79475,
-          "new"
-        ],
-        [
           99109,
           "new"
         ],
@@ -3084,6 +3066,10 @@
         ],
         [
           88900,
+          "used"
+        ],
+        [
+          72900,
           "used"
         ],
         [
