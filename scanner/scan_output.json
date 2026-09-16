@@ -3,11 +3,11 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 183,
-      "new": 110,
+      "total": 184,
+      "new": 111,
       "used": 73,
       "category": {
-        "Pontoon / Tritoon": 39,
+        "Pontoon / Tritoon": 40,
         "Wakeboard / Ski": 38,
         "Center Console": 33,
         "Cruiser / Cabin": 28,
@@ -50,10 +50,10 @@
         "MasterCraft": 8,
         "Outerlimits": 1,
         "Formula": 4,
-        "Viaggio": 21,
+        "Viaggio": 22,
         "Chaparral": 2,
-        "Yamaha": 2,
         "Evotti": 2,
+        "Yamaha": 2,
         "CRUISERS": 1,
         "Nautique": 2,
         "Spectre": 1,
@@ -109,10 +109,6 @@
         ],
         [
           699900,
-          "used"
-        ],
-        [
-          699900,
           "new"
         ],
         [
@@ -122,6 +118,10 @@
         [
           673260,
           "new"
+        ],
+        [
+          669900,
+          "used"
         ],
         [
           639900,
@@ -140,7 +140,7 @@
           "new"
         ],
         [
-          531730,
+          499900,
           "used"
         ],
         [
@@ -148,7 +148,7 @@
           "used"
         ],
         [
-          487757,
+          479900,
           "used"
         ],
         [
@@ -224,12 +224,12 @@
           "used"
         ],
         [
-          319900,
-          "used"
-        ],
-        [
           317860,
           "new"
+        ],
+        [
+          309900,
+          "used"
         ],
         [
           302257,
@@ -364,10 +364,6 @@
           "new"
         ],
         [
-          179997,
-          "used"
-        ],
-        [
           179900,
           "used"
         ],
@@ -384,6 +380,10 @@
           "used"
         ],
         [
+          169990,
+          "used"
+        ],
+        [
           169900,
           "used"
         ],
@@ -396,12 +396,12 @@
           "new"
         ],
         [
-          163900,
-          "used"
-        ],
-        [
           162280,
           "new"
+        ],
+        [
+          159900,
+          "used"
         ],
         [
           159900,
@@ -456,6 +456,10 @@
           "new"
         ],
         [
+          134270,
+          "new"
+        ],
+        [
           132390,
           "used"
         ],
@@ -496,10 +500,6 @@
           "new"
         ],
         [
-          119000,
-          "used"
-        ],
-        [
           116020,
           "new"
         ],
@@ -516,20 +516,24 @@
           "used"
         ],
         [
-          109900,
+          106995,
+          "new"
+        ],
+        [
+          106995,
+          "new"
+        ],
+        [
+          105900,
           "used"
-        ],
-        [
-          106995,
-          "new"
-        ],
-        [
-          106995,
-          "new"
         ],
         [
           101810,
           "new"
+        ],
+        [
+          99900,
+          "used"
         ],
         [
           99900,
@@ -572,12 +576,12 @@
           "new"
         ],
         [
-          83997,
-          "used"
-        ],
-        [
           83870,
           "new"
+        ],
+        [
+          79990,
+          "used"
         ],
         [
           79900,
@@ -600,15 +604,11 @@
           "used"
         ],
         [
-          65340,
-          "used"
-        ],
-        [
           63246,
           "new"
         ],
         [
-          59900,
+          59990,
           "used"
         ],
         [
@@ -628,19 +628,15 @@
           "used"
         ],
         [
-          53500,
-          "used"
-        ],
-        [
-          53500,
-          "used"
-        ],
-        [
-          52900,
-          "used"
-        ],
-        [
           49997,
+          "used"
+        ],
+        [
+          49990,
+          "used"
+        ],
+        [
+          49990,
           "used"
         ],
         [
@@ -648,11 +644,19 @@
           "new"
         ],
         [
+          49990,
+          "used"
+        ],
+        [
+          49990,
+          "used"
+        ],
+        [
           41900,
           "used"
         ],
         [
-          32997,
+          29990,
           "used"
         ],
         [
@@ -985,9 +989,9 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 90,
+      "total": 91,
       "new": 9,
-      "used": 81,
+      "used": 82,
       "category": {
         "Fishing": 1,
         "Other": 28,
@@ -1002,10 +1006,10 @@
         "Skater": 9,
         "Outerlimits": 2,
         "IRON": 2,
+        "Performance Powerboats": 2,
         "Regal": 1,
         "MTI": 15,
         "Ford": 1,
-        "Performance Powerboats": 1,
         "Interceptor": 1,
         "Cigarette": 8,
         "Monterey": 2,
@@ -1014,7 +1018,7 @@
         "Crownline": 2,
         "Bennington": 1,
         "Nor-Tech": 1,
-        "Boston Whaler": 1,
+        "Tige": 1,
         "Cobalt": 1,
         "Wright Performance": 1,
         "Kenworth": 1,
@@ -1082,6 +1086,10 @@
         ],
         [
           439950,
+          "used"
+        ],
+        [
+          889950,
           "used"
         ],
         [
@@ -1161,7 +1169,7 @@
           "used"
         ],
         [
-          309950,
+          299950,
           "used"
         ],
         [
@@ -1189,7 +1197,7 @@
           "used"
         ],
         [
-          714950,
+          139950,
           "used"
         ],
         [
@@ -1361,10 +1369,6 @@
           "used"
         ],
         [
-          79950,
-          "used"
-        ],
-        [
           144950,
           "used"
         ],
@@ -1422,11 +1426,11 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 101,
-      "new": 64,
+      "total": 100,
+      "new": 63,
       "used": 37,
       "category": {
-        "Pontoon / Tritoon": 83,
+        "Pontoon / Tritoon": 81,
         "Wakeboard / Ski": 43,
         "Center Console": 7,
         "Cruiser / Cabin": 12,
@@ -1435,14 +1439,14 @@
         "Yacht": 14,
         "Fishing": 10,
         "Power": 4,
-        "Other": 46
+        "Other": 45
       },
       "brand": {
         "Formula": 7,
         "iKon": 6,
         "Axis": 10,
         "Supra": 2,
-        "Godfrey": 29,
+        "Godfrey": 28,
         "Coach Pontoons": 2,
         "Four Winns": 5,
         "HCB": 4,
@@ -1766,7 +1770,7 @@
       ],
       "priceLow": 16499,
       "priceHigh": 1875000,
-      "priceQuality": "partial-72pct"
+      "priceQuality": "partial-73pct"
     },
     "premier-advantage": {
       "name": "Premier Advantage Marine",
@@ -1929,18 +1933,18 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 30,
+      "total": 31,
       "new": 18,
-      "used": 12,
+      "used": 13,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 4,
-        "Bowrider": 23,
+        "Bowrider": 24,
         "Other": 1
       },
       "brand": {
-        "Formula": 26,
+        "Formula": 27,
         "Chaparral": 1,
         "Nautique": 1,
         "Cobalt": 1,
@@ -1961,6 +1965,10 @@
         ],
         [
           335000,
+          "used"
+        ],
+        [
+          249900,
           "used"
         ],
         [
@@ -2002,20 +2010,20 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-43pct"
+      "priceQuality": "partial-45pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 36,
-      "new": 23,
+      "total": 37,
+      "new": 24,
       "used": 13,
       "category": {
-        "Wakeboard / Ski": 30,
+        "Wakeboard / Ski": 31,
         "Pontoon / Tritoon": 6
       },
       "brand": {
-        "Mastercraft": 21,
+        "Mastercraft": 22,
         "Supra": 3,
         "Crest": 3,
         "Balise": 3,
@@ -2051,6 +2059,10 @@
         ],
         [
           89990,
+          "new"
+        ],
+        [
+          377590,
           "new"
         ],
         [
@@ -2165,10 +2177,11 @@
       "new": 14,
       "used": 31,
       "category": {
-        "Pontoon / Tritoon": 23,
+        "Pontoon / Tritoon": 22,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 20
+        "Bowrider": 20,
+        "Other": 1
       },
       "brand": {
         "Chaparral": 6,
@@ -2176,7 +2189,7 @@
         "Manitou": 3,
         "Sylvan": 13,
         "Crownline": 3,
-        "Sea Ray": 2,
+        "Sea Ray": 3,
         "Monterey": 3,
         "Four Winns": 2,
         "Berkshire": 1,
@@ -2186,8 +2199,7 @@
         "Misty Harbor": 1,
         "Hurricane": 1,
         "Thompson": 1,
-        "Harris-Kayot": 1,
-        "Landau": 1
+        "Harris-Kayot": 1
       },
       "prices": [
         [
@@ -2295,6 +2307,10 @@
           "used"
         ],
         [
+          47900,
+          "used"
+        ],
+        [
           45900,
           "used"
         ],
@@ -2365,27 +2381,23 @@
         [
           9900,
           "used"
-        ],
-        [
-          8900,
-          "used"
         ]
       ],
-      "priceLow": 8900,
+      "priceLow": 9900,
       "priceHigh": 169900,
       "priceQuality": "full"
     },
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 97,
-      "new": 60,
+      "total": 96,
+      "new": 59,
       "used": 37,
       "category": {
         "Yacht": 12,
         "Fishing": 10,
         "Wakeboard / Ski": 25,
-        "Pontoon / Tritoon": 35,
+        "Pontoon / Tritoon": 34,
         "Bowrider": 11,
         "Cruiser / Cabin": 2,
         "Other": 1,
@@ -2396,7 +2408,7 @@
         "iKon": 6,
         "Axis": 10,
         "Supra": 2,
-        "Godfrey": 29,
+        "Godfrey": 28,
         "Coach Pontoons": 2,
         "Four Winns": 5,
         "HCB": 4,
@@ -2708,7 +2720,7 @@
       ],
       "priceLow": 16499,
       "priceHigh": 1875000,
-      "priceQuality": "partial-72pct"
+      "priceQuality": "partial-73pct"
     },
     "premier-54": {
       "name": "Premier 54 Motorsports",
