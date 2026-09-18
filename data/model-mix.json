@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-09-17T06:06:59.160387+00:00",
+  "lastUpdated": "2026-09-18T06:06:15.654867+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 186,
+      "totalBoats": 187,
       "newBoats": 112,
-      "usedBoats": 74,
+      "usedBoats": 75,
       "avgPriceNew": 350688.32,
-      "avgPriceUsed": 202710.1,
+      "avgPriceUsed": 202832.97,
       "byCondition": {
         "New": 112,
-        "Used": 74
+        "Used": 75
       },
       "byCategory": {
         "Pontoon / Tritoon": 40,
@@ -20,7 +20,7 @@
         "Center Console": 33,
         "Cruiser / Cabin": 29,
         "Bowrider": 20,
-        "Performance": 11,
+        "Performance": 12,
         "Yacht": 5,
         "Fishing": 0,
         "Power": 2,
@@ -39,7 +39,7 @@
         "Jeanneau": 1,
         "Sea Ray": 7,
         "Schaefer": 1,
-        "Donzi": 5,
+        "Donzi": 6,
         "Tige": 20,
         "Cobalt": 3,
         "Regal": 3,
@@ -62,6 +62,7 @@
         "Chaparral": 2,
         "Evotti": 2,
         "Yamaha": 2,
+        "Nautical Racing Group": 1,
         "CRUISERS": 1,
         "Nautique": 2,
         "Spectre": 1,
@@ -74,7 +75,6 @@
         "CYPRESS CAY": 1,
         "Statement": 1,
         "BLUE WATER": 1,
-        "Baja": 1,
         "Bennington": 1,
         "Unknown": 1
       },
@@ -135,10 +135,10 @@
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 30,
+        "Other": 28,
         "Bowrider": 8,
         "Center Console": 24,
-        "Performance": 20,
+        "Performance": 19,
         "Cruiser / Cabin": 3,
         "Power": 2
       },
@@ -280,13 +280,13 @@
       "name": "Premier Advantage Marine",
       "isOwn": false,
       "totalBoats": 95,
-      "newBoats": 14,
-      "usedBoats": 81,
-      "avgPriceNew": 101383.71,
-      "avgPriceUsed": 45284.62,
+      "newBoats": 13,
+      "usedBoats": 82,
+      "avgPriceNew": 101396.54,
+      "avgPriceUsed": 43114.29,
       "byCondition": {
-        "New": 14,
-        "Used": 81
+        "New": 13,
+        "Used": 82
       },
       "byCategory": {
         "Pontoon / Tritoon": 7,
@@ -298,7 +298,7 @@
         "Yacht": 0,
         "Fishing": 58,
         "Power": 0,
-        "Other": 23
+        "Other": 24
       },
       "byBrand": {
         "Four Winns": 32,
@@ -309,7 +309,6 @@
         "Crownline": 2,
         "Scarab": 1,
         "Barletta": 1,
-        "Premier": 1,
         "Bennington": 2,
         "Wellcraft": 11,
         "Alumacraft": 16,
@@ -324,24 +323,24 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 30,
-      "newBoats": 17,
-      "usedBoats": 13,
+      "totalBoats": 32,
+      "newBoats": 18,
+      "usedBoats": 14,
       "avgPriceNew": 914454.0,
-      "avgPriceUsed": 208736.54,
+      "avgPriceUsed": 237755.36,
       "byCondition": {
-        "New": 17,
-        "Used": 13
+        "New": 18,
+        "Used": 14
       },
       "byCategory": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 4,
-        "Bowrider": 23,
+        "Bowrider": 25,
         "Other": 1
       },
       "byBrand": {
-        "Formula": 26,
+        "Formula": 28,
         "Chaparral": 1,
         "Nautique": 1,
         "Cobalt": 1,
@@ -388,28 +387,28 @@
       "newBoats": 14,
       "usedBoats": 29,
       "avgPriceNew": 83257.14,
-      "avgPriceUsed": 57768.59,
+      "avgPriceUsed": 55354.79,
       "byCondition": {
         "New": 14,
         "Used": 29
       },
       "byCategory": {
-        "Pontoon / Tritoon": 21,
+        "Pontoon / Tritoon": 20,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 20
+        "Bowrider": 21
       },
       "byBrand": {
         "Chaparral": 6,
         "Cobalt": 3,
-        "Manitou": 3,
         "Sylvan": 13,
         "Crownline": 3,
+        "Formula": 3,
+        "Manitou": 2,
         "Sea Ray": 2,
         "Monterey": 3,
         "Four Winns": 2,
         "Suntracker": 1,
-        "Formula": 2,
         "PlayCraft": 1,
         "Misty Harbor": 1,
         "Hurricane": 1,
@@ -588,38 +587,38 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1131,
+    "totalBoats": 1134,
     "newBoats": 585,
-    "usedBoats": 546,
+    "usedBoats": 549,
     "byCondition": {
       "New": 585,
-      "Used": 546
+      "Used": 549
     },
     "byCategory": {
-      "Pontoon / Tritoon": 228,
+      "Pontoon / Tritoon": 227,
       "Wakeboard / Ski": 164,
       "Center Console": 82,
       "Cruiser / Cabin": 80,
-      "Bowrider": 162,
+      "Bowrider": 165,
       "Performance": 148,
       "Yacht": 42,
       "Fishing": 91,
       "Power": 8,
-      "Other": 117
+      "Other": 116
     },
     "byBrand": {
       "Godfrey": 56,
       "Chaparral": 55,
+      "Formula": 47,
       "Four Winns": 45,
-      "Formula": 44,
       "Sea Ray": 28,
       "Tige": 23,
       "Mastercraft": 23,
       "Viaggio": 22,
       "Axis": 20,
       "Malibu": 20,
-      "Premier": 20,
       "Fountain": 19,
+      "Premier": 19,
       "Sunsation Powerboats": 18,
       "Stingray": 17,
       "Barletta": 16,
@@ -640,10 +639,10 @@
       "Invictus": 8,
       "Skater": 8,
       "HCB": 8,
+      "Donzi": 7,
       "Nautique": 7,
       "Cruisers Yachts": 7,
       "Supra": 7,
-      "Donzi": 6,
       "ATX": 6,
       "Montara": 6,
       "Capoforte": 6,
@@ -656,13 +655,12 @@
       "Coach Pontoons": 4,
       "Avalon": 4,
       "Ikon": 4,
-      "Manitou": 4,
       "Schaefer": 3,
       "Outerlimits": 3,
       "Yamaha": 3,
-      "Baja": 3,
       "Triton": 3,
       "Balise": 3,
+      "Manitou": 3,
       "PlayCraft": 3,
       "Dutch American": 2,
       "YOT": 2,
@@ -674,6 +672,7 @@
       "IRON": 2,
       "Performance Powerboats": 2,
       "Mercury Marine": 2,
+      "Baja": 2,
       "Envision": 2,
       "Black Thunder Powerboats": 2,
       "Godrey": 2,
@@ -696,6 +695,7 @@
       "Sunsation": 1,
       "Navan": 1,
       "Deep Impact": 1,
+      "Nautical Racing Group": 1,
       "CRUISERS": 1,
       "Spectre": 1,
       "Heritage": 1,
@@ -734,6 +734,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20260917",
-  "date": "2026-09-17"
+  "scanId": "scan-20260918",
+  "date": "2026-09-18"
 }
