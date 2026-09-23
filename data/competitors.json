@@ -1,5 +1,5 @@
 {
-  "lastScan": "2026-09-22T06:06:56.121086+00:00",
+  "lastScan": "2026-09-23T06:05:26.128344+00:00",
   "competitors": [
     {
       "id": "big-thunder-marine",
@@ -25,11 +25,11 @@
       "isOwn": true,
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 187,
-      "newInventory": 111,
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 188,
+      "newInventory": 112,
       "usedInventory": 76,
-      "averagePrice": 284289.71
+      "averagePrice": 284906.32
     },
     {
       "id": "marinemax",
@@ -50,11 +50,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 42,
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 43,
       "newInventory": 23,
-      "usedInventory": 19,
-      "averagePrice": 523139.71
+      "usedInventory": 20,
+      "averagePrice": 514343.44
     },
     {
       "id": "performance-boat-center",
@@ -71,11 +71,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 89,
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 88,
       "newInventory": 9,
-      "usedInventory": 80,
-      "averagePrice": 487030.35
+      "usedInventory": 79,
+      "averagePrice": 490513.65
     },
     {
       "id": "kellys-port",
@@ -89,13 +89,13 @@
         "Tiara Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "carried_forward",
-      "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 107,
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 108,
       "newInventory": 66,
-      "usedInventory": 41,
-      "averagePrice": 287092.0
+      "usedInventory": 42,
+      "averagePrice": 283887.42
     },
     {
       "id": "village-marina",
@@ -108,13 +108,13 @@
         "Marquis Yachts"
       ],
       "location": "All Locations",
-      "scanStatus": "carried_forward",
-      "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 53,
-      "newInventory": 17,
-      "usedInventory": 36,
-      "averagePrice": 140850.55
+      "scanStatus": "verified",
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 57,
+      "newInventory": 18,
+      "usedInventory": 39,
+      "averagePrice": 123982.42
     },
     {
       "id": "iguana-marine",
@@ -129,12 +129,12 @@
       ],
       "location": "All Locations",
       "scanStatus": "verified",
-      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
       "totalInventory": 100,
-      "newInventory": 63,
-      "usedInventory": 37,
-      "averagePrice": 187501.64
+      "newInventory": 64,
+      "usedInventory": 36,
+      "averagePrice": 189710.01
     },
     {
       "id": "premier-advantage",
@@ -150,12 +150,12 @@
       ],
       "location": "All Locations",
       "scanStatus": "verified",
-      "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 63,
+      "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 64,
       "newInventory": 12,
-      "usedInventory": 51,
-      "averagePrice": 68798.46
+      "usedInventory": 52,
+      "averagePrice": 68468.89
     },
     {
       "id": "formula-boats-mo",
@@ -167,7 +167,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
       "totalInventory": 32,
       "newInventory": 18,
       "usedInventory": 14,
@@ -185,11 +185,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 39,
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 40,
       "newInventory": 24,
-      "usedInventory": 15,
-      "averagePrice": 163110.41
+      "usedInventory": 16,
+      "averagePrice": 168738.44
     },
     {
       "id": "heartland-marine",
@@ -201,11 +201,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 45,
-      "newInventory": 15,
-      "usedInventory": 30,
-      "averagePrice": 67948.64
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 42,
+      "newInventory": 14,
+      "usedInventory": 28,
+      "averagePrice": 70307.12
     },
     {
       "id": "stateamind",
@@ -223,11 +223,11 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 96,
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 95,
       "newInventory": 59,
-      "usedInventory": 37,
-      "averagePrice": 179081.53
+      "usedInventory": 36,
+      "averagePrice": 181263.88
     },
     {
       "id": "premier-54",
@@ -241,7 +241,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
       "totalInventory": 86,
       "newInventory": 52,
       "usedInventory": 34,
@@ -260,7 +260,7 @@
       "location": "All Locations",
       "scanStatus": "verified",
       "verificationReason": "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
       "totalInventory": 18,
       "newInventory": 14,
       "usedInventory": 4,
@@ -277,13 +277,13 @@
         "Axopar"
       ],
       "location": "All Locations",
-      "scanStatus": "carried_forward",
-      "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
-      "totalInventory": 103,
+      "scanStatus": "verified",
+      "verificationReason": "Verified",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
+      "totalInventory": 104,
       "newInventory": 74,
-      "usedInventory": 29,
-      "averagePrice": 114234.18
+      "usedInventory": 30,
+      "averagePrice": 113702.46
     },
     {
       "id": "all-about-boats",
@@ -297,7 +297,7 @@
       "location": "All Locations",
       "scanStatus": "carried_forward",
       "verificationReason": "Live scrape failed after retry; showing last known-good values.",
-      "lastVerified": "2026-09-22T06:06:56.121086+00:00",
+      "lastVerified": "2026-09-23T06:05:26.128344+00:00",
       "totalInventory": 44,
       "newInventory": 28,
       "usedInventory": 16,
