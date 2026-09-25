@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 188,
+      "total": 189,
       "new": 112,
-      "used": 76,
+      "used": 77,
       "category": {
         "Pontoon / Tritoon": 40,
         "Wakeboard / Ski": 48,
-        "Center Console": 34,
+        "Center Console": 35,
         "Cruiser / Cabin": 21,
         "Bowrider": 18,
         "Performance": 14,
@@ -66,6 +66,7 @@
         "Princecraft": 1,
         "Harris FloteBote": 1,
         "Correct Craft": 1,
+        "Glasstream": 1,
         "CYPRESS CAY": 1,
         "Statement": 1,
         "Bennington": 1,
@@ -876,7 +877,7 @@
           "used"
         ],
         [
-          174500,
+          169500,
           "used"
         ],
         [
@@ -1027,14 +1028,14 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 89,
+      "total": 90,
       "new": 9,
-      "used": 80,
+      "used": 81,
       "category": {
         "Fishing": 1,
         "Other": 29,
         "Bowrider": 9,
-        "Center Console": 24,
+        "Center Console": 25,
         "Performance": 18,
         "Cruiser / Cabin": 3,
         "Power": 2
@@ -1045,8 +1046,8 @@
         "Outerlimits": 2,
         "IRON": 2,
         "Performance Powerboats": 2,
+        "MTI": 16,
         "Regal": 1,
-        "MTI": 15,
         "Ford": 1,
         "Interceptor": 1,
         "Cigarette": 7,
@@ -1127,6 +1128,10 @@
         ],
         [
           889950,
+          "used"
+        ],
+        [
+          2299950,
           "used"
         ],
         [
@@ -1425,14 +1430,14 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 107,
+      "total": 108,
       "new": 65,
-      "used": 42,
+      "used": 43,
       "category": {
         "Wakeboard / Ski": 14,
         "Pontoon / Tritoon": 50,
         "Bowrider": 27,
-        "Other": 4,
+        "Other": 5,
         "Center Console": 3,
         "Cruiser / Cabin": 9
       },
@@ -1442,7 +1447,7 @@
         "Bennington": 50,
         "Grady-White": 8,
         "Crownline": 1,
-        "Regal": 27,
+        "Regal": 28,
         "Cobalt Boats": 2,
         "Tiara Yachts": 3,
         "Cruiser": 1,
@@ -1789,7 +1794,7 @@
       ],
       "priceLow": 54900,
       "priceHigh": 1526489,
-      "priceQuality": "partial-79pct"
+      "priceQuality": "partial-78pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1799,8 +1804,8 @@
       "used": 40,
       "category": {
         "Cruiser / Cabin": 4,
-        "Other": 1,
-        "Bowrider": 56
+        "Bowrider": 56,
+        "Other": 1
       },
       "brand": {
         "Cobalt": 27,
@@ -2328,158 +2333,27 @@
       "total": 64,
       "new": 12,
       "used": 52,
-      "category": {
-        "Pontoon / Tritoon": 4,
-        "Wakeboard / Ski": 5,
-        "Center Console": 3,
-        "Cruiser / Cabin": 7,
-        "Bowrider": 42,
-        "Performance": 2,
-        "Yacht": 0,
-        "Fishing": 33,
-        "Power": 0,
-        "Other": 20
-      },
-      "brand": {
-        "Four Winns": 32,
-        "Regal": 1,
-        "Baja": 1,
-        "Chaparral": 3,
-        "Crownline": 2,
-        "Scarab": 1,
-        "Barletta": 1,
-        "Bennington": 2,
-        "Wellcraft": 3,
-        "Alumacraft": 16
-      },
-      "prices": [
-        [
-          239995,
-          "new"
-        ],
-        [
-          42900,
-          "used"
-        ],
-        [
-          24900,
-          "used"
-        ],
-        [
-          49900,
-          "used"
-        ],
-        [
-          89900,
-          "used"
-        ],
-        [
-          25900,
-          "used"
-        ],
-        [
-          32900,
-          "used"
-        ],
-        [
-          152995,
-          "new"
-        ],
-        [
-          59900,
-          "used"
-        ],
-        [
-          39900,
-          "used"
-        ],
-        [
-          109900,
-          "used"
-        ],
-        [
-          83900,
-          "used"
-        ],
-        [
-          22900,
-          "used"
-        ],
-        [
-          14900,
-          "used"
-        ],
-        [
-          34900,
-          "used"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          124995,
-          "new"
-        ],
-        [
-          62995,
-          "new"
-        ],
-        [
-          9900,
-          "used"
-        ],
-        [
-          52995,
-          "new"
-        ],
-        [
-          104995,
-          "new"
-        ],
-        [
-          49995,
-          "new"
-        ],
-        [
-          39995,
-          "new"
-        ],
-        [
-          22995,
-          "new"
-        ],
-        [
-          67215,
-          "new"
-        ],
-        [
-          40900,
-          "used"
-        ]
-      ],
-      "priceLow": 9900,
-      "priceHigh": 239995,
-      "priceQuality": "partial-42pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 30,
-      "new": 16,
+      "total": 31,
+      "new": 17,
       "used": 14,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 4,
-        "Bowrider": 24
+        "Bowrider": 25
       },
       "brand": {
-        "Formula": 27,
+        "Formula": 28,
         "Nautique": 1,
         "Cobalt": 1,
         "Regal": 1
@@ -2548,28 +2422,27 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-50pct"
+      "priceQuality": "partial-48pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 40,
-      "new": 24,
-      "used": 16,
+      "total": 38,
+      "new": 23,
+      "used": 15,
       "category": {
-        "Wakeboard / Ski": 34,
+        "Wakeboard / Ski": 32,
         "Pontoon / Tritoon": 6
       },
       "brand": {
         "Malibu": 1,
         "Moomba": 3,
-        "Mastercraft": 24,
+        "Mastercraft": 23,
         "Supra": 3,
         "Crest": 3,
         "Balise": 3,
         "Tige Boats": 1,
-        "Malibu Boats": 1,
-        "Nautique": 1
+        "Malibu Boats": 1
       },
       "prices": [
         [
@@ -2641,10 +2514,6 @@
           "used"
         ],
         [
-          105990,
-          "used"
-        ],
-        [
           204990,
           "used"
         ],
@@ -2685,10 +2554,6 @@
           "new"
         ],
         [
-          367840,
-          "new"
-        ],
-        [
           173534,
           "new"
         ],
@@ -2719,30 +2584,31 @@
       ],
       "priceLow": 49990,
       "priceHigh": 509093,
-      "priceQuality": "partial-90pct"
+      "priceQuality": "partial-89pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 45,
-      "new": 14,
-      "used": 31,
+      "total": 48,
+      "new": 15,
+      "used": 33,
       "category": {
-        "Pontoon / Tritoon": 19,
+        "Pontoon / Tritoon": 21,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 20,
-        "Other": 4
+        "Other": 5
       },
       "brand": {
-        "Southbay": 2,
+        "Southbay": 3,
         "Chaparral": 7,
         "Cobalt": 3,
-        "Manitou": 3,
+        "Manitou": 4,
         "Sylvan": 11,
         "Crownline": 3,
         "Formula": 3,
         "Monterey": 2,
+        "Berkshire": 1,
         "Suntracker": 1,
         "Godfrey": 1,
         "Four Winns": 2,
@@ -2778,6 +2644,10 @@
         [
           129900,
           "used"
+        ],
+        [
+          114900,
+          "new"
         ],
         [
           107900,
@@ -2872,6 +2742,10 @@
           "used"
         ],
         [
+          39900,
+          "used"
+        ],
+        [
           37900,
           "used"
         ],
@@ -2889,6 +2763,10 @@
         ],
         [
           24900,
+          "used"
+        ],
+        [
+          23900,
           "used"
         ],
         [
@@ -4145,6 +4023,10 @@
     }
   },
   "failures": [
+    [
+      "premier-advantage",
+      "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 540, in _make_request\n    response = conn.getresponse()\n               ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 638, in getresponse\n    httplib_response = super().getresponse()\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/client.py\", line 1478, in getresponse\n    response.begin()\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/client.py\", line 343, in begin\n    version, status, reason = self._read_status()\n                              ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/http/client.py\", line 304, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/socket.py\", line 720, in readinto\n    return self._sock.recv_into(b)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/ssl.py\", line 1251, in recv_into\n    return self.read(nbytes, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/ssl.py\", line 1103, in read\n    return self._sslobj.read(len, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 847, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/util/retry.py\", line 510, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/util/util.py\", line 39, in reraise\n    raise value\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 793, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 542, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 373, in _raise_timeout\n    raise ReadTimeoutError(\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 242, in scrape\n    products = _fetch_all_products()\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 150, in _fetch_all_products\n    resp = session.get(\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/sessions.py\", line 671, in get\n    return self.request(\"GET\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n"
+    ],
     [
       "all-about-boats",
       "scrape() returned total <= 0"
