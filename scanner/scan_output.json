@@ -3,11 +3,11 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 189,
+      "total": 196,
       "new": 112,
-      "used": 77,
+      "used": 84,
       "category": {
-        "Pontoon / Tritoon": 40,
+        "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 48,
         "Center Console": 35,
         "Cruiser / Cabin": 21,
@@ -52,7 +52,7 @@
         "Formula": 4,
         "ATX": 5,
         "Evotti": 3,
-        "Viaggio": 21,
+        "Viaggio": 28,
         "Chaparral": 2,
         "Yamaha": 2,
         "Nautical Racing Group": 1,
@@ -259,10 +259,6 @@
         ],
         [
           287850,
-          "new"
-        ],
-        [
-          273212,
           "new"
         ],
         [
@@ -650,6 +646,34 @@
           "used"
         ],
         [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
+          64990,
+          "used"
+        ],
+        [
           63246,
           "new"
         ],
@@ -750,6 +774,10 @@
           "used"
         ],
         [
+          273212,
+          "new"
+        ],
+        [
           149820,
           "new"
         ],
@@ -817,21 +845,21 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 44,
-      "new": 23,
-      "used": 21,
+      "total": 46,
+      "new": 24,
+      "used": 22,
       "category": {
         "Yacht": 11,
-        "Fishing": 4,
-        "Cruiser / Cabin": 13,
-        "Performance": 6,
+        "Fishing": 5,
+        "Cruiser / Cabin": 14,
+        "Performance": 5,
         "Other": 2,
         "Wakeboard / Ski": 1,
-        "Pontoon / Tritoon": 5,
+        "Pontoon / Tritoon": 6,
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 20,
+        "Sea Ray": 21,
         "Boston Whaler": 2,
         "Cobalt": 2,
         "Ocean Alexander": 1,
@@ -840,7 +868,7 @@
         "Nautique": 1,
         "Azimut": 1,
         "Cruisers Yachts": 5,
-        "Harris": 5,
+        "Harris": 6,
         "Saxdor": 1
       },
       "prices": [
@@ -933,6 +961,10 @@
           "new"
         ],
         [
+          228836,
+          "used"
+        ],
+        [
           809000,
           "new"
         ],
@@ -946,6 +978,10 @@
         ],
         [
           299657,
+          "new"
+        ],
+        [
+          183054,
           "new"
         ],
         [
@@ -970,6 +1006,10 @@
         ],
         [
           208762,
+          "new"
+        ],
+        [
+          265899,
           "new"
         ],
         [
@@ -1015,10 +1055,6 @@
         [
           422256,
           "new"
-        ],
-        [
-          423862,
-          "new"
         ]
       ],
       "priceLow": 64900,
@@ -1028,14 +1064,14 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 90,
+      "total": 92,
       "new": 9,
-      "used": 81,
+      "used": 83,
       "category": {
         "Fishing": 1,
-        "Other": 29,
+        "Other": 30,
         "Bowrider": 9,
-        "Center Console": 25,
+        "Center Console": 26,
         "Performance": 18,
         "Cruiser / Cabin": 3,
         "Power": 2
@@ -1045,8 +1081,8 @@
         "Skater": 8,
         "Outerlimits": 2,
         "IRON": 2,
-        "Performance Powerboats": 2,
-        "MTI": 16,
+        "Performance Powerboats": 3,
+        "MTI": 17,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
@@ -1135,6 +1171,10 @@
           "used"
         ],
         [
+          659950,
+          "used"
+        ],
+        [
           439950,
           "new"
         ],
@@ -1192,6 +1232,10 @@
         ],
         [
           829950,
+          "used"
+        ],
+        [
+          1449950,
           "used"
         ],
         [
@@ -1430,25 +1474,25 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 108,
-      "new": 65,
-      "used": 43,
+      "total": 110,
+      "new": 64,
+      "used": 46,
       "category": {
         "Wakeboard / Ski": 14,
-        "Pontoon / Tritoon": 50,
-        "Bowrider": 27,
-        "Other": 5,
+        "Pontoon / Tritoon": 49,
+        "Bowrider": 28,
+        "Other": 7,
         "Center Console": 3,
         "Cruiser / Cabin": 9
       },
       "brand": {
         "MasterCraft": 1,
         "Nautique": 12,
-        "Bennington": 50,
+        "Bennington": 49,
         "Grady-White": 8,
         "Crownline": 1,
-        "Regal": 28,
-        "Cobalt Boats": 2,
+        "Regal": 30,
+        "Cobalt Boats": 3,
         "Tiara Yachts": 3,
         "Cruiser": 1,
         "Prestige": 1,
@@ -1544,6 +1588,10 @@
           "used"
         ],
         [
+          209900,
+          "new"
+        ],
+        [
           335900,
           "new"
         ],
@@ -1581,10 +1629,6 @@
         ],
         [
           236900,
-          "new"
-        ],
-        [
-          139900,
           "new"
         ],
         [
@@ -1696,6 +1740,10 @@
           "used"
         ],
         [
+          174900,
+          "used"
+        ],
+        [
           399900,
           "used"
         ],
@@ -1794,7 +1842,7 @@
       ],
       "priceLow": 54900,
       "priceHigh": 1526489,
-      "priceQuality": "partial-78pct"
+      "priceQuality": "partial-77pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1803,9 +1851,9 @@
       "new": 21,
       "used": 40,
       "category": {
-        "Cruiser / Cabin": 4,
         "Bowrider": 56,
-        "Other": 1
+        "Other": 1,
+        "Cruiser / Cabin": 4
       },
       "brand": {
         "Cobalt": 27,
@@ -2343,17 +2391,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 31,
-      "new": 17,
+      "total": 32,
+      "new": 18,
       "used": 14,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 4,
-        "Bowrider": 25
+        "Bowrider": 26
       },
       "brand": {
-        "Formula": 28,
+        "Formula": 29,
         "Nautique": 1,
         "Cobalt": 1,
         "Regal": 1
@@ -2422,7 +2470,7 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-47pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2596,8 +2644,8 @@
         "Pontoon / Tritoon": 21,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 20,
-        "Other": 5
+        "Bowrider": 19,
+        "Other": 6
       },
       "brand": {
         "Southbay": 3,
@@ -2609,10 +2657,10 @@
         "Formula": 3,
         "Monterey": 2,
         "Berkshire": 1,
-        "Suntracker": 1,
         "Godfrey": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 1,
         "Misty Harbor": 1,
         "Sea Ray": 1,
@@ -2726,10 +2774,6 @@
           "used"
         ],
         [
-          49900,
-          "used"
-        ],
-        [
           45900,
           "used"
         ],
@@ -2746,10 +2790,6 @@
           "used"
         ],
         [
-          37900,
-          "used"
-        ],
-        [
           29900,
           "used"
         ],
@@ -2763,6 +2803,10 @@
         ],
         [
           24900,
+          "used"
+        ],
+        [
+          23900,
           "used"
         ],
         [
@@ -2799,6 +2843,10 @@
         ],
         [
           17900,
+          "used"
+        ],
+        [
+          14900,
           "used"
         ],
         [
@@ -3151,27 +3199,27 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 86,
+      "total": 90,
       "new": 52,
-      "used": 34,
+      "used": 38,
       "category": {
         "Fishing": 9,
         "Pontoon / Tritoon": 16,
         "Cruiser / Cabin": 3,
-        "Wakeboard / Ski": 16,
-        "Other": 6,
-        "Performance": 34,
+        "Wakeboard / Ski": 17,
+        "Other": 7,
+        "Performance": 36,
         "Bowrider": 2
       },
       "brand": {
         "Premier": 18,
         "Crownline": 3,
-        "Chaparral": 43,
+        "Chaparral": 45,
         "Lowe": 1,
         "Montara": 1,
         "Nautic Star": 1,
         "Tige": 2,
-        "Robalo": 2,
+        "Robalo": 3,
         "Manitou": 1,
         "MB Sports": 1,
         "MasterCraft": 1,
@@ -3180,7 +3228,7 @@
         "Playcraft": 2,
         "Sun Tracker": 1,
         "Cobalt": 1,
-        "Yamaha": 1,
+        "Yamaha": 2,
         "Stingray": 1,
         "Ranger": 1,
         "Triton": 1
@@ -3516,6 +3564,22 @@
         ],
         [
           51900,
+          "used"
+        ],
+        [
+          48900,
+          "used"
+        ],
+        [
+          179900,
+          "used"
+        ],
+        [
+          24900,
+          "used"
+        ],
+        [
+          84900,
           "used"
         ]
       ],
