@@ -7,12 +7,13 @@
     "Center Console": 15,
     "Pontoon / Tritoon": 27,
     "Wakeboard / Ski": 7,
-    "Fishing": 27
+    "Fishing": 27,
+    "Yacht": 1
   },
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3447,
+    "New": 3448,
     "Used": 2307
   },
   "soldByBrand": {
@@ -59,7 +60,7 @@
     "Stateamind Water Sports": 88,
     "All About Boats": 17,
     "Village Marina & Yacht Club": 45,
-    "Big Thunder Marine": 91,
+    "Big Thunder Marine": 92,
     "Surdyke Yamaha & Marina": 324
   },
   "addedByCategory": {
@@ -380,6 +381,12 @@
       "totalMarket": 1137,
       "btm": 196,
       "competitors": 941
+    },
+    {
+      "date": "2026-09-28",
+      "totalMarket": 1136,
+      "btm": 195,
+      "competitors": 941
     }
   ],
   "priceTrend": [
@@ -657,19 +664,14 @@
       "date": "2026-09-27",
       "marketAvg": 224393.35,
       "btmAvg": 279891.27
+    },
+    {
+      "date": "2026-09-28",
+      "marketAvg": 221824.03,
+      "btmAvg": 266807.75
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-09-05",
-      "scanId": "scan-071",
-      "dealer": "All About Boats",
-      "competitorId": "all-about-boats",
-      "count": 8,
-      "previousTotal": 52,
-      "newTotal": 44,
-      "detail": "Inventory decreased by 8 (was 52, now 44). New: 28, Used: 16. Gap vs prior scan spans 106 days (2026-05-22 to 2026-09-05), likely due to one or more missed/failed nightly runs; reflects a cumulative shift over that period, not a single-day change."
-    },
     {
       "date": "2026-09-06",
       "scanId": "scan-073",
@@ -1159,6 +1161,16 @@
       "previousTotal": 38,
       "newTotal": 37,
       "detail": "Inventory decreased by 1 (was 38, now 37). New: 22, Used: 15. Reflects the normal one-day change since the prior scan on 2026-09-26."
+    },
+    {
+      "date": "2026-09-28",
+      "scanId": "scan-20260928",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 196,
+      "newTotal": 195,
+      "detail": "Inventory decreased by 1 (was 196, now 195). New: 110, Used: 85. Reflects the normal one-day change since the prior scan on 2026-09-27."
     }
   ],
   "recentlyAdded": [
@@ -3221,14 +3233,19 @@
       "date": "2026-09-27",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-09-27 (scan-20260927). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats."
+    },
+    {
+      "date": "2026-09-28",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-09-28 (scan-20260928). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: all-about-boats."
     }
   ],
   "summary": {
-    "date": "2026-09-27",
-    "scanId": "scan-20260927",
-    "marketTotal": 1137,
-    "credibleChangesCount": 7,
-    "soldCount": 1496,
+    "date": "2026-09-28",
+    "scanId": "scan-20260928",
+    "marketTotal": 1136,
+    "credibleChangesCount": 1,
+    "soldCount": 1497,
     "addedCount": 668
   },
   "addedByDealer": {

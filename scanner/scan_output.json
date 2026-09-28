@@ -3,8 +3,8 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 196,
-      "new": 111,
+      "total": 195,
+      "new": 110,
       "used": 85,
       "category": {
         "Pontoon / Tritoon": 46,
@@ -13,13 +13,12 @@
         "Cruiser / Cabin": 21,
         "Bowrider": 18,
         "Performance": 14,
-        "Yacht": 5,
+        "Yacht": 4,
         "Fishing": 0,
         "Power": 3,
         "Other": 5
       },
       "brand": {
-        "Steeler": 1,
         "Dutch American": 2,
         "Cigarette": 5,
         "Fountain": 11,
@@ -74,10 +73,6 @@
         "Unknown": 1
       },
       "prices": [
-        [
-          2765760,
-          "new"
-        ],
         [
           2697900,
           "new"
@@ -840,7 +835,7 @@
         ]
       ],
       "priceLow": 25000,
-      "priceHigh": 2765760,
+      "priceHigh": 2697900,
       "priceQuality": "full"
     },
     "marinemax": {
@@ -1480,20 +1475,20 @@
       "used": 44,
       "category": {
         "Wakeboard / Ski": 14,
+        "Other": 7,
         "Pontoon / Tritoon": 48,
         "Bowrider": 27,
-        "Other": 7,
         "Center Console": 3,
         "Cruiser / Cabin": 9
       },
       "brand": {
         "MasterCraft": 1,
+        "Cobalt Boats": 3,
         "Nautique": 12,
         "Bennington": 48,
         "Grady-White": 8,
         "Crownline": 1,
         "Regal": 29,
-        "Cobalt Boats": 3,
         "Tiara Yachts": 3,
         "Cruiser": 1,
         "Prestige": 1,
@@ -1502,6 +1497,10 @@
       "prices": [
         [
           274900,
+          "used"
+        ],
+        [
+          54900,
           "used"
         ],
         [
@@ -1835,7 +1834,7 @@
       ],
       "priceLow": 54900,
       "priceHigh": 1526489,
-      "priceQuality": "partial-77pct"
+      "priceQuality": "partial-78pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1844,15 +1843,16 @@
       "new": 21,
       "used": 40,
       "category": {
-        "Bowrider": 56,
+        "Other": 1,
         "Cruiser / Cabin": 4,
-        "Other": 1
+        "Bowrider": 56
       },
       "brand": {
         "Cobalt": 27,
         "Crownline": 5,
         "Pioneer Boats": 1,
         "Yamaha": 1,
+        "Formula": 1,
         "Aviara": 1,
         "Premier": 1,
         "Four Winns": 3,
@@ -1866,7 +1866,6 @@
         "Carver Yachts": 2,
         "Silverton": 1,
         "Volvo Penta": 7,
-        "Formula": 1,
         "SEA~DOO": 1,
         "Tahoe": 1
       },
@@ -1905,6 +1904,10 @@
         ],
         [
           96500,
+          "used"
+        ],
+        [
+          249997,
           "used"
         ],
         [
@@ -2005,10 +2008,6 @@
         ],
         [
           69900,
-          "used"
-        ],
-        [
-          249997,
           "used"
         ],
         [
@@ -2611,9 +2610,9 @@
         "Pontoon / Tritoon": 6
       },
       "brand": {
+        "Mastercraft": 22,
         "Malibu": 1,
         "Moomba": 3,
-        "Mastercraft": 22,
         "Supra": 3,
         "Crest": 3,
         "Balise": 3,
@@ -2621,6 +2620,10 @@
         "Malibu Boats": 1
       },
       "prices": [
+        [
+          215419,
+          "new"
+        ],
         [
           65990,
           "used"
@@ -2724,10 +2727,6 @@
         [
           49990,
           "used"
-        ],
-        [
-          229900,
-          "new"
         ],
         [
           173534,
