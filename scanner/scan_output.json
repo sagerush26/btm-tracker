@@ -846,12 +846,12 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 43,
-      "new": 22,
+      "total": 42,
+      "new": 21,
       "used": 21,
       "category": {
         "Yacht": 10,
-        "Fishing": 5,
+        "Fishing": 4,
         "Cruiser / Cabin": 14,
         "Other": 2,
         "Performance": 3,
@@ -860,7 +860,7 @@
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 19,
+        "Sea Ray": 18,
         "Boston Whaler": 2,
         "Ocean Alexander": 1,
         "Aquila": 1,
@@ -995,10 +995,6 @@
         ],
         [
           195356,
-          "new"
-        ],
-        [
-          208762,
           "new"
         ],
         [
@@ -1467,13 +1463,13 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 108,
-      "new": 64,
+      "total": 109,
+      "new": 65,
       "used": 44,
       "category": {
         "Wakeboard / Ski": 14,
         "Other": 7,
-        "Pontoon / Tritoon": 48,
+        "Pontoon / Tritoon": 49,
         "Bowrider": 27,
         "Center Console": 3,
         "Cruiser / Cabin": 9
@@ -1482,7 +1478,7 @@
         "MasterCraft": 1,
         "Cobalt Boats": 3,
         "Nautique": 12,
-        "Bennington": 48,
+        "Bennington": 49,
         "Grady-White": 8,
         "Crownline": 1,
         "Regal": 29,
@@ -1831,7 +1827,7 @@
       ],
       "priceLow": 54900,
       "priceHigh": 1526489,
-      "priceQuality": "partial-78pct"
+      "priceQuality": "partial-77pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1840,9 +1836,9 @@
       "new": 24,
       "used": 38,
       "category": {
-        "Bowrider": 57,
         "Other": 1,
-        "Cruiser / Cabin": 4
+        "Cruiser / Cabin": 4,
+        "Bowrider": 57
       },
       "brand": {
         "Cobalt": 27,
@@ -2511,17 +2507,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 31,
-      "new": 17,
+      "total": 32,
+      "new": 18,
       "used": 14,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 4,
-        "Bowrider": 25
+        "Bowrider": 26
       },
       "brand": {
-        "Formula": 28,
+        "Formula": 29,
         "Nautique": 1,
         "Cobalt": 1,
         "Regal": 1
@@ -2536,7 +2532,7 @@
           "used"
         ],
         [
-          410000,
+          399995,
           "used"
         ],
         [
@@ -2590,7 +2586,7 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-47pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2788,9 +2784,9 @@
         "Berkshire": 1,
         "Sea Ray": 2,
         "Godfrey": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Crest": 1,
         "Lowe": 2,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -3357,22 +3353,22 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 90,
-      "new": 52,
+      "total": 87,
+      "new": 49,
       "used": 37,
       "category": {
-        "Fishing": 9,
+        "Fishing": 8,
         "Pontoon / Tritoon": 16,
         "Cruiser / Cabin": 3,
-        "Wakeboard / Ski": 17,
+        "Wakeboard / Ski": 15,
         "Other": 8,
         "Performance": 35,
         "Bowrider": 2
       },
       "brand": {
-        "Premier": 18,
+        "Premier": 17,
         "Crownline": 3,
-        "Chaparral": 44,
+        "Chaparral": 42,
         "Lowe": 1,
         "Montara": 1,
         "Nautic Star": 1,
@@ -3515,10 +3511,6 @@
         ],
         [
           317368,
-          "new"
-        ],
-        [
-          110154,
           "new"
         ],
         [
@@ -3749,15 +3741,15 @@
     "martys-marine": {
       "name": "Marty's Marine",
       "isOwn": false,
-      "total": 18,
-      "new": 14,
+      "total": 32,
+      "new": 28,
       "used": 4,
       "category": {
-        "Pontoon / Tritoon": 17,
+        "Pontoon / Tritoon": 31,
         "Other": 1
       },
       "brand": {
-        "Barletta": 15,
+        "Barletta": 29,
         "PlayCraft": 2,
         "Premier": 1
       },
@@ -3773,7 +3765,7 @@
       ],
       "priceLow": 55000,
       "priceHigh": 68396,
-      "priceQuality": "partial-11pct"
+      "priceQuality": "partial-6pct"
     },
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
@@ -3807,6 +3799,7 @@
         "G3/YAMAHA": 1,
         "Nitro": 1,
         "Ranger Boats": 1,
+        "Tahoe\u00ae": 1,
         "Bayliner": 1,
         "Cobalt Boats": 2,
         "Crownline": 1,
@@ -3815,7 +3808,6 @@
         "Sundance": 1,
         "LOWE": 1,
         "FORMULA": 1,
-        "Tahoe\u00ae": 1,
         "Tracker\u00ae Boats": 1
       },
       "prices": [
@@ -4148,6 +4140,10 @@
           "used"
         ],
         [
+          25499,
+          "used"
+        ],
+        [
           43999,
           "new"
         ],
@@ -4224,10 +4220,6 @@
           "used"
         ],
         [
-          25499,
-          "used"
-        ],
-        [
           14499,
           "used"
         ]
@@ -4239,21 +4231,180 @@
     "all-about-boats": {
       "name": "All About Boats",
       "isOwn": false,
-      "total": 44,
-      "new": 28,
+      "total": 42,
+      "new": 26,
       "used": 16,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "category": {
+        "Pontoon / Tritoon": 17,
+        "Bowrider": 15,
+        "Center Console": 4,
+        "Power": 2,
+        "Cruiser / Cabin": 1,
+        "Performance": 2,
+        "Wakeboard / Ski": 1
+      },
+      "brand": {
+        "Regency": 2,
+        "Crownline": 15,
+        "Pursuit": 1,
+        "Starcraft": 10,
+        "Four Winns": 1,
+        "AMP": 4,
+        "Regal": 1,
+        "Tahoe": 1,
+        "Harris": 1,
+        "Sea Ray": 1,
+        "Finseeker": 1,
+        "Formula": 1,
+        "Premier": 2,
+        "Misty Harbor": 1
+      },
+      "prices": [
+        [
+          59900,
+          "used"
+        ],
+        [
+          379900,
+          "new"
+        ],
+        [
+          129900,
+          "new"
+        ],
+        [
+          109900,
+          "used"
+        ],
+        [
+          79900,
+          "new"
+        ],
+        [
+          41900,
+          "used"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          25000,
+          "used"
+        ],
+        [
+          69900,
+          "used"
+        ],
+        [
+          215900,
+          "new"
+        ],
+        [
+          12900,
+          "used"
+        ],
+        [
+          79900,
+          "new"
+        ],
+        [
+          319900,
+          "new"
+        ],
+        [
+          32000,
+          "used"
+        ],
+        [
+          95900,
+          "new"
+        ],
+        [
+          95900,
+          "new"
+        ],
+        [
+          49900,
+          "used"
+        ],
+        [
+          120900,
+          "used"
+        ],
+        [
+          29900,
+          "used"
+        ],
+        [
+          95000,
+          "used"
+        ],
+        [
+          82700,
+          "new"
+        ],
+        [
+          539900,
+          "new"
+        ],
+        [
+          82700,
+          "new"
+        ],
+        [
+          79900,
+          "new"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          89900,
+          "new"
+        ],
+        [
+          209500,
+          "new"
+        ],
+        [
+          375900,
+          "used"
+        ],
+        [
+          79900,
+          "used"
+        ],
+        [
+          89900,
+          "used"
+        ],
+        [
+          113900,
+          "new"
+        ],
+        [
+          39900,
+          "used"
+        ],
+        [
+          129900,
+          "new"
+        ],
+        [
+          39900,
+          "used"
+        ]
+      ],
+      "priceLow": 12900,
+      "priceHigh": 539900,
+      "priceQuality": "partial-83pct"
     }
   },
-  "failures": [
-    [
-      "all-about-boats",
-      "scrape() returned total <= 0"
-    ]
-  ]
+  "failures": []
 }
