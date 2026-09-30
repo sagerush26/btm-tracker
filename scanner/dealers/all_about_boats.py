@@ -1,6 +1,16 @@
 """
 Scraper for All About Boats (all-about-boats).
 
+UPDATE 2026-09-30: boatozarks.com now sits behind a Cloudflare Turnstile
+"Verify you are human" challenge that headless browsers on GitHub Actions
+cannot pass, so every nightly scan since early September fell back to
+carried-forward values (stuck at 44). The dealer syndicates its full live
+inventory to Boatzon (https://boatzon.com/dealer/all-about-boats/boats-for-sale),
+whose public listing API returns the same units, verified 2026-09-30 against
+the dealer's own site: 42 listings, 26 new / 16 used, identical brand mix.
+scrape() now reads the Boatzon feed first (fast, plain HTTPS, no browser)
+and only falls back to the dealer site if the feed is unavailable.
+
 Dealer id: all-about-boats
 Source URL: https://www.boatozarks.com/search/inventory
 
@@ -337,8 +347,68 @@ def _fetch_all_products() -> Tuple[Dict[int, dict], Optional[int], List[str]]:
     return all_products, declared_total, caveats
 
 
+BOATZON_API = "https://api-v3.boatzon.com/graphql"
+BOATZON_DEALER_ID = "653179eccb867fa4298fa054"  # boatzon.com/dealer/all-about-boats
+BOATZON_PAGE_SIZE = 25
+_BOATZON_QUERY = """query($filters: BoatFilterInput, $dealerId: String, $page: Int, $pageSize: Int) {
+  boats(filters: $filters, dealerId: $dealerId, page: $page, pageSize: $pageSize) {
+    data { _id productName condition year price boatModel
+           manufacturer { manufacturerName } category { boatCategory }
+           extraData { hidePrice } } } }"""
+
+
+def _fetch_boatzon_products() -> Tuple[Dict[str, dict], List[str]]:
+    """All active All About Boats listings from the Boatzon feed, converted to
+    the same shape as the dealer site's `datasource` JSON so scrape() can use
+    one code path. Returns ({} , caveats) on any failure."""
+    import requests
+
+    caveats: List[str] = []
+    headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT,
+               "Origin": "https://boatzon.com", "Referer": "https://boatzon.com/"}
+    try:
+        login = requests.post(BOATZON_API, headers=headers, timeout=30, json={
+            "query": "mutation guestLogin($ipAddress: String){guestLogin(ipAddress:$ipAddress){code accessToken}}",
+            "variables": {"ipAddress": "0.0.0.0"}}).json()
+        headers["token"] = login["data"]["guestLogin"]["accessToken"]
+        products: Dict[str, dict] = {}
+        for page in range(1, MAX_PAGES + 1):
+            resp = requests.post(BOATZON_API, headers=headers, timeout=30, json={
+                "query": _BOATZON_QUERY,
+                "variables": {"page": page, "pageSize": BOATZON_PAGE_SIZE,
+                              "filters": {"status": "ACTIVE"}, "dealerId": BOATZON_DEALER_ID}})
+            rows = resp.json()["data"]["boats"]["data"] or []
+            for b in rows:
+                cat = ((b.get("category") or {}).get("boatCategory") or "").lower()
+                name = b.get("productName") or ""
+                make = ((b.get("manufacturer") or {}).get("manufacturerName") or "").strip()
+                model = name[len(make):].strip() if make and name.startswith(make) else name
+                model = re.sub(r"\s(19|20)\d\d$", "", model)
+                hide = (b.get("extraData") or {}).get("hidePrice")
+                products[b["_id"]] = {
+                    "productId": b["_id"],
+                    "itemYear": b.get("year"),
+                    "itemMake": make,
+                    "itemModel": model,
+                    "itemPrice": None if hide or not b.get("price") else b.get("price"),
+                    "usageStatus": (b.get("condition") or "").capitalize(),
+                    "itemType": "Pontoons" if "pontoon" in cat else "Boats",
+                    "itemSubtype": "Bowrider" if cat == "bowrider" else ("center console" if cat == "center console" else ""),
+                }
+            if len(rows) < BOATZON_PAGE_SIZE:
+                break
+        return products, caveats
+    except Exception as e:  # network / schema change -> let caller fall back
+        caveats.append(f"Boatzon feed failed ({type(e).__name__}: {e}); falling back to dealer site.")
+        return {}, caveats
+
+
 def scrape() -> dict:
-    products, declared_total, caveats = _fetch_all_products()
+    products, caveats = _fetch_boatzon_products()
+    if not products:
+        site_products, declared_total, site_caveats = _fetch_all_products()
+        products = site_products
+        caveats += site_caveats
 
     total = len(products)
     new_count = 0

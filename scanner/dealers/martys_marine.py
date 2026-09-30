@@ -1,4 +1,8 @@
 """
+UPDATE 2026-09-30: factory-order (`order--`) listings shown on /inventory are
+now counted (see note in the listing loop); the older notes below describe
+the previous behavior.
+
 Scraper for Marty's Marine (Osage Beach, MO / Lake of the Ozarks).
 
 Site: https://www.martysmarineloz.com/inventory
@@ -290,11 +294,12 @@ def _parse_page(page_html: str, condition: str) -> list:
         link_tag = li.select_one("a.biglink")
         href = link_tag.get("href") if link_tag else None
 
-        # Skip factory order/build-slot listings (`/order--NNNNN` or
-        # `/copy-of-order--NNNNN`) -- these are buildable configurations, not
-        # physical units on the lot (see module docstring for the evidence).
-        if href and re.search(r"order--?\d+", href):
-            continue
+        # UPDATE 2026-09-30: `/order--NNNNN` / `/copy-of-order--NNNNN` listings
+        # are now COUNTED. The dealer advertises them on its own "New Inventory"
+        # page (27 listings there on 2026-09-30), and every other dealer in the
+        # tracker is counted by what it advertises, so excluding them made
+        # Marty's look like 18 boats when a shopper sees 31. Each order listing
+        # has its own unique id, so de-duplication below is unaffected.
 
         # '/dup' is a placeholder/broken link Duda uses for some entries;
         # don't let it collide with real hrefs during de-duplication.
