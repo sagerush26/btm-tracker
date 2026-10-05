@@ -1838,11 +1838,11 @@
           "used"
         ],
         [
-          167900,
+          124900,
           "new"
         ],
         [
-          124900,
+          167900,
           "new"
         ]
       ],
@@ -1856,189 +1856,12 @@
       "total": 54,
       "new": 15,
       "used": 39,
-      "category": {
-        "Other": 1,
-        "Bowrider": 49,
-        "Cruiser / Cabin": 4
-      },
-      "brand": {
-        "Cobalt": 28,
-        "Crownline": 4,
-        "Pioneer Boats": 1,
-        "Yamaha": 1,
-        "Formula": 1,
-        "Aviara": 1,
-        "Premier": 1,
-        "Four Winns": 3,
-        "SEA~DOO": 1,
-        "Manitou": 1,
-        "Sea Ray": 3,
-        "South Bay": 1,
-        "Larson": 1,
-        "MasterCraft": 1,
-        "Rinker": 1,
-        "Regal": 1,
-        "Carver Yachts": 2,
-        "Silverton": 1,
-        "Tahoe": 1
-      },
-      "prices": [
-        [
-          249000,
-          "used"
-        ],
-        [
-          479000,
-          "used"
-        ],
-        [
-          524995,
-          "used"
-        ],
-        [
-          139995,
-          "used"
-        ],
-        [
-          89000,
-          "used"
-        ],
-        [
-          125000,
-          "used"
-        ],
-        [
-          349997,
-          "used"
-        ],
-        [
-          96500,
-          "used"
-        ],
-        [
-          249997,
-          "used"
-        ],
-        [
-          399000,
-          "used"
-        ],
-        [
-          88000,
-          "used"
-        ],
-        [
-          79997,
-          "used"
-        ],
-        [
-          9800,
-          "used"
-        ],
-        [
-          154900,
-          "used"
-        ],
-        [
-          85000,
-          "used"
-        ],
-        [
-          95000,
-          "used"
-        ],
-        [
-          61900,
-          "used"
-        ],
-        [
-          29900,
-          "used"
-        ],
-        [
-          129000,
-          "used"
-        ],
-        [
-          69900,
-          "used"
-        ],
-        [
-          32997,
-          "used"
-        ],
-        [
-          44900,
-          "used"
-        ],
-        [
-          55000,
-          "used"
-        ],
-        [
-          34900,
-          "used"
-        ],
-        [
-          22995,
-          "used"
-        ],
-        [
-          33500,
-          "used"
-        ],
-        [
-          31500,
-          "used"
-        ],
-        [
-          73900,
-          "used"
-        ],
-        [
-          99995,
-          "used"
-        ],
-        [
-          105000,
-          "used"
-        ],
-        [
-          299900,
-          "used"
-        ],
-        [
-          38000,
-          "used"
-        ],
-        [
-          29999,
-          "used"
-        ],
-        [
-          37900,
-          "used"
-        ],
-        [
-          69900,
-          "used"
-        ],
-        [
-          123500,
-          "used"
-        ],
-        [
-          109000,
-          "used"
-        ],
-        [
-          19000,
-          "used"
-        ]
-      ],
-      "priceLow": 9800,
-      "priceHigh": 524995,
-      "priceQuality": "partial-70pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -4525,5 +4348,10 @@
       "priceQuality": "partial-83pct"
     }
   },
-  "failures": []
+  "failures": [
+    [
+      "village-marina",
+      "scrape() returned total <= 0"
+    ]
+  ]
 }

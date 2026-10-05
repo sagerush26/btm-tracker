@@ -436,6 +436,12 @@
       "totalMarket": 1171,
       "btm": 198,
       "competitors": 973
+    },
+    {
+      "date": "2026-10-05",
+      "totalMarket": 1171,
+      "btm": 198,
+      "competitors": 973
     }
   ],
   "priceTrend": [
@@ -751,6 +757,11 @@
     },
     {
       "date": "2026-10-04",
+      "marketAvg": 217498.82,
+      "btmAvg": 267085.62
+    },
+    {
+      "date": "2026-10-05",
       "marketAvg": 217498.82,
       "btmAvg": 267085.62
     }
@@ -3357,13 +3368,18 @@
       "date": "2026-10-04",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-04 (scan-20261004), reflecting the normal one-day change since 2026-10-03."
+    },
+    {
+      "date": "2026-10-05",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-05 (scan-20261005). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: village-marina."
     }
   ],
   "summary": {
-    "date": "2026-10-04",
-    "scanId": "scan-20261004",
+    "date": "2026-10-05",
+    "scanId": "scan-20261005",
     "marketTotal": 1171,
-    "credibleChangesCount": 7,
+    "credibleChangesCount": 0,
     "soldCount": 1524,
     "addedCount": 726
   },
