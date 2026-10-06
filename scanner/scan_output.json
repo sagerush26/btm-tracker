@@ -430,10 +430,6 @@
           "used"
         ],
         [
-          159900,
-          "used"
-        ],
-        [
           151760,
           "new"
         ],
@@ -443,6 +439,10 @@
         ],
         [
           149997,
+          "used"
+        ],
+        [
+          149900,
           "used"
         ],
         [
@@ -1289,7 +1289,7 @@
           "used"
         ],
         [
-          349950,
+          329950,
           "used"
         ],
         [
@@ -1484,16 +1484,16 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 109,
-      "new": 64,
-      "used": 45,
+      "total": 107,
+      "new": 63,
+      "used": 44,
       "category": {
         "Wakeboard / Ski": 14,
         "Bowrider": 27,
         "Pontoon / Tritoon": 48,
-        "Other": 8,
+        "Other": 7,
         "Center Console": 3,
-        "Cruiser / Cabin": 9
+        "Cruiser / Cabin": 8
       },
       "brand": {
         "MasterCraft": 1,
@@ -1503,10 +1503,9 @@
         "Grady-White": 8,
         "Crownline": 1,
         "Regal": 29,
-        "Tiara Yachts": 3,
+        "Tiara Yachts": 2,
         "Cruiser": 1,
-        "Prestige": 1,
-        "Formula": 1
+        "Prestige": 1
       },
       "prices": [
         [
@@ -1848,7 +1847,7 @@
       ],
       "priceLow": 54900,
       "priceHigh": 1526489,
-      "priceQuality": "partial-77pct"
+      "priceQuality": "partial-79pct"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -2640,19 +2639,19 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 61,
-      "new": 19,
-      "used": 42,
+      "total": 65,
+      "new": 21,
+      "used": 44,
       "category": {
-        "Pontoon / Tritoon": 24,
+        "Pontoon / Tritoon": 27,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 25,
         "Power": 1,
-        "Other": 9
+        "Other": 10
       },
       "brand": {
-        "Southbay": 5,
+        "Southbay": 6,
         "Chaparral": 7,
         "Cobalt": 3,
         "Manitou": 3,
@@ -2661,8 +2660,10 @@
         "Formula": 4,
         "Regal": 1,
         "Monterey": 2,
+        "Berkshire": 2,
+        "Bennington": 1,
         "Sea Ray": 3,
-        "Berkshire": 1,
+        "Suntracker": 1,
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
@@ -2698,6 +2699,10 @@
         [
           129900,
           "used"
+        ],
+        [
+          114900,
+          "new"
         ],
         [
           114900,
@@ -2804,7 +2809,15 @@
           "used"
         ],
         [
+          57900,
+          "new"
+        ],
+        [
           55900,
+          "used"
+        ],
+        [
+          45900,
           "used"
         ],
         [
@@ -2833,6 +2846,10 @@
         ],
         [
           29900,
+          "used"
+        ],
+        [
+          25900,
           "used"
         ],
         [
@@ -3675,15 +3692,15 @@
     "martys-marine": {
       "name": "Marty's Marine",
       "isOwn": false,
-      "total": 33,
+      "total": 32,
       "new": 28,
-      "used": 5,
+      "used": 4,
       "category": {
-        "Pontoon / Tritoon": 32,
+        "Pontoon / Tritoon": 31,
         "Other": 1
       },
       "brand": {
-        "Barletta": 30,
+        "Barletta": 29,
         "Premier": 1,
         "PlayCraft": 2
       },
@@ -3695,15 +3712,11 @@
         [
           147000,
           "used"
-        ],
-        [
-          55000,
-          "used"
         ]
       ],
-      "priceLow": 55000,
+      "priceLow": 68396,
       "priceHigh": 147000,
-      "priceQuality": "partial-9pct"
+      "priceQuality": "partial-6pct"
     },
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
