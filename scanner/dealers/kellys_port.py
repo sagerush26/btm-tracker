@@ -1,7 +1,15 @@
 """
 Scraper for Kelly's Port (kellys-port).
 
-Site: https://www.kellysport.com/--inventory
+Site (per the user, 2026-10-07):
+https://www.kellysport.com/new-boats-for-sale-lake-of-the-ozarks-missouri--inventory?sortby=length_overall%7Casc
+
+UPDATE 2026-10-07: the scanner now reads the user's link first and falls back
+to the plain /--inventory path (same Dealer Spike listing). kellysport.com
+currently answers scripted requests with a Cloudflare "Just a moment..."
+challenge; the browser fallback now waits up to ~40s for the challenge to
+clear. Kelly's Port is not syndicated to Boatzon, so when the site stays
+blocked the nightly scan keeps last-known values (labelled carried forward).
 Platform: DealerSpike (v7 list template) - server-rendered HTML, no JS execution required to
 get listing data (confirmed via inspection - no `window.__STATE__`-style embedded JSON was
 found either; the DOM itself already carries structured `data-unit-*` attributes per boat).
@@ -92,7 +100,9 @@ from bs4 import BeautifulSoup
 DEALER_ID = "kellys-port"
 DEALER_NAME = "Kelly's Port"
 
+USER_URL = "https://www.kellysport.com/new-boats-for-sale-lake-of-the-ozarks-missouri--inventory"
 BASE_URL = "https://www.kellysport.com/--inventory"
+BASE_URLS = [USER_URL, BASE_URL]
 PAGE_SIZE = 50  # largest `sz` value actually honored by the site
 MAX_PAGES = 20  # hard safety cap on number of `pg` values walked
 MAX_CONSECUTIVE_EMPTY = 2  # stop after this many empty pages in a row
@@ -245,6 +255,10 @@ def _fetch_via_playwright(url: str, params: dict) -> Optional[str]:
             try:
                 page = browser.new_page(user_agent=HEADERS["User-Agent"])
                 page.goto(full_url, timeout=45000, wait_until="domcontentloaded")
+                for _ in range(16):  # give a Cloudflare challenge time to clear
+                    if "just a moment" not in (page.title() or "").lower():
+                        break
+                    page.wait_for_timeout(2500)
                 page.wait_for_selector(".v7list-results__item", timeout=15000)
                 html = page.content()
             finally:
@@ -271,11 +285,13 @@ def _fetch_page(session: requests.Session, pg: int, state: "_FetchState") -> str
         "pg": str(pg),
     }
 
-    methods = [
-        ("requests", lambda: _fetch_via_requests(session, BASE_URL, params)),
-        ("curl", lambda: _fetch_via_curl(BASE_URL, params)),
-        ("playwright", lambda: _fetch_via_playwright(BASE_URL, params)),
-    ]
+    methods = []
+    for base in BASE_URLS:
+        methods += [
+            (f"requests:{base}", lambda b=base: _fetch_via_requests(session, b, params)),
+            (f"curl:{base}", lambda b=base: _fetch_via_curl(b, params)),
+        ]
+    methods += [(f"playwright:{b}", lambda b=b: _fetch_via_playwright(b, params)) for b in BASE_URLS]
     # Try the previously-successful method first to avoid re-paying the cost/latency of a
     # method we already know is blocked in this environment.
     if state.working_method:

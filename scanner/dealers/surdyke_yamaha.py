@@ -1,7 +1,17 @@
 """
 Scraper for Surdyke Yamaha & Marina (surdyke-yamaha).
 
-Site: https://www.surdykeyamaha.com/--inventory?category=boat&sz=50
+Site (per the user, 2026-10-07): https://www.surdykeyamaha.com/--inventory?category=boat
+(scanner adds sz=50 so all boats fit on fewer pages; same listing set)
+
+UPDATE 2026-10-07: surdykeyamaha.com now answers every scripted request
+(requests, curl and headless Chromium) with a Cloudflare "Just a moment..."
+challenge, so the nightly scan carried forward last-known values on 10-02 and
+10-07. The dealer site is still tried first; if it is blocked or returns no
+boats, the scanner now reads the dealer's own active listings from the Boatzon
+feed (boatzon.com/dealer/surdyke-yamaha, dealerId 664ce2dc045ef8ef0be1388e),
+which the dealer syndicates to. Verified 2026-10-07: 104 active (73 new / 31
+used) with the same brand mix as the dealer site.
 
 Site tech notes
 ----------------
@@ -576,6 +586,54 @@ def _collect_all_listings() -> List[Dict]:
     return all_listings
 
 
+BOATZON_API = "https://api-v3.boatzon.com/graphql"
+BOATZON_DEALER_ID = "664ce2dc045ef8ef0be1388e"  # boatzon.com/dealer/surdyke-yamaha
+_BOATZON_QUERY = """query($filters: BoatFilterInput, $dealerId: String, $page: Int, $pageSize: Int) {
+  boats(filters: $filters, dealerId: $dealerId, page: $page, pageSize: $pageSize) {
+    data { _id productName condition year price manufacturer { manufacturerName }
+           category { boatCategory } extraData { hidePrice } } } }"""
+
+
+def _fetch_boatzon_listings() -> List[Dict]:
+    """Backup source: the dealer's active listings syndicated to Boatzon."""
+    headers = {"Content-Type": "application/json", "User-Agent": USER_AGENT,
+               "Origin": "https://boatzon.com", "Referer": "https://boatzon.com/"}
+    try:
+        login = requests.post(BOATZON_API, headers=headers, timeout=30, json={
+            "query": "mutation guestLogin($ipAddress: String){guestLogin(ipAddress:$ipAddress){code accessToken}}",
+            "variables": {"ipAddress": "0.0.0.0"}}).json()
+        headers["token"] = login["data"]["guestLogin"]["accessToken"]
+        out: Dict[str, Dict] = {}
+        for page in range(1, 20):
+            rows = requests.post(BOATZON_API, headers=headers, timeout=30, json={
+                "query": _BOATZON_QUERY,
+                "variables": {"page": page, "pageSize": 25, "filters": {"status": "ACTIVE"},
+                              "dealerId": BOATZON_DEALER_ID}}).json()["data"]["boats"]["data"] or []
+            for b in rows:
+                make = ((b.get("manufacturer") or {}).get("manufacturerName") or "").strip()
+                name = b.get("productName") or ""
+                model = name[len(make):].strip() if make and name.startswith(make) else name
+                cat = (b.get("category") or {}).get("boatCategory") or ""
+                price = None if (b.get("extraData") or {}).get("hidePrice") else b.get("price")
+                try:
+                    price = int(round(float(price))) if price else None
+                except (TypeError, ValueError):
+                    price = None
+                out[b["_id"]] = {
+                    "id": b["_id"],
+                    "condition": _normalize_condition(b.get("condition")),
+                    "brand": _clean_brand(make),
+                    "category": _normalize_category(cat, make, model),
+                    "price": price if price and price > 0 else None,
+                }
+            if len(rows) < 25:
+                break
+        return list(out.values())
+    except Exception as exc:
+        print(f"[surdyke_yamaha] Boatzon feed failed: {exc}", file=sys.stderr)
+        return []
+
+
 def scrape() -> dict:
     """Scrape Surdyke Yamaha & Marina's full boat inventory listing.
 
@@ -584,7 +642,15 @@ def scrape() -> dict:
     pagination links until no further "next page" link is found, a page
     yields zero new unit IDs, or a safety page cap is reached.
     """
-    listings = _collect_all_listings()
+    try:
+        listings = _collect_all_listings()
+    except Exception as exc:
+        print(f"[surdyke_yamaha] dealer site failed: {exc}", file=sys.stderr)
+        listings = []
+    if not listings:
+        listings = _fetch_boatzon_listings()
+        if listings:
+            print(f"[surdyke_yamaha] dealer site blocked; used Boatzon feed ({len(listings)} boats)", file=sys.stderr)
 
     total = len(listings)
     new_count = sum(1 for l in listings if l["condition"] == "new")
