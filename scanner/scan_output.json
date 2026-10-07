@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 198,
-      "new": 110,
+      "total": 197,
+      "new": 109,
       "used": 88,
       "category": {
         "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 49,
-        "Center Console": 36,
+        "Center Console": 35,
         "Cruiser / Cabin": 21,
         "Bowrider": 20,
         "Performance": 13,
@@ -25,7 +25,7 @@
         "Invictus": 7,
         "Pirelli": 1,
         "Chris Craft": 7,
-        "Monterey": 11,
+        "Monterey": 10,
         "Sea Ray": 9,
         "Jeanneau": 1,
         "YOT": 2,
@@ -782,10 +782,6 @@
           "used"
         ],
         [
-          273212,
-          "new"
-        ],
-        [
           149820,
           "new"
         ],
@@ -1501,15 +1497,176 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 54,
-      "new": 15,
-      "used": 39,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "total": 45,
+      "new": 12,
+      "used": 33,
+      "category": {
+        "Yacht": 2,
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 31,
+        "Wakeboard / Ski": 5,
+        "Fishing": 1,
+        "Performance": 1,
+        "Cruiser / Cabin": 2
+      },
+      "brand": {
+        "Regal": 1,
+        "Cobalt": 21,
+        "Sea Ray": 3,
+        "Crownline": 2,
+        "Rinker": 1,
+        "Silverton": 1,
+        "Yamaha Boats": 1,
+        "Four Winns": 3,
+        "South Bay": 1,
+        "Larson": 1,
+        "Carver": 2,
+        "Premier": 1,
+        "Sea Doo": 1,
+        "Pioneer": 1,
+        "Manitou": 1,
+        "Formula": 1,
+        "MasterCraft": 1,
+        "Tahoe": 1,
+        "Aviara": 1
+      },
+      "prices": [
+        [
+          22995,
+          "used"
+        ],
+        [
+          154900,
+          "used"
+        ],
+        [
+          349900,
+          "used"
+        ],
+        [
+          69995,
+          "used"
+        ],
+        [
+          55000,
+          "used"
+        ],
+        [
+          34995,
+          "used"
+        ],
+        [
+          38000,
+          "used"
+        ],
+        [
+          69900,
+          "used"
+        ],
+        [
+          139900,
+          "used"
+        ],
+        [
+          125000,
+          "used"
+        ],
+        [
+          79900,
+          "used"
+        ],
+        [
+          29900,
+          "used"
+        ],
+        [
+          32995,
+          "used"
+        ],
+        [
+          299000,
+          "used"
+        ],
+        [
+          61900,
+          "used"
+        ],
+        [
+          73900,
+          "used"
+        ],
+        [
+          95000,
+          "used"
+        ],
+        [
+          105000,
+          "used"
+        ],
+        [
+          479000,
+          "used"
+        ],
+        [
+          88000,
+          "used"
+        ],
+        [
+          9800,
+          "used"
+        ],
+        [
+          89900,
+          "used"
+        ],
+        [
+          85000,
+          "used"
+        ],
+        [
+          33500,
+          "used"
+        ],
+        [
+          249997,
+          "used"
+        ],
+        [
+          249000,
+          "used"
+        ],
+        [
+          44900,
+          "used"
+        ],
+        [
+          19000,
+          "used"
+        ],
+        [
+          37900,
+          "used"
+        ],
+        [
+          31500,
+          "used"
+        ],
+        [
+          399000,
+          "used"
+        ],
+        [
+          99995,
+          "used"
+        ],
+        [
+          96500,
+          "used"
+        ]
+      ],
+      "priceLow": 9800,
+      "priceHigh": 479000,
+      "priceQuality": "partial-73pct"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -2022,17 +2179,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 31,
-      "new": 17,
+      "total": 32,
+      "new": 18,
       "used": 14,
       "category": {
         "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 26
+        "Bowrider": 27
       },
       "brand": {
-        "Formula": 28,
+        "Formula": 29,
         "Nautique": 1,
         "Cobalt": 1,
         "Regal": 1
@@ -2101,7 +2258,7 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-47pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2321,9 +2478,9 @@
         "Bennington": 1,
         "Sea Ray": 3,
         "Suntracker": 1,
-        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -3578,10 +3735,6 @@
     [
       "kellys-port",
       "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 336, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 303, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 290, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
-    ],
-    [
-      "village-marina",
-      "scrape() returned total <= 0"
     ],
     [
       "surdyke-yamaha",
