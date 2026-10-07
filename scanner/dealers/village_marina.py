@@ -1,7 +1,21 @@
 """
 Scraper for Village Marina & Yacht Club (Lake Ozark, MO).
 
-Site: https://www.villagemarina.com/default.asp?page=xAllInventory
+Site (per the user, use from 2026-10-07 on): https://www.villagemarina.com/inventory/
+
+UPDATE 2026-10-07: the dealer rebuilt its website. The old
+default.asp?page=xAllInventory URL now redirects to /inventory/, which no
+longer has the data-unit-* markup, so the nightly scan had been carrying
+forward stale values (54) since 2026-10-03. The new /inventory/ page loads
+its boats from a plain JSON feed, /inventory.json (one record per listing:
+id, year, make, model, condition New/Used, price, priceHidden, length,
+status Available / Sale pending). scrape() now reads that feed first, falls
+back to the /inventory/ page's boat cards, and only then tries the legacy
+page. Verified 2026-10-07: 45 boats (12 new / 33 used), matching the
+"45 boats" counter on /inventory/. Sale-pending boats are still listed by the
+dealer and are counted, consistent with how the other dealers are counted.
+
+The notes below describe the previous (pre-2026-10-07) site.
 
 Site tech notes
 ----------------
@@ -449,6 +463,98 @@ def _find_next_page_url(page_html: str, current_url: str) -> Optional[str]:
     return None
 
 
+INVENTORY_PAGE_URL = "https://www.villagemarina.com/inventory/"
+INVENTORY_JSON_URL = "https://www.villagemarina.com/inventory.json"
+
+_PONTOON_MAKES = {"south bay", "premier", "manitou", "bennington", "harris", "godfrey", "barletta"}
+
+
+def _category_from_listing(make: str, model: str, length=None) -> str:
+    """The new feed has no category field, so derive one from make + model."""
+    mk = (make or "").lower()
+    md = (model or "").lower()
+    if "sea doo" in mk or "sea-doo" in mk or "waverunner" in md:
+        return "Performance"  # PWC -> same bucket as the old CATEGORY_MAP
+    if mk in _PONTOON_MAKES or "pontoon" in md or "tritoon" in md:
+        return "Pontoon / Tritoon"
+    if "surf" in md or "wake" in md or mk in ("mastercraft", "malibu", "nautique", "tige", "supra", "moomba"):
+        return "Wakeboard / Ski"
+    if "motor yacht" in md or "pilothouse" in md or "flybridge" in md or (length and float(length) >= 45):
+        return "Yacht"
+    if "bowrider" in md or re.search(r"\bbr\b", md):
+        return "Bowrider"
+    if mk == "silverton" or any(k in md for k in ("sport bridge", "vista", "sundancer", "cabin", "cruiser", "express")):
+        return "Cruiser / Cabin"
+    if mk in ("pioneer", "sportsman", "key west", "robalo") or "center console" in md or "bay" in md:
+        return "Fishing"
+    if mk in ("cobalt", "regal", "crownline", "sea ray", "yamaha boats", "formula", "larson", "four winns",
+              "aviara", "tahoe", "rinker", "chaparral", "monterey", "bayliner"):
+        return "Bowrider"
+    return "Other"
+
+
+def _listing_from_feed(item: dict) -> dict:
+    price = None if item.get("priceHidden") else item.get("salePrice") or item.get("price")
+    try:
+        price = int(round(float(price))) if price else None
+    except (TypeError, ValueError):
+        price = None
+    return {
+        "id": str(item.get("id") or item.get("slug")),
+        "condition": _normalize_condition(item.get("condition")),
+        "brand": _clean_brand(item.get("make")),
+        "category": _category_from_listing(item.get("make"), item.get("model"), item.get("length")),
+        "price": price if price and price > 0 else None,
+    }
+
+
+def _scrape_new_site() -> list:
+    """Listings from the 2026-10 site: /inventory.json, else the /inventory/ cards."""
+    headers = {"User-Agent": USER_AGENT if "USER_AGENT" in globals() else "Mozilla/5.0",
+               "Accept": "application/json, text/html"}
+    try:
+        resp = requests.get(INVENTORY_JSON_URL, headers=headers, timeout=45)
+        data = resp.json() if resp.status_code == 200 else None
+        if isinstance(data, dict):
+            data = next((v for v in data.values() if isinstance(v, list)), None)
+        if data:
+            out, seen = [], set()
+            for item in data:
+                if item.get("sample"):
+                    continue  # never count placeholder/demo records
+                rec = _listing_from_feed(item)
+                if rec["id"] not in seen:
+                    seen.add(rec["id"])
+                    out.append(rec)
+            if out:
+                return out
+    except Exception:
+        pass
+    # Fallback: boat cards on the /inventory/ page itself.
+    try:
+        page = requests.get(INVENTORY_PAGE_URL, headers=headers, timeout=45).text
+        out = []
+        for m in re.finditer(r'<article class="boat-card" data-boat="(\d+)"(.*?)</article>', page, re.S):
+            block = m.group(2)
+            title = re.search(r"<h3><a[^>]*>([^<]+)</a>", block)
+            tag = re.search(r'<span class="tag">([^<]*)</span>', block)
+            price = re.search(r"<strong>\$([\d,]+)</strong>", block)
+            name = html.unescape(title.group(1)).strip() if title else ""
+            parts = name.split(" ", 2)
+            make = parts[1] if len(parts) > 1 else ""
+            model = parts[2] if len(parts) > 2 else ""
+            out.append({
+                "id": m.group(1),
+                "condition": "new" if tag and tag.group(1).strip().lower() == "new" else "used",
+                "brand": _clean_brand(make),
+                "category": _category_from_listing(make, model),
+                "price": int(price.group(1).replace(",", "")) if price else None,
+            })
+        return out
+    except Exception:
+        return []
+
+
 def scrape() -> dict:
     """Scrape Village Marina & Yacht Club's full inventory listing.
 
@@ -458,7 +564,9 @@ def scrape() -> dict:
     safety page cap is reached.
     """
     seen_ids = set()
-    all_listings = []
+    all_listings = _scrape_new_site()
+    if all_listings:
+        return _summarize(all_listings)
 
     first_url = f"{BASE_URL}?{requests.compat.urlencode(INVENTORY_PARAMS)}"
     current_url = first_url
@@ -493,6 +601,10 @@ def scrape() -> dict:
     finally:
         _close_playwright()
 
+    return _summarize(all_listings)
+
+
+def _summarize(all_listings: list) -> dict:
     total = len(all_listings)
     new_count_total = sum(1 for l in all_listings if l["condition"] == "new")
     used_count_total = sum(1 for l in all_listings if l["condition"] == "used")
