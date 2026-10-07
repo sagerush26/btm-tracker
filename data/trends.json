@@ -1,6 +1,6 @@
 {
   "soldByCategory": {
-    "Cruiser / Cabin": 24,
+    "Cruiser / Cabin": 25,
     "Bowrider": 37,
     "Performance": 15,
     "Other": 19,
@@ -14,7 +14,7 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3475,
+    "New": 3476,
     "Used": 2319
   },
   "soldByBrand": {
@@ -74,13 +74,13 @@
   },
   "addedByCategory": {
     "Cruiser / Cabin": 110,
-    "Bowrider": 393,
+    "Bowrider": 396,
     "Performance": 53,
     "Wakeboard / Ski": 78,
-    "Pontoon / Tritoon": 282,
+    "Pontoon / Tritoon": 283,
     "Center Console": 52,
-    "Other": 80,
-    "Yacht": 5,
+    "Other": 83,
+    "Yacht": 6,
     "Fishing": 92,
     "Power": 7
   },
@@ -450,6 +450,12 @@
       "totalMarket": 1172,
       "btm": 198,
       "competitors": 974
+    },
+    {
+      "date": "2026-10-07",
+      "totalMarket": 1176,
+      "btm": 198,
+      "competitors": 978
     }
   ],
   "priceTrend": [
@@ -776,6 +782,11 @@
     {
       "date": "2026-10-06",
       "marketAvg": 217420.76,
+      "btmAvg": 267034.08
+    },
+    {
+      "date": "2026-10-07",
+      "marketAvg": 216564.84,
       "btmAvg": 267034.08
     }
   ],
@@ -1285,36 +1296,6 @@
     {
       "date": "2026-09-23",
       "scanId": "scan-20260923",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 1,
-      "previousTotal": 107,
-      "newTotal": 108,
-      "detail": "Inventory increased by 1 (was 107, now 108). New: 66, Used: 42. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 4,
-      "previousTotal": 53,
-      "newTotal": 57,
-      "detail": "Inventory increased by 4 (was 53, now 57). New: 18, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 1,
-      "previousTotal": 63,
-      "newTotal": 64,
-      "detail": "Inventory increased by 1 (was 63, now 64). New: 12, Used: 52. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
       "dealer": "Performance Marine Watersports",
       "competitorId": "performance-marine",
       "count": 1,
@@ -1781,6 +1762,36 @@
       "previousTotal": 61,
       "newTotal": 65,
       "detail": "Inventory increased by 4 (was 61, now 65). New: 21, Used: 44. Reflects the normal one-day change since the prior scan on 2026-10-05."
+    },
+    {
+      "date": "2026-10-07",
+      "scanId": "scan-20261007",
+      "dealer": "Premier Advantage Marine",
+      "competitorId": "premier-advantage",
+      "count": 1,
+      "previousTotal": 65,
+      "newTotal": 66,
+      "detail": "Inventory increased by 1 (was 65, now 66). New: 12, Used: 54. Reflects the normal one-day change since the prior scan on 2026-10-06."
+    },
+    {
+      "date": "2026-10-07",
+      "scanId": "scan-20261007",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 2,
+      "previousTotal": 65,
+      "newTotal": 67,
+      "detail": "Inventory increased by 2 (was 65, now 67). New: 22, Used: 45. Reflects the normal one-day change since the prior scan on 2026-10-06."
+    },
+    {
+      "date": "2026-10-07",
+      "scanId": "scan-20261007",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 1,
+      "previousTotal": 91,
+      "newTotal": 92,
+      "detail": "Inventory increased by 1 (was 91, now 92). New: 50, Used: 41. Reflects the normal one-day change since the prior scan on 2026-10-06."
     }
   ],
   "insights": [
@@ -3391,15 +3402,20 @@
       "date": "2026-10-06",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-06 (scan-20261006). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: village-marina."
+    },
+    {
+      "date": "2026-10-07",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-07 (scan-20261007). 3 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, surdyke-yamaha, village-marina."
     }
   ],
   "summary": {
-    "date": "2026-10-06",
-    "scanId": "scan-20261006",
-    "marketTotal": 1172,
+    "date": "2026-10-07",
+    "scanId": "scan-20261007",
+    "marketTotal": 1176,
     "credibleChangesCount": 3,
     "soldCount": 1527,
-    "addedCount": 730
+    "addedCount": 734
   },
   "addedByDealer": {
     "Big Thunder Marine": 64,
@@ -3407,9 +3423,9 @@
     "Performance Marine Watersports": 21,
     "Marty's Marine": 111,
     "Iguana Marine Group": 69,
-    "Premier Advantage Marine": 23,
-    "Heartland Marine": 65,
-    "Premier 54 Motorsports": 74,
+    "Premier Advantage Marine": 24,
+    "Heartland Marine": 67,
+    "Premier 54 Motorsports": 75,
     "MarineMax": 46,
     "Performance Boat Center": 33,
     "Village Marina & Yacht Club": 30,
@@ -3419,8 +3435,8 @@
     "All About Boats": 10
   },
   "addedByCondition": {
-    "New": 3070,
-    "Used": 2245
+    "New": 3072,
+    "Used": 2248
   },
   "addedByBrand": {
     "Aviara": 4,
@@ -3430,7 +3446,7 @@
     "Nautique": 37,
     "Bennington": 157,
     "Grady-White": 24,
-    "Crownline": 39,
+    "Crownline": 40,
     "Regal": 92,
     "Cobalt Boats": 15,
     "Tiara Yachts": 9,
@@ -3439,7 +3455,7 @@
     "Prestige": 3,
     "Cobalt": 81,
     "Yamaha": 25,
-    "Four Winns": 49,
+    "Four Winns": 50,
     "South Bay": 3,
     "Larson": 3,
     "Rinker": 5,
@@ -3469,7 +3485,7 @@
     "Tracker\u00ae Boats": 2,
     "Bayliner": 3,
     "Harris": 4,
-    "Chaparral": 10,
+    "Chaparral": 11,
     "Premier": 5,
     "Tige": 3,
     "Viaggio": 8,
@@ -3500,7 +3516,7 @@
     "Wellcraft": 3,
     "Alumacraft": 16,
     "Ranger Boats": 2,
-    "Sylvan": 3,
+    "Sylvan": 4,
     "Regency": 2,
     "Pursuit": 1,
     "Starcraft": 10,
