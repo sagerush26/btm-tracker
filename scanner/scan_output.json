@@ -3,14 +3,14 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 197,
+      "total": 196,
       "new": 109,
-      "used": 88,
+      "used": 87,
       "category": {
         "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 49,
         "Center Console": 35,
-        "Cruiser / Cabin": 21,
+        "Cruiser / Cabin": 20,
         "Bowrider": 20,
         "Performance": 13,
         "Yacht": 4,
@@ -26,7 +26,7 @@
         "Pirelli": 1,
         "Chris Craft": 7,
         "Monterey": 10,
-        "Sea Ray": 9,
+        "Sea Ray": 8,
         "Jeanneau": 1,
         "YOT": 2,
         "Schaefer": 1,
@@ -106,16 +106,16 @@
           "new"
         ],
         [
-          799000,
-          "new"
-        ],
-        [
           673260,
           "new"
         ],
         [
           669900,
           "used"
+        ],
+        [
+          649900,
+          "new"
         ],
         [
           639900,
@@ -768,10 +768,6 @@
         [
           170220,
           "new"
-        ],
-        [
-          59900,
-          "used"
         ],
         [
           34900,
@@ -1501,13 +1497,13 @@
       "new": 12,
       "used": 33,
       "category": {
-        "Yacht": 2,
-        "Pontoon / Tritoon": 3,
-        "Bowrider": 31,
-        "Wakeboard / Ski": 5,
-        "Fishing": 1,
         "Performance": 1,
-        "Cruiser / Cabin": 2
+        "Yacht": 2,
+        "Wakeboard / Ski": 5,
+        "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
+        "Bowrider": 31,
+        "Fishing": 1
       },
       "brand": {
         "Regal": 1,
@@ -2179,18 +2175,16 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 32,
-      "new": 18,
-      "used": 14,
+      "total": 30,
+      "new": 17,
+      "used": 13,
       "category": {
-        "Wakeboard / Ski": 1,
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27
+        "Bowrider": 26
       },
       "brand": {
-        "Formula": 29,
-        "Nautique": 1,
+        "Formula": 28,
         "Cobalt": 1,
         "Regal": 1
       },
@@ -2225,10 +2219,6 @@
         ],
         [
           199995,
-          "used"
-        ],
-        [
-          195995,
           "used"
         ],
         [
@@ -2564,11 +2554,11 @@
         ],
         [
           79900,
-          "used"
+          "new"
         ],
         [
           79900,
-          "new"
+          "used"
         ],
         [
           79900,
@@ -3543,15 +3533,455 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 107,
-      "new": 75,
-      "used": 32,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "total": 104,
+      "new": 73,
+      "used": 31,
+      "category": {
+        "Pontoon / Tritoon": 21,
+        "Center Console": 9,
+        "Cruiser / Cabin": 16,
+        "Bowrider": 24,
+        "Performance": 6,
+        "Yacht": 1,
+        "Fishing": 21,
+        "Power": 1,
+        "Other": 5
+      },
+      "brand": {
+        "SunCatcher": 17,
+        "Beneteau": 6,
+        "Yamaha Boats": 19,
+        "Cobalt Boats": 2,
+        "Scarab": 8,
+        "Sundance": 1,
+        "Axopar": 11,
+        "G3/YAMAHA": 1,
+        "RANGER": 1,
+        "G3": 19,
+        "Bayliner": 1,
+        "Four Winns": 2,
+        "Nitro": 1,
+        "Voyager": 2,
+        "LOWE": 1,
+        "Yamaha": 4,
+        "Bass Cat": 1,
+        "Crownline": 1,
+        "Tahoe\u00ae": 1,
+        "FORMULA": 1,
+        "Ranger Boats": 1,
+        "Fountain": 1,
+        "Robalo": 1,
+        "Tracker Boats": 1
+      },
+      "prices": [
+        [
+          76999,
+          "new"
+        ],
+        [
+          384999,
+          "new"
+        ],
+        [
+          64999,
+          "new"
+        ],
+        [
+          64999,
+          "used"
+        ],
+        [
+          139999,
+          "new"
+        ],
+        [
+          18999,
+          "used"
+        ],
+        [
+          44999,
+          "new"
+        ],
+        [
+          29999,
+          "used"
+        ],
+        [
+          6850,
+          "used"
+        ],
+        [
+          142999,
+          "new"
+        ],
+        [
+          69999,
+          "new"
+        ],
+        [
+          52999,
+          "new"
+        ],
+        [
+          256999,
+          "new"
+        ],
+        [
+          45999,
+          "new"
+        ],
+        [
+          76999,
+          "new"
+        ],
+        [
+          83999,
+          "new"
+        ],
+        [
+          39999,
+          "used"
+        ],
+        [
+          75499,
+          "new"
+        ],
+        [
+          56999,
+          "used"
+        ],
+        [
+          129999,
+          "new"
+        ],
+        [
+          118499,
+          "new"
+        ],
+        [
+          32999,
+          "new"
+        ],
+        [
+          9999,
+          "used"
+        ],
+        [
+          29999,
+          "used"
+        ],
+        [
+          76999,
+          "new"
+        ],
+        [
+          641999,
+          "new"
+        ],
+        [
+          259999,
+          "new"
+        ],
+        [
+          66599,
+          "new"
+        ],
+        [
+          51999,
+          "new"
+        ],
+        [
+          469900,
+          "new"
+        ],
+        [
+          54999,
+          "new"
+        ],
+        [
+          49999,
+          "new"
+        ],
+        [
+          47500,
+          "used"
+        ],
+        [
+          25999,
+          "new"
+        ],
+        [
+          10999,
+          "used"
+        ],
+        [
+          155999,
+          "new"
+        ],
+        [
+          129999,
+          "new"
+        ],
+        [
+          65499,
+          "new"
+        ],
+        [
+          3399,
+          "used"
+        ],
+        [
+          74499,
+          "new"
+        ],
+        [
+          749999,
+          "new"
+        ],
+        [
+          11999,
+          "used"
+        ],
+        [
+          252999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          136999,
+          "used"
+        ],
+        [
+          59999,
+          "used"
+        ],
+        [
+          139999,
+          "new"
+        ],
+        [
+          74499,
+          "new"
+        ],
+        [
+          234999,
+          "new"
+        ],
+        [
+          23999,
+          "used"
+        ],
+        [
+          25499,
+          "used"
+        ],
+        [
+          269999,
+          "new"
+        ],
+        [
+          44999,
+          "new"
+        ],
+        [
+          45799,
+          "used"
+        ],
+        [
+          15999,
+          "used"
+        ],
+        [
+          66999,
+          "used"
+        ],
+        [
+          87999,
+          "new"
+        ],
+        [
+          59999,
+          "used"
+        ],
+        [
+          23999,
+          "new"
+        ],
+        [
+          6799,
+          "used"
+        ],
+        [
+          71999,
+          "used"
+        ],
+        [
+          57999,
+          "new"
+        ],
+        [
+          69999,
+          "new"
+        ],
+        [
+          56999,
+          "used"
+        ],
+        [
+          66799,
+          "new"
+        ],
+        [
+          23999,
+          "used"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          71999,
+          "new"
+        ],
+        [
+          45999,
+          "new"
+        ],
+        [
+          57999,
+          "new"
+        ],
+        [
+          103499,
+          "new"
+        ],
+        [
+          37499,
+          "new"
+        ],
+        [
+          474999,
+          "new"
+        ],
+        [
+          51999,
+          "new"
+        ],
+        [
+          469999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          22999,
+          "used"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          33000,
+          "new"
+        ],
+        [
+          46999,
+          "new"
+        ],
+        [
+          69999,
+          "new"
+        ],
+        [
+          589999,
+          "new"
+        ],
+        [
+          329999,
+          "new"
+        ],
+        [
+          21999,
+          "used"
+        ],
+        [
+          99999,
+          "new"
+        ],
+        [
+          72999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          43999,
+          "new"
+        ],
+        [
+          229999,
+          "new"
+        ],
+        [
+          99999,
+          "used"
+        ],
+        [
+          115999,
+          "new"
+        ],
+        [
+          76999,
+          "new"
+        ],
+        [
+          103499,
+          "new"
+        ],
+        [
+          66799,
+          "new"
+        ],
+        [
+          479999,
+          "new"
+        ],
+        [
+          125999,
+          "new"
+        ],
+        [
+          149999,
+          "used"
+        ],
+        [
+          14499,
+          "used"
+        ],
+        [
+          41999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          25999,
+          "used"
+        ]
+      ],
+      "priceLow": 3399,
+      "priceHigh": 749999,
+      "priceQuality": "full"
     },
     "all-about-boats": {
       "name": "All About Boats",
@@ -3734,11 +4164,7 @@
   "failures": [
     [
       "kellys-port",
-      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 336, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 303, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 290, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
-    ],
-    [
-      "surdyke-yamaha",
-      "scrape() returned total <= 0"
+      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
     ]
   ]
 }
