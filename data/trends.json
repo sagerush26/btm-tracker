@@ -7,7 +7,7 @@
     "Center Console": 20,
     "Pontoon / Tritoon": 30,
     "Wakeboard / Ski": 9,
-    "Fishing": 29,
+    "Fishing": 31,
     "Yacht": 6,
     "Power": 1
   },
@@ -32,7 +32,7 @@
     "Godfrey": 2,
     "Skater": 1,
     "MTI": 2,
-    "Formula": 9,
+    "Formula": 10,
     "Manitou": 2,
     "Harris": 3,
     "Fountain": 2,
@@ -75,13 +75,13 @@
     "Surdyke Yamaha & Marina": 327
   },
   "addedByCategory": {
-    "Cruiser / Cabin": 112,
-    "Bowrider": 428,
-    "Performance": 54,
-    "Wakeboard / Ski": 83,
-    "Pontoon / Tritoon": 286,
-    "Center Console": 52,
-    "Other": 83,
+    "Cruiser / Cabin": 121,
+    "Bowrider": 457,
+    "Performance": 58,
+    "Wakeboard / Ski": 97,
+    "Pontoon / Tritoon": 335,
+    "Center Console": 55,
+    "Other": 93,
     "Yacht": 8,
     "Fishing": 95,
     "Power": 7
@@ -470,6 +470,12 @@
       "totalMarket": 1161,
       "btm": 196,
       "competitors": 965
+    },
+    {
+      "date": "2026-10-08",
+      "totalMarket": 1170,
+      "btm": 196,
+      "competitors": 974
     }
   ],
   "priceTrend": [
@@ -812,6 +818,11 @@
       "date": "2026-10-07",
       "marketAvg": 217356.26,
       "btmAvg": 267304.16
+    },
+    {
+      "date": "2026-10-08",
+      "marketAvg": 217342.86,
+      "btmAvg": 267272.39
     }
   ],
   "recentlySold": [
@@ -1318,56 +1329,6 @@
   ],
   "recentlyAdded": [
     {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 1,
-      "previousTotal": 107,
-      "newTotal": 108,
-      "detail": "Inventory increased by 1 (was 107, now 108). New: 66, Used: 42. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 4,
-      "previousTotal": 53,
-      "newTotal": 57,
-      "detail": "Inventory increased by 4 (was 53, now 57). New: 18, Used: 39. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 1,
-      "previousTotal": 63,
-      "newTotal": 64,
-      "detail": "Inventory increased by 1 (was 63, now 64). New: 12, Used: 52. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Performance Marine Watersports",
-      "competitorId": "performance-marine",
-      "count": 1,
-      "previousTotal": 39,
-      "newTotal": 40,
-      "detail": "Inventory increased by 1 (was 39, now 40). New: 24, Used: 16. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
-      "date": "2026-09-23",
-      "scanId": "scan-20260923",
-      "dealer": "Surdyke Yamaha & Marina",
-      "competitorId": "surdyke-yamaha",
-      "count": 1,
-      "previousTotal": 103,
-      "newTotal": 104,
-      "detail": "Inventory increased by 1 (was 103, now 104). New: 74, Used: 30. Reflects the normal one-day change since the prior scan on 2026-09-22."
-    },
-    {
       "date": "2026-09-24",
       "scanId": "scan-20260924",
       "dealer": "MarineMax",
@@ -1816,6 +1777,56 @@
       "previousTotal": 61,
       "newTotal": 65,
       "detail": "Inventory increased by 4 (was 61, now 65). New: 21, Used: 44. Reflects the normal one-day change since the prior scan on 2026-10-05."
+    },
+    {
+      "date": "2026-10-08",
+      "scanId": "scan-20261008",
+      "dealer": "Performance Boat Center",
+      "competitorId": "performance-boat-center",
+      "count": 2,
+      "previousTotal": 93,
+      "newTotal": 95,
+      "detail": "Inventory increased by 2 (was 93, now 95). New: 8, Used: 87. Reflects the normal one-day change since the prior scan on 2026-10-07."
+    },
+    {
+      "date": "2026-10-08",
+      "scanId": "scan-20261008",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 1,
+      "previousTotal": 107,
+      "newTotal": 108,
+      "detail": "Inventory increased by 1 (was 107, now 108). New: 63, Used: 45. Reflects the normal one-day change since the prior scan on 2026-10-07."
+    },
+    {
+      "date": "2026-10-08",
+      "scanId": "scan-20261008",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 2,
+      "previousTotal": 30,
+      "newTotal": 32,
+      "detail": "Inventory increased by 2 (was 30, now 32). New: 18, Used: 14. Reflects the normal one-day change since the prior scan on 2026-10-07."
+    },
+    {
+      "date": "2026-10-08",
+      "scanId": "scan-20261008",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 67,
+      "newTotal": 68,
+      "detail": "Inventory increased by 1 (was 67, now 68). New: 22, Used: 46. Reflects the normal one-day change since the prior scan on 2026-10-07."
+    },
+    {
+      "date": "2026-10-08",
+      "scanId": "scan-20261008",
+      "dealer": "Surdyke Yamaha & Marina",
+      "competitorId": "surdyke-yamaha",
+      "count": 3,
+      "previousTotal": 104,
+      "newTotal": 107,
+      "detail": "Inventory increased by 3 (was 104, now 107). New: 75, Used: 32. Reflects the normal one-day change since the prior scan on 2026-10-07."
     }
   ],
   "insights": [
@@ -3441,54 +3452,59 @@
       "date": "2026-10-07",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-07 (scan-20261007). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-10-08",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-08 (scan-20261008), reflecting the normal one-day change since 2026-10-07."
     }
   ],
   "summary": {
-    "date": "2026-10-07",
-    "scanId": "scan-20261007",
-    "marketTotal": 1161,
-    "credibleChangesCount": 3,
+    "date": "2026-10-08",
+    "scanId": "scan-20261008",
+    "marketTotal": 1170,
+    "credibleChangesCount": 5,
     "soldCount": 1533,
-    "addedCount": 730
+    "addedCount": 739
   },
   "addedByDealer": {
     "Big Thunder Marine": 64,
-    "Formula Boats of Missouri": 28,
+    "Formula Boats of Missouri": 30,
     "Performance Marine Watersports": 21,
     "Marty's Marine": 111,
     "Iguana Marine Group": 69,
     "Premier Advantage Marine": 23,
-    "Heartland Marine": 65,
+    "Heartland Marine": 66,
     "Premier 54 Motorsports": 74,
     "MarineMax": 46,
-    "Performance Boat Center": 33,
+    "Performance Boat Center": 35,
     "Village Marina & Yacht Club": 30,
-    "Kelly's Port": 62,
-    "Surdyke Yamaha & Marina": 18,
+    "Kelly's Port": 63,
+    "Surdyke Yamaha & Marina": 21,
     "Stateamind Water Sports": 76,
     "All About Boats": 10
   },
   "addedByCondition": {
-    "New": 3072,
-    "Used": 2247
+    "New": 3075,
+    "Used": 2253
   },
   "addedByBrand": {
     "Aviara": 5,
     "Sunsation Powerboats": 3,
-    "Formula": 22,
-    "MasterCraft": 8,
-    "Nautique": 37,
-    "Bennington": 157,
-    "Grady-White": 24,
-    "Crownline": 42,
-    "Regal": 93,
-    "Cobalt Boats": 15,
-    "Tiara Yachts": 9,
+    "Formula": 24,
+    "MasterCraft": 9,
+    "Nautique": 49,
+    "Bennington": 206,
+    "Grady-White": 32,
+    "Crownline": 43,
+    "Regal": 122,
+    "Cobalt Boats": 19,
+    "Tiara Yachts": 11,
     "Sea Ray": 25,
-    "Cruiser": 3,
-    "Prestige": 3,
+    "Cruiser": 4,
+    "Prestige": 4,
     "Cobalt": 102,
-    "Yamaha": 25,
+    "Yamaha": 27,
     "Four Winns": 53,
     "South Bay": 4,
     "Larson": 4,
@@ -3503,7 +3519,7 @@
     "Axopar": 33,
     "Beneteau": 18,
     "G3": 60,
-    "Scarab": 28,
+    "Scarab": 29,
     "SunCatcher": 46,
     "Yamaha Boats": 56,
     "RANGER": 3,
@@ -3519,7 +3535,7 @@
     "Tracker\u00ae Boats": 2,
     "Bayliner": 3,
     "Harris": 4,
-    "Chaparral": 11,
+    "Chaparral": 12,
     "Premier": 6,
     "Tige": 3,
     "Viaggio": 8,
@@ -3557,7 +3573,7 @@
     "AMP": 4,
     "Finseeker": 1,
     "Misty Harbor": 1,
-    "Skater": 1,
+    "Skater": 3,
     "Searay": 1,
     "Sea": 1,
     "Supra": 1,
@@ -3567,6 +3583,7 @@
     "Suntracker": 1,
     "Carver": 2,
     "Sea Doo": 1,
-    "Pioneer": 1
+    "Pioneer": 1,
+    "Outerlimits": 1
   }
 }
