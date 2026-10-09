@@ -54,7 +54,6 @@
         "ATX": 5,
         "Evotti": 3,
         "Viaggio": 28,
-        "Chaparral": 2,
         "Yamaha": 2,
         "Nautical Racing Group": 1,
         "CRUISERS": 1,
@@ -65,6 +64,7 @@
         "Moomba": 1,
         "Nauticstar": 1,
         "Princecraft": 1,
+        "Chaparral": 2,
         "Harris FloteBote": 1,
         "Correct Craft": 1,
         "CYPRESS CAY": 1,
@@ -554,10 +554,6 @@
           "used"
         ],
         [
-          109900,
-          "used"
-        ],
-        [
           106995,
           "new"
         ],
@@ -770,6 +766,10 @@
           "new"
         ],
         [
+          149900,
+          "used"
+        ],
+        [
           34900,
           "used"
         ],
@@ -780,6 +780,10 @@
         [
           149820,
           "new"
+        ],
+        [
+          109900,
+          "used"
         ],
         [
           39997,
@@ -818,10 +822,6 @@
           "new"
         ],
         [
-          149900,
-          "used"
-        ],
-        [
           124060,
           "new"
         ],
@@ -849,21 +849,21 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 43,
+      "total": 44,
       "new": 20,
-      "used": 23,
+      "used": 24,
       "category": {
         "Yacht": 11,
         "Fishing": 4,
         "Cruiser / Cabin": 15,
         "Other": 2,
-        "Performance": 3,
+        "Performance": 4,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 5,
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 18,
+        "Sea Ray": 19,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -916,6 +916,10 @@
         ],
         [
           299900,
+          "used"
+        ],
+        [
+          189900,
           "used"
         ],
         [
@@ -1023,7 +1027,7 @@
           "new"
         ],
         [
-          617510,
+          583181,
           "new"
         ],
         [
@@ -1063,7 +1067,7 @@
       "used": 87,
       "category": {
         "Fishing": 1,
-        "Other": 36,
+        "Other": 34,
         "Bowrider": 8,
         "Center Console": 26,
         "Performance": 19,
@@ -1385,10 +1389,6 @@
           "used"
         ],
         [
-          89950,
-          "used"
-        ],
-        [
           139950,
           "used"
         ],
@@ -1491,371 +1491,12 @@
       "total": 108,
       "new": 63,
       "used": 45,
-      "category": {
-        "Wakeboard / Ski": 14,
-        "Bowrider": 27,
-        "Pontoon / Tritoon": 49,
-        "Other": 7,
-        "Center Console": 3,
-        "Cruiser / Cabin": 8
-      },
-      "brand": {
-        "MasterCraft": 1,
-        "Cobalt Boats": 4,
-        "Nautique": 12,
-        "Bennington": 49,
-        "Grady-White": 8,
-        "Crownline": 1,
-        "Regal": 29,
-        "Tiara Yachts": 2,
-        "Cruiser": 1,
-        "Prestige": 1
-      },
-      "prices": [
-        [
-          274900,
-          "used"
-        ],
-        [
-          54900,
-          "used"
-        ],
-        [
-          249000,
-          "used"
-        ],
-        [
-          339900,
-          "used"
-        ],
-        [
-          224900,
-          "used"
-        ],
-        [
-          101900,
-          "new"
-        ],
-        [
-          89900,
-          "new"
-        ],
-        [
-          99900,
-          "new"
-        ],
-        [
-          189900,
-          "new"
-        ],
-        [
-          209900,
-          "new"
-        ],
-        [
-          179900,
-          "new"
-        ],
-        [
-          259900,
-          "new"
-        ],
-        [
-          119900,
-          "new"
-        ],
-        [
-          104900,
-          "new"
-        ],
-        [
-          119900,
-          "new"
-        ],
-        [
-          134900,
-          "new"
-        ],
-        [
-          139900,
-          "new"
-        ],
-        [
-          109900,
-          "new"
-        ],
-        [
-          109900,
-          "new"
-        ],
-        [
-          99900,
-          "new"
-        ],
-        [
-          104900,
-          "new"
-        ],
-        [
-          79990,
-          "used"
-        ],
-        [
-          209900,
-          "new"
-        ],
-        [
-          335900,
-          "new"
-        ],
-        [
-          305900,
-          "new"
-        ],
-        [
-          314900,
-          "new"
-        ],
-        [
-          289900,
-          "new"
-        ],
-        [
-          99900,
-          "used"
-        ],
-        [
-          139900,
-          "used"
-        ],
-        [
-          144900,
-          "new"
-        ],
-        [
-          94000,
-          "used"
-        ],
-        [
-          129900,
-          "new"
-        ],
-        [
-          194900,
-          "new"
-        ],
-        [
-          236900,
-          "new"
-        ],
-        [
-          139900,
-          "new"
-        ],
-        [
-          142900,
-          "new"
-        ],
-        [
-          142900,
-          "new"
-        ],
-        [
-          509840,
-          "new"
-        ],
-        [
-          199900,
-          "new"
-        ],
-        [
-          229900,
-          "new"
-        ],
-        [
-          139900,
-          "new"
-        ],
-        [
-          144900,
-          "new"
-        ],
-        [
-          149900,
-          "used"
-        ],
-        [
-          59900,
-          "used"
-        ],
-        [
-          124995,
-          "used"
-        ],
-        [
-          124875,
-          "used"
-        ],
-        [
-          64900,
-          "used"
-        ],
-        [
-          54900,
-          "used"
-        ],
-        [
-          266823,
-          "new"
-        ],
-        [
-          199900,
-          "used"
-        ],
-        [
-          289900,
-          "new"
-        ],
-        [
-          349900,
-          "new"
-        ],
-        [
-          329900,
-          "new"
-        ],
-        [
-          269900,
-          "used"
-        ],
-        [
-          229900,
-          "used"
-        ],
-        [
-          99000,
-          "used"
-        ],
-        [
-          89900,
-          "used"
-        ],
-        [
-          414900,
-          "new"
-        ],
-        [
-          239900,
-          "used"
-        ],
-        [
-          229900,
-          "used"
-        ],
-        [
-          199900,
-          "used"
-        ],
-        [
-          174900,
-          "used"
-        ],
-        [
-          399900,
-          "used"
-        ],
-        [
-          299000,
-          "used"
-        ],
-        [
-          189900,
-          "used"
-        ],
-        [
-          219900,
-          "used"
-        ],
-        [
-          59900,
-          "used"
-        ],
-        [
-          359900,
-          "used"
-        ],
-        [
-          598629,
-          "new"
-        ],
-        [
-          219900,
-          "used"
-        ],
-        [
-          449990,
-          "used"
-        ],
-        [
-          460000,
-          "used"
-        ],
-        [
-          374900,
-          "used"
-        ],
-        [
-          788900,
-          "new"
-        ],
-        [
-          749000,
-          "used"
-        ],
-        [
-          599900,
-          "used"
-        ],
-        [
-          399900,
-          "used"
-        ],
-        [
-          524900,
-          "used"
-        ],
-        [
-          649000,
-          "used"
-        ],
-        [
-          1526489,
-          "new"
-        ],
-        [
-          1299000,
-          "used"
-        ],
-        [
-          1150000,
-          "used"
-        ],
-        [
-          625000,
-          "used"
-        ],
-        [
-          124900,
-          "new"
-        ],
-        [
-          167900,
-          "new"
-        ]
-      ],
-      "priceLow": 54900,
-      "priceHigh": 1526489,
-      "priceQuality": "partial-79pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1864,13 +1505,13 @@
       "new": 12,
       "used": 33,
       "category": {
+        "Yacht": 2,
+        "Pontoon / Tritoon": 3,
+        "Fishing": 1,
+        "Bowrider": 31,
         "Performance": 1,
         "Wakeboard / Ski": 5,
-        "Yacht": 2,
-        "Bowrider": 31,
-        "Pontoon / Tritoon": 3,
-        "Cruiser / Cabin": 2,
-        "Fishing": 1
+        "Cruiser / Cabin": 2
       },
       "brand": {
         "Regal": 1,
@@ -2034,30 +1675,30 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 102,
-      "new": 65,
-      "used": 37,
+      "total": 100,
+      "new": 64,
+      "used": 36,
       "category": {
-        "Pontoon / Tritoon": 85,
+        "Pontoon / Tritoon": 81,
         "Wakeboard / Ski": 46,
-        "Center Console": 6,
+        "Center Console": 5,
         "Cruiser / Cabin": 12,
         "Bowrider": 22,
-        "Performance": 73,
-        "Yacht": 13,
+        "Performance": 74,
+        "Yacht": 12,
         "Fishing": 9,
         "Power": 3,
-        "Other": 42
+        "Other": 41
       },
       "brand": {
         "iKon": 6,
         "Formula": 7,
         "Axis": 10,
         "Supra": 2,
-        "Godfrey": 30,
+        "Godfrey": 29,
         "Coach Pontoons": 2,
         "Four Winns": 5,
-        "HCB": 4,
+        "HCB": 3,
         "Black Thunder Powerboats": 1,
         "Malibu": 12,
         "Godrey": 1,
@@ -2128,10 +1769,6 @@
         ],
         [
           1875000,
-          "new"
-        ],
-        [
-          995000,
           "new"
         ],
         [
@@ -2241,10 +1878,6 @@
         [
           162467,
           "new"
-        ],
-        [
-          59762,
-          "used"
         ],
         [
           99900,
@@ -2385,7 +2018,7 @@
       ],
       "priceLow": 18782,
       "priceHigh": 1875000,
-      "priceQuality": "partial-74pct"
+      "priceQuality": "partial-73pct"
     },
     "premier-advantage": {
       "name": "Premier Advantage Marine",
@@ -2393,166 +2026,27 @@
       "total": 66,
       "new": 12,
       "used": 54,
-      "category": {
-        "Pontoon / Tritoon": 4,
-        "Wakeboard / Ski": 5,
-        "Center Console": 3,
-        "Cruiser / Cabin": 7,
-        "Bowrider": 44,
-        "Performance": 3,
-        "Yacht": 0,
-        "Fishing": 33,
-        "Power": 0,
-        "Other": 22
-      },
-      "brand": {
-        "Four Winns": 33,
-        "Regal": 1,
-        "Baja": 1,
-        "Chaparral": 3,
-        "Crownline": 2,
-        "Scarab": 1,
-        "Barletta": 1,
-        "Bennington": 2,
-        "Wellcraft": 3,
-        "Alumacraft": 16
-      },
-      "prices": [
-        [
-          239995,
-          "new"
-        ],
-        [
-          94900,
-          "used"
-        ],
-        [
-          119900,
-          "used"
-        ],
-        [
-          42900,
-          "used"
-        ],
-        [
-          24900,
-          "used"
-        ],
-        [
-          49900,
-          "used"
-        ],
-        [
-          89900,
-          "used"
-        ],
-        [
-          25900,
-          "used"
-        ],
-        [
-          32900,
-          "used"
-        ],
-        [
-          152995,
-          "new"
-        ],
-        [
-          59900,
-          "used"
-        ],
-        [
-          39900,
-          "used"
-        ],
-        [
-          109900,
-          "used"
-        ],
-        [
-          83900,
-          "used"
-        ],
-        [
-          22900,
-          "used"
-        ],
-        [
-          14900,
-          "used"
-        ],
-        [
-          34900,
-          "used"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          124995,
-          "new"
-        ],
-        [
-          62995,
-          "new"
-        ],
-        [
-          9900,
-          "used"
-        ],
-        [
-          52995,
-          "new"
-        ],
-        [
-          104995,
-          "new"
-        ],
-        [
-          49995,
-          "new"
-        ],
-        [
-          39995,
-          "new"
-        ],
-        [
-          22995,
-          "new"
-        ],
-        [
-          67215,
-          "new"
-        ],
-        [
-          40900,
-          "used"
-        ]
-      ],
-      "priceLow": 9900,
-      "priceHigh": 239995,
-      "priceQuality": "partial-44pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 32,
-      "new": 18,
+      "total": 31,
+      "new": 17,
       "used": 14,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 1
       },
       "brand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1
       },
@@ -2620,7 +2114,7 @@
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-47pct"
+      "priceQuality": "partial-48pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2823,24 +2317,24 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 68,
+      "total": 66,
       "new": 22,
-      "used": 46,
+      "used": 44,
       "category": {
         "Pontoon / Tritoon": 28,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 27,
+        "Bowrider": 25,
         "Power": 1,
         "Other": 10
       },
       "brand": {
         "Southbay": 6,
         "Chaparral": 8,
-        "Cobalt": 3,
+        "Cobalt": 2,
         "Manitou": 3,
         "Sylvan": 15,
-        "Crownline": 5,
+        "Crownline": 4,
         "Formula": 4,
         "Regal": 1,
         "Monterey": 2,
@@ -2848,9 +2342,9 @@
         "Bennington": 1,
         "Sea Ray": 3,
         "Suntracker": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -2913,10 +2407,6 @@
           "used"
         ],
         [
-          89900,
-          "used"
-        ],
-        [
           83900,
           "new"
         ],
@@ -2934,11 +2424,11 @@
         ],
         [
           79900,
-          "new"
+          "used"
         ],
         [
           79900,
-          "used"
+          "new"
         ],
         [
           79900,
@@ -2979,10 +2469,6 @@
         [
           69900,
           "new"
-        ],
-        [
-          69900,
-          "used"
         ],
         [
           65900,
@@ -3140,14 +2626,14 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 97,
-      "new": 60,
-      "used": 37,
+      "total": 95,
+      "new": 59,
+      "used": 36,
       "category": {
         "Fishing": 9,
         "Wakeboard / Ski": 27,
-        "Pontoon / Tritoon": 36,
-        "Yacht": 10,
+        "Pontoon / Tritoon": 35,
+        "Yacht": 9,
         "Bowrider": 11,
         "Cruiser / Cabin": 2,
         "Other": 1,
@@ -3157,10 +2643,10 @@
         "iKon": 6,
         "Axis": 10,
         "Supra": 2,
-        "Godfrey": 30,
+        "Godfrey": 29,
         "Coach Pontoons": 2,
         "Four Winns": 5,
-        "HCB": 4,
+        "HCB": 3,
         "Black Thunder Powerboats": 1,
         "Malibu": 12,
         "Godrey": 1,
@@ -3224,10 +2710,6 @@
         ],
         [
           1875000,
-          "new"
-        ],
-        [
-          995000,
           "new"
         ],
         [
@@ -3333,10 +2815,6 @@
         [
           162467,
           "new"
-        ],
-        [
-          59762,
-          "used"
         ],
         [
           99900,
@@ -3917,85 +3395,49 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 107,
-      "new": 75,
-      "used": 32,
+      "total": 104,
+      "new": 73,
+      "used": 31,
       "category": {
         "Pontoon / Tritoon": 21,
         "Center Console": 9,
-        "Cruiser / Cabin": 17,
+        "Cruiser / Cabin": 16,
         "Bowrider": 24,
-        "Performance": 10,
+        "Performance": 6,
         "Yacht": 1,
-        "Fishing": 19,
+        "Fishing": 21,
         "Power": 1,
         "Other": 5
       },
       "brand": {
-        "Axopar": 11,
+        "SunCatcher": 20,
         "Beneteau": 6,
-        "G3": 19,
-        "Scarab": 9,
-        "SunCatcher": 17,
         "Yamaha Boats": 19,
-        "RANGER": 1,
-        "Yamaha": 6,
-        "Robalo": 1,
-        "Four Winns": 2,
-        "Bass Cat": 1,
-        "G3/YAMAHA": 1,
-        "Nitro": 1,
-        "Ranger Boats": 1,
-        "Tahoe\u00ae": 1,
-        "Tracker Boats": 1,
-        "Bayliner": 1,
         "Cobalt Boats": 2,
-        "Crownline": 1,
-        "Voyager": 2,
-        "Fountain": 1,
+        "Scarab": 8,
         "Sundance": 1,
+        "Axopar": 11,
+        "G3/YAMAHA": 1,
+        "RANGER": 1,
+        "G3": 16,
+        "Bayliner": 1,
+        "Four Winns": 2,
+        "Nitro": 1,
+        "Voyager": 2,
         "LOWE": 1,
-        "FORMULA": 1
+        "Yamaha": 4,
+        "Bass Cat": 1,
+        "Crownline": 1,
+        "Tahoe\u00ae": 1,
+        "FORMULA": 1,
+        "Ranger Boats": 1,
+        "Fountain": 1,
+        "Robalo": 1,
+        "Tracker Boats": 1
       },
       "prices": [
         [
-          329999,
-          "new"
-        ],
-        [
-          259999,
-          "new"
-        ],
-        [
-          269999,
-          "new"
-        ],
-        [
-          252999,
-          "new"
-        ],
-        [
-          256999,
-          "new"
-        ],
-        [
-          469999,
-          "new"
-        ],
-        [
-          474999,
-          "new"
-        ],
-        [
-          589999,
-          "new"
-        ],
-        [
-          479999,
-          "new"
-        ],
-        [
-          469900,
+          76999,
           "new"
         ],
         [
@@ -4003,67 +3445,39 @@
           "new"
         ],
         [
-          641999,
+          64999,
           "new"
         ],
         [
-          37499,
+          64999,
+          "used"
+        ],
+        [
+          139999,
           "new"
         ],
         [
-          46999,
+          18999,
+          "used"
+        ],
+        [
+          44999,
           "new"
         ],
         [
-          72999,
+          29999,
+          "used"
+        ],
+        [
+          6850,
+          "used"
+        ],
+        [
+          142999,
           "new"
         ],
         [
           69999,
-          "new"
-        ],
-        [
-          32999,
-          "new"
-        ],
-        [
-          51999,
-          "new"
-        ],
-        [
-          25999,
-          "new"
-        ],
-        [
-          41999,
-          "new"
-        ],
-        [
-          66799,
-          "new"
-        ],
-        [
-          66799,
-          "new"
-        ],
-        [
-          66599,
-          "new"
-        ],
-        [
-          74499,
-          "new"
-        ],
-        [
-          103499,
-          "new"
-        ],
-        [
-          76999,
-          "new"
-        ],
-        [
-          99999,
           "new"
         ],
         [
@@ -4071,55 +3485,7 @@
           "new"
         ],
         [
-          142999,
-          "new"
-        ],
-        [
-          155999,
-          "new"
-        ],
-        [
-          125999,
-          "new"
-        ],
-        [
-          115999,
-          "new"
-        ],
-        [
-          103499,
-          "new"
-        ],
-        [
-          129999,
-          "new"
-        ],
-        [
-          76999,
-          "new"
-        ],
-        [
-          69999,
-          "new"
-        ],
-        [
-          69999,
-          "new"
-        ],
-        [
-          76999,
-          "new"
-        ],
-        [
-          76999,
-          "new"
-        ],
-        [
-          57999,
-          "new"
-        ],
-        [
-          54999,
+          256999,
           "new"
         ],
         [
@@ -4127,16 +3493,24 @@
           "new"
         ],
         [
-          57999,
+          76999,
           "new"
         ],
         [
-          65499,
+          83999,
           "new"
         ],
         [
-          87999,
+          39999,
+          "used"
+        ],
+        [
+          75499,
           "new"
+        ],
+        [
+          56999,
+          "used"
         ],
         [
           129999,
@@ -4147,35 +3521,31 @@
           "new"
         ],
         [
-          45999,
+          32999,
           "new"
         ],
         [
-          44999,
+          9999,
+          "used"
+        ],
+        [
+          29999,
+          "used"
+        ],
+        [
+          76999,
           "new"
         ],
         [
-          44999,
+          641999,
           "new"
         ],
         [
-          53999,
+          259999,
           "new"
         ],
         [
-          53999,
-          "new"
-        ],
-        [
-          53999,
-          "new"
-        ],
-        [
-          53999,
-          "new"
-        ],
-        [
-          53999,
+          66599,
           "new"
         ],
         [
@@ -4183,11 +3553,79 @@
           "new"
         ],
         [
-          64999,
+          469900,
           "new"
         ],
         [
-          229999,
+          54999,
+          "new"
+        ],
+        [
+          49999,
+          "new"
+        ],
+        [
+          47500,
+          "used"
+        ],
+        [
+          25999,
+          "new"
+        ],
+        [
+          10999,
+          "used"
+        ],
+        [
+          155999,
+          "new"
+        ],
+        [
+          129999,
+          "new"
+        ],
+        [
+          65499,
+          "new"
+        ],
+        [
+          3399,
+          "used"
+        ],
+        [
+          74499,
+          "new"
+        ],
+        [
+          749999,
+          "new"
+        ],
+        [
+          11999,
+          "used"
+        ],
+        [
+          252999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          136999,
+          "used"
+        ],
+        [
+          59999,
+          "used"
+        ],
+        [
+          139999,
+          "new"
+        ],
+        [
+          74499,
           "new"
         ],
         [
@@ -4196,102 +3634,6 @@
         ],
         [
           23999,
-          "new"
-        ],
-        [
-          62999,
-          "new"
-        ],
-        [
-          83999,
-          "new"
-        ],
-        [
-          74499,
-          "new"
-        ],
-        [
-          75499,
-          "new"
-        ],
-        [
-          71999,
-          "new"
-        ],
-        [
-          139999,
-          "new"
-        ],
-        [
-          139999,
-          "new"
-        ],
-        [
-          749999,
-          "new"
-        ],
-        [
-          56999,
-          "used"
-        ],
-        [
-          71999,
-          "used"
-        ],
-        [
-          56999,
-          "used"
-        ],
-        [
-          136999,
-          "used"
-        ],
-        [
-          149999,
-          "used"
-        ],
-        [
-          25999,
-          "used"
-        ],
-        [
-          49999,
-          "new"
-        ],
-        [
-          45799,
-          "used"
-        ],
-        [
-          59999,
-          "used"
-        ],
-        [
-          22999,
-          "used"
-        ],
-        [
-          39999,
-          "used"
-        ],
-        [
-          47500,
-          "used"
-        ],
-        [
-          29999,
-          "used"
-        ],
-        [
-          66999,
-          "used"
-        ],
-        [
-          33000,
-          "new"
-        ],
-        [
-          59999,
           "used"
         ],
         [
@@ -4299,31 +3641,15 @@
           "used"
         ],
         [
-          43999,
+          269999,
           "new"
         ],
         [
-          18999,
-          "used"
+          44999,
+          "new"
         ],
         [
-          21999,
-          "used"
-        ],
-        [
-          14499,
-          "used"
-        ],
-        [
-          9999,
-          "used"
-        ],
-        [
-          64999,
-          "used"
-        ],
-        [
-          23999,
+          45799,
           "used"
         ],
         [
@@ -4331,47 +3657,187 @@
           "used"
         ],
         [
-          99999,
+          66999,
           "used"
         ],
         [
-          29999,
+          87999,
+          "new"
+        ],
+        [
+          59999,
           "used"
         ],
         [
-          10999,
-          "used"
+          23999,
+          "new"
         ],
         [
           6799,
           "used"
         ],
         [
-          6850,
+          71999,
           "used"
         ],
         [
-          11999,
+          57999,
+          "new"
+        ],
+        [
+          69999,
+          "new"
+        ],
+        [
+          56999,
           "used"
+        ],
+        [
+          66799,
+          "new"
         ],
         [
           23999,
           "used"
         ],
         [
-          3399,
+          53999,
+          "new"
+        ],
+        [
+          71999,
+          "new"
+        ],
+        [
+          45999,
+          "new"
+        ],
+        [
+          57999,
+          "new"
+        ],
+        [
+          103499,
+          "new"
+        ],
+        [
+          37499,
+          "new"
+        ],
+        [
+          474999,
+          "new"
+        ],
+        [
+          51999,
+          "new"
+        ],
+        [
+          469999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          22999,
           "used"
         ],
         [
-          110299,
+          53999,
           "new"
         ],
         [
-          84999,
+          33000,
           "new"
         ],
         [
-          29999,
+          46999,
+          "new"
+        ],
+        [
+          69999,
+          "new"
+        ],
+        [
+          589999,
+          "new"
+        ],
+        [
+          329999,
+          "new"
+        ],
+        [
+          21999,
+          "used"
+        ],
+        [
+          99999,
+          "new"
+        ],
+        [
+          72999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          43999,
+          "new"
+        ],
+        [
+          229999,
+          "new"
+        ],
+        [
+          99999,
+          "used"
+        ],
+        [
+          115999,
+          "new"
+        ],
+        [
+          76999,
+          "new"
+        ],
+        [
+          103499,
+          "new"
+        ],
+        [
+          66799,
+          "new"
+        ],
+        [
+          479999,
+          "new"
+        ],
+        [
+          125999,
+          "new"
+        ],
+        [
+          149999,
+          "used"
+        ],
+        [
+          14499,
+          "used"
+        ],
+        [
+          41999,
+          "new"
+        ],
+        [
+          53999,
+          "new"
+        ],
+        [
+          25999,
           "used"
         ]
       ],
@@ -4557,5 +4023,14 @@
       "priceQuality": "partial-83pct"
     }
   },
-  "failures": []
+  "failures": [
+    [
+      "kellys-port",
+      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
+    ],
+    [
+      "premier-advantage",
+      "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 540, in _make_request\n    response = conn.getresponse()\n               ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 638, in getresponse\n    httplib_response = super().getresponse()\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 1478, in getresponse\n    response.begin()\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 343, in begin\n    version, status, reason = self._read_status()\n                              ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 304, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/socket.py\", line 720, in readinto\n    return self._sock.recv_into(b)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/ssl.py\", line 1264, in recv_into\n    return self.read(nbytes, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/ssl.py\", line 1116, in read\n    return self._sslobj.read(len, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 847, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/retry.py\", line 510, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/util.py\", line 39, in reraise\n    raise value\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 793, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 542, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 373, in _raise_timeout\n    raise ReadTimeoutError(\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 242, in scrape\n    products = _fetch_all_products()\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 150, in _fetch_all_products\n    resp = session.get(\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 671, in get\n    return self.request(\"GET\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n"
+    ]
+  ]
 }
