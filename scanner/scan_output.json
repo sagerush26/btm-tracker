@@ -849,21 +849,21 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 44,
-      "new": 20,
-      "used": 24,
+      "total": 47,
+      "new": 22,
+      "used": 25,
       "category": {
         "Yacht": 11,
         "Fishing": 4,
-        "Cruiser / Cabin": 15,
+        "Cruiser / Cabin": 17,
         "Other": 2,
-        "Performance": 4,
+        "Performance": 5,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 5,
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 19,
+        "Sea Ray": 22,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -912,6 +912,10 @@
         ],
         [
           169500,
+          "used"
+        ],
+        [
+          249900,
           "used"
         ],
         [
@@ -1051,7 +1055,15 @@
           "new"
         ],
         [
+          239832,
+          "new"
+        ],
+        [
           422256,
+          "new"
+        ],
+        [
+          531006,
           "new"
         ]
       ],
@@ -1062,14 +1074,14 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 95,
+      "total": 96,
       "new": 8,
-      "used": 87,
+      "used": 88,
       "category": {
         "Fishing": 1,
         "Other": 34,
         "Bowrider": 8,
-        "Center Console": 26,
+        "Center Console": 27,
         "Performance": 19,
         "Power": 2,
         "Cruiser / Cabin": 2
@@ -1080,7 +1092,7 @@
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 3,
-        "MTI": 17,
+        "MTI": 18,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
@@ -1278,6 +1290,10 @@
         ],
         [
           1699980,
+          "used"
+        ],
+        [
+          1595000,
           "used"
         ],
         [
@@ -1505,12 +1521,12 @@
       "new": 12,
       "used": 33,
       "category": {
-        "Yacht": 2,
         "Pontoon / Tritoon": 3,
-        "Fishing": 1,
+        "Yacht": 2,
         "Bowrider": 31,
-        "Performance": 1,
+        "Fishing": 1,
         "Wakeboard / Ski": 5,
+        "Performance": 1,
         "Cruiser / Cabin": 2
       },
       "brand": {
@@ -2023,15 +2039,166 @@
     "premier-advantage": {
       "name": "Premier Advantage Marine",
       "isOwn": false,
-      "total": 66,
+      "total": 69,
       "new": 12,
-      "used": 54,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "used": 57,
+      "category": {
+        "Pontoon / Tritoon": 6,
+        "Wakeboard / Ski": 5,
+        "Center Console": 3,
+        "Cruiser / Cabin": 7,
+        "Bowrider": 45,
+        "Performance": 4,
+        "Yacht": 0,
+        "Fishing": 33,
+        "Power": 0,
+        "Other": 24
+      },
+      "brand": {
+        "Four Winns": 33,
+        "Regal": 1,
+        "Baja": 1,
+        "Chaparral": 3,
+        "Crownline": 2,
+        "Barletta": 1,
+        "Scarab": 1,
+        "Bennington": 2,
+        "Wellcraft": 3,
+        "Alumacraft": 16
+      },
+      "prices": [
+        [
+          239995,
+          "new"
+        ],
+        [
+          94900,
+          "used"
+        ],
+        [
+          119900,
+          "used"
+        ],
+        [
+          42900,
+          "used"
+        ],
+        [
+          24900,
+          "used"
+        ],
+        [
+          49900,
+          "used"
+        ],
+        [
+          89900,
+          "used"
+        ],
+        [
+          25900,
+          "used"
+        ],
+        [
+          32900,
+          "used"
+        ],
+        [
+          152995,
+          "new"
+        ],
+        [
+          59900,
+          "used"
+        ],
+        [
+          49900,
+          "used"
+        ],
+        [
+          109900,
+          "used"
+        ],
+        [
+          39900,
+          "used"
+        ],
+        [
+          22900,
+          "used"
+        ],
+        [
+          44900,
+          "used"
+        ],
+        [
+          34900,
+          "used"
+        ],
+        [
+          83900,
+          "used"
+        ],
+        [
+          29900,
+          "used"
+        ],
+        [
+          14900,
+          "used"
+        ],
+        [
+          122995,
+          "new"
+        ],
+        [
+          122995,
+          "new"
+        ],
+        [
+          124995,
+          "new"
+        ],
+        [
+          62995,
+          "new"
+        ],
+        [
+          9900,
+          "used"
+        ],
+        [
+          52995,
+          "new"
+        ],
+        [
+          104995,
+          "new"
+        ],
+        [
+          49995,
+          "new"
+        ],
+        [
+          39995,
+          "new"
+        ],
+        [
+          22995,
+          "new"
+        ],
+        [
+          67215,
+          "new"
+        ],
+        [
+          40900,
+          "used"
+        ]
+      ],
+      "priceLow": 9900,
+      "priceHigh": 239995,
+      "priceQuality": "partial-46pct"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
@@ -2039,110 +2206,36 @@
       "total": 31,
       "new": 17,
       "used": 14,
-      "category": {
-        "Center Console": 1,
-        "Cruiser / Cabin": 3,
-        "Bowrider": 26,
-        "Other": 1
-      },
-      "brand": {
-        "Formula": 29,
-        "Cobalt": 1,
-        "Regal": 1
-      },
-      "prices": [
-        [
-          914454,
-          "new"
-        ],
-        [
-          615000,
-          "used"
-        ],
-        [
-          399995,
-          "used"
-        ],
-        [
-          365000,
-          "used"
-        ],
-        [
-          344000,
-          "used"
-        ],
-        [
-          249900,
-          "used"
-        ],
-        [
-          199995,
-          "used"
-        ],
-        [
-          199995,
-          "used"
-        ],
-        [
-          169995,
-          "used"
-        ],
-        [
-          168995,
-          "used"
-        ],
-        [
-          156000,
-          "used"
-        ],
-        [
-          149900,
-          "used"
-        ],
-        [
-          144900,
-          "used"
-        ],
-        [
-          99900,
-          "used"
-        ],
-        [
-          79995,
-          "used"
-        ]
-      ],
-      "priceLow": 79995,
-      "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 45,
-      "new": 22,
+      "total": 44,
+      "new": 21,
       "used": 23,
       "category": {
-        "Wakeboard / Ski": 39,
+        "Wakeboard / Ski": 38,
         "Pontoon / Tritoon": 6
       },
       "brand": {
         "Mastercraft": 29,
-        "Moomba": 3,
         "Crest": 3,
         "Supra": 4,
         "Balise": 3,
         "Malibu": 1,
+        "Moomba": 2,
         "Tige Boats": 1,
         "Malibu Boats": 1
       },
       "prices": [
         [
           199893,
-          "new"
-        ],
-        [
-          119990,
           "new"
         ],
         [
@@ -4029,8 +4122,8 @@
       "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
     ],
     [
-      "premier-advantage",
-      "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 540, in _make_request\n    response = conn.getresponse()\n               ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 638, in getresponse\n    httplib_response = super().getresponse()\n                       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 1478, in getresponse\n    response.begin()\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 343, in begin\n    version, status, reason = self._read_status()\n                              ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/http/client.py\", line 304, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/socket.py\", line 720, in readinto\n    return self._sock.recv_into(b)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/ssl.py\", line 1264, in recv_into\n    return self.read(nbytes, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/ssl.py\", line 1116, in read\n    return self._sslobj.read(len, buffer)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTimeoutError: The read operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 847, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/retry.py\", line 510, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/util.py\", line 39, in reraise\n    raise value\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 793, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 542, in _make_request\n    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 373, in _raise_timeout\n    raise ReadTimeoutError(\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 70, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 242, in scrape\n    products = _fetch_all_products()\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 150, in _fetch_all_products\n    resp = session.get(\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 671, in get\n    return self.request(\"GET\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Read timed out. (read timeout=30)\n"
+      "formula-boats-mo",
+      "scrape() returned total <= 0"
     ]
   ]
 }
