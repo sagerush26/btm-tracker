@@ -1079,7 +1079,7 @@
       "used": 90,
       "category": {
         "Fishing": 1,
-        "Other": 37,
+        "Other": 35,
         "Bowrider": 8,
         "Center Console": 28,
         "Performance": 19,
@@ -1529,12 +1529,12 @@
       "new": 12,
       "used": 33,
       "category": {
-        "Cruiser / Cabin": 2,
         "Fishing": 1,
-        "Performance": 1,
+        "Cruiser / Cabin": 2,
         "Yacht": 2,
-        "Wakeboard / Ski": 5,
         "Bowrider": 31,
+        "Performance": 1,
+        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3
       },
       "brand": {
@@ -2595,11 +2595,11 @@
         ],
         [
           79900,
-          "used"
+          "new"
         ],
         [
           79900,
-          "new"
+          "used"
         ],
         [
           79900,
@@ -2615,11 +2615,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           73900,

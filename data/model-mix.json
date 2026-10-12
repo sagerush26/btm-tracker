@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T11:48:09.978638+00:00",
+  "lastUpdated": "2026-10-12T13:47:26.088424+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -139,7 +139,7 @@
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 37,
+        "Other": 35,
         "Bowrider": 8,
         "Center Console": 28,
         "Performance": 19,
@@ -214,12 +214,12 @@
         "Used": 33
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
         "Fishing": 1,
-        "Performance": 1,
+        "Cruiser / Cabin": 2,
         "Yacht": 2,
-        "Wakeboard / Ski": 5,
         "Bowrider": 31,
+        "Performance": 1,
+        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3
       },
       "byBrand": {
@@ -698,7 +698,7 @@
       "Yacht": 39,
       "Fishing": 86,
       "Power": 12,
-      "Other": 137
+      "Other": 135
     },
     "byBrand": {
       "Chaparral": 60,
@@ -862,6 +862,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261011",
-  "date": "2026-10-11"
+  "scanId": "scan-20261012",
+  "date": "2026-10-12"
 }

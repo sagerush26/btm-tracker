@@ -3,7 +3,7 @@
     "Cruiser / Cabin": 29,
     "Bowrider": 40,
     "Performance": 24,
-    "Other": 22,
+    "Other": 24,
     "Center Console": 21,
     "Pontoon / Tritoon": 35,
     "Wakeboard / Ski": 11,
@@ -497,6 +497,12 @@
       "totalMarket": 1170,
       "btm": 197,
       "competitors": 973
+    },
+    {
+      "date": "2026-10-12",
+      "totalMarket": 1170,
+      "btm": 197,
+      "competitors": 973
     }
   ],
   "priceTrend": [
@@ -857,6 +863,11 @@
     },
     {
       "date": "2026-10-11",
+      "marketAvg": 219096.51,
+      "btmAvg": 266379.27
+    },
+    {
+      "date": "2026-10-12",
       "marketAvg": 219096.51,
       "btmAvg": 266379.27
     }
@@ -3508,13 +3519,18 @@
       "date": "2026-10-11",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-11 (scan-20261011). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-10-12",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-12 (scan-20261012). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-11",
-    "scanId": "scan-20261011",
+    "date": "2026-10-12",
+    "scanId": "scan-20261012",
     "marketTotal": 1170,
-    "credibleChangesCount": 6,
+    "credibleChangesCount": 0,
     "soldCount": 1546,
     "addedCount": 752
   },
