@@ -31,7 +31,7 @@
     "Sylvan": 3,
     "Godfrey": 4,
     "Skater": 1,
-    "MTI": 2,
+    "MTI": 3,
     "Formula": 11,
     "Manitou": 2,
     "Harris": 3,
@@ -79,15 +79,15 @@
   },
   "addedByCategory": {
     "Cruiser / Cabin": 134,
-    "Bowrider": 530,
-    "Performance": 65,
+    "Bowrider": 534,
+    "Performance": 66,
     "Wakeboard / Ski": 102,
     "Pontoon / Tritoon": 341,
     "Center Console": 61,
     "Other": 122,
     "Yacht": 8,
-    "Fishing": 130,
-    "Power": 7
+    "Fishing": 131,
+    "Power": 15
   },
   "inventoryTrend": [
     {
@@ -503,6 +503,12 @@
       "totalMarket": 1170,
       "btm": 197,
       "competitors": 973
+    },
+    {
+      "date": "2026-10-13",
+      "totalMarket": 1184,
+      "btm": 205,
+      "competitors": 979
     }
   ],
   "priceTrend": [
@@ -870,6 +876,11 @@
       "date": "2026-10-12",
       "marketAvg": 219096.51,
       "btmAvg": 266379.27
+    },
+    {
+      "date": "2026-10-13",
+      "marketAvg": 217560.41,
+      "btmAvg": 256035.62
     }
   ],
   "recentlySold": [
@@ -1376,36 +1387,6 @@
   ],
   "recentlyAdded": [
     {
-      "date": "2026-09-25",
-      "scanId": "scan-20260925",
-      "dealer": "Heartland Marine",
-      "competitorId": "heartland-marine",
-      "count": 3,
-      "previousTotal": 45,
-      "newTotal": 48,
-      "detail": "Inventory increased by 3 (was 45, now 48). New: 15, Used: 33. Reflects the normal one-day change since the prior scan on 2026-09-24."
-    },
-    {
-      "date": "2026-09-26",
-      "scanId": "scan-20260926",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 7,
-      "previousTotal": 189,
-      "newTotal": 196,
-      "detail": "Inventory increased by 7 (was 189, now 196). New: 112, Used: 84. Reflects the normal one-day change since the prior scan on 2026-09-25."
-    },
-    {
-      "date": "2026-09-26",
-      "scanId": "scan-20260926",
-      "dealer": "MarineMax",
-      "competitorId": "marinemax",
-      "count": 2,
-      "previousTotal": 44,
-      "newTotal": 46,
-      "detail": "Inventory increased by 2 (was 44, now 46). New: 24, Used: 22. Reflects the normal one-day change since the prior scan on 2026-09-25."
-    },
-    {
       "date": "2026-09-26",
       "scanId": "scan-20260926",
       "dealer": "Performance Boat Center",
@@ -1874,6 +1855,36 @@
       "previousTotal": 31,
       "newTotal": 32,
       "detail": "Inventory increased by 1 (was 31, now 32). New: 18, Used: 14. Reflects the normal one-day change since the prior scan on 2026-10-10."
+    },
+    {
+      "date": "2026-10-13",
+      "scanId": "scan-20261013",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 8,
+      "previousTotal": 197,
+      "newTotal": 205,
+      "detail": "Inventory increased by 8 (was 197, now 205). New: 109, Used: 96. Reflects the normal one-day change since the prior scan on 2026-10-12."
+    },
+    {
+      "date": "2026-10-13",
+      "scanId": "scan-20261013",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 4,
+      "previousTotal": 45,
+      "newTotal": 49,
+      "detail": "Inventory increased by 4 (was 45, now 49). New: 12, Used: 37. Reflects the normal one-day change since the prior scan on 2026-10-12."
+    },
+    {
+      "date": "2026-10-13",
+      "scanId": "scan-20261013",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 2,
+      "previousTotal": 92,
+      "newTotal": 94,
+      "detail": "Inventory increased by 2 (was 92, now 94). New: 50, Used: 43. Reflects the normal one-day change since the prior scan on 2026-10-12."
     }
   ],
   "insights": [
@@ -3524,28 +3535,33 @@
       "date": "2026-10-12",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-12 (scan-20261012). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-10-13",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-13 (scan-20261013). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-12",
-    "scanId": "scan-20261012",
-    "marketTotal": 1170,
-    "credibleChangesCount": 0,
+    "date": "2026-10-13",
+    "scanId": "scan-20261013",
+    "marketTotal": 1184,
+    "credibleChangesCount": 3,
     "soldCount": 1546,
-    "addedCount": 752
+    "addedCount": 766
   },
   "addedByDealer": {
-    "Big Thunder Marine": 65,
+    "Big Thunder Marine": 73,
     "Formula Boats of Missouri": 31,
     "Performance Marine Watersports": 21,
     "Marty's Marine": 111,
     "Iguana Marine Group": 69,
     "Premier Advantage Marine": 27,
     "Heartland Marine": 66,
-    "Premier 54 Motorsports": 74,
+    "Premier 54 Motorsports": 76,
     "MarineMax": 50,
     "Performance Boat Center": 38,
-    "Village Marina & Yacht Club": 30,
+    "Village Marina & Yacht Club": 34,
     "Kelly's Port": 63,
     "Surdyke Yamaha & Marina": 21,
     "Stateamind Water Sports": 76,
@@ -3553,7 +3569,7 @@
   },
   "addedByCondition": {
     "New": 3078,
-    "Used": 2263
+    "Used": 2277
   },
   "addedByBrand": {
     "Aviara": 5,
@@ -3570,7 +3586,7 @@
     "Sea Ray": 30,
     "Cruiser": 4,
     "Prestige": 4,
-    "Cobalt": 103,
+    "Cobalt": 107,
     "Yamaha": 27,
     "Four Winns": 86,
     "South Bay": 4,
@@ -3590,7 +3606,7 @@
     "SunCatcher": 49,
     "Yamaha Boats": 56,
     "RANGER": 3,
-    "Robalo": 4,
+    "Robalo": 5,
     "G3/YAMAHA": 3,
     "Nitro": 3,
     "Voyager": 6,
@@ -3602,11 +3618,11 @@
     "Tracker\u00ae Boats": 2,
     "Bayliner": 3,
     "Harris": 4,
-    "Chaparral": 16,
+    "Chaparral": 17,
     "Premier": 6,
     "Tige": 3,
     "Viaggio": 8,
-    "Performance Powerboats": 2,
+    "Performance Powerboats": 3,
     "Mastercraft": 10,
     "Donzi": 2,
     "Boston Whaler": 2,
@@ -3651,6 +3667,7 @@
     "Carver": 2,
     "Sea Doo": 1,
     "Pioneer": 1,
-    "Outerlimits": 1
+    "Outerlimits": 1,
+    "SEA DOO": 8
   }
 }

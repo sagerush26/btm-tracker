@@ -3,9 +3,9 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 197,
+      "total": 205,
       "new": 109,
-      "used": 88,
+      "used": 96,
       "category": {
         "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 49,
@@ -15,7 +15,7 @@
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
-        "Power": 3,
+        "Power": 11,
         "Other": 5
       },
       "brand": {
@@ -67,6 +67,7 @@
         "Chaparral": 2,
         "Harris FloteBote": 1,
         "Correct Craft": 1,
+        "SEA DOO": 8,
         "CYPRESS CAY": 1,
         "Statement": 1,
         "Bennington": 1,
@@ -746,6 +747,38 @@
           "used"
         ],
         [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
+          6495,
+          "used"
+        ],
+        [
           59900,
           "used"
         ],
@@ -846,7 +879,7 @@
           "new"
         ]
       ],
-      "priceLow": 25997,
+      "priceLow": 6495,
       "priceHigh": 2697900,
       "priceQuality": "full"
     },
@@ -979,7 +1012,7 @@
           "used"
         ],
         [
-          228836,
+          231845,
           "used"
         ],
         [
@@ -1091,8 +1124,8 @@
         "Sunsation Powerboats": 17,
         "Outerlimits": 3,
         "IRON": 2,
-        "Performance Powerboats": 3,
-        "MTI": 19,
+        "Performance Powerboats": 4,
+        "MTI": 18,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
@@ -1182,6 +1215,10 @@
         ],
         [
           659950,
+          "used"
+        ],
+        [
+          889950,
           "used"
         ],
         [
@@ -1337,10 +1374,6 @@
           "used"
         ],
         [
-          799950,
-          "used"
-        ],
-        [
           99950,
           "used"
         ],
@@ -1413,7 +1446,7 @@
           "used"
         ],
         [
-          139950,
+          124950,
           "used"
         ],
         [
@@ -1525,21 +1558,21 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 45,
+      "total": 49,
       "new": 12,
-      "used": 33,
+      "used": 37,
       "category": {
-        "Fishing": 1,
         "Cruiser / Cabin": 2,
         "Yacht": 2,
-        "Bowrider": 31,
-        "Performance": 1,
+        "Pontoon / Tritoon": 3,
         "Wakeboard / Ski": 5,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 35,
+        "Fishing": 1,
+        "Performance": 1
       },
       "brand": {
         "Regal": 1,
-        "Cobalt": 21,
+        "Cobalt": 25,
         "Sea Ray": 3,
         "Crownline": 2,
         "Rinker": 1,
@@ -1680,6 +1713,22 @@
           "used"
         ],
         [
+          109000,
+          "used"
+        ],
+        [
+          369000,
+          "used"
+        ],
+        [
+          239000,
+          "used"
+        ],
+        [
+          64900,
+          "used"
+        ],
+        [
           399000,
           "used"
         ],
@@ -1694,7 +1743,7 @@
       ],
       "priceLow": 9800,
       "priceHigh": 479000,
-      "priceQuality": "partial-73pct"
+      "priceQuality": "partial-76pct"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -2595,11 +2644,11 @@
         ],
         [
           79900,
-          "new"
+          "used"
         ],
         [
           79900,
-          "used"
+          "new"
         ],
         [
           79900,
@@ -2615,11 +2664,11 @@
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           73900,
@@ -3131,27 +3180,27 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 92,
+      "total": 94,
       "new": 50,
-      "used": 41,
+      "used": 43,
       "category": {
-        "Fishing": 8,
+        "Fishing": 9,
         "Pontoon / Tritoon": 17,
         "Cruiser / Cabin": 3,
         "Wakeboard / Ski": 15,
         "Other": 9,
-        "Performance": 37,
+        "Performance": 38,
         "Bowrider": 3
       },
       "brand": {
         "Premier": 17,
         "Crownline": 3,
-        "Chaparral": 45,
+        "Chaparral": 46,
         "Lowe": 1,
         "Montara": 1,
         "Nautic Star": 1,
         "Tige": 2,
-        "Robalo": 3,
+        "Robalo": 4,
         "Manitou": 1,
         "MB Sports": 1,
         "MasterCraft": 1,
@@ -3527,6 +3576,14 @@
         ],
         [
           289900,
+          "used"
+        ],
+        [
+          109900,
+          "used"
+        ],
+        [
+          164900,
           "used"
         ]
       ],
