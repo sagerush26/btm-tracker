@@ -42,6 +42,11 @@ modelmix = json.load(open(f"{DATA_DIR}/model-mix.json"))
 trends = json.load(open(f"{DATA_DIR}/trends.json"))
 
 scan_prev = scans["scans"][-1]
+# FIX 2026-10-14: on a same-day rerun the last entry is this morning's scan for the same date
+# (about to be replaced), so compare against the PREVIOUS day's scan. Otherwise the rerun's
+# change log only shows the difference vs. this morning and drops the morning's real changes.
+if _is_same_day_rerun and len(scans["scans"]) >= 2 and scans["scans"][-1].get("date") == SCAN_DATE:
+    scan_prev = scans["scans"][-2]
 scan_prev_by_id = {r["competitorId"]: r for r in scan_prev["results"]}
 
 def fmt_money(v):

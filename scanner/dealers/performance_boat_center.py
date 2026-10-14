@@ -347,6 +347,11 @@ def scrape() -> dict:
     result["total"] = total
     result["new"] = new_count
     result["used"] = used_count
+    # UPDATE 2026-10-14 (accuracy): boats the site leaves uncategorized are counted as "Other"
+    # so every boat is counted once and types add up to the boat total.
+    gap = total - sum(category_counter.values())
+    if gap > 0:
+        category_counter["Other"] = category_counter.get("Other", 0) + gap
     result["category"] = dict(category_counter)
     result["brand"] = dict(brand_counter)
     result["prices"] = prices
