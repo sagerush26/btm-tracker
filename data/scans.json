@@ -30758,7 +30758,7 @@
           "priceRange": "$22,500 - $2,299,950",
           "category": {
             "Fishing": 1,
-            "Other": 35,
+            "Other": 39,
             "Bowrider": 8,
             "Center Console": 29,
             "Performance": 19,
@@ -30821,13 +30821,13 @@
           "avgPriceUsed": 123376.43,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Cruiser / Cabin": 2,
-            "Wakeboard / Ski": 5,
             "Pontoon / Tritoon": 3,
             "Fishing": 1,
-            "Yacht": 2,
             "Bowrider": 34,
-            "Performance": 1
+            "Yacht": 2,
+            "Wakeboard / Ski": 5,
+            "Performance": 1,
+            "Cruiser / Cabin": 2
           },
           "brand": {
             "Regal": 1,
@@ -30941,7 +30941,7 @@
           "competitorId": "formula-boats-mo",
           "totalBoats": 32,
           "newBoats": 18,
-          "usedBoats": 14,
+          "usedBoats": 10,
           "avgPrice": 283734.93,
           "avgPriceNew": 914454.0,
           "avgPriceUsed": 238683.57,
@@ -37947,14 +37947,14 @@
       "competitorId": "big-thunder-marine",
       "dealerId": "big-thunder-marine",
       "dealerName": "Big Thunder Marine",
-      "previousTotal": 209,
+      "previousTotal": 205,
       "newTotal": 210,
-      "change": 1,
+      "change": 5,
       "type": "inventory_increase",
-      "count": 1,
-      "description": "Big Thunder Marine: 209 -> 210 (+1)",
-      "detail": "Inventory increased by 1 (was 209, now 210). New: 111, Used: 99. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "count": 5,
+      "description": "Big Thunder Marine: 205 -> 210 (+5)",
+      "detail": "Inventory increased by 5 (was 205, now 210). New: 111, Used: 99. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     },
     {
       "scanId": "scan-20261014",
@@ -37962,14 +37962,14 @@
       "competitorId": "marinemax",
       "dealerId": "marinemax",
       "dealerName": "MarineMax",
-      "previousTotal": 45,
+      "previousTotal": 46,
       "newTotal": 47,
-      "change": 2,
+      "change": 1,
       "type": "inventory_increase",
-      "count": 2,
-      "description": "MarineMax: 45 -> 47 (+2)",
-      "detail": "Inventory increased by 2 (was 45, now 47). New: 22, Used: 25. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "count": 1,
+      "description": "MarineMax: 46 -> 47 (+1)",
+      "detail": "Inventory increased by 1 (was 46, now 47). New: 22, Used: 25. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     },
     {
       "scanId": "scan-20261014",
@@ -37977,14 +37977,29 @@
       "competitorId": "performance-boat-center",
       "dealerId": "performance-boat-center",
       "dealerName": "Performance Boat Center",
-      "previousTotal": 99,
+      "previousTotal": 98,
       "newTotal": 100,
-      "change": 1,
+      "change": 2,
       "type": "inventory_increase",
+      "count": 2,
+      "description": "Performance Boat Center: 98 -> 100 (+2)",
+      "detail": "Inventory increased by 2 (was 98, now 100). New: 9, Used: 90. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
+    },
+    {
+      "scanId": "scan-20261014",
+      "date": "2026-10-14",
+      "competitorId": "village-marina",
+      "dealerId": "village-marina",
+      "dealerName": "Village Marina & Yacht Club",
+      "previousTotal": 49,
+      "newTotal": 48,
+      "change": -1,
+      "type": "inventory_decrease",
       "count": 1,
-      "description": "Performance Boat Center: 99 -> 100 (+1)",
-      "detail": "Inventory increased by 1 (was 99, now 100). New: 9, Used: 90. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "description": "Village Marina & Yacht Club: 49 -> 48 (-1)",
+      "detail": "Inventory decreased by 1 (was 49, now 48). New: 13, Used: 35. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     },
     {
       "scanId": "scan-20261014",
@@ -37998,8 +38013,8 @@
       "type": "inventory_decrease",
       "count": 2,
       "description": "Iguana Marine Group: 100 -> 98 (-2)",
-      "detail": "Inventory decreased by 2 (was 100, now 98). New: 64, Used: 34. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "detail": "Inventory decreased by 2 (was 100, now 98). New: 64, Used: 34. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     },
     {
       "scanId": "scan-20261014",
@@ -38007,14 +38022,14 @@
       "competitorId": "premier-advantage",
       "dealerId": "premier-advantage",
       "dealerName": "Premier Advantage Marine",
-      "previousTotal": 69,
+      "previousTotal": 70,
       "newTotal": 71,
-      "change": 2,
+      "change": 1,
       "type": "inventory_increase",
-      "count": 2,
-      "description": "Premier Advantage Marine: 69 -> 71 (+2)",
-      "detail": "Inventory increased by 2 (was 69, now 71). New: 12, Used: 59. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "count": 1,
+      "description": "Premier Advantage Marine: 70 -> 71 (+1)",
+      "detail": "Inventory increased by 1 (was 70, now 71). New: 12, Used: 59. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     },
     {
       "scanId": "scan-20261014",
@@ -38028,9 +38043,24 @@
       "type": "inventory_decrease",
       "count": 2,
       "description": "Stateamind Water Sports: 95 -> 93 (-2)",
-      "detail": "Inventory decreased by 2 (was 95, now 93). New: 59, Used: 34. Reflects the normal one-day change since the prior scan on 2026-10-14.",
-      "note": "Reflects the normal one-day change since the prior scan on 2026-10-14."
+      "detail": "Inventory decreased by 2 (was 95, now 93). New: 59, Used: 34. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
+    },
+    {
+      "scanId": "scan-20261014",
+      "date": "2026-10-14",
+      "competitorId": "surdyke-yamaha",
+      "dealerId": "surdyke-yamaha",
+      "dealerName": "Surdyke Yamaha & Marina",
+      "previousTotal": 104,
+      "newTotal": 105,
+      "change": 1,
+      "type": "inventory_increase",
+      "count": 1,
+      "description": "Surdyke Yamaha & Marina: 104 -> 105 (+1)",
+      "detail": "Inventory increased by 1 (was 104, now 105). New: 74, Used: 31. Reflects the normal one-day change since the prior scan on 2026-10-13.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-10-13."
     }
   ],
-  "lastUpdated": "2026-10-14T21:41:50.783227+00:00"
+  "lastUpdated": "2026-10-14T21:53:09.664442+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:41:50.783227+00:00",
+  "lastUpdated": "2026-10-14T21:53:09.664442+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -141,7 +141,7 @@
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 35,
+        "Other": 39,
         "Bowrider": 8,
         "Center Console": 29,
         "Performance": 19,
@@ -216,13 +216,13 @@
         "Used": 35
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
-        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
         "Fishing": 1,
-        "Yacht": 2,
         "Bowrider": 34,
-        "Performance": 1
+        "Yacht": 2,
+        "Wakeboard / Ski": 5,
+        "Performance": 1,
+        "Cruiser / Cabin": 2
       },
       "byBrand": {
         "Regal": 1,
@@ -352,12 +352,12 @@
       "isOwn": false,
       "totalBoats": 32,
       "newBoats": 18,
-      "usedBoats": 14,
+      "usedBoats": 10,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 238683.57,
       "byCondition": {
         "New": 18,
-        "Used": 14
+        "Used": 10
       },
       "byCategory": {
         "Center Console": 1,
@@ -683,10 +683,10 @@
   "marketTotals": {
     "totalBoats": 1189,
     "newBoats": 591,
-    "usedBoats": 596,
+    "usedBoats": 592,
     "byCondition": {
       "New": 591,
-      "Used": 596
+      "Used": 592
     },
     "byCategory": {
       "Pontoon / Tritoon": 251,
@@ -698,7 +698,7 @@
       "Yacht": 37,
       "Fishing": 69,
       "Power": 17,
-      "Other": 71
+      "Other": 75
     },
     "byBrand": {
       "Chaparral": 62,
