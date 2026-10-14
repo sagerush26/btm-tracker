@@ -3,15 +3,15 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 209,
-      "new": 110,
+      "total": 210,
+      "new": 111,
       "used": 99,
       "category": {
         "Pontoon / Tritoon": 48,
         "Wakeboard / Ski": 52,
         "Center Console": 35,
         "Cruiser / Cabin": 21,
-        "Bowrider": 20,
+        "Bowrider": 21,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -25,7 +25,7 @@
         "Invictus": 7,
         "Pirelli": 1,
         "Chris Craft": 7,
-        "Monterey": 10,
+        "Monterey": 11,
         "Sea Ray": 9,
         "Jeanneau": 1,
         "YOT": 2,
@@ -233,6 +233,10 @@
         [
           349900,
           "used"
+        ],
+        [
+          349164,
+          "new"
         ],
         [
           326435,
@@ -902,11 +906,11 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 45,
+      "total": 47,
       "new": 22,
-      "used": 23,
+      "used": 25,
       "category": {
-        "Yacht": 11,
+        "Yacht": 13,
         "Fishing": 3,
         "Cruiser / Cabin": 16,
         "Other": 2,
@@ -916,11 +920,12 @@
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 20,
+        "Sea Ray": 21,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
         "Aquila": 1,
+        "Sunseeker": 1,
         "Aviara": 5,
         "Cobalt": 1,
         "Nautique": 1,
@@ -945,6 +950,10 @@
         ],
         [
           144900,
+          "used"
+        ],
+        [
+          149900,
           "used"
         ],
         [
@@ -989,6 +998,10 @@
         ],
         [
           474900,
+          "used"
+        ],
+        [
+          1499999,
           "used"
         ],
         [
@@ -1119,12 +1132,12 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 99,
+      "total": 100,
       "new": 9,
       "used": 90,
       "category": {
         "Fishing": 1,
-        "Other": 38,
+        "Other": 35,
         "Bowrider": 8,
         "Center Console": 29,
         "Performance": 19,
@@ -1299,6 +1312,14 @@
         ],
         [
           1399950,
+          "used"
+        ],
+        [
+          325000,
+          "unknown"
+        ],
+        [
+          389950,
           "used"
         ],
         [
@@ -1574,12 +1595,12 @@
       "new": 13,
       "used": 35,
       "category": {
-        "Fishing": 1,
+        "Cruiser / Cabin": 2,
         "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
-        "Bowrider": 34,
-        "Cruiser / Cabin": 2,
+        "Fishing": 1,
         "Yacht": 2,
+        "Bowrider": 34,
         "Performance": 1
       },
       "brand": {
@@ -1751,30 +1772,29 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 100,
+      "total": 98,
       "new": 64,
-      "used": 36,
+      "used": 34,
       "category": {
-        "Pontoon / Tritoon": 81,
-        "Wakeboard / Ski": 46,
+        "Pontoon / Tritoon": 35,
+        "Wakeboard / Ski": 24,
         "Center Console": 5,
-        "Cruiser / Cabin": 12,
-        "Bowrider": 22,
-        "Performance": 74,
-        "Yacht": 12,
+        "Cruiser / Cabin": 4,
+        "Bowrider": 10,
+        "Performance": 2,
+        "Yacht": 8,
         "Fishing": 9,
-        "Power": 3,
-        "Other": 41
+        "Other": 1
       },
       "brand": {
         "iKon": 6,
         "Formula": 7,
-        "Axis": 10,
-        "Supra": 2,
+        "Axis": 9,
         "Godfrey": 29,
         "Coach Pontoons": 2,
         "Four Winns": 5,
         "HCB": 3,
+        "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 12,
         "Godrey": 1,
@@ -1813,10 +1833,6 @@
         ],
         [
           89900,
-          "used"
-        ],
-        [
-          27500,
           "used"
         ],
         [
@@ -1881,10 +1897,6 @@
         ],
         [
           290000,
-          "used"
-        ],
-        [
-          114990,
           "used"
         ],
         [
@@ -2094,31 +2106,32 @@
       ],
       "priceLow": 18782,
       "priceHigh": 1875000,
-      "priceQuality": "partial-73pct"
+      "priceQuality": "partial-72pct"
     },
     "premier-advantage": {
       "name": "Premier Advantage Marine",
       "isOwn": false,
-      "total": 69,
+      "total": 71,
       "new": 12,
-      "used": 57,
+      "used": 59,
       "category": {
         "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
-        "Cruiser / Cabin": 7,
-        "Bowrider": 46,
-        "Performance": 4,
+        "Cruiser / Cabin": 6,
+        "Bowrider": 36,
+        "Performance": 0,
         "Yacht": 0,
-        "Fishing": 33,
+        "Fishing": 16,
         "Power": 0,
-        "Other": 25
+        "Other": 0
       },
       "brand": {
         "Four Winns": 33,
+        "Sea Ray": 1,
         "Regal": 1,
         "Baja": 1,
-        "Chaparral": 4,
+        "Chaparral": 5,
         "Crownline": 2,
         "Scarab": 1,
         "Bennington": 2,
@@ -2129,6 +2142,10 @@
         [
           239995,
           "new"
+        ],
+        [
+          41900,
+          "used"
         ],
         [
           94900,
@@ -2165,6 +2182,10 @@
         [
           152995,
           "new"
+        ],
+        [
+          89900,
+          "used"
         ],
         [
           59900,
@@ -2257,7 +2278,7 @@
       ],
       "priceLow": 9900,
       "priceHigh": 239995,
-      "priceQuality": "partial-46pct"
+      "priceQuality": "partial-48pct"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
@@ -2286,7 +2307,7 @@
           "used"
         ],
         [
-          399995,
+          398995,
           "used"
         ],
         [
@@ -2294,7 +2315,7 @@
           "used"
         ],
         [
-          344000,
+          343000,
           "used"
         ],
         [
@@ -2561,9 +2582,9 @@
         "Sea Ray": 3,
         "Baja": 1,
         "Suntracker": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -2618,11 +2639,11 @@
         ],
         [
           89900,
-          "new"
+          "used"
         ],
         [
           89900,
-          "used"
+          "new"
         ],
         [
           83900,
@@ -2662,11 +2683,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           73900,
@@ -2844,12 +2865,12 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 95,
+      "total": 93,
       "new": 59,
-      "used": 36,
+      "used": 34,
       "category": {
         "Fishing": 9,
-        "Wakeboard / Ski": 27,
+        "Wakeboard / Ski": 25,
         "Pontoon / Tritoon": 35,
         "Yacht": 9,
         "Bowrider": 11,
@@ -2859,12 +2880,12 @@
       },
       "brand": {
         "iKon": 6,
-        "Axis": 10,
-        "Supra": 2,
+        "Axis": 9,
         "Godfrey": 29,
         "Coach Pontoons": 2,
         "Four Winns": 5,
         "HCB": 3,
+        "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 12,
         "Godrey": 1,
@@ -2896,10 +2917,6 @@
         ],
         [
           89900,
-          "used"
-        ],
-        [
-          27500,
           "used"
         ],
         [
@@ -2960,10 +2977,6 @@
         ],
         [
           290000,
-          "used"
-        ],
-        [
-          114990,
           "used"
         ],
         [
@@ -3173,7 +3186,7 @@
       ],
       "priceLow": 18782,
       "priceHigh": 1875000,
-      "priceQuality": "partial-74pct"
+      "priceQuality": "partial-73pct"
     },
     "premier-54": {
       "name": "Premier 54 Motorsports",
