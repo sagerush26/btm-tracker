@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-10-13T13:09:07.825472+00:00",
+  "lastUpdated": "2026-10-14T10:50:34.295471+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 205,
-      "newBoats": 109,
-      "usedBoats": 96,
-      "avgPriceNew": 322883.97,
-      "avgPriceUsed": 182920.23,
+      "totalBoats": 209,
+      "newBoats": 110,
+      "usedBoats": 99,
+      "avgPriceNew": 324158.25,
+      "avgPriceUsed": 180034.57,
       "byCondition": {
-        "New": 109,
-        "Used": 96
+        "New": 110,
+        "Used": 99
       },
       "byCategory": {
-        "Pontoon / Tritoon": 47,
-        "Wakeboard / Ski": 49,
+        "Pontoon / Tritoon": 48,
+        "Wakeboard / Ski": 52,
         "Center Console": 35,
         "Cruiser / Cabin": 21,
         "Bowrider": 20,
@@ -38,9 +38,9 @@
         "Jeanneau": 1,
         "YOT": 2,
         "Schaefer": 1,
+        "Tige": 20,
         "Amp": 1,
         "OPUS": 2,
-        "Tige": 18,
         "Donzi": 5,
         "Cobalt": 3,
         "Regal": 3,
@@ -63,9 +63,10 @@
         "Evotti": 3,
         "Viaggio": 28,
         "Yamaha": 2,
+        "Barletta": 2,
         "Nautical Racing Group": 1,
         "CRUISERS": 1,
-        "Nautique": 2,
+        "Nautique": 3,
         "Spectre": 1,
         "Heritage": 1,
         "Crest": 1,
@@ -78,8 +79,7 @@
         "SEA DOO": 8,
         "CYPRESS CAY": 1,
         "Statement": 1,
-        "Bennington": 1,
-        "Barletta": 1
+        "Bennington": 1
       },
       "byLength": {},
       "byPropulsion": {}
@@ -88,18 +88,18 @@
       "id": "marinemax",
       "name": "MarineMax",
       "isOwn": false,
-      "totalBoats": 46,
+      "totalBoats": 45,
       "newBoats": 22,
-      "usedBoats": 24,
+      "usedBoats": 23,
       "avgPriceNew": 576777.55,
-      "avgPriceUsed": 391665.83,
+      "avgPriceUsed": 398614.57,
       "byCondition": {
         "New": 22,
-        "Used": 24
+        "Used": 23
       },
       "byCategory": {
         "Yacht": 11,
-        "Fishing": 4,
+        "Fishing": 3,
         "Cruiser / Cabin": 16,
         "Other": 2,
         "Performance": 5,
@@ -108,7 +108,7 @@
         "Bowrider": 2
       },
       "byBrand": {
-        "Sea Ray": 21,
+        "Sea Ray": 20,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -129,27 +129,27 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 98,
-      "newBoats": 8,
+      "totalBoats": 99,
+      "newBoats": 9,
       "usedBoats": 90,
       "avgPriceNew": 529325.0,
-      "avgPriceUsed": 548448.75,
+      "avgPriceUsed": 548391.93,
       "byCondition": {
-        "New": 8,
+        "New": 9,
         "Used": 90
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 35,
+        "Other": 38,
         "Bowrider": 8,
-        "Center Console": 28,
+        "Center Console": 29,
         "Performance": 19,
         "Power": 2,
         "Cruiser / Cabin": 2
       },
       "byBrand": {
         "Skater": 12,
-        "Sunsation Powerboats": 17,
+        "Sunsation Powerboats": 18,
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
@@ -205,22 +205,22 @@
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "totalBoats": 49,
-      "newBoats": 12,
-      "usedBoats": 37,
-      "avgPriceNew": 125218.16,
-      "avgPriceUsed": 125218.16,
+      "totalBoats": 48,
+      "newBoats": 13,
+      "usedBoats": 35,
+      "avgPriceNew": 123376.43,
+      "avgPriceUsed": 123376.43,
       "byCondition": {
-        "New": 12,
-        "Used": 37
+        "New": 13,
+        "Used": 35
       },
       "byCategory": {
+        "Fishing": 1,
+        "Wakeboard / Ski": 5,
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 34,
         "Cruiser / Cabin": 2,
         "Yacht": 2,
-        "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 35,
-        "Fishing": 1,
         "Performance": 1
       },
       "byBrand": {
@@ -239,7 +239,6 @@
         "Sea Doo": 1,
         "Pioneer": 1,
         "Manitou": 1,
-        "Formula": 1,
         "MasterCraft": 1,
         "Tahoe": 1,
         "Aviara": 1
@@ -311,17 +310,17 @@
       "id": "premier-advantage",
       "name": "Premier Advantage Marine",
       "isOwn": false,
-      "totalBoats": 70,
+      "totalBoats": 69,
       "newBoats": 12,
-      "usedBoats": 58,
+      "usedBoats": 57,
       "avgPriceNew": 97096.67,
-      "avgPriceUsed": 51090.48,
+      "avgPriceUsed": 48150.0,
       "byCondition": {
         "New": 12,
-        "Used": 58
+        "Used": 57
       },
       "byCategory": {
-        "Pontoon / Tritoon": 6,
+        "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
         "Cruiser / Cabin": 7,
@@ -338,7 +337,6 @@
         "Baja": 1,
         "Chaparral": 4,
         "Crownline": 2,
-        "Barletta": 1,
         "Scarab": 1,
         "Bennington": 2,
         "Wellcraft": 3,
@@ -412,23 +410,23 @@
       "newBoats": 22,
       "usedBoats": 44,
       "avgPriceNew": 91718.18,
-      "avgPriceUsed": 45924.98,
+      "avgPriceUsed": 47265.89,
       "byCondition": {
         "New": 22,
         "Used": 44
       },
       "byCategory": {
-        "Pontoon / Tritoon": 28,
+        "Pontoon / Tritoon": 27,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 25,
         "Power": 1,
-        "Other": 10
+        "Other": 11
       },
       "byBrand": {
-        "Southbay": 6,
+        "Southbay": 5,
         "Chaparral": 8,
-        "Cobalt": 2,
+        "Cobalt": 3,
         "Manitou": 3,
         "Sylvan": 15,
         "Crownline": 4,
@@ -438,6 +436,7 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Sea Ray": 3,
+        "Baja": 1,
         "Suntracker": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
@@ -446,7 +445,6 @@
         "Misty Harbor": 1,
         "Rinker": 1,
         "Hurricane": 2,
-        "Searay": 1,
         "Thompson": 1,
         "Harris-Kayot": 1
       },
@@ -590,17 +588,17 @@
       "id": "surdyke-yamaha",
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "totalBoats": 104,
-      "newBoats": 73,
+      "totalBoats": 105,
+      "newBoats": 74,
       "usedBoats": 31,
-      "avgPriceNew": 143155.37,
+      "avgPriceNew": 141722.64,
       "avgPriceUsed": 42077.4,
       "byCondition": {
-        "New": 73,
+        "New": 74,
         "Used": 31
       },
       "byCategory": {
-        "Pontoon / Tritoon": 21,
+        "Pontoon / Tritoon": 22,
         "Center Console": 9,
         "Cruiser / Cabin": 16,
         "Bowrider": 24,
@@ -611,7 +609,7 @@
         "Other": 5
       },
       "byBrand": {
-        "SunCatcher": 20,
+        "SunCatcher": 21,
         "Beneteau": 6,
         "Yamaha Boats": 19,
         "Cobalt Boats": 2,
@@ -682,46 +680,46 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1184,
-    "newBoats": 586,
-    "usedBoats": 597,
+    "totalBoats": 1187,
+    "newBoats": 590,
+    "usedBoats": 596,
     "byCondition": {
-      "New": 586,
-      "Used": 597
+      "New": 590,
+      "Used": 596
     },
     "byCategory": {
       "Pontoon / Tritoon": 297,
-      "Wakeboard / Ski": 187,
-      "Center Console": 86,
+      "Wakeboard / Ski": 190,
+      "Center Console": 87,
       "Cruiser / Cabin": 86,
-      "Bowrider": 238,
+      "Bowrider": 237,
       "Performance": 162,
       "Yacht": 39,
-      "Fishing": 87,
+      "Fishing": 86,
       "Power": 20,
-      "Other": 135
+      "Other": 139
     },
     "byBrand": {
       "Chaparral": 61,
       "Godfrey": 58,
-      "Formula": 52,
       "Four Winns": 52,
-      "Sea Ray": 37,
-      "Cobalt": 34,
+      "Formula": 51,
+      "Sea Ray": 36,
+      "Cobalt": 35,
       "Barletta": 31,
       "Crownline": 30,
       "Viaggio": 28,
       "Mastercraft": 28,
       "Malibu": 25,
-      "Tige": 21,
+      "Tige": 23,
       "Premier": 21,
+      "SunCatcher": 21,
       "Yamaha Boats": 20,
       "Axis": 20,
-      "SunCatcher": 20,
       "Fountain": 19,
+      "Sunsation Powerboats": 18,
       "MTI": 18,
       "Regal": 17,
-      "Sunsation Powerboats": 17,
       "G3": 17,
       "Alumacraft": 16,
       "Sylvan": 15,
@@ -744,16 +742,16 @@
       "Cruisers Yachts": 7,
       "Donzi": 6,
       "Capoforte": 6,
+      "Nautique": 6,
       "Aviara": 6,
       "Harris": 6,
       "HCB": 6,
-      "Southbay": 6,
       "Beneteau": 6,
       "ATX": 5,
-      "Nautique": 5,
       "Crest": 5,
       "Rinker": 5,
       "Manitou": 5,
+      "Southbay": 5,
       "Robalo": 5,
       "Outerlimits": 4,
       "Performance Powerboats": 4,
@@ -768,6 +766,7 @@
       "Montara": 3,
       "Evotti": 3,
       "Moomba": 3,
+      "Baja": 3,
       "Balise": 3,
       "Dutch American": 2,
       "YOT": 2,
@@ -778,7 +777,6 @@
       "IRON": 2,
       "Ranger Boats": 2,
       "Mercury Marine": 2,
-      "Baja": 2,
       "Carver": 2,
       "Tahoe": 2,
       "Black Thunder Powerboats": 2,
@@ -838,7 +836,6 @@
       "Malibu Boats": 1,
       "Suntracker": 1,
       "Ebbtide": 1,
-      "Searay": 1,
       "Thompson": 1,
       "Harris-Kayot": 1,
       "Schaefer Yachts": 1,
@@ -864,6 +861,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261013",
-  "date": "2026-10-13"
+  "scanId": "scan-20261014",
+  "date": "2026-10-14"
 }
