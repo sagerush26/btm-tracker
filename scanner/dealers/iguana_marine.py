@@ -90,20 +90,18 @@ HEADERS = {
 # "Bass Boats", "Sport Pontoon") are deliberately routed to Performance/
 # Power/Other instead of inflating the 7 audited buckets.
 CATEGORY_BUCKETS: dict[str, list[str]] = {
-    "Pontoon / Tritoon": ["Pontoon", "Pontoon Boats", "Tritoon"],
+    "Pontoon / Tritoon": ["Pontoon", "Pontoon Boats", "Tritoon", "Cruising Pontoon",
+                          "Recreation Pontoon", "Sport Pontoon", "Value Pontoon"],
     "Wakeboard / Ski": ["Ski and Wakeboard Boats", "Wakesurf Boat"],
     "Center Console": ["Center Console"],
-    "Cruiser / Cabin": ["Cruiser Boat"],
-    "Bowrider": ["Bowrider"],
+    "Cruiser / Cabin": ["Cruiser Boat", "Express Cruiser"],
+    "Bowrider": ["Bowrider", "Open Bow Boat"],
     "Yacht": ["Yacht"],
-    "Fishing": ["Fishing Boat"],
+    "Fishing": ["Fishing Boat", "Bass Boats", "Freshwater Fishing"],
     "Power": ["Powerboat"],
     "Performance": ["Sports Boat", "Sterndrive", "Inboard", "Outboard", "Ski Boat",
                      "Ski and Wakeboard", "Surf Boat", "Wakeboard Boat"],
-    "Other": ["All Around Boat", "Recreation", "Other", "Cruising Pontoon",
-              "Recreation Pontoon", "Sport Pontoon", "Value Pontoon",
-              "Express Cruiser", "Runabout", "Runabouts", "Open Bow Boat",
-              "Deck Boat", "Bass Boats", "Freshwater Fishing"],
+    "Other": ["All Around Boat", "Recreation", "Other", "Runabout", "Runabouts", "Deck Boat"],
 }
 
 # Exact raw category name -> single normalized bucket lookup (built from the
@@ -115,6 +113,13 @@ _RAW_TO_BUCKET: dict[str, str] = {}
 for _bucket, _names in CATEGORY_BUCKETS.items():
     for _name in _names:
         _RAW_TO_BUCKET[_name.strip().lower()] = _bucket
+
+# UPDATE 2026-10-14 (accuracy fix): each boat now counts in exactly ONE boat type, so a
+# dealer's type counts add up to its boat total (they previously overlapped, e.g. 305 type
+# tags for 100 boats), which overstated the dashboard's Model Mix. When a boat carries several
+# tags, the most specific type wins in this order:
+TYPE_PRIORITY = ["Pontoon / Tritoon", "Wakeboard / Ski", "Center Console", "Yacht", "Cruiser / Cabin",
+                 "Fishing", "Bowrider", "Performance", "Power", "Other"]
 
 NORMALIZED_CATEGORIES = [
     "Pontoon / Tritoon", "Wakeboard / Ski", "Center Console", "Cruiser / Cabin",
@@ -262,14 +267,9 @@ def scrape() -> dict:
         # this intentionally reproduces the overlap seen in the manual
         # audit's ground-truth numbers.
         raw_names = _extract_raw_category_names(hit)
-        buckets_hit = set()
-        for raw_name in raw_names:
-            bucket = _RAW_TO_BUCKET.get(raw_name.lower())
-            if bucket:
-                category_counts[bucket] += 1
-                buckets_hit.add(bucket)
-        if not buckets_hit:
-            category_counts["Other"] += 1
+        buckets_hit = {_RAW_TO_BUCKET.get(n.lower()) for n in raw_names} - {None}
+        primary = next((b for b in TYPE_PRIORITY if b in buckets_hit), "Other")
+        category_counts[primary] += 1
 
         brand = _extract_brand(hit)
         if brand:

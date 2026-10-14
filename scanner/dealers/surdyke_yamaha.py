@@ -642,15 +642,16 @@ def scrape() -> dict:
     pagination links until no further "next page" link is found, a page
     yields zero new unit IDs, or a safety page cap is reached.
     """
-    try:
-        listings = _collect_all_listings()
-    except Exception as exc:
-        print(f"[surdyke_yamaha] dealer site failed: {exc}", file=sys.stderr)
-        listings = []
+    # UPDATE 2026-10-14 (Sage): always count Surdyke from the Boatzon feed so the source is the
+    # same every night. Switching between the dealer site (incl. sale-pending) and Boatzon
+    # (active only) created fake sales/arrivals. The dealer site is only a fallback if Boatzon fails.
+    listings = _fetch_boatzon_listings()
     if not listings:
-        listings = _fetch_boatzon_listings()
-        if listings:
-            print(f"[surdyke_yamaha] dealer site blocked; used Boatzon feed ({len(listings)} boats)", file=sys.stderr)
+        try:
+            listings = _collect_all_listings()
+        except Exception as exc:
+            print(f"[surdyke_yamaha] dealer site failed: {exc}", file=sys.stderr)
+            listings = []
 
     total = len(listings)
     new_count = sum(1 for l in listings if l["condition"] == "new")

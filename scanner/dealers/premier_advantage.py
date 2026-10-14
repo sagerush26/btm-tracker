@@ -99,6 +99,13 @@ KNOWN_BRANDS = [
     "BAJA",
 ]
 
+# UPDATE 2026-10-14 (accuracy fix): each boat now counts in exactly ONE boat type, so a
+# dealer's type counts add up to its boat total (they previously overlapped, e.g. 305 type
+# tags for 100 boats), which overstated the dashboard's Model Mix. When a boat carries several
+# tags, the most specific type wins in this order:
+TYPE_PRIORITY = ["Pontoon / Tritoon", "Wakeboard / Ski", "Center Console", "Yacht", "Cruiser / Cabin",
+                 "Fishing", "Bowrider", "Performance", "Power", "Other"]
+
 # Normalized category taxonomy -> allowed target buckets.
 NORMALIZED_CATEGORIES = [
     "Pontoon / Tritoon",
@@ -256,8 +263,8 @@ def scrape() -> dict:
         else:
             used_count += 1
 
-        for bucket in _normalize_categories(product):
-            category_counter[bucket] += 1
+        buckets = set(_normalize_categories(product))
+        category_counter[next((b for b in TYPE_PRIORITY if b in buckets), "Other")] += 1
 
         brand = _get_brand(product.get("name", ""))
         if brand:
