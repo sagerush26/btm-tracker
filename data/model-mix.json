@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:53:09.664442+00:00",
+  "lastUpdated": "2026-10-15T10:32:31.378383+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -216,13 +216,13 @@
         "Used": 35
       },
       "byCategory": {
+        "Performance": 1,
+        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
         "Fishing": 1,
         "Bowrider": 34,
-        "Yacht": 2,
-        "Wakeboard / Ski": 5,
-        "Performance": 1,
-        "Cruiser / Cabin": 2
+        "Yacht": 2
       },
       "byBrand": {
         "Regal": 1,
@@ -350,23 +350,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 32,
-      "newBoats": 18,
-      "usedBoats": 10,
+      "totalBoats": 31,
+      "newBoats": 17,
+      "usedBoats": 14,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 238683.57,
       "byCondition": {
-        "New": 18,
-        "Used": 10
+        "New": 17,
+        "Used": 14
       },
       "byCategory": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 1
       },
       "byBrand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1
       },
@@ -439,9 +439,9 @@
         "Sea Ray": 3,
         "Baja": 1,
         "Suntracker": 1,
-        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -589,21 +589,21 @@
       "id": "surdyke-yamaha",
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "totalBoats": 105,
-      "newBoats": 74,
+      "totalBoats": 107,
+      "newBoats": 76,
       "usedBoats": 31,
-      "avgPriceNew": 141722.64,
-      "avgPriceUsed": 42077.4,
+      "avgPriceNew": 140520.95,
+      "avgPriceUsed": 41177.4,
       "byCondition": {
-        "New": 74,
+        "New": 76,
         "Used": 31
       },
       "byCategory": {
-        "Pontoon / Tritoon": 22,
+        "Pontoon / Tritoon": 23,
         "Center Console": 9,
         "Cruiser / Cabin": 16,
         "Bowrider": 24,
-        "Performance": 6,
+        "Performance": 7,
         "Yacht": 1,
         "Fishing": 21,
         "Power": 1,
@@ -614,7 +614,8 @@
         "Beneteau": 6,
         "Yamaha Boats": 19,
         "Cobalt Boats": 2,
-        "Scarab": 8,
+        "Scarab": 9,
+        "Sun Tracker": 1,
         "Sundance": 1,
         "Axopar": 11,
         "G3/YAMAHA": 1,
@@ -681,20 +682,20 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1189,
-    "newBoats": 591,
-    "usedBoats": 592,
+    "totalBoats": 1190,
+    "newBoats": 592,
+    "usedBoats": 596,
     "byCondition": {
-      "New": 591,
-      "Used": 592
+      "New": 592,
+      "Used": 596
     },
     "byCategory": {
-      "Pontoon / Tritoon": 251,
+      "Pontoon / Tritoon": 252,
       "Wakeboard / Ski": 166,
       "Center Console": 87,
       "Cruiser / Cabin": 77,
-      "Bowrider": 216,
-      "Performance": 86,
+      "Bowrider": 215,
+      "Performance": 87,
       "Yacht": 37,
       "Fishing": 69,
       "Power": 17,
@@ -704,7 +705,7 @@
       "Chaparral": 62,
       "Godfrey": 58,
       "Four Winns": 52,
-      "Formula": 51,
+      "Formula": 50,
       "Sea Ray": 38,
       "Cobalt": 35,
       "Barletta": 31,
@@ -731,9 +732,9 @@
       "Skater": 12,
       "iKon": 12,
       "Axopar": 11,
+      "Scarab": 10,
       "Starcraft": 10,
       "JC Tritoon": 9,
-      "Scarab": 9,
       "Chris Craft": 8,
       "Yamaha": 8,
       "SEA DOO": 8,
@@ -794,6 +795,7 @@
       "Misty Harbor": 2,
       "Hurricane": 2,
       "Playcraft": 2,
+      "Sun Tracker": 2,
       "PlayCraft": 2,
       "Cobalt Boats": 2,
       "Voyager": 2,
@@ -842,7 +844,6 @@
       "Harris-Kayot": 1,
       "Schaefer Yachts": 1,
       "Nautic Star": 1,
-      "Sun Tracker": 1,
       "Stingray": 1,
       "Ranger": 1,
       "Triton": 1,
@@ -863,6 +864,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261014",
-  "date": "2026-10-14"
+  "scanId": "scan-20261015",
+  "date": "2026-10-15"
 }

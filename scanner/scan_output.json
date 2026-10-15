@@ -1595,13 +1595,13 @@
       "new": 13,
       "used": 35,
       "category": {
+        "Performance": 1,
+        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
         "Fishing": 1,
         "Bowrider": 34,
-        "Yacht": 2,
-        "Wakeboard / Ski": 5,
-        "Performance": 1,
-        "Cruiser / Cabin": 2
+        "Yacht": 2
       },
       "brand": {
         "Regal": 1,
@@ -2283,17 +2283,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 32,
-      "new": 18,
-      "used": 10,
+      "total": 31,
+      "new": 17,
+      "used": 14,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 1
       },
       "brand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1
       },
@@ -2344,24 +2344,24 @@
         ],
         [
           149900,
-          "unknown"
+          "used"
         ],
         [
           144900,
-          "unknown"
+          "used"
         ],
         [
           99900,
-          "unknown"
+          "used"
         ],
         [
           79995,
-          "unknown"
+          "used"
         ]
       ],
       "priceLow": 79995,
       "priceHigh": 914454,
-      "priceQuality": "partial-47pct"
+      "priceQuality": "partial-48pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2582,9 +2582,9 @@
         "Sea Ray": 3,
         "Baja": 1,
         "Suntracker": 1,
-        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -3634,15 +3634,15 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 105,
-      "new": 74,
+      "total": 107,
+      "new": 76,
       "used": 31,
       "category": {
-        "Pontoon / Tritoon": 22,
+        "Pontoon / Tritoon": 23,
         "Center Console": 9,
         "Cruiser / Cabin": 16,
         "Bowrider": 24,
-        "Performance": 6,
+        "Performance": 7,
         "Yacht": 1,
         "Fishing": 21,
         "Power": 1,
@@ -3653,7 +3653,8 @@
         "Beneteau": 6,
         "Yamaha Boats": 19,
         "Cobalt Boats": 2,
-        "Scarab": 8,
+        "Scarab": 9,
+        "Sun Tracker": 1,
         "Sundance": 1,
         "Axopar": 11,
         "G3/YAMAHA": 1,
@@ -3701,6 +3702,10 @@
         ],
         [
           44999,
+          "new"
+        ],
+        [
+          53999,
           "new"
         ],
         [
@@ -3932,10 +3937,6 @@
           "new"
         ],
         [
-          56999,
-          "used"
-        ],
-        [
           66799,
           "new"
         ],
@@ -4034,6 +4035,10 @@
         [
           229999,
           "new"
+        ],
+        [
+          29999,
+          "used"
         ],
         [
           99999,
