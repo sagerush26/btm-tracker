@@ -1120,12 +1120,12 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 101,
+      "total": 100,
       "new": 9,
-      "used": 91,
+      "used": 90,
       "category": {
         "Fishing": 1,
-        "Other": 40,
+        "Other": 39,
         "Bowrider": 8,
         "Center Console": 29,
         "Performance": 19,
@@ -1133,7 +1133,7 @@
         "Cruiser / Cabin": 2
       },
       "brand": {
-        "Skater": 12,
+        "Skater": 11,
         "Sunsation Powerboats": 18,
         "Outerlimits": 3,
         "IRON": 2,
@@ -1205,10 +1205,6 @@
         ],
         [
           199950,
-          "used"
-        ],
-        [
-          1299950,
           "used"
         ],
         [
@@ -1592,13 +1588,13 @@
       "new": 13,
       "used": 33,
       "category": {
-        "Wakeboard / Ski": 5,
-        "Performance": 1,
-        "Yacht": 1,
         "Fishing": 1,
-        "Bowrider": 33,
         "Cruiser / Cabin": 2,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 33,
+        "Pontoon / Tritoon": 3,
+        "Wakeboard / Ski": 5,
+        "Yacht": 1,
+        "Performance": 1
       },
       "brand": {
         "Regal": 1,
@@ -2358,26 +2354,30 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 43,
-      "new": 20,
+      "total": 42,
+      "new": 19,
       "used": 23,
       "category": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 35,
         "Pontoon / Tritoon": 6,
         "Other": 1
       },
       "brand": {
-        "Mastercraft": 27,
+        "Malibu": 1,
+        "Mastercraft": 26,
         "Crest": 3,
         "Supra": 4,
         "Balise": 3,
-        "Malibu": 1,
         "Nauttique": 1,
         "Moomba": 2,
         "Tige Boats": 1,
         "Malibu Boats": 1
       },
       "prices": [
+        [
+          65990,
+          "used"
+        ],
         [
           199893,
           "new"
@@ -2400,14 +2400,6 @@
         ],
         [
           159969,
-          "new"
-        ],
-        [
-          65990,
-          "used"
-        ],
-        [
-          124980,
           "new"
         ],
         [
@@ -2634,11 +2626,11 @@
         ],
         [
           89900,
-          "used"
+          "new"
         ],
         [
           89900,
-          "new"
+          "used"
         ],
         [
           83900,
@@ -2678,11 +2670,11 @@
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           73900,

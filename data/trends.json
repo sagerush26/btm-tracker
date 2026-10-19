@@ -3,10 +3,10 @@
     "Cruiser / Cabin": 39,
     "Bowrider": 72,
     "Performance": 103,
-    "Other": 90,
+    "Other": 91,
     "Center Console": 21,
     "Pontoon / Tritoon": 87,
-    "Wakeboard / Ski": 36,
+    "Wakeboard / Ski": 37,
     "Fishing": 50,
     "Yacht": 13,
     "Power": 1
@@ -14,8 +14,8 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3500,
-    "Used": 2348
+    "New": 3501,
+    "Used": 2349
   },
   "soldByBrand": {
     "Baja": 1,
@@ -26,11 +26,11 @@
     "Bennington": 5,
     "Regal": 3,
     "Crownline": 4,
-    "Mastercraft": 5,
+    "Mastercraft": 6,
     "Cobalt": 5,
     "Sylvan": 3,
     "Godfrey": 6,
-    "Skater": 1,
+    "Skater": 2,
     "MTI": 3,
     "Formula": 13,
     "Manitou": 2,
@@ -73,10 +73,10 @@
     "Heartland Marine": 99,
     "Premier 54 Motorsports": 71,
     "MarineMax": 153,
-    "Performance Boat Center": 151,
+    "Performance Boat Center": 152,
     "Formula Boats of Missouri": 56,
     "Marty's Marine": 109,
-    "Performance Marine Watersports": 82,
+    "Performance Marine Watersports": 83,
     "Stateamind Water Sports": 93,
     "All About Boats": 19,
     "Village Marina & Yacht Club": 59,
@@ -557,6 +557,12 @@
       "totalMarket": 1190,
       "btm": 208,
       "competitors": 982
+    },
+    {
+      "date": "2026-10-19",
+      "totalMarket": 1188,
+      "btm": 208,
+      "competitors": 980
     }
   ],
   "priceTrend": [
@@ -964,29 +970,14 @@
       "date": "2026-10-18",
       "marketAvg": 217134.78,
       "btmAvg": 249692.89
+    },
+    {
+      "date": "2026-10-19",
+      "marketAvg": 216295.66,
+      "btmAvg": 249692.89
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-09-22",
-      "scanId": "scan-20260922",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 8,
-      "previousTotal": 71,
-      "newTotal": 63,
-      "detail": "Inventory decreased by 8 (was 71, now 63). New: 12, Used: 51. Reflects the normal one-day change since the prior scan on 2026-09-21."
-    },
-    {
-      "date": "2026-09-22",
-      "scanId": "scan-20260922",
-      "dealer": "Premier 54 Motorsports",
-      "competitorId": "premier-54",
-      "count": 1,
-      "previousTotal": 87,
-      "newTotal": 86,
-      "detail": "Inventory decreased by 1 (was 87, now 86). New: 52, Used: 34. Reflects the normal one-day change since the prior scan on 2026-09-21."
-    },
     {
       "date": "2026-09-23",
       "scanId": "scan-20260923",
@@ -1466,6 +1457,26 @@
       "previousTotal": 103,
       "newTotal": 102,
       "detail": "Inventory decreased by 1 (was 103, now 102). New: 69, Used: 33. Reflects the normal one-day change since the prior scan on 2026-10-17."
+    },
+    {
+      "date": "2026-10-19",
+      "scanId": "scan-20261019",
+      "dealer": "Performance Boat Center",
+      "competitorId": "performance-boat-center",
+      "count": 1,
+      "previousTotal": 101,
+      "newTotal": 100,
+      "detail": "Inventory decreased by 1 (was 101, now 100). New: 9, Used: 90. Reflects the normal one-day change since the prior scan on 2026-10-18."
+    },
+    {
+      "date": "2026-10-19",
+      "scanId": "scan-20261019",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 43,
+      "newTotal": 42,
+      "detail": "Inventory decreased by 1 (was 43, now 42). New: 19, Used: 23. Reflects the normal one-day change since the prior scan on 2026-10-18."
     }
   ],
   "recentlyAdded": [
@@ -3658,14 +3669,19 @@
       "date": "2026-10-18",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-18 (scan-20261018). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-10-19",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-19 (scan-20261019). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-18",
-    "scanId": "scan-20261018",
-    "marketTotal": 1190,
-    "credibleChangesCount": 7,
-    "soldCount": 1564,
+    "date": "2026-10-19",
+    "scanId": "scan-20261019",
+    "marketTotal": 1188,
+    "credibleChangesCount": 2,
+    "soldCount": 1566,
     "addedCount": 790
   },
   "addedByDealer": {

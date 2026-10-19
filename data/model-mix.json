@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T10:06:00.693350+00:00",
+  "lastUpdated": "2026-10-19T11:29:18.668966+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -130,18 +130,18 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 101,
+      "totalBoats": 100,
       "newBoats": 9,
-      "usedBoats": 91,
+      "usedBoats": 90,
       "avgPriceNew": 510505.56,
-      "avgPriceUsed": 540366.92,
+      "avgPriceUsed": 531927.11,
       "byCondition": {
         "New": 9,
-        "Used": 91
+        "Used": 90
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 40,
+        "Other": 39,
         "Bowrider": 8,
         "Center Console": 29,
         "Performance": 19,
@@ -149,7 +149,7 @@
         "Cruiser / Cabin": 2
       },
       "byBrand": {
-        "Skater": 12,
+        "Skater": 11,
         "Sunsation Powerboats": 18,
         "Outerlimits": 3,
         "IRON": 2,
@@ -217,13 +217,13 @@
         "Used": 33
       },
       "byCategory": {
-        "Wakeboard / Ski": 5,
-        "Performance": 1,
-        "Yacht": 1,
         "Fishing": 1,
-        "Bowrider": 33,
         "Cruiser / Cabin": 2,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 33,
+        "Pontoon / Tritoon": 3,
+        "Wakeboard / Ski": 5,
+        "Yacht": 1,
+        "Performance": 1
       },
       "byBrand": {
         "Regal": 1,
@@ -377,26 +377,26 @@
       "id": "performance-marine",
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "totalBoats": 43,
-      "newBoats": 20,
+      "totalBoats": 42,
+      "newBoats": 19,
       "usedBoats": 23,
-      "avgPriceNew": 185733.28,
+      "avgPriceNew": 189307.0,
       "avgPriceUsed": 130729.13,
       "byCondition": {
-        "New": 20,
+        "New": 19,
         "Used": 23
       },
       "byCategory": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 35,
         "Pontoon / Tritoon": 6,
         "Other": 1
       },
       "byBrand": {
-        "Mastercraft": 27,
+        "Malibu": 1,
+        "Mastercraft": 26,
         "Crest": 3,
         "Supra": 4,
         "Balise": 3,
-        "Malibu": 1,
         "Nauttique": 1,
         "Moomba": 2,
         "Tige Boats": 1,
@@ -684,16 +684,16 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1190,
-    "newBoats": 591,
-    "usedBoats": 597,
+    "totalBoats": 1188,
+    "newBoats": 590,
+    "usedBoats": 596,
     "byCondition": {
-      "New": 591,
-      "Used": 597
+      "New": 590,
+      "Used": 596
     },
     "byCategory": {
       "Pontoon / Tritoon": 250,
-      "Wakeboard / Ski": 173,
+      "Wakeboard / Ski": 172,
       "Center Console": 87,
       "Cruiser / Cabin": 77,
       "Bowrider": 209,
@@ -701,7 +701,7 @@
       "Yacht": 36,
       "Fishing": 69,
       "Power": 17,
-      "Other": 78
+      "Other": 77
     },
     "byBrand": {
       "Chaparral": 62,
@@ -714,7 +714,7 @@
       "Malibu": 31,
       "Crownline": 30,
       "Viaggio": 28,
-      "Mastercraft": 27,
+      "Mastercraft": 26,
       "Tige": 23,
       "Premier": 21,
       "G3": 21,
@@ -731,8 +731,8 @@
       "MasterCraft": 14,
       "MB Sports": 13,
       "Cigarette": 12,
-      "Skater": 12,
       "iKon": 12,
+      "Skater": 11,
       "Axopar": 11,
       "Starcraft": 10,
       "JC Tritoon": 9,
@@ -867,6 +867,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261018",
-  "date": "2026-10-18"
+  "scanId": "scan-20261019",
+  "date": "2026-10-19"
 }
