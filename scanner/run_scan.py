@@ -44,6 +44,18 @@ DEALER_MODULES = {
 OWN_DEALER_ID = "big-thunder-marine"
 
 
+def load_confirmed_counts():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "confirmed_counts.json")
+    try:
+        with open(path) as f:
+            return {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+    except FileNotFoundError:
+        return {}
+
+
+CONFIRMED = load_confirmed_counts()
+
+
 def load_prior_competitors():
     path = os.path.join(DATA_DIR, "competitors.json")
     with open(path) as f:
@@ -91,6 +103,13 @@ def run_one(module_name, dealer_id, prior):
         "priceHigh": None,
         "_carried_forward": True,
     }
+    conf = CONFIRMED.get(dealer_id)
+    if conf and conf.get("total"):
+        # A hand-confirmed count from the dealer's own site beats the older last-scanned count.
+        t = int(conf["total"])
+        n = min(int(p.get("newInventory", 0) or 0), t)
+        carried.update(total=t, new=n, used=t - n)
+        last_err = f"using count confirmed on {conf.get('confirmedOn')} ({t}); {last_err}"
     return carried, last_err
 
 
@@ -137,7 +156,8 @@ def main():
 
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scan_output.json")
     with open(out_path, "w") as f:
-        json.dump({"DEALERS": DEALERS, "failures": failures}, f, indent=2)
+        json.dump({"DEALERS": DEALERS, "failures": failures,
+                   "confirmed": {d: CONFIRMED[d] for d, _ in failures if d in CONFIRMED}}, f, indent=2)
     print(f"\nWrote {out_path}")
     if failures:
         print("Dealers that used carried-forward data:", [d for d, _ in failures])

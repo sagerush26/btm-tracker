@@ -1,0 +1,10 @@
+{
+  "_about": "Counts Sage confirmed by hand on the dealer's own site. Used ONLY on nights the dealer can't be read live (instead of the older last-scanned count). A successful live read always wins. Update or remove an entry when a newer count is confirmed.",
+  "kellys-port": {
+    "total": 106,
+    "confirmedOn": "2026-10-21",
+    "confirmedBy": "Sage",
+    "evidence": "kellysport.com inventory page: \"Showing 1-20 of 106 results\"",
+    "splitNote": "New/used split not visible on the site; new kept at the last live scan's count, used = total - new"
+  }
+}

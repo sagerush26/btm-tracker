@@ -194,7 +194,12 @@ for cid, d in DEALERS.items():
     avgPrice, quality = dealer_avg_info[cid]
     if cid in failed_ids:
         c["scanStatus"] = "carried_forward"
-        c["verificationReason"] = "Live scrape failed after retry; showing last known-good values."
+        conf = _scan_output.get("confirmed", {}).get(cid)
+        if conf:
+            c["verificationReason"] = (f"Site blocks automated reads; showing the count {conf.get('confirmedBy', 'Sage')} confirmed on the "
+                                       f"dealer site on {conf.get('confirmedOn')} ({conf.get('total')}). {conf.get('splitNote', '')}").strip()
+        else:
+            c["verificationReason"] = "Live scrape failed after retry; showing last known-good values."
     else:
         c["scanStatus"] = "verified"
         c["verificationReason"] = "Verified" if quality in ("full","partial-70pct","partial-72pct","partial-82pct","partial-85pct","partial-41pct","partial-48pct") else "Verified (totals/condition from site facets; price is a range-based estimate, not a full listing average)"
