@@ -1569,8 +1569,8 @@
       "name": "Kelly's Port",
       "isOwn": false,
       "total": 106,
-      "new": 63,
-      "used": 43,
+      "new": 59,
+      "used": 47,
       "category": {},
       "brand": {},
       "prices": [],
@@ -1585,12 +1585,12 @@
       "new": 15,
       "used": 32,
       "category": {
-        "Performance": 1,
-        "Bowrider": 35,
-        "Fishing": 1,
         "Pontoon / Tritoon": 3,
-        "Cruiser / Cabin": 1,
         "Wakeboard / Ski": 5,
+        "Bowrider": 35,
+        "Performance": 1,
+        "Fishing": 1,
+        "Cruiser / Cabin": 1,
         "Yacht": 1
       },
       "brand": {
@@ -2268,7 +2268,7 @@
       "name": "Formula Boats of Missouri",
       "isOwn": false,
       "total": 34,
-      "new": 19,
+      "new": 18,
       "used": 15,
       "category": {
         "Center Console": 1,
@@ -2567,11 +2567,11 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Suntracker": 1,
         "JC": 1,
-        "Crest": 1,
+        "Suntracker": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -4258,10 +4258,11 @@
   "confirmed": {
     "kellys-port": {
       "total": 106,
+      "new": 59,
+      "used": 47,
       "confirmedOn": "2026-10-21",
       "confirmedBy": "Sage",
-      "evidence": "kellysport.com inventory page: \"Showing 1-20 of 106 results\"",
-      "splitNote": "New/used split not visible on the site; new kept at the last live scan's count, used = total - new"
+      "evidence": "kellysport.com inventory: \"Showing 1-20 of 106 results\"; New filter 59 results; Pre-owned filter 47 results"
     }
   }
 }

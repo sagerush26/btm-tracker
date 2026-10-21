@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:58:26.735355+00:00",
+  "lastUpdated": "2026-10-21T20:22:39.886277+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -187,13 +187,13 @@
       "name": "Kelly's Port",
       "isOwn": false,
       "totalBoats": 106,
-      "newBoats": 63,
-      "usedBoats": 43,
+      "newBoats": 59,
+      "usedBoats": 47,
       "avgPriceNew": 279375.66,
       "avgPriceUsed": 279375.66,
       "byCondition": {
-        "New": 63,
-        "Used": 43
+        "New": 59,
+        "Used": 47
       },
       "byCategory": {},
       "byBrand": {},
@@ -214,12 +214,12 @@
         "Used": 32
       },
       "byCategory": {
-        "Performance": 1,
-        "Bowrider": 35,
-        "Fishing": 1,
         "Pontoon / Tritoon": 3,
-        "Cruiser / Cabin": 1,
         "Wakeboard / Ski": 5,
+        "Bowrider": 35,
+        "Performance": 1,
+        "Fishing": 1,
+        "Cruiser / Cabin": 1,
         "Yacht": 1
       },
       "byBrand": {
@@ -347,12 +347,12 @@
       "name": "Formula Boats of Missouri",
       "isOwn": false,
       "totalBoats": 34,
-      "newBoats": 19,
+      "newBoats": 18,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 231304.67,
       "byCondition": {
-        "New": 19,
+        "New": 18,
         "Used": 15
       },
       "byCategory": {
@@ -436,11 +436,11 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Suntracker": 1,
         "JC": 1,
-        "Crest": 1,
+        "Suntracker": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -681,11 +681,11 @@
   ],
   "marketTotals": {
     "totalBoats": 1204,
-    "newBoats": 607,
-    "usedBoats": 594,
+    "newBoats": 602,
+    "usedBoats": 598,
     "byCondition": {
-      "New": 607,
-      "Used": 594
+      "New": 602,
+      "Used": 598
     },
     "byCategory": {
       "Pontoon / Tritoon": 255,
@@ -834,8 +834,8 @@
       "Nauttique": 1,
       "Tige Boats": 1,
       "Malibu Boats": 1,
-      "Suntracker": 1,
       "JC": 1,
+      "Suntracker": 1,
       "Ebbtide": 1,
       "Thompson": 1,
       "Harris-Kayot": 1,

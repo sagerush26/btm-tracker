@@ -34935,8 +34935,8 @@
         {
           "competitorId": "kellys-port",
           "totalBoats": 106,
-          "newBoats": 63,
-          "usedBoats": 43,
+          "newBoats": 59,
+          "usedBoats": 47,
           "avgPrice": 279375.66,
           "avgPriceNew": 279375.66,
           "avgPriceUsed": 279375.66,
@@ -34954,12 +34954,12 @@
           "avgPriceUsed": 116268.16,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Performance": 1,
-            "Bowrider": 35,
-            "Fishing": 1,
             "Pontoon / Tritoon": 3,
-            "Cruiser / Cabin": 1,
             "Wakeboard / Ski": 5,
+            "Bowrider": 35,
+            "Performance": 1,
+            "Fishing": 1,
+            "Cruiser / Cabin": 1,
             "Yacht": 1
           },
           "brand": {
@@ -35071,7 +35071,7 @@
         {
           "competitorId": "formula-boats-mo",
           "totalBoats": 34,
-          "newBoats": 19,
+          "newBoats": 18,
           "usedBoats": 15,
           "avgPrice": 274001.5,
           "avgPriceNew": 914454.0,
@@ -35146,11 +35146,11 @@
             "Berkshire": 2,
             "Bennington": 1,
             "Baja": 1,
-            "Suntracker": 1,
             "JC": 1,
-            "Crest": 1,
+            "Suntracker": 1,
             "Four Winns": 2,
             "Ebbtide": 1,
+            "Crest": 1,
             "Lowe": 3,
             "Misty Harbor": 1,
             "Rinker": 1,
@@ -42657,7 +42657,7 @@
       "type": "inventory_decrease",
       "count": 2,
       "description": "Kelly's Port: 108 -> 106 (-2)",
-      "detail": "Inventory decreased by 2 (was 108, now 106). New: 63, Used: 43. Reflects the normal one-day change since the prior scan on 2026-10-20.",
+      "detail": "Inventory decreased by 2 (was 108, now 106). New: 59, Used: 47. Reflects the normal one-day change since the prior scan on 2026-10-20.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
@@ -42702,7 +42702,7 @@
       "type": "inventory_increase",
       "count": 2,
       "description": "Formula Boats of Missouri: 32 -> 34 (+2)",
-      "detail": "Inventory increased by 2 (was 32, now 34). New: 19, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20.",
+      "detail": "Inventory increased by 2 (was 32, now 34). New: 18, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
@@ -42736,5 +42736,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-20."
     }
   ],
-  "lastUpdated": "2026-10-21T19:58:26.735355+00:00"
+  "lastUpdated": "2026-10-21T20:22:39.886277+00:00"
 }

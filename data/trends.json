@@ -14,8 +14,8 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3502,
-    "Used": 2357
+    "New": 3506,
+    "Used": 2355
   },
   "soldByBrand": {
     "Baja": 1,
@@ -1411,7 +1411,7 @@
       "count": 2,
       "previousTotal": 108,
       "newTotal": 106,
-      "detail": "Inventory decreased by 2 (was 108, now 106). New: 63, Used: 43. Reflects the normal one-day change since the prior scan on 2026-10-20."
+      "detail": "Inventory decreased by 2 (was 108, now 106). New: 59, Used: 47. Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
       "date": "2026-10-21",
@@ -1913,7 +1913,7 @@
       "count": 2,
       "previousTotal": 32,
       "newTotal": 34,
-      "detail": "Inventory increased by 2 (was 32, now 34). New: 19, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20."
+      "detail": "Inventory increased by 2 (was 32, now 34). New: 18, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
       "date": "2026-10-21",
@@ -3657,8 +3657,8 @@
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3112,
-    "Used": 2298
+    "New": 3111,
+    "Used": 2300
   },
   "addedByBrand": {
     "Aviara": 5,
