@@ -288,6 +288,19 @@ market_avg_price = round(weighted_sum / market_total, 2) if market_total else 0
 btm_avg_price = next(r["avgPrice"] for r in new_results if r["competitorId"] == "big-thunder-marine")
 competitor_total = market_total - DEALERS["big-thunder-marine"]["total"]
 
+# FIX 2026-10-21: one point per day. A same-day rerun replaces that day's trend points and
+# insight entries instead of adding a second set (which drew false dips on the Trends charts).
+# Also cleans up older duplicate dates, keeping the latest point for each date.
+def _one_per_day(pts):
+    by = {}
+    for x in pts:
+        by[x["date"]] = x
+    return [by[d] for d in sorted(by)]
+trends["inventoryTrend"] = _one_per_day([x for x in trends["inventoryTrend"] if x.get("date") != SCAN_DATE])
+trends["priceTrend"] = _one_per_day([x for x in trends["priceTrend"] if x.get("date") != SCAN_DATE])
+if _is_same_day_rerun:
+    trends["insights"] = [x for x in trends["insights"] if x.get("date") != SCAN_DATE]
+
 trends["inventoryTrend"].append({
     "date": SCAN_DATE, "totalMarket": market_total,
     "btm": DEALERS["big-thunder-marine"]["total"], "competitors": competitor_total,
