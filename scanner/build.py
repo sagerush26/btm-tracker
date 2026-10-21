@@ -197,7 +197,7 @@ for cid, d in DEALERS.items():
         conf = _scan_output.get("confirmed", {}).get(cid)
         if conf:
             c["verificationReason"] = (f"Site blocks automated reads; showing the count {conf.get('confirmedBy', 'Sage')} confirmed on the "
-                                       f"dealer site on {conf.get('confirmedOn')} ({conf.get('total')}). {conf.get('splitNote', '')}").strip()
+                                       f"dealer site on {conf.get('confirmedOn')} ({conf.get('total')}: {conf.get('new')} new / {conf.get('used')} used).")
         else:
             c["verificationReason"] = "Live scrape failed after retry; showing last known-good values."
     else:

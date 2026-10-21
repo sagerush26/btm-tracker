@@ -107,8 +107,12 @@ def run_one(module_name, dealer_id, prior):
     if conf and conf.get("total"):
         # A hand-confirmed count from the dealer's own site beats the older last-scanned count.
         t = int(conf["total"])
-        n = min(int(p.get("newInventory", 0) or 0), t)
-        carried.update(total=t, new=n, used=t - n)
+        if conf.get("new") is not None and conf.get("used") is not None:
+            n, u = int(conf["new"]), int(conf["used"])
+        else:
+            n = min(int(p.get("newInventory", 0) or 0), t)
+            u = t - n
+        carried.update(total=t, new=n, used=u)
         last_err = f"using count confirmed on {conf.get('confirmedOn')} ({t}); {last_err}"
     return carried, last_err
 
