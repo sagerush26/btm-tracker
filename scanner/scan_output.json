@@ -1585,13 +1585,13 @@
       "new": 15,
       "used": 32,
       "category": {
-        "Bowrider": 35,
-        "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 1,
-        "Pontoon / Tritoon": 3,
         "Performance": 1,
-        "Yacht": 1,
-        "Fishing": 1
+        "Bowrider": 35,
+        "Fishing": 1,
+        "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 1,
+        "Wakeboard / Ski": 5,
+        "Yacht": 1
       },
       "brand": {
         "Carver": 1,
@@ -2268,7 +2268,7 @@
       "name": "Formula Boats of Missouri",
       "isOwn": false,
       "total": 34,
-      "new": 18,
+      "new": 19,
       "used": 15,
       "category": {
         "Center Console": 1,
@@ -2567,8 +2567,8 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "JC": 1,
         "Suntracker": 1,
+        "JC": 1,
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
@@ -2670,11 +2670,11 @@
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           74900,

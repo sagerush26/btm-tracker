@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:40:43.539919+00:00",
+  "lastUpdated": "2026-10-21T19:58:26.735355+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -214,13 +214,13 @@
         "Used": 32
       },
       "byCategory": {
-        "Bowrider": 35,
-        "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 1,
-        "Pontoon / Tritoon": 3,
         "Performance": 1,
-        "Yacht": 1,
-        "Fishing": 1
+        "Bowrider": 35,
+        "Fishing": 1,
+        "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 1,
+        "Wakeboard / Ski": 5,
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -347,12 +347,12 @@
       "name": "Formula Boats of Missouri",
       "isOwn": false,
       "totalBoats": 34,
-      "newBoats": 18,
+      "newBoats": 19,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 231304.67,
       "byCondition": {
-        "New": 18,
+        "New": 19,
         "Used": 15
       },
       "byCategory": {
@@ -436,8 +436,8 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "JC": 1,
         "Suntracker": 1,
+        "JC": 1,
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
@@ -681,10 +681,10 @@
   ],
   "marketTotals": {
     "totalBoats": 1204,
-    "newBoats": 606,
+    "newBoats": 607,
     "usedBoats": 594,
     "byCondition": {
-      "New": 606,
+      "New": 607,
       "Used": 594
     },
     "byCategory": {
@@ -834,8 +834,8 @@
       "Nauttique": 1,
       "Tige Boats": 1,
       "Malibu Boats": 1,
-      "JC": 1,
       "Suntracker": 1,
+      "JC": 1,
       "Ebbtide": 1,
       "Thompson": 1,
       "Harris-Kayot": 1,

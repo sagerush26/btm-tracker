@@ -259,22 +259,10 @@
       "competitors": 971
     },
     {
-      "date": "2026-09-05",
-      "totalMarket": 1162,
-      "btm": 191,
-      "competitors": 971
-    },
-    {
       "date": "2026-09-06",
       "totalMarket": 1161,
       "btm": 190,
       "competitors": 971
-    },
-    {
-      "date": "2026-09-07",
-      "totalMarket": 1160,
-      "btm": 190,
-      "competitors": 970
     },
     {
       "date": "2026-09-07",
@@ -416,12 +404,6 @@
     },
     {
       "date": "2026-09-30",
-      "totalMarket": 1141,
-      "btm": 196,
-      "competitors": 945
-    },
-    {
-      "date": "2026-09-30",
       "totalMarket": 1151,
       "btm": 196,
       "competitors": 955
@@ -461,18 +443,6 @@
       "totalMarket": 1172,
       "btm": 198,
       "competitors": 974
-    },
-    {
-      "date": "2026-10-07",
-      "totalMarket": 1176,
-      "btm": 198,
-      "competitors": 978
-    },
-    {
-      "date": "2026-10-07",
-      "totalMarket": 1167,
-      "btm": 197,
-      "competitors": 970
     },
     {
       "date": "2026-10-07",
@@ -518,18 +488,6 @@
     },
     {
       "date": "2026-10-14",
-      "totalMarket": 1187,
-      "btm": 209,
-      "competitors": 978
-    },
-    {
-      "date": "2026-10-14",
-      "totalMarket": 1189,
-      "btm": 210,
-      "competitors": 979
-    },
-    {
-      "date": "2026-10-14",
       "totalMarket": 1189,
       "btm": 210,
       "competitors": 979
@@ -569,12 +527,6 @@
       "totalMarket": 1205,
       "btm": 208,
       "competitors": 997
-    },
-    {
-      "date": "2026-10-21",
-      "totalMarket": 1189,
-      "btm": 208,
-      "competitors": 981
     },
     {
       "date": "2026-10-21",
@@ -740,18 +692,8 @@
       "btmAvg": 287978.25
     },
     {
-      "date": "2026-09-05",
-      "marketAvg": 219366.43,
-      "btmAvg": 287978.25
-    },
-    {
       "date": "2026-09-06",
       "marketAvg": 219063.34,
-      "btmAvg": 289291.66
-    },
-    {
-      "date": "2026-09-07",
-      "marketAvg": 219148.82,
       "btmAvg": 289291.66
     },
     {
@@ -871,11 +813,6 @@
     },
     {
       "date": "2026-09-30",
-      "marketAvg": 220777.07,
-      "btmAvg": 268640.97
-    },
-    {
-      "date": "2026-09-30",
       "marketAvg": 218735.3,
       "btmAvg": 268640.97
     },
@@ -908,16 +845,6 @@
       "date": "2026-10-06",
       "marketAvg": 217420.76,
       "btmAvg": 267034.08
-    },
-    {
-      "date": "2026-10-07",
-      "marketAvg": 216564.84,
-      "btmAvg": 267034.08
-    },
-    {
-      "date": "2026-10-07",
-      "marketAvg": 216939.9,
-      "btmAvg": 267002.07
     },
     {
       "date": "2026-10-07",
@@ -956,16 +883,6 @@
     },
     {
       "date": "2026-10-14",
-      "marketAvg": 217642.1,
-      "btmAvg": 254557.05
-    },
-    {
-      "date": "2026-10-14",
-      "marketAvg": 219089.86,
-      "btmAvg": 255016.31
-    },
-    {
-      "date": "2026-10-14",
       "marketAvg": 219089.86,
       "btmAvg": 255016.31
     },
@@ -998,11 +915,6 @@
       "date": "2026-10-20",
       "marketAvg": 215753.37,
       "btmAvg": 249692.89
-    },
-    {
-      "date": "2026-10-21",
-      "marketAvg": 218486.0,
-      "btmAvg": 250431.81
     },
     {
       "date": "2026-10-21",
@@ -2001,7 +1913,7 @@
       "count": 2,
       "previousTotal": 32,
       "newTotal": 34,
-      "detail": "Inventory increased by 2 (was 32, now 34). New: 18, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20."
+      "detail": "Inventory increased by 2 (was 32, now 34). New: 19, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
       "date": "2026-10-21",
@@ -3717,11 +3629,6 @@
       "date": "2026-10-21",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-21 (scan-20261021). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
-    },
-    {
-      "date": "2026-10-21",
-      "type": "data_quality",
-      "text": "Nightly scan completed 2026-10-21 (scan-20261021). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
@@ -3750,7 +3657,7 @@
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3111,
+    "New": 3112,
     "Used": 2298
   },
   "addedByBrand": {

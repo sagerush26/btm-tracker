@@ -34954,13 +34954,13 @@
           "avgPriceUsed": 116268.16,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Bowrider": 35,
-            "Wakeboard / Ski": 5,
-            "Cruiser / Cabin": 1,
-            "Pontoon / Tritoon": 3,
             "Performance": 1,
-            "Yacht": 1,
-            "Fishing": 1
+            "Bowrider": 35,
+            "Fishing": 1,
+            "Pontoon / Tritoon": 3,
+            "Cruiser / Cabin": 1,
+            "Wakeboard / Ski": 5,
+            "Yacht": 1
           },
           "brand": {
             "Carver": 1,
@@ -35071,7 +35071,7 @@
         {
           "competitorId": "formula-boats-mo",
           "totalBoats": 34,
-          "newBoats": 18,
+          "newBoats": 19,
           "usedBoats": 15,
           "avgPrice": 274001.5,
           "avgPriceNew": 914454.0,
@@ -35146,8 +35146,8 @@
             "Berkshire": 2,
             "Bennington": 1,
             "Baja": 1,
-            "JC": 1,
             "Suntracker": 1,
+            "JC": 1,
             "Crest": 1,
             "Four Winns": 2,
             "Ebbtide": 1,
@@ -42702,7 +42702,7 @@
       "type": "inventory_increase",
       "count": 2,
       "description": "Formula Boats of Missouri: 32 -> 34 (+2)",
-      "detail": "Inventory increased by 2 (was 32, now 34). New: 18, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20.",
+      "detail": "Inventory increased by 2 (was 32, now 34). New: 19, Used: 15. Reflects the normal one-day change since the prior scan on 2026-10-20.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-20."
     },
     {
@@ -42736,5 +42736,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-20."
     }
   ],
-  "lastUpdated": "2026-10-21T19:40:43.539919+00:00"
+  "lastUpdated": "2026-10-21T19:58:26.735355+00:00"
 }
