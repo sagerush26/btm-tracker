@@ -88,7 +88,7 @@
     "Bowrider": 616,
     "Performance": 77,
     "Wakeboard / Ski": 124,
-    "Pontoon / Tritoon": 361,
+    "Pontoon / Tritoon": 362,
     "Center Console": 69,
     "Other": 133,
     "Yacht": 10,
@@ -533,6 +533,12 @@
       "totalMarket": 1204,
       "btm": 207,
       "competitors": 997
+    },
+    {
+      "date": "2026-10-22",
+      "totalMarket": 1205,
+      "btm": 207,
+      "competitors": 998
     }
   ],
   "priceTrend": [
@@ -919,6 +925,11 @@
     {
       "date": "2026-10-21",
       "marketAvg": 214828.71,
+      "btmAvg": 251351.94
+    },
+    {
+      "date": "2026-10-22",
+      "marketAvg": 213168.15,
       "btmAvg": 251351.94
     }
   ],
@@ -1428,16 +1439,6 @@
     {
       "date": "2026-10-04",
       "scanId": "scan-20261004",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 2,
-      "previousTotal": 196,
-      "newTotal": 198,
-      "detail": "Inventory increased by 2 (was 196, now 198). New: 110, Used: 88. Reflects the normal one-day change since the prior scan on 2026-10-03."
-    },
-    {
-      "date": "2026-10-04",
-      "scanId": "scan-20261004",
       "dealer": "Performance Boat Center",
       "competitorId": "performance-boat-center",
       "count": 1,
@@ -1924,6 +1925,16 @@
       "previousTotal": 67,
       "newTotal": 68,
       "detail": "Inventory increased by 1 (was 67, now 68). New: 23, Used: 45. Reflects the normal one-day change since the prior scan on 2026-10-20."
+    },
+    {
+      "date": "2026-10-22",
+      "scanId": "scan-20261022",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 1,
+      "previousTotal": 68,
+      "newTotal": 69,
+      "detail": "Inventory increased by 1 (was 68, now 69). New: 24, Used: 45. Reflects the normal one-day change since the prior scan on 2026-10-21."
     }
   ],
   "insights": [
@@ -3629,15 +3640,20 @@
       "date": "2026-10-21",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-21 (scan-20261021). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-10-22",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-22 (scan-20261022). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-21",
-    "scanId": "scan-20261021",
-    "marketTotal": 1204,
-    "credibleChangesCount": 8,
+    "date": "2026-10-22",
+    "scanId": "scan-20261022",
+    "marketTotal": 1205,
+    "credibleChangesCount": 1,
     "soldCount": 1573,
-    "addedCount": 813
+    "addedCount": 814
   },
   "addedByDealer": {
     "Big Thunder Marine": 78,
@@ -3646,7 +3662,7 @@
     "Marty's Marine": 111,
     "Iguana Marine Group": 72,
     "Premier Advantage Marine": 29,
-    "Heartland Marine": 69,
+    "Heartland Marine": 70,
     "Premier 54 Motorsports": 90,
     "MarineMax": 54,
     "Performance Boat Center": 41,
@@ -3657,7 +3673,7 @@
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3111,
+    "New": 3112,
     "Used": 2300
   },
   "addedByBrand": {
@@ -3738,7 +3754,7 @@
     "Wellcraft": 12,
     "Alumacraft": 64,
     "Ranger Boats": 2,
-    "Sylvan": 5,
+    "Sylvan": 6,
     "Regency": 2,
     "Pursuit": 1,
     "Starcraft": 10,

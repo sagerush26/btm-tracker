@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:22:39.886277+00:00",
+  "lastUpdated": "2026-10-22T10:50:28.254400+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -214,13 +214,13 @@
         "Used": 32
       },
       "byCategory": {
-        "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 35,
-        "Performance": 1,
         "Fishing": 1,
         "Cruiser / Cabin": 1,
-        "Yacht": 1
+        "Pontoon / Tritoon": 3,
+        "Yacht": 1,
+        "Wakeboard / Ski": 5,
+        "Performance": 1,
+        "Bowrider": 35
       },
       "byBrand": {
         "Carver": 1,
@@ -405,17 +405,17 @@
       "id": "heartland-marine",
       "name": "Heartland Marine",
       "isOwn": false,
-      "totalBoats": 68,
-      "newBoats": 23,
+      "totalBoats": 69,
+      "newBoats": 24,
       "usedBoats": 45,
-      "avgPriceNew": 92508.7,
+      "avgPriceNew": 94483.33,
       "avgPriceUsed": 46235.53,
       "byCondition": {
-        "New": 23,
+        "New": 24,
         "Used": 45
       },
       "byCategory": {
-        "Pontoon / Tritoon": 29,
+        "Pontoon / Tritoon": 30,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 24,
@@ -427,7 +427,7 @@
         "Chaparral": 8,
         "Cobalt": 2,
         "Manitou": 3,
-        "Sylvan": 16,
+        "Sylvan": 17,
         "Crownline": 4,
         "Formula": 3,
         "Sea Ray": 4,
@@ -436,11 +436,11 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "JC": 1,
         "Suntracker": 1,
+        "JC": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Crest": 1,
         "Lowe": 3,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -591,7 +591,7 @@
       "totalBoats": 102,
       "newBoats": 69,
       "usedBoats": 33,
-      "avgPriceNew": 144820.91,
+      "avgPriceNew": 118587.15,
       "avgPriceUsed": 42494.38,
       "byCondition": {
         "New": 69,
@@ -680,15 +680,15 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1204,
-    "newBoats": 602,
+    "totalBoats": 1205,
+    "newBoats": 603,
     "usedBoats": 598,
     "byCondition": {
-      "New": 602,
+      "New": 603,
       "Used": 598
     },
     "byCategory": {
-      "Pontoon / Tritoon": 255,
+      "Pontoon / Tritoon": 256,
       "Wakeboard / Ski": 173,
       "Center Console": 87,
       "Cruiser / Cabin": 77,
@@ -721,8 +721,8 @@
       "MTI": 18,
       "SunCatcher": 18,
       "Yamaha Boats": 17,
+      "Sylvan": 17,
       "Alumacraft": 16,
-      "Sylvan": 16,
       "Monterey": 14,
       "MasterCraft": 14,
       "MB Sports": 13,
@@ -834,8 +834,8 @@
       "Nauttique": 1,
       "Tige Boats": 1,
       "Malibu Boats": 1,
-      "JC": 1,
       "Suntracker": 1,
+      "JC": 1,
       "Ebbtide": 1,
       "Thompson": 1,
       "Harris-Kayot": 1,
@@ -860,6 +860,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261021",
-  "date": "2026-10-21"
+  "scanId": "scan-20261022",
+  "date": "2026-10-22"
 }
