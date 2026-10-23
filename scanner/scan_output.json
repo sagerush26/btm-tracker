@@ -32,7 +32,7 @@
         "Schaefer": 1,
         "Tige": 20,
         "Amp": 1,
-        "OPUS": 2,
+        "Opus": 2,
         "Donzi": 6,
         "Regal": 3,
         "Cobalt": 3,
@@ -890,13 +890,13 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 49,
+      "total": 50,
       "new": 22,
-      "used": 27,
+      "used": 28,
       "category": {
         "Cruiser / Cabin": 18,
         "Yacht": 13,
-        "Performance": 6,
+        "Performance": 7,
         "Fishing": 3,
         "Other": 2,
         "Wakeboard / Ski": 1,
@@ -904,7 +904,7 @@
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 24,
+        "Sea Ray": 25,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -937,7 +937,7 @@
           "used"
         ],
         [
-          64900,
+          57900,
           "used"
         ],
         [
@@ -954,6 +954,10 @@
         ],
         [
           165000,
+          "used"
+        ],
+        [
+          149900,
           "used"
         ],
         [
@@ -1124,12 +1128,12 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 98,
+      "total": 99,
       "new": 9,
-      "used": 87,
+      "used": 88,
       "category": {
         "Fishing": 1,
-        "Other": 40,
+        "Other": 41,
         "Bowrider": 8,
         "Center Console": 28,
         "Performance": 17,
@@ -1161,6 +1165,7 @@
         "Ranger Boats": 1,
         "Chris Craft": 1,
         "Active": 1,
+        "Princecraft": 1,
         "Mystic": 1,
         "Mercury Marine": 2,
         "Statement": 1,
@@ -1325,10 +1330,6 @@
           "used"
         ],
         [
-          299950,
-          "used"
-        ],
-        [
           114950,
           "used"
         ],
@@ -1398,6 +1399,10 @@
         ],
         [
           99950,
+          "used"
+        ],
+        [
+          34950,
           "used"
         ],
         [
@@ -1581,17 +1586,17 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 47,
+      "total": 48,
       "new": 15,
-      "used": 32,
+      "used": 33,
       "category": {
-        "Fishing": 1,
-        "Cruiser / Cabin": 1,
-        "Pontoon / Tritoon": 3,
         "Yacht": 1,
-        "Wakeboard / Ski": 5,
+        "Bowrider": 35,
         "Performance": 1,
-        "Bowrider": 35
+        "Fishing": 1,
+        "Wakeboard / Ski": 5,
+        "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2
       },
       "brand": {
         "Carver": 1,
@@ -1609,7 +1614,8 @@
         "Larson": 1,
         "Rinker": 1,
         "Yamaha Boats": 1,
-        "Regal": 1
+        "Regal": 1,
+        "Silverton": 1
       },
       "prices": [
         [
@@ -1739,11 +1745,15 @@
         [
           99995,
           "used"
+        ],
+        [
+          69900,
+          "used"
         ]
       ],
       "priceLow": 9800,
       "priceHigh": 479000,
-      "priceQuality": "partial-68pct"
+      "priceQuality": "partial-69pct"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -1753,11 +1763,11 @@
       "used": 34,
       "category": {
         "Pontoon / Tritoon": 34,
-        "Wakeboard / Ski": 28,
+        "Wakeboard / Ski": 22,
         "Center Console": 5,
         "Cruiser / Cabin": 4,
-        "Bowrider": 10,
-        "Performance": 2,
+        "Bowrider": 13,
+        "Performance": 5,
         "Yacht": 8,
         "Fishing": 9,
         "Other": 1
@@ -2268,7 +2278,7 @@
       "name": "Formula Boats of Missouri",
       "isOwn": false,
       "total": 34,
-      "new": 18,
+      "new": 19,
       "used": 15,
       "category": {
         "Center Console": 1,
@@ -2311,7 +2321,7 @@
           "used"
         ],
         [
-          199995,
+          189995,
           "used"
         ],
         [
@@ -2323,15 +2333,15 @@
           "used"
         ],
         [
-          156000,
-          "used"
-        ],
-        [
-          149900,
+          149000,
           "used"
         ],
         [
           144900,
+          "used"
+        ],
+        [
+          144000,
           "used"
         ],
         [
@@ -2357,187 +2367,12 @@
       "total": 42,
       "new": 19,
       "used": 23,
-      "category": {
-        "Wakeboard / Ski": 35,
-        "Pontoon / Tritoon": 6,
-        "Other": 1
-      },
-      "brand": {
-        "Malibu": 1,
-        "Mastercraft": 26,
-        "Crest": 3,
-        "Supra": 4,
-        "Balise": 3,
-        "Nauttique": 1,
-        "Moomba": 2,
-        "Tige Boats": 1,
-        "Malibu Boats": 1
-      },
-      "prices": [
-        [
-          65990,
-          "used"
-        ],
-        [
-          199893,
-          "new"
-        ],
-        [
-          86990,
-          "new"
-        ],
-        [
-          135990,
-          "used"
-        ],
-        [
-          114973,
-          "new"
-        ],
-        [
-          168846,
-          "new"
-        ],
-        [
-          159969,
-          "new"
-        ],
-        [
-          253370,
-          "new"
-        ],
-        [
-          74990,
-          "used"
-        ],
-        [
-          59990,
-          "used"
-        ],
-        [
-          129990,
-          "used"
-        ],
-        [
-          118990,
-          "used"
-        ],
-        [
-          119990,
-          "used"
-        ],
-        [
-          119990,
-          "used"
-        ],
-        [
-          174990,
-          "used"
-        ],
-        [
-          124990,
-          "used"
-        ],
-        [
-          159990,
-          "used"
-        ],
-        [
-          174990,
-          "used"
-        ],
-        [
-          435990,
-          "used"
-        ],
-        [
-          239267,
-          "new"
-        ],
-        [
-          69769,
-          "new"
-        ],
-        [
-          77990,
-          "used"
-        ],
-        [
-          49990,
-          "used"
-        ],
-        [
-          54990,
-          "used"
-        ],
-        [
-          204990,
-          "used"
-        ],
-        [
-          183554,
-          "new"
-        ],
-        [
-          119990,
-          "used"
-        ],
-        [
-          174859,
-          "new"
-        ],
-        [
-          145990,
-          "used"
-        ],
-        [
-          143954,
-          "new"
-        ],
-        [
-          177549,
-          "new"
-        ],
-        [
-          145990,
-          "used"
-        ],
-        [
-          49990,
-          "used"
-        ],
-        [
-          412815,
-          "new"
-        ],
-        [
-          173534,
-          "new"
-        ],
-        [
-          146612,
-          "new"
-        ],
-        [
-          165680,
-          "new"
-        ],
-        [
-          159990,
-          "used"
-        ],
-        [
-          346585,
-          "new"
-        ],
-        [
-          99990,
-          "used"
-        ]
-      ],
-      "priceLow": 49990,
-      "priceHigh": 435990,
-      "priceQuality": "full"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
@@ -2567,8 +2402,8 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Suntracker": 1,
         "JC": 1,
+        "Suntracker": 1,
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
@@ -4237,6 +4072,10 @@
     [
       "kellys-port",
       "using count confirmed on 2026-10-21 (106); Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
+    ],
+    [
+      "performance-marine",
+      "scrape() returned total <= 0"
     ]
   ],
   "confirmed": {
