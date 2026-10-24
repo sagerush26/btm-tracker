@@ -3,20 +3,20 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 207,
+      "total": 212,
       "new": 111,
-      "used": 96,
+      "used": 101,
       "category": {
         "Pontoon / Tritoon": 48,
-        "Wakeboard / Ski": 52,
+        "Wakeboard / Ski": 53,
         "Center Console": 36,
-        "Cruiser / Cabin": 20,
+        "Cruiser / Cabin": 23,
         "Bowrider": 18,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
         "Power": 11,
-        "Other": 5
+        "Other": 6
       },
       "brand": {
         "Dutch American": 2,
@@ -26,7 +26,7 @@
         "Pirelli": 1,
         "Chris Craft": 7,
         "Monterey": 10,
-        "Sea Ray": 8,
+        "Sea Ray": 9,
         "Jeanneau": 1,
         "YOT": 2,
         "Schaefer": 1,
@@ -34,12 +34,14 @@
         "Amp": 1,
         "Opus": 2,
         "Donzi": 6,
+        "Formula": 6,
         "Regal": 3,
         "Cobalt": 3,
         "Midnight Express": 1,
         "Anthem": 2,
         "Unknown": 1,
         "Sunsation": 1,
+        "Dock & Jetski Dock": 1,
         "Concept": 1,
         "Navan": 1,
         "Boston Whaler": 1,
@@ -49,9 +51,8 @@
         "JC Tritoon": 9,
         "Montara": 2,
         "MB Sports": 12,
-        "MasterCraft": 9,
+        "MasterCraft": 10,
         "Outerlimits": 1,
-        "Formula": 5,
         "ATX": 5,
         "Evotti": 3,
         "Viaggio": 28,
@@ -65,7 +66,7 @@
         "Crest": 1,
         "Moomba": 1,
         "Princecraft": 1,
-        "Chaparral": 1,
+        "Chaparral": 2,
         "Harris FloteBote": 1,
         "Correct Craft": 1,
         "SEA DOO": 8,
@@ -227,6 +228,10 @@
           "new"
         ],
         [
+          349999,
+          "used"
+        ],
+        [
           349900,
           "used"
         ],
@@ -240,6 +245,10 @@
         ],
         [
           319997,
+          "used"
+        ],
+        [
+          319900,
           "used"
         ],
         [
@@ -293,6 +302,10 @@
         [
           251390,
           "new"
+        ],
+        [
+          250000,
+          "used"
         ],
         [
           249900,
@@ -489,6 +502,10 @@
         [
           141030,
           "new"
+        ],
+        [
+          139900,
+          "used"
         ],
         [
           139900,
@@ -805,6 +822,10 @@
         [
           170220,
           "new"
+        ],
+        [
+          119900,
+          "used"
         ],
         [
           25997,
@@ -1128,15 +1149,15 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 99,
+      "total": 100,
       "new": 9,
-      "used": 88,
+      "used": 89,
       "category": {
         "Fishing": 1,
         "Other": 41,
         "Bowrider": 8,
         "Center Console": 28,
-        "Performance": 17,
+        "Performance": 18,
         "Power": 2,
         "Cruiser / Cabin": 2
       },
@@ -1150,7 +1171,7 @@
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
-        "Cigarette": 8,
+        "Cigarette": 9,
         "Monterey": 2,
         "Concept": 1,
         "Fountain": 7,
@@ -1590,13 +1611,13 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Yacht": 1,
-        "Bowrider": 35,
+        "Cruiser / Cabin": 2,
         "Performance": 1,
+        "Bowrider": 35,
         "Fishing": 1,
-        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
-        "Cruiser / Cabin": 2
+        "Yacht": 1,
+        "Wakeboard / Ski": 5
       },
       "brand": {
         "Carver": 1,
@@ -2101,15 +2122,15 @@
     "premier-advantage": {
       "name": "Premier Advantage Marine",
       "isOwn": false,
-      "total": 72,
+      "total": 74,
       "new": 12,
-      "used": 60,
+      "used": 62,
       "category": {
         "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
-        "Cruiser / Cabin": 6,
-        "Bowrider": 37,
+        "Cruiser / Cabin": 7,
+        "Bowrider": 38,
         "Performance": 0,
         "Yacht": 0,
         "Fishing": 16,
@@ -2117,6 +2138,7 @@
         "Other": 0
       },
       "brand": {
+        "Fountain": 1,
         "Four Winns": 33,
         "Sea Ray": 1,
         "Regal": 1,
@@ -2129,6 +2151,10 @@
         "Alumacraft": 16
       },
       "prices": [
+        [
+          64900,
+          "used"
+        ],
         [
           239995,
           "new"
@@ -2191,6 +2217,10 @@
         ],
         [
           22900,
+          "used"
+        ],
+        [
+          24900,
           "used"
         ],
         [
@@ -2272,24 +2302,25 @@
       ],
       "priceLow": 9900,
       "priceHigh": 239995,
-      "priceQuality": "partial-49pct"
+      "priceQuality": "partial-50pct"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 34,
+      "total": 35,
       "new": 19,
-      "used": 15,
+      "used": 16,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
         "Bowrider": 29,
-        "Other": 1
+        "Other": 2
       },
       "brand": {
         "Formula": 32,
         "Cobalt": 1,
-        "Regal": 1
+        "Regal": 1,
+        "Chaparral": 1
       },
       "prices": [
         [
@@ -2297,7 +2328,7 @@
           "new"
         ],
         [
-          614000,
+          599995,
           "used"
         ],
         [
@@ -2355,11 +2386,15 @@
         [
           79995,
           "used"
+        ],
+        [
+          69995,
+          "used"
         ]
       ],
-      "priceLow": 79995,
+      "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-47pct"
+      "priceQuality": "partial-49pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2377,14 +2412,14 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 69,
+      "total": 67,
       "new": 24,
-      "used": 45,
+      "used": 43,
       "category": {
         "Pontoon / Tritoon": 30,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 24,
+        "Bowrider": 22,
         "Power": 1,
         "Other": 12
       },
@@ -2394,7 +2429,7 @@
         "Cobalt": 2,
         "Manitou": 3,
         "Sylvan": 17,
-        "Crownline": 4,
+        "Crownline": 3,
         "Formula": 3,
         "Sea Ray": 4,
         "Regal": 2,
@@ -2407,7 +2442,7 @@
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Lowe": 3,
+        "Lowe": 2,
         "Misty Harbor": 1,
         "Rinker": 1,
         "Hurricane": 2,
@@ -2452,7 +2487,7 @@
           "new"
         ],
         [
-          109900,
+          114900,
           "new"
         ],
         [
@@ -2616,10 +2651,6 @@
           "used"
         ],
         [
-          24900,
-          "used"
-        ],
-        [
           23900,
           "used"
         ],
@@ -2637,10 +2668,6 @@
         ],
         [
           22900,
-          "used"
-        ],
-        [
-          19900,
           "used"
         ],
         [
@@ -3480,19 +3507,19 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 102,
+      "total": 101,
       "new": 69,
-      "used": 33,
+      "used": 32,
       "category": {
-        "Pontoon / Tritoon": 24,
+        "Pontoon / Tritoon": 22,
         "Center Console": 9,
         "Cruiser / Cabin": 16,
-        "Bowrider": 20,
+        "Bowrider": 19,
         "Performance": 6,
         "Yacht": 1,
-        "Fishing": 22,
+        "Fishing": 23,
         "Power": 1,
-        "Other": 3
+        "Other": 4
       },
       "brand": {
         "Beneteau": 6,
@@ -3500,24 +3527,23 @@
         "Yamaha Boats": 16,
         "Scarab": 7,
         "SunCatcher": 18,
-        "Sun Tracker": 2,
-        "G3": 19,
+        "Sun Tracker": 1,
+        "G3": 18,
         "Sundance": 1,
         "Axopar": 11,
         "RANGER": 1,
+        "Yamaha": 6,
         "Bayliner": 1,
         "Four Winns": 2,
         "Nitro": 1,
         "Voyager": 2,
         "LOWE": 1,
-        "Yamaha": 4,
         "Bass Cat": 1,
-        "Crownline": 1,
         "Tahoe\u00ae": 1,
         "FORMULA": 1,
+        "PLAYCRAFT": 1,
         "Ranger Boats": 1,
         "Fountain": 1,
-        "Robalo": 1,
         "Tracker\u00ae Boats": 1
       },
       "prices": [
@@ -3531,6 +3557,10 @@
         ],
         [
           18999,
+          "used"
+        ],
+        [
+          84999,
           "used"
         ],
         [
@@ -3591,6 +3621,10 @@
         ],
         [
           56999,
+          "used"
+        ],
+        [
+          89999,
           "used"
         ],
         [
@@ -3690,10 +3724,6 @@
           "new"
         ],
         [
-          23999,
-          "used"
-        ],
-        [
           24999,
           "used"
         ],
@@ -3751,6 +3781,10 @@
         ],
         [
           23999,
+          "used"
+        ],
+        [
+          10999,
           "used"
         ],
         [
@@ -3862,24 +3896,12 @@
           "new"
         ],
         [
-          149999,
-          "used"
-        ],
-        [
           14499,
-          "used"
-        ],
-        [
-          84999,
           "used"
         ],
         [
           41999,
           "new"
-        ],
-        [
-          53999,
-          "used"
         ],
         [
           25999,
