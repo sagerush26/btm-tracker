@@ -3,12 +3,12 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 212,
+      "total": 213,
       "new": 111,
-      "used": 101,
+      "used": 102,
       "category": {
         "Pontoon / Tritoon": 48,
-        "Wakeboard / Ski": 53,
+        "Wakeboard / Ski": 54,
         "Center Console": 36,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
@@ -30,7 +30,7 @@
         "Jeanneau": 1,
         "YOT": 2,
         "Schaefer": 1,
-        "Tige": 20,
+        "Tige": 21,
         "Amp": 1,
         "Opus": 2,
         "Donzi": 6,
@@ -630,6 +630,10 @@
         [
           95990,
           "new"
+        ],
+        [
+          94997,
+          "used"
         ],
         [
           93760,
@@ -1611,12 +1615,12 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Cruiser / Cabin": 2,
-        "Performance": 1,
-        "Bowrider": 35,
         "Fishing": 1,
-        "Pontoon / Tritoon": 3,
         "Yacht": 1,
+        "Cruiser / Cabin": 2,
+        "Bowrider": 35,
+        "Pontoon / Tritoon": 3,
+        "Performance": 1,
         "Wakeboard / Ski": 5
       },
       "brand": {
@@ -2307,17 +2311,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 35,
+      "total": 36,
       "new": 19,
-      "used": 16,
+      "used": 17,
       "category": {
         "Center Console": 1,
-        "Cruiser / Cabin": 3,
+        "Cruiser / Cabin": 4,
         "Bowrider": 29,
         "Other": 2
       },
       "brand": {
-        "Formula": 32,
+        "Formula": 33,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2326,6 +2330,10 @@
         [
           914454,
           "new"
+        ],
+        [
+          599995,
+          "used"
         ],
         [
           599995,
@@ -2394,7 +2402,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-49pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",

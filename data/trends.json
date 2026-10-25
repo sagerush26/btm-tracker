@@ -85,10 +85,10 @@
     "Surdyke Yamaha & Marina": 337
   },
   "addedByCategory": {
-    "Cruiser / Cabin": 153,
+    "Cruiser / Cabin": 154,
     "Bowrider": 620,
     "Performance": 82,
-    "Wakeboard / Ski": 125,
+    "Wakeboard / Ski": 126,
     "Pontoon / Tritoon": 362,
     "Center Console": 69,
     "Other": 137,
@@ -552,6 +552,12 @@
       "totalMarket": 1214,
       "btm": 212,
       "competitors": 1002
+    },
+    {
+      "date": "2026-10-25",
+      "totalMarket": 1216,
+      "btm": 213,
+      "competitors": 1003
     }
   ],
   "priceTrend": [
@@ -954,6 +960,11 @@
       "date": "2026-10-24",
       "marketAvg": 213081.62,
       "btmAvg": 250979.66
+    },
+    {
+      "date": "2026-10-25",
+      "marketAvg": 213579.36,
+      "btmAvg": 250229.75
     }
   ],
   "recentlySold": [
@@ -1462,26 +1473,6 @@
     {
       "date": "2026-10-08",
       "scanId": "scan-20261008",
-      "dealer": "Performance Boat Center",
-      "competitorId": "performance-boat-center",
-      "count": 2,
-      "previousTotal": 93,
-      "newTotal": 95,
-      "detail": "Inventory increased by 2 (was 93, now 95). New: 8, Used: 87. Reflects the normal one-day change since the prior scan on 2026-10-07."
-    },
-    {
-      "date": "2026-10-08",
-      "scanId": "scan-20261008",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 1,
-      "previousTotal": 107,
-      "newTotal": 108,
-      "detail": "Inventory increased by 1 (was 107, now 108). New: 63, Used: 45. Reflects the normal one-day change since the prior scan on 2026-10-07."
-    },
-    {
-      "date": "2026-10-08",
-      "scanId": "scan-20261008",
       "dealer": "Formula Boats of Missouri",
       "competitorId": "formula-boats-mo",
       "count": 2,
@@ -1958,6 +1949,26 @@
       "previousTotal": 34,
       "newTotal": 35,
       "detail": "Inventory increased by 1 (was 34, now 35). New: 19, Used: 16. Reflects the normal one-day change since the prior scan on 2026-10-23."
+    },
+    {
+      "date": "2026-10-25",
+      "scanId": "scan-20261025",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 212,
+      "newTotal": 213,
+      "detail": "Inventory increased by 1 (was 212, now 213). New: 111, Used: 102. Reflects the normal one-day change since the prior scan on 2026-10-24."
+    },
+    {
+      "date": "2026-10-25",
+      "scanId": "scan-20261025",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 35,
+      "newTotal": 36,
+      "detail": "Inventory increased by 1 (was 35, now 36). New: 19, Used: 17. Reflects the normal one-day change since the prior scan on 2026-10-24."
     }
   ],
   "insights": [
@@ -3678,19 +3689,24 @@
       "date": "2026-10-24",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-24 (scan-20261024). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
+    },
+    {
+      "date": "2026-10-25",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-25 (scan-20261025). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
     }
   ],
   "summary": {
-    "date": "2026-10-24",
-    "scanId": "scan-20261024",
-    "marketTotal": 1214,
-    "credibleChangesCount": 6,
+    "date": "2026-10-25",
+    "scanId": "scan-20261025",
+    "marketTotal": 1216,
+    "credibleChangesCount": 2,
     "soldCount": 1576,
-    "addedCount": 826
+    "addedCount": 828
   },
   "addedByDealer": {
-    "Big Thunder Marine": 83,
-    "Formula Boats of Missouri": 36,
+    "Big Thunder Marine": 84,
+    "Formula Boats of Missouri": 37,
     "Performance Marine Watersports": 21,
     "Marty's Marine": 111,
     "Iguana Marine Group": 72,
@@ -3707,12 +3723,12 @@
   },
   "addedByCondition": {
     "New": 3113,
-    "Used": 2312
+    "Used": 2314
   },
   "addedByBrand": {
     "Aviara": 5,
     "Sunsation Powerboats": 4,
-    "Formula": 60,
+    "Formula": 61,
     "MasterCraft": 11,
     "Nautique": 50,
     "Bennington": 212,
@@ -3758,7 +3774,7 @@
     "Harris": 4,
     "Chaparral": 37,
     "Premier": 11,
-    "Tige": 5,
+    "Tige": 6,
     "Viaggio": 8,
     "Performance Powerboats": 3,
     "Mastercraft": 10,

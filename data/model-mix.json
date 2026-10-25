@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-10-24T10:00:24.666017+00:00",
+  "lastUpdated": "2026-10-25T10:21:46.523801+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 212,
+      "totalBoats": 213,
       "newBoats": 111,
-      "usedBoats": 101,
+      "usedBoats": 102,
       "avgPriceNew": 326890.3,
-      "avgPriceUsed": 171311.07,
+      "avgPriceUsed": 170562.89,
       "byCondition": {
         "New": 111,
-        "Used": 101
+        "Used": 102
       },
       "byCategory": {
         "Pontoon / Tritoon": 48,
-        "Wakeboard / Ski": 53,
+        "Wakeboard / Ski": 54,
         "Center Console": 36,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
@@ -38,7 +38,7 @@
         "Jeanneau": 1,
         "YOT": 2,
         "Schaefer": 1,
-        "Tige": 20,
+        "Tige": 21,
         "Amp": 1,
         "Opus": 2,
         "Donzi": 6,
@@ -216,12 +216,12 @@
         "Used": 33
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
-        "Performance": 1,
-        "Bowrider": 35,
         "Fishing": 1,
-        "Pontoon / Tritoon": 3,
         "Yacht": 1,
+        "Cruiser / Cabin": 2,
+        "Bowrider": 35,
+        "Pontoon / Tritoon": 3,
+        "Performance": 1,
         "Wakeboard / Ski": 5
       },
       "byBrand": {
@@ -350,23 +350,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 35,
+      "totalBoats": 36,
       "newBoats": 19,
-      "usedBoats": 16,
+      "usedBoats": 17,
       "avgPriceNew": 914454.0,
-      "avgPriceUsed": 218916.25,
+      "avgPriceUsed": 241332.65,
       "byCondition": {
         "New": 19,
-        "Used": 16
+        "Used": 17
       },
       "byCategory": {
         "Center Console": 1,
-        "Cruiser / Cabin": 3,
+        "Cruiser / Cabin": 4,
         "Bowrider": 29,
         "Other": 2
       },
       "byBrand": {
-        "Formula": 32,
+        "Formula": 33,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -670,18 +670,18 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1214,
+    "totalBoats": 1216,
     "newBoats": 604,
-    "usedBoats": 607,
+    "usedBoats": 609,
     "byCondition": {
       "New": 604,
-      "Used": 607
+      "Used": 609
     },
     "byCategory": {
       "Pontoon / Tritoon": 248,
-      "Wakeboard / Ski": 133,
+      "Wakeboard / Ski": 134,
       "Center Console": 87,
-      "Cruiser / Cabin": 82,
+      "Cruiser / Cabin": 83,
       "Bowrider": 213,
       "Performance": 97,
       "Yacht": 36,
@@ -692,7 +692,7 @@
     "byBrand": {
       "Chaparral": 70,
       "Godfrey": 56,
-      "Formula": 54,
+      "Formula": 55,
       "Four Winns": 52,
       "Sea Ray": 43,
       "Cobalt": 37,
@@ -701,7 +701,7 @@
       "Viaggio": 28,
       "Crownline": 28,
       "Premier": 26,
-      "Tige": 23,
+      "Tige": 24,
       "Fountain": 20,
       "Axis": 20,
       "G3": 19,
@@ -848,6 +848,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261024",
-  "date": "2026-10-24"
+  "scanId": "scan-20261025",
+  "date": "2026-10-25"
 }
