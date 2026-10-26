@@ -558,6 +558,12 @@
       "totalMarket": 1216,
       "btm": 213,
       "competitors": 1003
+    },
+    {
+      "date": "2026-10-26",
+      "totalMarket": 1216,
+      "btm": 213,
+      "competitors": 1003
     }
   ],
   "priceTrend": [
@@ -963,6 +969,11 @@
     },
     {
       "date": "2026-10-25",
+      "marketAvg": 213579.36,
+      "btmAvg": 250229.75
+    },
+    {
+      "date": "2026-10-26",
       "marketAvg": 213579.36,
       "btmAvg": 250229.75
     }
@@ -3694,13 +3705,18 @@
       "date": "2026-10-25",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-25 (scan-20261025). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
+    },
+    {
+      "date": "2026-10-26",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-26 (scan-20261026). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
     }
   ],
   "summary": {
-    "date": "2026-10-25",
-    "scanId": "scan-20261025",
+    "date": "2026-10-26",
+    "scanId": "scan-20261026",
     "marketTotal": 1216,
-    "credibleChangesCount": 2,
+    "credibleChangesCount": 0,
     "soldCount": 1576,
     "addedCount": 828
   },
