@@ -1,11 +1,11 @@
 {
   "soldByCategory": {
-    "Cruiser / Cabin": 40,
+    "Cruiser / Cabin": 42,
     "Bowrider": 79,
-    "Performance": 105,
+    "Performance": 107,
     "Other": 93,
     "Center Console": 22,
-    "Pontoon / Tritoon": 89,
+    "Pontoon / Tritoon": 90,
     "Wakeboard / Ski": 43,
     "Fishing": 50,
     "Yacht": 13,
@@ -14,15 +14,15 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3506,
-    "Used": 2358
+    "New": 3509,
+    "Used": 2361
   },
   "soldByBrand": {
     "Baja": 1,
     "Sea Ray": 13,
     "Berkshire": 1,
-    "Premier": 2,
-    "Chaparral": 6,
+    "Premier": 3,
+    "Chaparral": 8,
     "Bennington": 5,
     "Regal": 3,
     "Crownline": 6,
@@ -32,7 +32,7 @@
     "Godfrey": 6,
     "Skater": 2,
     "MTI": 3,
-    "Formula": 14,
+    "Formula": 15,
     "Manitou": 2,
     "Harris": 4,
     "Fountain": 2,
@@ -65,17 +65,18 @@
     "Yamaha Boats": 3,
     "SunCatcher": 4,
     "Carver": 1,
-    "Sun Tracker": 1
+    "Sun Tracker": 1,
+    "Aviara": 1
   },
   "soldByDealer": {
     "Kelly's Port": 82,
     "Iguana Marine Group": 87,
     "Premier Advantage Marine": 72,
     "Heartland Marine": 102,
-    "Premier 54 Motorsports": 71,
+    "Premier 54 Motorsports": 74,
     "MarineMax": 153,
     "Performance Boat Center": 154,
-    "Formula Boats of Missouri": 56,
+    "Formula Boats of Missouri": 57,
     "Marty's Marine": 109,
     "Performance Marine Watersports": 83,
     "Stateamind Water Sports": 93,
@@ -87,7 +88,7 @@
   "addedByCategory": {
     "Cruiser / Cabin": 154,
     "Bowrider": 620,
-    "Performance": 82,
+    "Performance": 83,
     "Wakeboard / Ski": 126,
     "Pontoon / Tritoon": 362,
     "Center Console": 69,
@@ -564,6 +565,12 @@
       "totalMarket": 1216,
       "btm": 213,
       "competitors": 1003
+    },
+    {
+      "date": "2026-10-27",
+      "totalMarket": 1212,
+      "btm": 213,
+      "competitors": 999
     }
   ],
   "priceTrend": [
@@ -976,29 +983,14 @@
       "date": "2026-10-26",
       "marketAvg": 213579.36,
       "btmAvg": 250229.75
+    },
+    {
+      "date": "2026-10-27",
+      "marketAvg": 213745.18,
+      "btmAvg": 250229.75
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-09-27",
-      "scanId": "scan-20260927",
-      "dealer": "Kelly's Port",
-      "competitorId": "kellys-port",
-      "count": 2,
-      "previousTotal": 110,
-      "newTotal": 108,
-      "detail": "Inventory decreased by 2 (was 110, now 108). New: 64, Used: 44. Reflects the normal one-day change since the prior scan on 2026-09-26."
-    },
-    {
-      "date": "2026-09-27",
-      "scanId": "scan-20260927",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 32,
-      "newTotal": 31,
-      "detail": "Inventory decreased by 1 (was 32, now 31). New: 17, Used: 14. Reflects the normal one-day change since the prior scan on 2026-09-26."
-    },
     {
       "date": "2026-09-27",
       "scanId": "scan-20260927",
@@ -1478,6 +1470,26 @@
       "previousTotal": 102,
       "newTotal": 101,
       "detail": "Inventory decreased by 1 (was 102, now 101). New: 69, Used: 32. Reflects the normal one-day change since the prior scan on 2026-10-23."
+    },
+    {
+      "date": "2026-10-27",
+      "scanId": "scan-20261027",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 36,
+      "newTotal": 35,
+      "detail": "Inventory decreased by 1 (was 36, now 35). New: 19, Used: 16. Reflects the normal one-day change since the prior scan on 2026-10-26."
+    },
+    {
+      "date": "2026-10-27",
+      "scanId": "scan-20261027",
+      "dealer": "Premier 54 Motorsports",
+      "competitorId": "premier-54",
+      "count": 3,
+      "previousTotal": 108,
+      "newTotal": 105,
+      "detail": "Inventory decreased by 3 (was 108, now 105). New: 61, Used: 43. Reflects the normal one-day change since the prior scan on 2026-10-26."
     }
   ],
   "recentlyAdded": [
@@ -3710,14 +3722,19 @@
       "date": "2026-10-26",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-26 (scan-20261026). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
+    },
+    {
+      "date": "2026-10-27",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-27 (scan-20261027). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
     }
   ],
   "summary": {
-    "date": "2026-10-26",
-    "scanId": "scan-20261026",
-    "marketTotal": 1216,
-    "credibleChangesCount": 0,
-    "soldCount": 1576,
+    "date": "2026-10-27",
+    "scanId": "scan-20261027",
+    "marketTotal": 1212,
+    "credibleChangesCount": 2,
+    "soldCount": 1580,
     "addedCount": 828
   },
   "addedByDealer": {
@@ -3739,7 +3756,7 @@
   },
   "addedByCondition": {
     "New": 3113,
-    "Used": 2314
+    "Used": 2316
   },
   "addedByBrand": {
     "Aviara": 5,
@@ -3753,7 +3770,7 @@
     "Regal": 127,
     "Cobalt Boats": 19,
     "Tiara Yachts": 11,
-    "Sea Ray": 39,
+    "Sea Ray": 40,
     "Cruiser": 4,
     "Prestige": 4,
     "Cobalt": 112,

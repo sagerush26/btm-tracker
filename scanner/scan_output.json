@@ -919,9 +919,9 @@
       "new": 22,
       "used": 28,
       "category": {
-        "Cruiser / Cabin": 18,
+        "Cruiser / Cabin": 17,
         "Yacht": 13,
-        "Performance": 7,
+        "Performance": 8,
         "Fishing": 3,
         "Other": 2,
         "Wakeboard / Ski": 1,
@@ -929,13 +929,13 @@
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 25,
+        "Sea Ray": 26,
         "Boston Whaler": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
         "Aquila": 1,
         "Sunseeker": 1,
-        "Aviara": 5,
+        "Aviara": 4,
         "Cobalt": 1,
         "Nautique": 1,
         "Azimut": 1,
@@ -1038,10 +1038,6 @@
           "used"
         ],
         [
-          527317,
-          "new"
-        ],
-        [
           679000,
           "used"
         ],
@@ -1066,11 +1062,11 @@
           "new"
         ],
         [
-          650914,
+          605783,
           "new"
         ],
         [
-          853619,
+          764530,
           "new"
         ],
         [
@@ -1114,7 +1110,7 @@
           "new"
         ],
         [
-          1390926,
+          1350926,
           "new"
         ],
         [
@@ -1131,6 +1127,10 @@
         ],
         [
           239832,
+          "new"
+        ],
+        [
+          227389,
           "new"
         ],
         [
@@ -1616,12 +1616,12 @@
       "used": 33,
       "category": {
         "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 35,
         "Fishing": 1,
         "Cruiser / Cabin": 2,
+        "Yacht": 1,
         "Performance": 1,
-        "Yacht": 1
+        "Bowrider": 35,
+        "Wakeboard / Ski": 5
       },
       "brand": {
         "Carver": 1,
@@ -1784,8 +1784,8 @@
       "name": "Iguana Marine Group",
       "isOwn": false,
       "total": 101,
-      "new": 67,
-      "used": 34,
+      "new": 66,
+      "used": 35,
       "category": {
         "Pontoon / Tritoon": 34,
         "Wakeboard / Ski": 22,
@@ -1892,7 +1892,7 @@
         ],
         [
           143762,
-          "new"
+          "used"
         ],
         [
           53672,
@@ -2311,17 +2311,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 36,
+      "total": 35,
       "new": 19,
-      "used": 17,
+      "used": 16,
       "category": {
         "Center Console": 1,
-        "Cruiser / Cabin": 4,
+        "Cruiser / Cabin": 3,
         "Bowrider": 29,
         "Other": 2
       },
       "brand": {
-        "Formula": 33,
+        "Formula": 32,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2388,10 +2388,6 @@
           "used"
         ],
         [
-          99900,
-          "used"
-        ],
-        [
           79995,
           "used"
         ],
@@ -2402,7 +2398,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-50pct"
+      "priceQuality": "partial-49pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2735,8 +2731,8 @@
       "name": "Stateamind Water Sports",
       "isOwn": false,
       "total": 96,
-      "new": 62,
-      "used": 34,
+      "new": 61,
+      "used": 35,
       "category": {
         "Fishing": 9,
         "Wakeboard / Ski": 29,
@@ -2830,7 +2826,7 @@
         ],
         [
           143762,
-          "new"
+          "used"
         ],
         [
           53672,
@@ -3064,22 +3060,22 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 108,
-      "new": 62,
-      "used": 45,
+      "total": 105,
+      "new": 61,
+      "used": 43,
       "category": {
         "Fishing": 11,
-        "Pontoon / Tritoon": 20,
         "Cruiser / Cabin": 3,
+        "Pontoon / Tritoon": 19,
         "Wakeboard / Ski": 16,
         "Other": 10,
-        "Performance": 45,
+        "Performance": 43,
         "Bowrider": 3
       },
       "brand": {
-        "Premier": 22,
+        "Premier": 21,
         "Crownline": 3,
-        "Chaparral": 53,
+        "Chaparral": 51,
         "Lowe": 1,
         "Montara": 1,
         "Nautic Star": 1,
@@ -3115,10 +3111,6 @@
           "new"
         ],
         [
-          161665,
-          "new"
-        ],
-        [
           124900,
           "used"
         ],
@@ -3151,7 +3143,7 @@
           "used"
         ],
         [
-          169900,
+          159900,
           "used"
         ],
         [
@@ -3187,7 +3179,7 @@
           "used"
         ],
         [
-          159900,
+          149900,
           "used"
         ],
         [
@@ -3395,10 +3387,6 @@
           "new"
         ],
         [
-          119900,
-          "used"
-        ],
-        [
           5500,
           "used"
         ],
@@ -3412,10 +3400,6 @@
         ],
         [
           72900,
-          "used"
-        ],
-        [
-          169900,
           "used"
         ],
         [
@@ -3436,10 +3420,6 @@
         ],
         [
           24900,
-          "used"
-        ],
-        [
-          84900,
           "used"
         ],
         [
@@ -3476,6 +3456,10 @@
         ],
         [
           24900,
+          "used"
+        ],
+        [
+          264900,
           "used"
         ]
       ],
