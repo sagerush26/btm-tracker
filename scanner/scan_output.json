@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 213,
+      "total": 214,
       "new": 111,
-      "used": 102,
+      "used": 103,
       "category": {
         "Pontoon / Tritoon": 48,
         "Wakeboard / Ski": 54,
-        "Center Console": 36,
+        "Center Console": 37,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
         "Performance": 13,
@@ -31,7 +31,7 @@
         "YOT": 2,
         "Schaefer": 1,
         "Tige": 21,
-        "Amp": 1,
+        "Amp": 2,
         "Opus": 2,
         "Donzi": 6,
         "Formula": 6,
@@ -182,6 +182,10 @@
         [
           454870,
           "new"
+        ],
+        [
+          449900,
+          "used"
         ],
         [
           449900,
@@ -915,14 +919,14 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 50,
-      "new": 22,
+      "total": 51,
+      "new": 23,
       "used": 28,
       "category": {
         "Cruiser / Cabin": 17,
         "Yacht": 13,
         "Performance": 8,
-        "Fishing": 3,
+        "Fishing": 4,
         "Other": 2,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 4,
@@ -930,7 +934,7 @@
       },
       "brand": {
         "Sea Ray": 26,
-        "Boston Whaler": 2,
+        "Boston Whaler": 3,
         "Chaparral": 1,
         "Ocean Alexander": 1,
         "Aquila": 1,
@@ -1102,6 +1106,10 @@
           "new"
         ],
         [
+          30381,
+          "new"
+        ],
+        [
           583181,
           "new"
         ],
@@ -1146,36 +1154,36 @@
           "new"
         ]
       ],
-      "priceLow": 39900,
+      "priceLow": 30381,
       "priceHigh": 1999900,
       "priceQuality": "full"
     },
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 100,
+      "total": 103,
       "new": 9,
-      "used": 89,
+      "used": 92,
       "category": {
         "Fishing": 1,
         "Other": 41,
         "Bowrider": 8,
-        "Center Console": 28,
-        "Performance": 18,
+        "Center Console": 30,
+        "Performance": 19,
         "Power": 2,
         "Cruiser / Cabin": 2
       },
       "brand": {
         "Skater": 11,
         "Sunsation Powerboats": 18,
+        "MTI": 19,
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
-        "MTI": 18,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
-        "Cigarette": 9,
+        "Cigarette": 11,
         "Monterey": 2,
         "Concept": 1,
         "Fountain": 7,
@@ -1209,6 +1217,10 @@
         [
           399950,
           "new"
+        ],
+        [
+          899950,
+          "used"
         ],
         [
           1399950,
@@ -1307,6 +1319,10 @@
           "used"
         ],
         [
+          1250000,
+          "used"
+        ],
+        [
           899950,
           "used"
         ],
@@ -1340,6 +1356,10 @@
         ],
         [
           389950,
+          "used"
+        ],
+        [
+          1250000,
           "used"
         ],
         [
@@ -1617,11 +1637,11 @@
       "category": {
         "Pontoon / Tritoon": 3,
         "Fishing": 1,
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
-        "Performance": 1,
+        "Wakeboard / Ski": 5,
         "Bowrider": 35,
-        "Wakeboard / Ski": 5
+        "Performance": 1,
+        "Yacht": 1,
+        "Cruiser / Cabin": 2
       },
       "brand": {
         "Carver": 1,
@@ -2441,11 +2461,11 @@
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "JC": 1,
         "Suntracker": 1,
+        "JC": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
-        "Crest": 1,
         "Lowe": 2,
         "Misty Harbor": 1,
         "Rinker": 1,
@@ -2548,11 +2568,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           74900,
@@ -3499,14 +3519,14 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 101,
-      "new": 69,
+      "total": 99,
+      "new": 67,
       "used": 32,
       "category": {
         "Pontoon / Tritoon": 22,
         "Center Console": 9,
         "Cruiser / Cabin": 16,
-        "Bowrider": 19,
+        "Bowrider": 17,
         "Performance": 6,
         "Yacht": 1,
         "Fishing": 23,
@@ -3516,7 +3536,7 @@
       "brand": {
         "Beneteau": 6,
         "Cobalt Boats": 2,
-        "Yamaha Boats": 16,
+        "Yamaha Boats": 14,
         "Scarab": 7,
         "SunCatcher": 18,
         "Sun Tracker": 1,
@@ -3800,10 +3820,6 @@
           "new"
         ],
         [
-          51999,
-          "new"
-        ],
-        [
           424999,
           "new"
         ],
@@ -3849,10 +3865,6 @@
         ],
         [
           72999,
-          "new"
-        ],
-        [
-          53999,
           "new"
         ],
         [
