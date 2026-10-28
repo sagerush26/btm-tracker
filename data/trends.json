@@ -15,7 +15,7 @@
   "soldByLengthBand": {},
   "soldByCondition": {
     "New": 3511,
-    "Used": 2361
+    "Used": 2364
   },
   "soldByBrand": {
     "Baja": 1,
@@ -69,7 +69,7 @@
     "Aviara": 1
   },
   "soldByDealer": {
-    "Kelly's Port": 82,
+    "Kelly's Port": 83,
     "Iguana Marine Group": 87,
     "Premier Advantage Marine": 72,
     "Heartland Marine": 102,
@@ -78,7 +78,7 @@
     "Performance Boat Center": 154,
     "Formula Boats of Missouri": 57,
     "Marty's Marine": 109,
-    "Performance Marine Watersports": 83,
+    "Performance Marine Watersports": 85,
     "Stateamind Water Sports": 93,
     "All About Boats": 20,
     "Village Marina & Yacht Club": 59,
@@ -87,10 +87,10 @@
   },
   "addedByCategory": {
     "Cruiser / Cabin": 154,
-    "Bowrider": 620,
+    "Bowrider": 621,
     "Performance": 84,
-    "Wakeboard / Ski": 126,
-    "Pontoon / Tritoon": 362,
+    "Wakeboard / Ski": 160,
+    "Pontoon / Tritoon": 368,
     "Center Console": 72,
     "Other": 137,
     "Yacht": 10,
@@ -574,9 +574,9 @@
     },
     {
       "date": "2026-10-28",
-      "totalMarket": 1215,
+      "totalMarket": 1213,
       "btm": 214,
-      "competitors": 1001
+      "competitors": 999
     }
   ],
   "priceTrend": [
@@ -997,31 +997,11 @@
     },
     {
       "date": "2026-10-28",
-      "marketAvg": 216365.34,
+      "marketAvg": 217120.58,
       "btmAvg": 251185.11
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-09-28",
-      "scanId": "scan-20260928",
-      "dealer": "Big Thunder Marine",
-      "competitorId": "big-thunder-marine",
-      "count": 1,
-      "previousTotal": 196,
-      "newTotal": 195,
-      "detail": "Inventory decreased by 1 (was 196, now 195). New: 110, Used: 85. Reflects the normal one-day change since the prior scan on 2026-09-27."
-    },
-    {
-      "date": "2026-09-29",
-      "scanId": "scan-20260929",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 2,
-      "previousTotal": 61,
-      "newTotal": 59,
-      "detail": "Inventory decreased by 2 (was 61, now 59). New: 21, Used: 38. Reflects the normal one-day change since the prior scan on 2026-09-28."
-    },
     {
       "date": "2026-09-29",
       "scanId": "scan-20260929",
@@ -1491,6 +1471,26 @@
       "previousTotal": 108,
       "newTotal": 105,
       "detail": "Inventory decreased by 3 (was 108, now 105). New: 61, Used: 43. Reflects the normal one-day change since the prior scan on 2026-10-26."
+    },
+    {
+      "date": "2026-10-28",
+      "scanId": "scan-20261028",
+      "dealer": "Kelly's Port",
+      "competitorId": "kellys-port",
+      "count": 1,
+      "previousTotal": 106,
+      "newTotal": 105,
+      "detail": "Inventory decreased by 1 (was 106, now 105). New: 59, Used: 46. Reflects the normal one-day change since the prior scan on 2026-10-27."
+    },
+    {
+      "date": "2026-10-28",
+      "scanId": "scan-20261028",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 2,
+      "previousTotal": 42,
+      "newTotal": 40,
+      "detail": "Inventory decreased by 2 (was 42, now 40). New: 19, Used: 21. Reflects the normal one-day change since the prior scan on 2026-10-27."
     },
     {
       "date": "2026-10-28",
@@ -1989,10 +1989,10 @@
       "scanId": "scan-20261028",
       "dealer": "MarineMax",
       "competitorId": "marinemax",
-      "count": 1,
+      "count": 2,
       "previousTotal": 50,
-      "newTotal": 51,
-      "detail": "Inventory increased by 1 (was 50, now 51). New: 23, Used: 28. Reflects the normal one-day change since the prior scan on 2026-10-27."
+      "newTotal": 52,
+      "detail": "Inventory increased by 2 (was 50, now 52). New: 23, Used: 29. Reflects the normal one-day change since the prior scan on 2026-10-27."
     },
     {
       "date": "2026-10-28",
@@ -3742,16 +3742,16 @@
     {
       "date": "2026-10-28",
       "type": "data_quality",
-      "text": "Nightly scan completed 2026-10-28 (scan-20261028). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, performance-marine."
+      "text": "Nightly scan completed 2026-10-28 (scan-20261028). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, premier-advantage."
     }
   ],
   "summary": {
     "date": "2026-10-28",
     "scanId": "scan-20261028",
-    "marketTotal": 1215,
-    "credibleChangesCount": 4,
-    "soldCount": 1582,
-    "addedCount": 833
+    "marketTotal": 1213,
+    "credibleChangesCount": 6,
+    "soldCount": 1585,
+    "addedCount": 834
   },
   "addedByDealer": {
     "Big Thunder Marine": 85,
@@ -3762,7 +3762,7 @@
     "Premier Advantage Marine": 31,
     "Heartland Marine": 70,
     "Premier 54 Motorsports": 90,
-    "MarineMax": 56,
+    "MarineMax": 57,
     "Performance Boat Center": 46,
     "Village Marina & Yacht Club": 36,
     "Kelly's Port": 63,
@@ -3772,14 +3772,14 @@
   },
   "addedByCondition": {
     "New": 3114,
-    "Used": 2320
+    "Used": 2321
   },
   "addedByBrand": {
     "Aviara": 5,
     "Sunsation Powerboats": 4,
     "Formula": 61,
     "MasterCraft": 11,
-    "Nautique": 50,
+    "Nautique": 51,
     "Bennington": 212,
     "Grady-White": 32,
     "Crownline": 50,
@@ -3789,7 +3789,7 @@
     "Sea Ray": 40,
     "Cruiser": 4,
     "Prestige": 4,
-    "Cobalt": 112,
+    "Cobalt": 113,
     "Yamaha": 29,
     "Four Winns": 152,
     "South Bay": 4,
@@ -3823,17 +3823,17 @@
     "Harris": 4,
     "Chaparral": 37,
     "Premier": 11,
-    "Tige": 6,
+    "Tige": 7,
     "Viaggio": 8,
     "Performance Powerboats": 3,
-    "Mastercraft": 10,
+    "Mastercraft": 34,
     "Donzi": 3,
     "Boston Whaler": 3,
     "Nautical Racing Group": 1,
     "MTI": 7,
     "OPUS": 2,
     "Harris FloteBote": 1,
-    "Malibu": 11,
+    "Malibu": 12,
     "Monterey": 6,
     "Southbay": 6,
     "Evotti": 1,
@@ -3845,7 +3845,7 @@
     "Lowe": 3,
     "Glasstream": 1,
     "Berkshire": 2,
-    "Crest": 1,
+    "Crest": 4,
     "Amp": 2,
     "Baja": 6,
     "Barletta": 19,
@@ -3862,7 +3862,7 @@
     "Skater": 4,
     "Searay": 1,
     "Sea": 2,
-    "Supra": 1,
+    "Supra": 6,
     "Hurricane": 1,
     "Tracker Boats": 1,
     "Cigarette": 4,
@@ -3883,6 +3883,8 @@
     "Opus": 2,
     "Princecraft": 1,
     "Dock & Jetski Dock": 1,
-    "PLAYCRAFT": 1
+    "PLAYCRAFT": 1,
+    "Balise": 3,
+    "Moomba": 2
   }
 }

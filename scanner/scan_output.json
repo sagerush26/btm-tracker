@@ -919,28 +919,28 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 51,
+      "total": 52,
       "new": 23,
-      "used": 28,
+      "used": 29,
       "category": {
         "Cruiser / Cabin": 17,
         "Yacht": 13,
         "Performance": 8,
         "Fishing": 4,
+        "Bowrider": 3,
         "Other": 2,
         "Wakeboard / Ski": 1,
-        "Pontoon / Tritoon": 4,
-        "Bowrider": 2
+        "Pontoon / Tritoon": 4
       },
       "brand": {
         "Sea Ray": 26,
         "Boston Whaler": 3,
+        "Cobalt": 2,
         "Chaparral": 1,
         "Ocean Alexander": 1,
         "Aquila": 1,
         "Sunseeker": 1,
         "Aviara": 4,
-        "Cobalt": 1,
         "Nautique": 1,
         "Azimut": 1,
         "Regal": 1,
@@ -983,6 +983,10 @@
         ],
         [
           165000,
+          "used"
+        ],
+        [
+          49900,
           "used"
         ],
         [
@@ -1618,9 +1622,9 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 106,
+      "total": 105,
       "new": 59,
-      "used": 47,
+      "used": 46,
       "category": {},
       "brand": {},
       "prices": [],
@@ -1635,13 +1639,13 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Pontoon / Tritoon": 3,
         "Fishing": 1,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 35,
         "Performance": 1,
+        "Pontoon / Tritoon": 3,
+        "Wakeboard / Ski": 5,
         "Yacht": 1,
-        "Cruiser / Cabin": 2
+        "Cruiser / Cabin": 2,
+        "Bowrider": 35
       },
       "brand": {
         "Carver": 1,
@@ -2149,184 +2153,12 @@
       "total": 74,
       "new": 12,
       "used": 62,
-      "category": {
-        "Pontoon / Tritoon": 5,
-        "Wakeboard / Ski": 5,
-        "Center Console": 3,
-        "Cruiser / Cabin": 7,
-        "Bowrider": 38,
-        "Performance": 0,
-        "Yacht": 0,
-        "Fishing": 16,
-        "Power": 0,
-        "Other": 0
-      },
-      "brand": {
-        "Fountain": 1,
-        "Four Winns": 33,
-        "Sea Ray": 1,
-        "Regal": 1,
-        "Baja": 2,
-        "Chaparral": 5,
-        "Crownline": 2,
-        "Scarab": 1,
-        "Bennington": 2,
-        "Wellcraft": 3,
-        "Alumacraft": 16
-      },
-      "prices": [
-        [
-          64900,
-          "used"
-        ],
-        [
-          239995,
-          "new"
-        ],
-        [
-          41900,
-          "used"
-        ],
-        [
-          94900,
-          "used"
-        ],
-        [
-          119900,
-          "used"
-        ],
-        [
-          42900,
-          "used"
-        ],
-        [
-          24900,
-          "used"
-        ],
-        [
-          49900,
-          "used"
-        ],
-        [
-          89900,
-          "used"
-        ],
-        [
-          25900,
-          "used"
-        ],
-        [
-          32900,
-          "used"
-        ],
-        [
-          152995,
-          "new"
-        ],
-        [
-          89900,
-          "used"
-        ],
-        [
-          49900,
-          "used"
-        ],
-        [
-          25900,
-          "used"
-        ],
-        [
-          39900,
-          "used"
-        ],
-        [
-          22900,
-          "used"
-        ],
-        [
-          24900,
-          "used"
-        ],
-        [
-          44900,
-          "used"
-        ],
-        [
-          34900,
-          "used"
-        ],
-        [
-          49900,
-          "used"
-        ],
-        [
-          83900,
-          "used"
-        ],
-        [
-          29900,
-          "used"
-        ],
-        [
-          18900,
-          "used"
-        ],
-        [
-          14900,
-          "used"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          124995,
-          "new"
-        ],
-        [
-          62995,
-          "new"
-        ],
-        [
-          9900,
-          "used"
-        ],
-        [
-          52995,
-          "new"
-        ],
-        [
-          104995,
-          "new"
-        ],
-        [
-          49995,
-          "new"
-        ],
-        [
-          39995,
-          "new"
-        ],
-        [
-          22995,
-          "new"
-        ],
-        [
-          67215,
-          "new"
-        ],
-        [
-          40900,
-          "used"
-        ]
-      ],
-      "priceLow": 9900,
-      "priceHigh": 239995,
-      "priceQuality": "partial-50pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
@@ -2423,15 +2255,164 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 42,
+      "total": 40,
       "new": 19,
-      "used": 23,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "used": 21,
+      "category": {
+        "Wakeboard / Ski": 34,
+        "Pontoon / Tritoon": 6
+      },
+      "brand": {
+        "Mastercraft": 24,
+        "Crest": 3,
+        "Balise": 3,
+        "Supra": 5,
+        "Moomba": 2,
+        "Nautique": 1,
+        "Malibu": 1,
+        "Tige": 1
+      },
+      "prices": [
+        [
+          379234,
+          "new"
+        ],
+        [
+          341763,
+          "new"
+        ],
+        [
+          252746,
+          "new"
+        ],
+        [
+          226969,
+          "new"
+        ],
+        [
+          191596,
+          "new"
+        ],
+        [
+          174859,
+          "new"
+        ],
+        [
+          172102,
+          "new"
+        ],
+        [
+          147594,
+          "new"
+        ],
+        [
+          412815,
+          "new"
+        ],
+        [
+          346585,
+          "new"
+        ],
+        [
+          199893,
+          "new"
+        ],
+        [
+          152938,
+          "new"
+        ],
+        [
+          146557,
+          "new"
+        ],
+        [
+          114973,
+          "new"
+        ],
+        [
+          86990,
+          "new"
+        ],
+        [
+          69769,
+          "new"
+        ],
+        [
+          168846,
+          "new"
+        ],
+        [
+          165680,
+          "new"
+        ],
+        [
+          159969,
+          "new"
+        ],
+        [
+          435990,
+          "used"
+        ],
+        [
+          259990,
+          "used"
+        ],
+        [
+          174990,
+          "used"
+        ],
+        [
+          123990,
+          "used"
+        ],
+        [
+          119990,
+          "used"
+        ],
+        [
+          198990,
+          "used"
+        ],
+        [
+          124990,
+          "used"
+        ],
+        [
+          135990,
+          "used"
+        ],
+        [
+          159990,
+          "used"
+        ],
+        [
+          139990,
+          "used"
+        ],
+        [
+          169990,
+          "used"
+        ],
+        [
+          54990,
+          "used"
+        ],
+        [
+          49990,
+          "used"
+        ],
+        [
+          44990,
+          "used"
+        ],
+        [
+          54990,
+          "used"
+        ]
+      ],
+      "priceLow": 44990,
+      "priceHigh": 435990,
+      "priceQuality": "partial-85pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
@@ -2568,11 +2549,11 @@
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           74900,
@@ -4097,21 +4078,21 @@
   "failures": [
     [
       "kellys-port",
-      "using count confirmed on 2026-10-21 (106); Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
+      "using count confirmed on 2026-10-28 (105); Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 352, in scrape\n    items = _fetch_all_items(session)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 319, in _fetch_all_items\n    html = _fetch_page(session, pg, state)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/kellys_port.py\", line 306, in _fetch_page\n    raise RuntimeError(\nRuntimeError: Failed to fetch Kelly's Port inventory page 0 via requests, curl, and Playwright.\n"
     ],
     [
-      "performance-marine",
-      "scrape() returned total <= 0"
+      "premier-advantage",
+      "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 239, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/connection.py\", line 85, in create_connection\n    raise err\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/connection.py\", line 73, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 111] Connection refused\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 793, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 494, in _make_request\n    raise new_e\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 470, in _make_request\n    self._validate_conn(conn)\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 1125, in _validate_conn\n    conn.connect()\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 827, in connect\n    self.sock = sock = self._new_conn()\n                       ^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py\", line 254, in _new_conn\n    raise NewConnectionError(\nurllib3.exceptions.NewConnectionError: HTTPSConnection(host='premieradvantagemarine.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 847, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/retry.py\", line 555, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by NewConnectionError(\"HTTPSConnection(host='premieradvantagemarine.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 249, in scrape\n    products = _fetch_all_products()\n               ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/premier_advantage.py\", line 157, in _fetch_all_products\n    resp = session.get(\n           ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 671, in get\n    return self.request(\"GET\", url, params=params, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py\", line 729, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPSConnectionPool(host='premieradvantagemarine.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by NewConnectionError(\"HTTPSConnection(host='premieradvantagemarine.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))\n"
     ]
   ],
   "confirmed": {
     "kellys-port": {
-      "total": 106,
+      "total": 105,
       "new": 59,
-      "used": 47,
-      "confirmedOn": "2026-10-21",
+      "used": 46,
+      "confirmedOn": "2026-10-28",
       "confirmedBy": "Sage",
-      "evidence": "kellysport.com inventory: \"Showing 1-20 of 106 results\"; New filter 59 results; Pre-owned filter 47 results"
+      "evidence": "kellysport.com inventory: \"Showing 1-20 of 105 results\"; New filter 59; Pre-owned filter 46"
     }
   }
 }
