@@ -1,11 +1,11 @@
 {
   "_about": "Counts Sage confirmed by hand on the dealer's own site. Used ONLY on nights the dealer can't be read live (instead of the older last-scanned count). A successful live read always wins. Update or remove an entry when a newer count is confirmed.",
   "kellys-port": {
-    "total": 106,
+    "total": 105,
     "new": 59,
-    "used": 47,
-    "confirmedOn": "2026-10-21",
+    "used": 46,
+    "confirmedOn": "2026-10-28",
     "confirmedBy": "Sage",
-    "evidence": "kellysport.com inventory: \"Showing 1-20 of 106 results\"; New filter 59 results; Pre-owned filter 47 results"
+    "evidence": "kellysport.com inventory: \"Showing 1-20 of 105 results\"; New filter 59; Pre-owned filter 46"
   }
 }

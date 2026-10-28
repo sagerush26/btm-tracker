@@ -276,6 +276,81 @@ def _fetch_html_requests(url: str) -> str:
     return resp.text
 
 
+
+# ---------------------------------------------------------------------------
+# 2026-10-28: the dealer moved to a new site platform. The old LISTING_URL now
+# redirects to /boats-for-sale/ and the old Algolia cards are gone, so the old
+# parser found nothing and the dashboard carried forward stale values.
+# The new pages are server-rendered: each boat is an <a class="inventory-card">
+# with a New/Used badge, the title and "Price:", and each page carries a
+# schema.org ItemList whose numberOfItems is the site's own result count.
+# We read /new-boats-for-sale/ and /used-boats-for-sale/ (plus /page/N/).
+# ---------------------------------------------------------------------------
+SITE = "https://www.performanceloz.com"
+CONDITION_PAGES = {"new": SITE + "/new-boats-for-sale/", "used": SITE + "/used-boats-for-sale/"}
+
+
+def _item_list_count(html: str) -> Optional[int]:
+    for m in re.finditer(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', html, re.S):
+        try:
+            d = json.loads(m.group(1))
+        except Exception:
+            continue
+        if isinstance(d, dict) and d.get("@type") == "ItemList" and isinstance(d.get("numberOfItems"), int):
+            return d["numberOfItems"]
+    return None
+
+
+def _brand_from_title(title: str) -> str:
+    words = re.sub(r"^\s*(19|20)\d\d\s+", "", title).split()
+    if not words:
+        return "Unknown"
+    two = " ".join(words[:2]).lower()
+    if two in BRAND_CATEGORY_MAP or two in ("sea ray", "sun tracker", "chris craft", "cobalt boats"):
+        return " ".join(words[:2])
+    return words[0]
+
+
+def _scrape_new_platform() -> dict:
+    import requests
+    from bs4 import BeautifulSoup
+
+    cards, site_counts = {}, {}
+    for cond, base in CONDITION_PAGES.items():
+        site_counts[cond] = None
+        for page in range(1, 11):
+            url = base if page == 1 else f"{base}page/{page}/"
+            r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=45)
+            if r.status_code == 404 and page > 1:
+                break
+            r.raise_for_status()
+            if site_counts[cond] is None:
+                site_counts[cond] = _item_list_count(r.text)
+            soup = BeautifulSoup(r.text, "lxml")
+            found = 0
+            for a in soup.select("a.inventory-card[href]"):
+                href = a["href"].split("?")[0]
+                if href in cards:
+                    continue
+                parts = [t.strip() for t in a.stripped_strings]
+                badge = next((t.lower() for t in parts if t.lower() in ("new", "used")), cond)
+                title = next((t for t in parts if re.match(r"^(19|20)\d\d\s+\S", t)), "")
+                price = None
+                if "Price:" in parts:
+                    i = parts.index("Price:")
+                    price = _parse_price(parts[i + 1]) if i + 1 < len(parts) else None
+                cards[href] = {"condition": badge, "title": title, "brand": _brand_from_title(title), "price": price}
+                found += 1
+            if not found or (site_counts[cond] and sum(1 for c in cards.values() if c["condition"] == cond) >= site_counts[cond]):
+                break
+    got = {c: sum(1 for x in cards.values() if x["condition"] == c) for c in CONDITION_PAGES}
+    for c, n in site_counts.items():
+        if n is not None and got[c] != n:
+            raise RuntimeError(f"performance-marine {c}: read {got[c]} cards but the site says {n}")
+    if not cards:
+        raise RuntimeError("performance-marine: no inventory cards found on the new site")
+    return list(cards.values())
+
 def scrape() -> dict:
     """Scrape Performance Marine Watersports inventory.
 
@@ -294,15 +369,21 @@ def scrape() -> dict:
         }
     """
     html = None
-    method = "playwright"
+    method = "new-site-cards"
     try:
+        cards = _scrape_new_platform()
+    except Exception:
+        cards = None
+    if cards is None:
+      method = "playwright"
+      try:
         html = _fetch_html_playwright(LISTING_URL)
         cards = _extract_cards_from_html(html)
         # Sanity check: plain HTML would only have ~20 cards (page 1).
         # If Playwright somehow also only yielded ~20, that's still the
         # best data available; we do not fall back in that case since a
         # requests-only fetch would yield the same or fewer results.
-    except Exception:
+      except Exception:
         method = "requests-fallback"
         html = _fetch_html_requests(LISTING_URL)
         cards = _extract_cards_from_html(html)
