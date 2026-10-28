@@ -16,6 +16,45 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 with open(os.path.join(SCANNER_DIR, "scan_output.json")) as f:
     _scan_output = json.load(f)
 DEALERS = _scan_output["DEALERS"]
+
+# FIX 2026-10-28: one name per brand. Dealer sites spell brands differently ("MasterCraft" /
+# "Mastercraft", "Yamaha" / "Yamaha Boats", "SEA DOO" / "Sea-Doo"), which split one brand into
+# several rows on the Model Mix and Top Selling Brands charts. Merge them under one display name.
+import re as _re
+_BRAND_DISPLAY = {
+    "mastercraft": "MasterCraft", "yamaha": "Yamaha", "seadoo": "Sea-Doo", "playcraft": "PlayCraft",
+    "suntracker": "Sun Tracker", "ikon": "iKon", "southbay": "South Bay", "amp": "AMP", "formula": "Formula",
+    "cobalt": "Cobalt", "crownline": "Crownline", "lowe": "Lowe", "ranger": "Ranger", "searay": "Sea Ray",
+    "chriscraft": "Chris-Craft", "tige": "Tige", "jctritoon": "JC Tritoon", "cruisers": "Cruisers Yachts",
+    "cruisersyachts": "Cruisers Yachts", "nauticstar": "NauticStar", "harrisflotebote": "Harris",
+}
+
+
+def _brand_key(name):
+    k = _re.sub(r"\s+boats?$", "", str(name).strip(), flags=_re.I)
+    return _re.sub(r"[^a-z0-9]", "", k.lower())
+
+
+def canon_brand(name):
+    k = _brand_key(name)
+    if k in _BRAND_DISPLAY:
+        return _BRAND_DISPLAY[k]
+    n = _re.sub(r"\s+boats?$", "", str(name).strip(), flags=_re.I) or str(name)
+    return n.title() if n.isupper() and len(n) > 4 else n
+
+
+def canon_brands(d):
+    if d is None:
+        return None
+    out = {}
+    for k, v in d.items():
+        c = canon_brand(k)
+        out[c] = out.get(c, 0) + (v or 0)
+    return out
+
+
+for _d in DEALERS.values():
+    _d["brand"] = canon_brands(_d.get("brand") or {})
 FAILURES = _scan_output.get("failures", [])
 
 _now_utc = datetime.now(timezone.utc)
@@ -358,7 +397,7 @@ for scan_entry in scans["scans"]:
     for r in scan_entry["results"]:
         cid = r["competitorId"]
         cn, cu = r.get("newBoats", 0), r.get("usedBoats", 0)
-        cat, brand = r.get("category"), r.get("brand")
+        cat, brand = r.get("category"), canon_brands(r.get("brand"))
         if cid in prev_by_id:
             pn, pu, pcat, pbrand = prev_by_id[cid]
             if cn < pn: sold_new += (pn - cn)
