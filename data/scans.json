@@ -38895,14 +38895,14 @@
             "Fountain": 11,
             "Invictus": 7,
             "Pirelli": 1,
-            "Chris Craft": 7,
+            "Chris-Craft": 7,
             "Monterey": 10,
             "Sea Ray": 9,
             "Jeanneau": 1,
             "YOT": 2,
             "Schaefer": 1,
             "Tige": 21,
-            "Amp": 2,
+            "AMP": 2,
             "Opus": 2,
             "Donzi": 6,
             "Formula": 6,
@@ -38930,7 +38930,7 @@
             "Yamaha": 2,
             "Barletta": 2,
             "Nautical Racing Group": 1,
-            "CRUISERS": 1,
+            "Cruisers Yachts": 1,
             "Nautique": 3,
             "Spectre": 1,
             "Heritage": 1,
@@ -38938,10 +38938,10 @@
             "Moomba": 1,
             "Princecraft": 1,
             "Chaparral": 2,
-            "Harris FloteBote": 1,
+            "Harris": 1,
             "Correct Craft": 1,
-            "SEA DOO": 8,
-            "CYPRESS CAY": 1,
+            "Sea-Doo": 8,
+            "Cypress Cay": 1,
             "Statement": 1,
             "Bennington": 1
           }
@@ -39022,8 +39022,8 @@
             "Wright Performance": 1,
             "Kenworth": 1,
             "Formula": 2,
-            "Ranger Boats": 1,
-            "Chris Craft": 1,
+            "Ranger": 1,
+            "Chris-Craft": 1,
             "Active": 1,
             "Princecraft": 1,
             "Mystic": 1,
@@ -39055,13 +39055,13 @@
           "avgPriceUsed": 114863.06,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Fishing": 1,
-            "Performance": 1,
-            "Pontoon / Tritoon": 3,
-            "Wakeboard / Ski": 5,
             "Yacht": 1,
+            "Fishing": 1,
+            "Bowrider": 35,
+            "Wakeboard / Ski": 5,
+            "Pontoon / Tritoon": 3,
             "Cruiser / Cabin": 2,
-            "Bowrider": 35
+            "Performance": 1
           },
           "brand": {
             "Carver": 1,
@@ -39078,7 +39078,7 @@
             "South Bay": 1,
             "Larson": 1,
             "Rinker": 1,
-            "Yamaha Boats": 1,
+            "Yamaha": 1,
             "Regal": 1,
             "Silverton": 1
           }
@@ -39104,7 +39104,7 @@
             "Other": 1
           },
           "brand": {
-            "iKon": 6,
+            "iKon": 7,
             "Formula": 7,
             "Axis": 10,
             "Godfrey": 28,
@@ -39116,9 +39116,8 @@
             "Malibu": 15,
             "Godrey": 1,
             "Bennington": 1,
-            "Ikon Boats": 1,
             "Rinker": 1,
-            "Crownline": 1,
+            "Crownline": 2,
             "Tiga": 1,
             "Bass Tracker": 1,
             "Statement Marine": 2,
@@ -39132,8 +39131,7 @@
             "Regal": 2,
             "Nautique": 1,
             "Schaefer Yachts DBA": 1,
-            "Caymas Boats": 1,
-            "Crownline Boats": 1
+            "Caymas": 1
           }
         },
         {
@@ -39184,7 +39182,7 @@
             "Pontoon / Tritoon": 6
           },
           "brand": {
-            "Mastercraft": 24,
+            "MasterCraft": 24,
             "Crest": 3,
             "Balise": 3,
             "Supra": 5,
@@ -39212,7 +39210,7 @@
             "Other": 12
           },
           "brand": {
-            "Southbay": 5,
+            "South Bay": 5,
             "Chaparral": 8,
             "Cobalt": 2,
             "Manitou": 3,
@@ -39225,7 +39223,7 @@
             "Berkshire": 2,
             "Bennington": 1,
             "Baja": 1,
-            "Suntracker": 1,
+            "Sun Tracker": 1,
             "JC": 1,
             "Crest": 1,
             "Four Winns": 2,
@@ -39258,7 +39256,7 @@
             "Center Console": 1
           },
           "brand": {
-            "iKon": 6,
+            "iKon": 7,
             "Axis": 10,
             "Godfrey": 28,
             "Coach Pontoons": 2,
@@ -39269,9 +39267,8 @@
             "Malibu": 15,
             "Godrey": 1,
             "Bennington": 1,
-            "Ikon Boats": 1,
             "Rinker": 1,
-            "Crownline": 1,
+            "Crownline": 2,
             "Tiga": 1,
             "Bass Tracker": 1,
             "Formula": 2,
@@ -39286,8 +39283,7 @@
             "Regal": 2,
             "Nautique": 1,
             "Schaefer Yachts": 1,
-            "Caymas Boats": 1,
-            "Crownline Boats": 1
+            "Caymas": 1
           }
         },
         {
@@ -39314,7 +39310,7 @@
             "Chaparral": 51,
             "Lowe": 1,
             "Montara": 1,
-            "Nautic Star": 1,
+            "NauticStar": 1,
             "Tige": 2,
             "Robalo": 4,
             "Manitou": 1,
@@ -39322,7 +39318,7 @@
             "MasterCraft": 1,
             "Regal": 3,
             "Four Winns": 1,
-            "Playcraft": 2,
+            "PlayCraft": 2,
             "Sun Tracker": 1,
             "Cobalt": 2,
             "Yamaha": 2,
@@ -39375,28 +39371,26 @@
           },
           "brand": {
             "Beneteau": 6,
-            "Cobalt Boats": 2,
-            "Yamaha Boats": 14,
+            "Cobalt": 2,
+            "Yamaha": 20,
             "Scarab": 7,
             "SunCatcher": 18,
             "Sun Tracker": 1,
             "G3": 18,
             "Sundance": 1,
             "Axopar": 11,
-            "RANGER": 1,
-            "Yamaha": 6,
+            "Ranger": 2,
             "Bayliner": 1,
             "Four Winns": 2,
             "Nitro": 1,
             "Voyager": 2,
-            "LOWE": 1,
+            "Lowe": 1,
             "Bass Cat": 1,
             "Tahoe\u00ae": 1,
-            "FORMULA": 1,
-            "PLAYCRAFT": 1,
-            "Ranger Boats": 1,
+            "Formula": 1,
+            "PlayCraft": 1,
             "Fountain": 1,
-            "Tracker\u00ae Boats": 1
+            "Tracker\u00ae": 1
           }
         },
         {
@@ -47114,5 +47108,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-10-27."
     }
   ],
-  "lastUpdated": "2026-10-28T18:47:22.398437+00:00"
+  "lastUpdated": "2026-10-28T18:58:29.696727+00:00"
 }
