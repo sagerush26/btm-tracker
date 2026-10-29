@@ -5,7 +5,7 @@
     "Performance": 107,
     "Other": 93,
     "Center Console": 22,
-    "Pontoon / Tritoon": 90,
+    "Pontoon / Tritoon": 91,
     "Wakeboard / Ski": 43,
     "Fishing": 50,
     "Yacht": 13,
@@ -14,7 +14,7 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3511,
+    "New": 3512,
     "Used": 2364
   },
   "soldByBrand": {
@@ -34,7 +34,7 @@
     "Skater": 2,
     "MTI": 3,
     "Formula": 15,
-    "Manitou": 2,
+    "Manitou": 3,
     "Harris": 4,
     "Fountain": 2,
     "Invictus": 1,
@@ -86,15 +86,15 @@
     "Surdyke Yamaha & Marina": 339
   },
   "addedByCategory": {
-    "Cruiser / Cabin": 154,
-    "Bowrider": 621,
+    "Cruiser / Cabin": 161,
+    "Bowrider": 660,
     "Performance": 84,
-    "Wakeboard / Ski": 160,
-    "Pontoon / Tritoon": 368,
-    "Center Console": 72,
-    "Other": 137,
+    "Wakeboard / Ski": 166,
+    "Pontoon / Tritoon": 373,
+    "Center Console": 75,
+    "Other": 140,
     "Yacht": 10,
-    "Fishing": 169,
+    "Fishing": 185,
     "Power": 15
   },
   "inventoryTrend": [
@@ -577,6 +577,12 @@
       "totalMarket": 1213,
       "btm": 214,
       "competitors": 999
+    },
+    {
+      "date": "2026-10-29",
+      "totalMarket": 1217,
+      "btm": 214,
+      "competitors": 1003
     }
   ],
   "priceTrend": [
@@ -998,6 +1004,11 @@
     {
       "date": "2026-10-28",
       "marketAvg": 217120.58,
+      "btmAvg": 251185.11
+    },
+    {
+      "date": "2026-10-29",
+      "marketAvg": 216675.94,
       "btmAvg": 251185.11
     }
   ],
@@ -1505,26 +1516,6 @@
   ],
   "recentlyAdded": [
     {
-      "date": "2026-10-09",
-      "scanId": "scan-20261009",
-      "dealer": "MarineMax",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 43,
-      "newTotal": 44,
-      "detail": "Inventory increased by 1 (was 43, now 44). New: 20, Used: 24. Reflects the normal one-day change since the prior scan on 2026-10-08."
-    },
-    {
-      "date": "2026-10-10",
-      "scanId": "scan-20261010",
-      "dealer": "MarineMax",
-      "competitorId": "marinemax",
-      "count": 3,
-      "previousTotal": 44,
-      "newTotal": 47,
-      "detail": "Inventory increased by 3 (was 44, now 47). New: 22, Used: 25. Reflects the normal one-day change since the prior scan on 2026-10-09."
-    },
-    {
       "date": "2026-10-10",
       "scanId": "scan-20261010",
       "dealer": "Performance Boat Center",
@@ -2003,6 +1994,26 @@
       "previousTotal": 100,
       "newTotal": 103,
       "detail": "Inventory increased by 3 (was 100, now 103). New: 9, Used: 92. Reflects the normal one-day change since the prior scan on 2026-10-27."
+    },
+    {
+      "date": "2026-10-29",
+      "scanId": "scan-20261029",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 40,
+      "newTotal": 41,
+      "detail": "Inventory increased by 1 (was 40, now 41). New: 19, Used: 22. Reflects the normal one-day change since the prior scan on 2026-10-28."
+    },
+    {
+      "date": "2026-10-29",
+      "scanId": "scan-20261029",
+      "dealer": "Surdyke Yamaha & Marina",
+      "competitorId": "surdyke-yamaha",
+      "count": 3,
+      "previousTotal": 99,
+      "newTotal": 102,
+      "detail": "Inventory increased by 3 (was 99, now 102). New: 67, Used: 35. Reflects the normal one-day change since the prior scan on 2026-10-28."
     }
   ],
   "insights": [
@@ -3743,20 +3754,25 @@
       "date": "2026-10-28",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-28 (scan-20261028). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port, premier-advantage."
+    },
+    {
+      "date": "2026-10-29",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-10-29 (scan-20261029). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-28",
-    "scanId": "scan-20261028",
-    "marketTotal": 1213,
-    "credibleChangesCount": 6,
+    "date": "2026-10-29",
+    "scanId": "scan-20261029",
+    "marketTotal": 1217,
+    "credibleChangesCount": 2,
     "soldCount": 1585,
-    "addedCount": 834
+    "addedCount": 838
   },
   "addedByDealer": {
     "Big Thunder Marine": 85,
     "Formula Boats of Missouri": 37,
-    "Performance Marine Watersports": 21,
+    "Performance Marine Watersports": 22,
     "Marty's Marine": 111,
     "Iguana Marine Group": 72,
     "Premier Advantage Marine": 31,
@@ -3766,31 +3782,31 @@
     "Performance Boat Center": 46,
     "Village Marina & Yacht Club": 36,
     "Kelly's Port": 63,
-    "Surdyke Yamaha & Marina": 25,
+    "Surdyke Yamaha & Marina": 28,
     "Stateamind Water Sports": 79,
     "All About Boats": 11
   },
   "addedByCondition": {
     "New": 3114,
-    "Used": 2321
+    "Used": 2326
   },
   "addedByBrand": {
     "Aviara": 5,
     "Sunsation Powerboats": 4,
     "Formula": 64,
-    "MasterCraft": 45,
+    "MasterCraft": 46,
     "Nautique": 51,
-    "Bennington": 212,
+    "Bennington": 214,
     "Grady-White": 32,
-    "Crownline": 50,
-    "Regal": 127,
+    "Crownline": 52,
+    "Regal": 129,
     "Cobalt": 132,
     "Tiara Yachts": 11,
-    "Sea Ray": 41,
+    "Sea Ray": 43,
     "Cruiser": 4,
     "Prestige": 4,
     "Yamaha": 84,
-    "Four Winns": 152,
+    "Four Winns": 186,
     "South Bay": 10,
     "Larson": 4,
     "Rinker": 6,
@@ -3804,21 +3820,21 @@
     "Axopar": 33,
     "Beneteau": 18,
     "G3": 64,
-    "Scarab": 33,
+    "Scarab": 34,
     "SunCatcher": 51,
     "Ranger": 5,
     "Robalo": 5,
     "G3/Yamaha": 3,
     "Nitro": 3,
     "Voyager": 6,
-    "Fountain": 6,
+    "Fountain": 7,
     "Sundance": 3,
     "Lowe": 6,
     "Tahoe\u00ae": 3,
     "Tracker\u00ae": 3,
-    "Bayliner": 3,
+    "Bayliner": 4,
     "Harris": 5,
-    "Chaparral": 37,
+    "Chaparral": 42,
     "Premier": 11,
     "Tige": 7,
     "Viaggio": 8,
@@ -3840,10 +3856,10 @@
     "Berkshire": 2,
     "Crest": 4,
     "AMP": 6,
-    "Baja": 6,
+    "Baja": 8,
     "Barletta": 19,
-    "Wellcraft": 12,
-    "Alumacraft": 64,
+    "Wellcraft": 15,
+    "Alumacraft": 80,
     "Sylvan": 6,
     "Regency": 2,
     "Pursuit": 1,
