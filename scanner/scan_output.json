@@ -1639,13 +1639,13 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 35,
-        "Cruiser / Cabin": 2,
         "Performance": 1,
+        "Cruiser / Cabin": 2,
+        "Pontoon / Tritoon": 3,
+        "Fishing": 1,
         "Yacht": 1,
-        "Fishing": 1
+        "Bowrider": 35,
+        "Wakeboard / Ski": 5
       },
       "brand": {
         "Carver": 1,
@@ -2180,7 +2180,7 @@
       },
       "prices": [
         [
-          64900,
+          59900,
           "used"
         ],
         [
@@ -2335,17 +2335,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 35,
-      "new": 19,
+      "total": 34,
+      "new": 18,
       "used": 16,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 29,
+        "Bowrider": 28,
         "Other": 2
       },
       "brand": {
-        "Formula": 32,
+        "Formula": 31,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2422,7 +2422,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-49pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2490,11 +2490,11 @@
           "new"
         ],
         [
-          152938,
+          155612,
           "new"
         ],
         [
-          146557,
+          152938,
           "new"
         ],
         [
@@ -2593,39 +2593,37 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 67,
+      "total": 64,
       "new": 23,
-      "used": 44,
+      "used": 41,
       "category": {
-        "Pontoon / Tritoon": 29,
+        "Pontoon / Tritoon": 28,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 22,
-        "Power": 1,
+        "Bowrider": 21,
         "Other": 13
       },
       "brand": {
         "Southbay": 5,
-        "Chaparral": 8,
+        "Chaparral": 7,
         "Cobalt": 2,
         "Manitou": 2,
         "Sylvan": 17,
         "Crownline": 3,
         "Formula": 3,
-        "Sea Ray": 4,
+        "Sea Ray": 3,
         "Regal": 3,
         "Monterey": 2,
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
+        "Rinker": 1,
         "JC": 1,
-        "Suntracker": 1,
         "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
         "Lowe": 2,
         "Misty Harbor": 1,
-        "Rinker": 1,
         "Hurricane": 2,
         "Thompson": 1,
         "Harris-Kayot": 1
@@ -2725,11 +2723,11 @@
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           74900,
@@ -2768,7 +2766,7 @@
           "used"
         ],
         [
-          57900,
+          55900,
           "new"
         ],
         [
@@ -2816,11 +2814,7 @@
           "used"
         ],
         [
-          25900,
-          "used"
-        ],
-        [
-          25900,
+          29900,
           "used"
         ],
         [
@@ -2864,10 +2858,6 @@
           "used"
         ],
         [
-          19900,
-          "used"
-        ],
-        [
           17900,
           "used"
         ],
@@ -2877,10 +2867,6 @@
         ],
         [
           17900,
-          "used"
-        ],
-        [
-          14900,
           "used"
         ],
         [
@@ -3237,22 +3223,22 @@
     "premier-54": {
       "name": "Premier 54 Motorsports",
       "isOwn": false,
-      "total": 105,
-      "new": 61,
+      "total": 103,
+      "new": 59,
       "used": 43,
       "category": {
         "Fishing": 11,
         "Cruiser / Cabin": 3,
         "Pontoon / Tritoon": 19,
-        "Wakeboard / Ski": 16,
+        "Wakeboard / Ski": 15,
         "Other": 10,
-        "Performance": 43,
+        "Performance": 42,
         "Bowrider": 3
       },
       "brand": {
         "Premier": 21,
         "Crownline": 3,
-        "Chaparral": 51,
+        "Chaparral": 49,
         "Lowe": 1,
         "Montara": 1,
         "Nautic Star": 1,
@@ -3326,10 +3312,6 @@
         [
           229900,
           "used"
-        ],
-        [
-          311724,
-          "new"
         ],
         [
           480334,
@@ -3481,10 +3463,6 @@
         ],
         [
           480950,
-          "new"
-        ],
-        [
-          287075,
           "new"
         ],
         [
@@ -3642,7 +3620,7 @@
       ],
       "priceLow": 5500,
       "priceHigh": 480950,
-      "priceQuality": "partial-87pct"
+      "priceQuality": "partial-86pct"
     },
     "martys-marine": {
       "name": "Marty's Marine",
