@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 214,
+      "total": 213,
       "new": 111,
-      "used": 103,
+      "used": 102,
       "category": {
         "Pontoon / Tritoon": 48,
         "Wakeboard / Ski": 54,
-        "Center Console": 37,
+        "Center Console": 36,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
         "Performance": 13,
@@ -71,7 +71,6 @@
         "Correct Craft": 1,
         "SEA DOO": 8,
         "CYPRESS CAY": 1,
-        "Statement": 1,
         "Bennington": 1
       },
       "prices": [
@@ -824,10 +823,6 @@
           "new"
         ],
         [
-          329000,
-          "used"
-        ],
-        [
           170220,
           "new"
         ],
@@ -919,13 +914,13 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 52,
-      "new": 23,
+      "total": 53,
+      "new": 24,
       "used": 29,
       "category": {
         "Cruiser / Cabin": 17,
         "Yacht": 13,
-        "Performance": 8,
+        "Performance": 9,
         "Fishing": 4,
         "Bowrider": 3,
         "Other": 2,
@@ -933,7 +928,7 @@
         "Pontoon / Tritoon": 4
       },
       "brand": {
-        "Sea Ray": 26,
+        "Sea Ray": 27,
         "Boston Whaler": 3,
         "Cobalt": 2,
         "Chaparral": 1,
@@ -1151,6 +1146,10 @@
         ],
         [
           809139,
+          "new"
+        ],
+        [
+          99502,
           "new"
         ],
         [
@@ -1639,13 +1638,13 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Performance": 1,
-        "Cruiser / Cabin": 2,
-        "Pontoon / Tritoon": 3,
-        "Fishing": 1,
-        "Yacht": 1,
         "Bowrider": 35,
-        "Wakeboard / Ski": 5
+        "Cruiser / Cabin": 2,
+        "Yacht": 1,
+        "Fishing": 1,
+        "Performance": 1,
+        "Wakeboard / Ski": 5,
+        "Pontoon / Tritoon": 3
       },
       "brand": {
         "Carver": 1,
@@ -1947,7 +1946,7 @@
           "used"
         ],
         [
-          77500,
+          74999,
           "used"
         ],
         [
@@ -2427,18 +2426,18 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 41,
+      "total": 42,
       "new": 19,
-      "used": 22,
+      "used": 23,
       "category": {
-        "Wakeboard / Ski": 35,
+        "Wakeboard / Ski": 36,
         "Pontoon / Tritoon": 6
       },
       "brand": {
         "Mastercraft": 25,
         "Crest": 3,
         "Balise": 3,
-        "Supra": 5,
+        "Supra": 6,
         "Moomba": 2,
         "Nautique": 1,
         "Malibu": 1,
@@ -2534,6 +2533,10 @@
           "used"
         ],
         [
+          209990,
+          "used"
+        ],
+        [
           174990,
           "used"
         ],
@@ -2588,19 +2591,20 @@
       ],
       "priceLow": 44990,
       "priceHigh": 435990,
-      "priceQuality": "partial-85pct"
+      "priceQuality": "partial-86pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 64,
+      "total": 67,
       "new": 23,
-      "used": 41,
+      "used": 44,
       "category": {
-        "Pontoon / Tritoon": 28,
+        "Pontoon / Tritoon": 29,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 21,
+        "Bowrider": 22,
+        "Power": 1,
         "Other": 13
       },
       "brand": {
@@ -2611,17 +2615,18 @@
         "Sylvan": 17,
         "Crownline": 3,
         "Formula": 3,
-        "Sea Ray": 3,
+        "Sea Ray": 4,
         "Regal": 3,
         "Monterey": 2,
         "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Rinker": 1,
+        "Rinker": 2,
+        "Trifecta": 1,
         "JC": 1,
-        "Crest": 1,
         "Four Winns": 2,
         "Ebbtide": 1,
+        "Crest": 1,
         "Lowe": 2,
         "Misty Harbor": 1,
         "Hurricane": 2,
@@ -2802,6 +2807,14 @@
           "used"
         ],
         [
+          36900,
+          "used"
+        ],
+        [
+          29900,
+          "used"
+        ],
+        [
           29900,
           "used"
         ],
@@ -2843,6 +2856,10 @@
         ],
         [
           22900,
+          "used"
+        ],
+        [
+          19900,
           "used"
         ],
         [
@@ -3020,7 +3037,7 @@
           "used"
         ],
         [
-          77500,
+          74999,
           "used"
         ],
         [
@@ -3654,9 +3671,9 @@
     "surdyke-yamaha": {
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "total": 102,
+      "total": 103,
       "new": 67,
-      "used": 35,
+      "used": 36,
       "category": {
         "Pontoon / Tritoon": 22,
         "Center Console": 9,
@@ -3664,7 +3681,7 @@
         "Bowrider": 18,
         "Performance": 6,
         "Yacht": 1,
-        "Fishing": 23,
+        "Fishing": 24,
         "Power": 1,
         "Other": 6
       },
@@ -3691,8 +3708,8 @@
         "PLAYCRAFT": 1,
         "Ranger Boats": 1,
         "Fountain": 1,
-        "Sea Ray": 1,
-        "Tracker\u00ae Boats": 1
+        "Tracker\u00ae Boats": 2,
+        "Sea Ray": 1
       },
       "prices": [
         [
@@ -4062,7 +4079,7 @@
       ],
       "priceLow": 3399,
       "priceHigh": 749999,
-      "priceQuality": "partial-89pct"
+      "priceQuality": "partial-88pct"
     },
     "all-about-boats": {
       "name": "All About Boats",
