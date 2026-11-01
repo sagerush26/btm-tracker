@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-10-31T11:24:53.877106+00:00",
+  "lastUpdated": "2026-11-01T12:15:32.108414+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 213,
+      "totalBoats": 212,
       "newBoats": 111,
-      "usedBoats": 102,
+      "usedBoats": 101,
       "avgPriceNew": 326890.3,
-      "avgPriceUsed": 171748.19,
+      "avgPriceUsed": 172643.91,
       "byCondition": {
         "New": 111,
-        "Used": 102
+        "Used": 101
       },
       "byCategory": {
         "Pontoon / Tritoon": 48,
-        "Wakeboard / Ski": 54,
+        "Wakeboard / Ski": 53,
         "Center Console": 36,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
@@ -51,8 +51,8 @@
         "Sunsation": 1,
         "Dock & Jetski Dock": 1,
         "Concept": 1,
-        "Navan": 1,
         "Boston Whaler": 1,
+        "Navan": 1,
         "Capoforte": 6,
         "Deep Impact": 1,
         "Glasstream": 1,
@@ -68,7 +68,7 @@
         "Barletta": 2,
         "Nautical Racing Group": 1,
         "Cruisers Yachts": 1,
-        "Nautique": 3,
+        "Nautique": 2,
         "Spectre": 1,
         "Heritage": 1,
         "Crest": 1,
@@ -134,7 +134,7 @@
       "newBoats": 9,
       "usedBoats": 92,
       "avgPriceNew": 504950.0,
-      "avgPriceUsed": 547156.96,
+      "avgPriceUsed": 546178.7,
       "byCondition": {
         "New": 9,
         "Used": 92
@@ -215,13 +215,13 @@
         "Used": 33
       },
       "byCategory": {
-        "Bowrider": 35,
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
+        "Wakeboard / Ski": 5,
         "Fishing": 1,
         "Performance": 1,
-        "Wakeboard / Ski": 5,
-        "Pontoon / Tritoon": 3
+        "Cruiser / Cabin": 2,
+        "Bowrider": 35,
+        "Pontoon / Tritoon": 3,
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -375,21 +375,21 @@
       "id": "performance-marine",
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "totalBoats": 42,
-      "newBoats": 19,
+      "totalBoats": 43,
+      "newBoats": 20,
       "usedBoats": 23,
-      "avgPriceNew": 206364.89,
+      "avgPriceNew": 208944.15,
       "avgPriceUsed": 162931.18,
       "byCondition": {
-        "New": 19,
+        "New": 20,
         "Used": 23
       },
       "byCategory": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 37,
         "Pontoon / Tritoon": 6
       },
       "byBrand": {
-        "MasterCraft": 25,
+        "MasterCraft": 26,
         "Crest": 3,
         "Balise": 3,
         "Supra": 6,
@@ -439,9 +439,9 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Four Winns": 2,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
+        "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
         "Hurricane": 2,
@@ -677,11 +677,11 @@
   ],
   "marketTotals": {
     "totalBoats": 1216,
-    "newBoats": 597,
-    "usedBoats": 616,
+    "newBoats": 598,
+    "usedBoats": 615,
     "byCondition": {
-      "New": 597,
-      "Used": 616
+      "New": 598,
+      "Used": 615
     },
     "byCategory": {
       "Pontoon / Tritoon": 252,
@@ -701,8 +701,8 @@
       "Formula": 54,
       "Four Winns": 53,
       "Sea Ray": 46,
+      "MasterCraft": 41,
       "Cobalt": 40,
-      "MasterCraft": 40,
       "Barletta": 31,
       "Malibu": 31,
       "Crownline": 30,
@@ -734,10 +734,10 @@
       "Supra": 8,
       "Scarab": 8,
       "Invictus": 7,
-      "Nautique": 7,
       "AMP": 6,
       "Donzi": 6,
       "Capoforte": 6,
+      "Nautique": 6,
       "Harris": 6,
       "South Bay": 6,
       "Rinker": 6,
@@ -840,6 +840,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261031",
-  "date": "2026-10-31"
+  "scanId": "scan-20261101",
+  "date": "2026-11-01"
 }

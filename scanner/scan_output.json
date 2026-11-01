@@ -3,12 +3,12 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 213,
+      "total": 212,
       "new": 111,
-      "used": 102,
+      "used": 101,
       "category": {
         "Pontoon / Tritoon": 48,
-        "Wakeboard / Ski": 54,
+        "Wakeboard / Ski": 53,
         "Center Console": 36,
         "Cruiser / Cabin": 23,
         "Bowrider": 18,
@@ -43,8 +43,8 @@
         "Sunsation": 1,
         "Dock & Jetski Dock": 1,
         "Concept": 1,
-        "Navan": 1,
         "Boston Whaler": 1,
+        "Navan": 1,
         "Capoforte": 6,
         "Deep Impact": 1,
         "Glasstream": 1,
@@ -60,7 +60,7 @@
         "Barletta": 2,
         "Nautical Racing Group": 1,
         "CRUISERS": 1,
-        "Nautique": 3,
+        "Nautique": 2,
         "Spectre": 1,
         "Heritage": 1,
         "Crest": 1,
@@ -211,10 +211,6 @@
           "new"
         ],
         [
-          421878,
-          "new"
-        ],
-        [
           419900,
           "used"
         ],
@@ -315,11 +311,11 @@
           "used"
         ],
         [
-          247900,
+          244900,
           "used"
         ],
         [
-          244900,
+          239900,
           "used"
         ],
         [
@@ -835,16 +831,16 @@
           "used"
         ],
         [
+          421878,
+          "new"
+        ],
+        [
           149820,
           "new"
         ],
         [
           81670,
           "new"
-        ],
-        [
-          73280,
-          "used"
         ],
         [
           39997,
@@ -1330,7 +1326,7 @@
           "used"
         ],
         [
-          399950,
+          359950,
           "used"
         ],
         [
@@ -1478,7 +1474,7 @@
           "used"
         ],
         [
-          899950,
+          849950,
           "used"
         ],
         [
@@ -1638,13 +1634,13 @@
       "new": 15,
       "used": 33,
       "category": {
-        "Bowrider": 35,
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
+        "Wakeboard / Ski": 5,
         "Fishing": 1,
         "Performance": 1,
-        "Wakeboard / Ski": 5,
-        "Pontoon / Tritoon": 3
+        "Cruiser / Cabin": 2,
+        "Bowrider": 35,
+        "Pontoon / Tritoon": 3,
+        "Yacht": 1
       },
       "brand": {
         "Carver": 1,
@@ -2426,15 +2422,15 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 42,
-      "new": 19,
+      "total": 43,
+      "new": 20,
       "used": 23,
       "category": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 37,
         "Pontoon / Tritoon": 6
       },
       "brand": {
-        "Mastercraft": 25,
+        "Mastercraft": 26,
         "Crest": 3,
         "Balise": 3,
         "Supra": 6,
@@ -2450,6 +2446,10 @@
         ],
         [
           341763,
+          "new"
+        ],
+        [
+          257950,
           "new"
         ],
         [
@@ -2624,9 +2624,9 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Four Winns": 2,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
+        "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
         "Hurricane": 2,
@@ -2728,11 +2728,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           74900,

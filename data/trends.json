@@ -6,7 +6,7 @@
     "Other": 93,
     "Center Console": 23,
     "Pontoon / Tritoon": 92,
-    "Wakeboard / Ski": 44,
+    "Wakeboard / Ski": 45,
     "Fishing": 50,
     "Yacht": 13,
     "Power": 1
@@ -15,7 +15,7 @@
   "soldByLengthBand": {},
   "soldByCondition": {
     "New": 3515,
-    "Used": 2368
+    "Used": 2369
   },
   "soldByBrand": {
     "Cruisers Yachts": 1,
@@ -66,7 +66,8 @@
     "SunCatcher": 4,
     "Carver": 1,
     "Sun Tracker": 1,
-    "Aviara": 1
+    "Aviara": 1,
+    "Nautique": 1
   },
   "soldByDealer": {
     "Kelly's Port": 83,
@@ -82,14 +83,14 @@
     "Stateamind Water Sports": 93,
     "All About Boats": 20,
     "Village Marina & Yacht Club": 59,
-    "Big Thunder Marine": 99,
+    "Big Thunder Marine": 100,
     "Surdyke Yamaha & Marina": 339
   },
   "addedByCategory": {
     "Cruiser / Cabin": 161,
     "Bowrider": 661,
     "Performance": 85,
-    "Wakeboard / Ski": 167,
+    "Wakeboard / Ski": 168,
     "Pontoon / Tritoon": 374,
     "Center Console": 75,
     "Other": 140,
@@ -595,6 +596,12 @@
       "totalMarket": 1216,
       "btm": 213,
       "competitors": 1003
+    },
+    {
+      "date": "2026-11-01",
+      "totalMarket": 1216,
+      "btm": 212,
+      "competitors": 1004
     }
   ],
   "priceTrend": [
@@ -1032,19 +1039,14 @@
       "date": "2026-10-31",
       "marketAvg": 216162.24,
       "btmAvg": 250811.0
+    },
+    {
+      "date": "2026-11-01",
+      "marketAvg": 216245.03,
+      "btmAvg": 251629.99
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-09-30",
-      "scanId": "scan-20260930",
-      "dealer": "All About Boats",
-      "competitorId": "all-about-boats",
-      "count": 2,
-      "previousTotal": 44,
-      "newTotal": 42,
-      "detail": "Inventory decreased by 2 (was 44, now 42). New: 26, Used: 16. Reflects the normal one-day change since the prior scan on 2026-09-30."
-    },
     {
       "date": "2026-10-01",
       "scanId": "scan-20261001",
@@ -1534,19 +1536,19 @@
       "previousTotal": 214,
       "newTotal": 213,
       "detail": "Inventory decreased by 1 (was 214, now 213). New: 111, Used: 102. Reflects the normal one-day change since the prior scan on 2026-10-30."
+    },
+    {
+      "date": "2026-11-01",
+      "scanId": "scan-20261101",
+      "dealer": "Big Thunder Marine",
+      "competitorId": "big-thunder-marine",
+      "count": 1,
+      "previousTotal": 213,
+      "newTotal": 212,
+      "detail": "Inventory decreased by 1 (was 213, now 212). New: 111, Used: 101. Reflects the normal one-day change since the prior scan on 2026-10-31."
     }
   ],
   "recentlyAdded": [
-    {
-      "date": "2026-10-11",
-      "scanId": "scan-20261011",
-      "dealer": "Premier Advantage Marine",
-      "competitorId": "premier-advantage",
-      "count": 1,
-      "previousTotal": 69,
-      "newTotal": 70,
-      "detail": "Inventory increased by 1 (was 69, now 70). New: 12, Used: 58. Reflects the normal one-day change since the prior scan on 2026-10-10."
-    },
     {
       "date": "2026-10-11",
       "scanId": "scan-20261011",
@@ -2036,6 +2038,16 @@
       "previousTotal": 102,
       "newTotal": 103,
       "detail": "Inventory increased by 1 (was 102, now 103). New: 67, Used: 36. Reflects the normal one-day change since the prior scan on 2026-10-30."
+    },
+    {
+      "date": "2026-11-01",
+      "scanId": "scan-20261101",
+      "dealer": "Performance Marine Watersports",
+      "competitorId": "performance-marine",
+      "count": 1,
+      "previousTotal": 42,
+      "newTotal": 43,
+      "detail": "Inventory increased by 1 (was 42, now 43). New: 20, Used: 23. Reflects the normal one-day change since the prior scan on 2026-10-31."
     }
   ],
   "insights": [
@@ -3791,20 +3803,25 @@
       "date": "2026-10-31",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-10-31 (scan-20261031). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-11-01",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-01 (scan-20261101). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-10-31",
-    "scanId": "scan-20261031",
+    "date": "2026-11-01",
+    "scanId": "scan-20261101",
     "marketTotal": 1216,
-    "credibleChangesCount": 5,
-    "soldCount": 1592,
-    "addedCount": 844
+    "credibleChangesCount": 2,
+    "soldCount": 1593,
+    "addedCount": 845
   },
   "addedByDealer": {
     "Big Thunder Marine": 85,
     "Formula Boats of Missouri": 37,
-    "Performance Marine Watersports": 23,
+    "Performance Marine Watersports": 24,
     "Marty's Marine": 111,
     "Iguana Marine Group": 72,
     "Premier Advantage Marine": 31,
@@ -3819,14 +3836,14 @@
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3115,
+    "New": 3116,
     "Used": 2331
   },
   "addedByBrand": {
     "Aviara": 5,
     "Sunsation Powerboats": 4,
     "Formula": 64,
-    "MasterCraft": 46,
+    "MasterCraft": 47,
     "Nautique": 51,
     "Bennington": 214,
     "Grady-White": 32,
