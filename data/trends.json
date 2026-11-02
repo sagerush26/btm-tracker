@@ -1,7 +1,7 @@
 {
   "soldByCategory": {
     "Cruiser / Cabin": 42,
-    "Bowrider": 83,
+    "Bowrider": 84,
     "Performance": 108,
     "Other": 93,
     "Center Console": 23,
@@ -14,7 +14,7 @@
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3515,
+    "New": 3516,
     "Used": 2369
   },
   "soldByBrand": {
@@ -28,7 +28,7 @@
     "Regal": 3,
     "Crownline": 6,
     "MasterCraft": 6,
-    "Cobalt": 6,
+    "Cobalt": 7,
     "Sylvan": 3,
     "Godfrey": 6,
     "Skater": 2,
@@ -82,7 +82,7 @@
     "Performance Marine Watersports": 85,
     "Stateamind Water Sports": 93,
     "All About Boats": 20,
-    "Village Marina & Yacht Club": 59,
+    "Village Marina & Yacht Club": 60,
     "Big Thunder Marine": 100,
     "Surdyke Yamaha & Marina": 339
   },
@@ -91,7 +91,7 @@
     "Bowrider": 661,
     "Performance": 85,
     "Wakeboard / Ski": 168,
-    "Pontoon / Tritoon": 374,
+    "Pontoon / Tritoon": 518,
     "Center Console": 75,
     "Other": 140,
     "Yacht": 10,
@@ -602,6 +602,12 @@
       "totalMarket": 1216,
       "btm": 212,
       "competitors": 1004
+    },
+    {
+      "date": "2026-11-02",
+      "totalMarket": 1359,
+      "btm": 212,
+      "competitors": 1147
     }
   ],
   "priceTrend": [
@@ -1044,19 +1050,14 @@
       "date": "2026-11-01",
       "marketAvg": 216245.03,
       "btmAvg": 251629.99
+    },
+    {
+      "date": "2026-11-02",
+      "marketAvg": 200015.78,
+      "btmAvg": 251629.99
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-10-01",
-      "scanId": "scan-20261001",
-      "dealer": "MarineMax",
-      "competitorId": "marinemax",
-      "count": 1,
-      "previousTotal": 42,
-      "newTotal": 41,
-      "detail": "Inventory decreased by 1 (was 42, now 41). New: 20, Used: 21. Reflects the normal one-day change since the prior scan on 2026-09-30."
-    },
     {
       "date": "2026-10-01",
       "scanId": "scan-20261001",
@@ -1546,19 +1547,19 @@
       "previousTotal": 213,
       "newTotal": 212,
       "detail": "Inventory decreased by 1 (was 213, now 212). New: 111, Used: 101. Reflects the normal one-day change since the prior scan on 2026-10-31."
+    },
+    {
+      "date": "2026-11-02",
+      "scanId": "scan-20261102",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 48,
+      "newTotal": 47,
+      "detail": "Inventory decreased by 1 (was 48, now 47). New: 14, Used: 33. Reflects the normal one-day change since the prior scan on 2026-11-01."
     }
   ],
   "recentlyAdded": [
-    {
-      "date": "2026-10-11",
-      "scanId": "scan-20261011",
-      "dealer": "Formula Boats of Missouri",
-      "competitorId": "formula-boats-mo",
-      "count": 1,
-      "previousTotal": 31,
-      "newTotal": 32,
-      "detail": "Inventory increased by 1 (was 31, now 32). New: 18, Used: 14. Reflects the normal one-day change since the prior scan on 2026-10-10."
-    },
     {
       "date": "2026-10-13",
       "scanId": "scan-20261013",
@@ -2048,6 +2049,16 @@
       "previousTotal": 42,
       "newTotal": 43,
       "detail": "Inventory increased by 1 (was 42, now 43). New: 20, Used: 23. Reflects the normal one-day change since the prior scan on 2026-10-31."
+    },
+    {
+      "date": "2026-11-02",
+      "scanId": "scan-20261102",
+      "dealer": "Heartland Marine",
+      "competitorId": "heartland-marine",
+      "count": 144,
+      "previousTotal": 67,
+      "newTotal": 211,
+      "detail": "Inventory increased by 144 (was 67, now 211). New: 167, Used: 44. Reflects the normal one-day change since the prior scan on 2026-11-01."
     }
   ],
   "insights": [
@@ -3808,15 +3819,20 @@
       "date": "2026-11-01",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-11-01 (scan-20261101). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-02 (scan-20261102). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: kellys-port."
     }
   ],
   "summary": {
-    "date": "2026-11-01",
-    "scanId": "scan-20261101",
-    "marketTotal": 1216,
+    "date": "2026-11-02",
+    "scanId": "scan-20261102",
+    "marketTotal": 1359,
     "credibleChangesCount": 2,
-    "soldCount": 1593,
-    "addedCount": 845
+    "soldCount": 1594,
+    "addedCount": 989
   },
   "addedByDealer": {
     "Big Thunder Marine": 85,
@@ -3825,7 +3841,7 @@
     "Marty's Marine": 111,
     "Iguana Marine Group": 72,
     "Premier Advantage Marine": 31,
-    "Heartland Marine": 73,
+    "Heartland Marine": 217,
     "Premier 54 Motorsports": 90,
     "MarineMax": 58,
     "Performance Boat Center": 46,
@@ -3836,7 +3852,7 @@
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3116,
+    "New": 3260,
     "Used": 2331
   },
   "addedByBrand": {
@@ -3902,7 +3918,7 @@
     "Bass Cat": 2,
     "Ebbtide": 1,
     "Glasstream": 1,
-    "Berkshire": 2,
+    "Berkshire": 74,
     "Crest": 4,
     "AMP": 6,
     "Baja": 8,
@@ -3936,6 +3952,7 @@
     "PlayCraft": 1,
     "Balise": 3,
     "Moomba": 2,
-    "Trifecta": 1
+    "Trifecta": 1,
+    "South": 72
   }
 }

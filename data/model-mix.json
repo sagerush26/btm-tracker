@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T12:15:32.108414+00:00",
+  "lastUpdated": "2026-11-02T14:03:56.970111+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -205,27 +205,27 @@
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "totalBoats": 48,
-      "newBoats": 15,
+      "totalBoats": 47,
+      "newBoats": 14,
       "usedBoats": 33,
       "avgPriceNew": 114863.06,
       "avgPriceUsed": 114863.06,
       "byCondition": {
-        "New": 15,
+        "New": 14,
         "Used": 33
       },
       "byCategory": {
-        "Wakeboard / Ski": 5,
-        "Fishing": 1,
-        "Performance": 1,
         "Cruiser / Cabin": 2,
-        "Bowrider": 35,
+        "Performance": 1,
+        "Fishing": 1,
+        "Yacht": 1,
         "Pontoon / Tritoon": 3,
-        "Yacht": 1
+        "Bowrider": 34,
+        "Wakeboard / Ski": 5
       },
       "byBrand": {
         "Carver": 1,
-        "Cobalt": 27,
+        "Cobalt": 26,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -405,17 +405,17 @@
       "id": "heartland-marine",
       "name": "Heartland Marine",
       "isOwn": false,
-      "totalBoats": 67,
-      "newBoats": 23,
+      "totalBoats": 211,
+      "newBoats": 167,
       "usedBoats": 44,
-      "avgPriceNew": 95682.61,
+      "avgPriceNew": 66964.38,
       "avgPriceUsed": 47765.89,
       "byCondition": {
-        "New": 23,
+        "New": 167,
         "Used": 44
       },
       "byCategory": {
-        "Pontoon / Tritoon": 29,
+        "Pontoon / Tritoon": 173,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 22,
@@ -423,6 +423,8 @@
         "Other": 13
       },
       "byBrand": {
+        "South": 72,
+        "Berkshire": 74,
         "South Bay": 5,
         "Chaparral": 7,
         "Cobalt": 2,
@@ -433,7 +435,6 @@
         "Sea Ray": 4,
         "Regal": 3,
         "Monterey": 2,
-        "Berkshire": 2,
         "Bennington": 1,
         "Baja": 1,
         "Rinker": 2,
@@ -676,19 +677,19 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1216,
-    "newBoats": 598,
+    "totalBoats": 1359,
+    "newBoats": 741,
     "usedBoats": 615,
     "byCondition": {
-      "New": 598,
+      "New": 741,
       "Used": 615
     },
     "byCategory": {
-      "Pontoon / Tritoon": 252,
+      "Pontoon / Tritoon": 396,
       "Wakeboard / Ski": 169,
       "Center Console": 89,
       "Cruiser / Cabin": 81,
-      "Bowrider": 212,
+      "Bowrider": 211,
       "Performance": 97,
       "Yacht": 36,
       "Fishing": 75,
@@ -696,13 +697,15 @@
       "Other": 83
     },
     "byBrand": {
+      "Berkshire": 74,
+      "South": 72,
       "Chaparral": 65,
       "Godfrey": 56,
       "Formula": 54,
       "Four Winns": 53,
       "Sea Ray": 46,
       "MasterCraft": 41,
-      "Cobalt": 40,
+      "Cobalt": 39,
       "Barletta": 31,
       "Malibu": 31,
       "Crownline": 30,
@@ -780,7 +783,6 @@
       "Crowline": 2,
       "Chapparal": 2,
       "Caymas": 2,
-      "Berkshire": 2,
       "Misty Harbor": 2,
       "Hurricane": 2,
       "Sun Tracker": 2,
@@ -840,6 +842,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261101",
-  "date": "2026-11-01"
+  "scanId": "scan-20261102",
+  "date": "2026-11-02"
 }
