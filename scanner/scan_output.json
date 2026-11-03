@@ -953,7 +953,7 @@
           "used"
         ],
         [
-          99900,
+          97900,
           "used"
         ],
         [
@@ -1634,13 +1634,13 @@
       "new": 14,
       "used": 33,
       "category": {
-        "Cruiser / Cabin": 2,
-        "Performance": 1,
-        "Fishing": 1,
-        "Yacht": 1,
-        "Pontoon / Tritoon": 3,
         "Bowrider": 34,
-        "Wakeboard / Ski": 5
+        "Cruiser / Cabin": 2,
+        "Yacht": 1,
+        "Wakeboard / Ski": 5,
+        "Performance": 1,
+        "Pontoon / Tritoon": 3,
+        "Fishing": 1
       },
       "brand": {
         "Carver": 1,
@@ -1802,15 +1802,15 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 101,
+      "total": 100,
       "new": 66,
-      "used": 35,
+      "used": 34,
       "category": {
         "Pontoon / Tritoon": 34,
         "Wakeboard / Ski": 22,
         "Center Console": 5,
         "Cruiser / Cabin": 4,
-        "Bowrider": 13,
+        "Bowrider": 12,
         "Performance": 5,
         "Yacht": 8,
         "Fishing": 9,
@@ -1826,7 +1826,7 @@
         "HCB": 3,
         "Supra": 1,
         "Black Thunder Powerboats": 1,
-        "Malibu": 15,
+        "Malibu": 14,
         "Godrey": 1,
         "Bennington": 1,
         "Ikon Boats": 1,
@@ -2096,10 +2096,6 @@
         [
           119982,
           "new"
-        ],
-        [
-          135000,
-          "used"
         ],
         [
           79900,
@@ -2596,28 +2592,28 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 211,
+      "total": 210,
       "new": 167,
-      "used": 44,
+      "used": 43,
       "category": {
-        "Pontoon / Tritoon": 173,
+        "Pontoon / Tritoon": 172,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 22,
+        "Bowrider": 21,
         "Power": 1,
-        "Other": 13
+        "Other": 14
       },
       "brand": {
         "South": 72,
-        "Berkshire": 74,
+        "Berkshire": 73,
         "Southbay": 5,
         "Chaparral": 7,
         "Cobalt": 2,
         "Manitou": 2,
         "Sylvan": 17,
-        "Crownline": 3,
+        "Crownline": 2,
         "Formula": 3,
-        "Sea Ray": 4,
+        "Sea Ray": 5,
         "Regal": 3,
         "Monterey": 2,
         "Bennington": 1,
@@ -3340,10 +3336,6 @@
           "used"
         ],
         [
-          39900,
-          "used"
-        ],
-        [
           39467,
           "new"
         ],
@@ -3448,10 +3440,6 @@
           "used"
         ],
         [
-          19900,
-          "used"
-        ],
-        [
           17900,
           "used"
         ],
@@ -3469,6 +3457,10 @@
         ],
         [
           14900,
+          "used"
+        ],
+        [
+          13900,
           "used"
         ],
         [
@@ -3487,12 +3479,12 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 96,
+      "total": 95,
       "new": 61,
-      "used": 35,
+      "used": 34,
       "category": {
         "Fishing": 9,
-        "Wakeboard / Ski": 29,
+        "Wakeboard / Ski": 28,
         "Pontoon / Tritoon": 34,
         "Yacht": 9,
         "Bowrider": 11,
@@ -3509,7 +3501,7 @@
         "HCB": 3,
         "Supra": 1,
         "Black Thunder Powerboats": 1,
-        "Malibu": 15,
+        "Malibu": 14,
         "Godrey": 1,
         "Bennington": 1,
         "Ikon Boats": 1,
@@ -3768,10 +3760,6 @@
         [
           119982,
           "new"
-        ],
-        [
-          135000,
-          "used"
         ],
         [
           79900,
