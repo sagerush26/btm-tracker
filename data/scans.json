@@ -42972,15 +42972,15 @@
       "results": [
         {
           "competitorId": "big-thunder-marine",
-          "totalBoats": 212,
-          "newBoats": 111,
+          "totalBoats": 211,
+          "newBoats": 110,
           "usedBoats": 101,
-          "avgPrice": 251629.99,
-          "avgPriceNew": 326890.3,
+          "avgPrice": 252455.03,
+          "avgPriceNew": 329225.73,
           "avgPriceUsed": 172643.91,
           "priceRange": "$6,495 - $2,697,900",
           "category": {
-            "Pontoon / Tritoon": 48,
+            "Pontoon / Tritoon": 47,
             "Wakeboard / Ski": 53,
             "Center Console": 36,
             "Cruiser / Cabin": 23,
@@ -43029,7 +43029,7 @@
             "Outerlimits": 1,
             "ATX": 5,
             "Evotti": 3,
-            "Viaggio": 28,
+            "Viaggio": 27,
             "Yamaha": 2,
             "Barletta": 2,
             "Nautical Racing Group": 1,
@@ -43085,21 +43085,21 @@
         },
         {
           "competitorId": "performance-boat-center",
-          "totalBoats": 103,
+          "totalBoats": 105,
           "newBoats": 9,
-          "usedBoats": 92,
-          "avgPrice": 542306.83,
+          "usedBoats": 95,
+          "avgPrice": 538571.75,
           "avgPriceNew": 504950.0,
-          "avgPriceUsed": 545961.3,
+          "avgPriceUsed": 541790.85,
           "priceRange": "$22,500 - $2,299,950",
           "category": {
             "Fishing": 1,
             "Other": 41,
             "Bowrider": 8,
-            "Center Console": 30,
+            "Center Console": 31,
             "Performance": 19,
             "Power": 2,
-            "Cruiser / Cabin": 2
+            "Cruiser / Cabin": 3
           },
           "brand": {
             "Skater": 11,
@@ -43108,6 +43108,7 @@
             "Outerlimits": 3,
             "IRON": 2,
             "Performance Powerboats": 4,
+            "Sunsation": 1,
             "Regal": 1,
             "Ford": 1,
             "Interceptor": 1,
@@ -43131,14 +43132,16 @@
             "Mercury Marine": 2,
             "Statement": 1,
             "Baja": 1,
+            "Sea Ray": 1,
+            "Scarab": 1,
             "Wellcraft": 1
           }
         },
         {
           "competitorId": "kellys-port",
           "totalBoats": 105,
-          "newBoats": 59,
-          "usedBoats": 46,
+          "newBoats": 57,
+          "usedBoats": 48,
           "avgPrice": 279375.66,
           "avgPriceNew": 279375.66,
           "avgPriceUsed": 279375.66,
@@ -43156,13 +43159,13 @@
           "avgPriceUsed": 114863.06,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Pontoon / Tritoon": 3,
             "Wakeboard / Ski": 5,
-            "Cruiser / Cabin": 2,
-            "Fishing": 1,
-            "Performance": 1,
+            "Pontoon / Tritoon": 3,
             "Bowrider": 34,
-            "Yacht": 1
+            "Cruiser / Cabin": 2,
+            "Performance": 1,
+            "Yacht": 1,
+            "Fishing": 1
           },
           "brand": {
             "Carver": 1,
@@ -43272,8 +43275,8 @@
         },
         {
           "competitorId": "formula-boats-mo",
-          "totalBoats": 33,
-          "newBoats": 18,
+          "totalBoats": 32,
+          "newBoats": 17,
           "usedBoats": 15,
           "avgPrice": 298950.56,
           "avgPriceNew": 914454.0,
@@ -43282,11 +43285,11 @@
           "category": {
             "Center Console": 1,
             "Cruiser / Cabin": 3,
-            "Bowrider": 27,
+            "Bowrider": 26,
             "Other": 2
           },
           "brand": {
-            "Formula": 30,
+            "Formula": 29,
             "Cobalt": 1,
             "Regal": 1,
             "Chaparral": 1
@@ -43294,22 +43297,22 @@
         },
         {
           "competitorId": "performance-marine",
-          "totalBoats": 43,
-          "newBoats": 20,
-          "usedBoats": 23,
-          "avgPrice": 187803.05,
-          "avgPriceNew": 208944.15,
-          "avgPriceUsed": 162931.18,
+          "totalBoats": 41,
+          "newBoats": 19,
+          "usedBoats": 22,
+          "avgPrice": 184632.51,
+          "avgPriceNew": 201699.89,
+          "avgPriceUsed": 164365.0,
           "priceRange": "$44,990 - $435,990",
           "category": {
-            "Wakeboard / Ski": 37,
+            "Wakeboard / Ski": 35,
             "Pontoon / Tritoon": 6
           },
           "brand": {
-            "MasterCraft": 26,
+            "MasterCraft": 25,
             "Crest": 3,
             "Balise": 3,
-            "Supra": 6,
+            "Supra": 5,
             "Moomba": 2,
             "Nautique": 1,
             "Malibu": 1,
@@ -43349,8 +43352,8 @@
             "Rinker": 2,
             "Trifecta": 1,
             "JC": 1,
-            "Crest": 1,
             "Ebbtide": 1,
+            "Crest": 1,
             "Four Winns": 2,
             "Lowe": 2,
             "Misty Harbor": 1,
@@ -51488,6 +51491,21 @@
     {
       "scanId": "scan-20261104",
       "date": "2026-11-04",
+      "competitorId": "big-thunder-marine",
+      "dealerId": "big-thunder-marine",
+      "dealerName": "Big Thunder Marine",
+      "previousTotal": 212,
+      "newTotal": 211,
+      "change": -1,
+      "type": "inventory_decrease",
+      "count": 1,
+      "description": "Big Thunder Marine: 212 -> 211 (-1)",
+      "detail": "Inventory decreased by 1 (was 212, now 211). New: 110, Used: 101. Reflects the normal one-day change since the prior scan on 2026-11-03.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
+    },
+    {
+      "scanId": "scan-20261104",
+      "date": "2026-11-04",
       "competitorId": "marinemax",
       "dealerId": "marinemax",
       "dealerName": "MarineMax",
@@ -51498,6 +51516,21 @@
       "count": 1,
       "description": "MarineMax: 53 -> 52 (-1)",
       "detail": "Inventory decreased by 1 (was 53, now 52). New: 24, Used: 28. Reflects the normal one-day change since the prior scan on 2026-11-03.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
+    },
+    {
+      "scanId": "scan-20261104",
+      "date": "2026-11-04",
+      "competitorId": "performance-boat-center",
+      "dealerId": "performance-boat-center",
+      "dealerName": "Performance Boat Center",
+      "previousTotal": 103,
+      "newTotal": 105,
+      "change": 2,
+      "type": "inventory_increase",
+      "count": 2,
+      "description": "Performance Boat Center: 103 -> 105 (+2)",
+      "detail": "Inventory increased by 2 (was 103, now 105). New: 9, Used: 95. Reflects the normal one-day change since the prior scan on 2026-11-03.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
     },
     {
@@ -51522,12 +51555,27 @@
       "dealerId": "formula-boats-mo",
       "dealerName": "Formula Boats of Missouri",
       "previousTotal": 34,
-      "newTotal": 33,
-      "change": -1,
+      "newTotal": 32,
+      "change": -2,
       "type": "inventory_decrease",
-      "count": 1,
-      "description": "Formula Boats of Missouri: 34 -> 33 (-1)",
-      "detail": "Inventory decreased by 1 (was 34, now 33). New: 18, Used: 15. Reflects the normal one-day change since the prior scan on 2026-11-03.",
+      "count": 2,
+      "description": "Formula Boats of Missouri: 34 -> 32 (-2)",
+      "detail": "Inventory decreased by 2 (was 34, now 32). New: 17, Used: 15. Reflects the normal one-day change since the prior scan on 2026-11-03.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
+    },
+    {
+      "scanId": "scan-20261104",
+      "date": "2026-11-04",
+      "competitorId": "performance-marine",
+      "dealerId": "performance-marine",
+      "dealerName": "Performance Marine Watersports",
+      "previousTotal": 43,
+      "newTotal": 41,
+      "change": -2,
+      "type": "inventory_decrease",
+      "count": 2,
+      "description": "Performance Marine Watersports: 43 -> 41 (-2)",
+      "detail": "Inventory decreased by 2 (was 43, now 41). New: 19, Used: 22. Reflects the normal one-day change since the prior scan on 2026-11-03.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
     },
     {
@@ -51561,5 +51609,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
     }
   ],
-  "lastUpdated": "2026-11-04T13:28:47.540369+00:00"
+  "lastUpdated": "2026-11-04T18:41:35.350534+00:00"
 }

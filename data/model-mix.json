@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-11-04T13:28:47.540369+00:00",
+  "lastUpdated": "2026-11-04T18:41:35.350534+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 212,
-      "newBoats": 111,
+      "totalBoats": 211,
+      "newBoats": 110,
       "usedBoats": 101,
-      "avgPriceNew": 326890.3,
+      "avgPriceNew": 329225.73,
       "avgPriceUsed": 172643.91,
       "byCondition": {
-        "New": 111,
+        "New": 110,
         "Used": 101
       },
       "byCategory": {
-        "Pontoon / Tritoon": 48,
+        "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 53,
         "Center Console": 36,
         "Cruiser / Cabin": 23,
@@ -64,7 +64,7 @@
         "Outerlimits": 1,
         "ATX": 5,
         "Evotti": 3,
-        "Viaggio": 28,
+        "Viaggio": 27,
         "Yamaha": 2,
         "Barletta": 2,
         "Nautical Racing Group": 1,
@@ -130,23 +130,23 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 103,
+      "totalBoats": 105,
       "newBoats": 9,
-      "usedBoats": 92,
+      "usedBoats": 95,
       "avgPriceNew": 504950.0,
-      "avgPriceUsed": 545961.3,
+      "avgPriceUsed": 541790.85,
       "byCondition": {
         "New": 9,
-        "Used": 92
+        "Used": 95
       },
       "byCategory": {
         "Fishing": 1,
         "Other": 41,
         "Bowrider": 8,
-        "Center Console": 30,
+        "Center Console": 31,
         "Performance": 19,
         "Power": 2,
-        "Cruiser / Cabin": 2
+        "Cruiser / Cabin": 3
       },
       "byBrand": {
         "Skater": 11,
@@ -155,6 +155,7 @@
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
+        "Sunsation": 1,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
@@ -178,6 +179,8 @@
         "Mercury Marine": 2,
         "Statement": 1,
         "Baja": 1,
+        "Sea Ray": 1,
+        "Scarab": 1,
         "Wellcraft": 1
       },
       "byLength": {},
@@ -188,13 +191,13 @@
       "name": "Kelly's Port",
       "isOwn": false,
       "totalBoats": 105,
-      "newBoats": 59,
-      "usedBoats": 46,
+      "newBoats": 57,
+      "usedBoats": 48,
       "avgPriceNew": 279375.66,
       "avgPriceUsed": 279375.66,
       "byCondition": {
-        "New": 59,
-        "Used": 46
+        "New": 57,
+        "Used": 48
       },
       "byCategory": {},
       "byBrand": {},
@@ -215,13 +218,13 @@
         "Used": 33
       },
       "byCategory": {
-        "Pontoon / Tritoon": 3,
         "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 2,
-        "Fishing": 1,
-        "Performance": 1,
+        "Pontoon / Tritoon": 3,
         "Bowrider": 34,
-        "Yacht": 1
+        "Cruiser / Cabin": 2,
+        "Performance": 1,
+        "Yacht": 1,
+        "Fishing": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -347,23 +350,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 33,
-      "newBoats": 18,
+      "totalBoats": 32,
+      "newBoats": 17,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 257917.0,
       "byCondition": {
-        "New": 18,
+        "New": 17,
         "Used": 15
       },
       "byCategory": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "byBrand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -375,24 +378,24 @@
       "id": "performance-marine",
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "totalBoats": 43,
-      "newBoats": 20,
-      "usedBoats": 23,
-      "avgPriceNew": 208944.15,
-      "avgPriceUsed": 162931.18,
+      "totalBoats": 41,
+      "newBoats": 19,
+      "usedBoats": 22,
+      "avgPriceNew": 201699.89,
+      "avgPriceUsed": 164365.0,
       "byCondition": {
-        "New": 20,
-        "Used": 23
+        "New": 19,
+        "Used": 22
       },
       "byCategory": {
-        "Wakeboard / Ski": 37,
+        "Wakeboard / Ski": 35,
         "Pontoon / Tritoon": 6
       },
       "byBrand": {
-        "MasterCraft": 26,
+        "MasterCraft": 25,
         "Crest": 3,
         "Balise": 3,
-        "Supra": 6,
+        "Supra": 5,
         "Moomba": 2,
         "Nautique": 1,
         "Malibu": 1,
@@ -438,8 +441,8 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Crest": 1,
         "Ebbtide": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -674,19 +677,19 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1210,
-    "newBoats": 597,
-    "usedBoats": 610,
+    "totalBoats": 1208,
+    "newBoats": 592,
+    "usedBoats": 614,
     "byCondition": {
-      "New": 597,
-      "Used": 610
+      "New": 592,
+      "Used": 614
     },
     "byCategory": {
-      "Pontoon / Tritoon": 250,
-      "Wakeboard / Ski": 168,
-      "Center Console": 89,
-      "Cruiser / Cabin": 80,
-      "Bowrider": 208,
+      "Pontoon / Tritoon": 249,
+      "Wakeboard / Ski": 166,
+      "Center Console": 90,
+      "Cruiser / Cabin": 81,
+      "Bowrider": 207,
       "Performance": 97,
       "Yacht": 36,
       "Fishing": 74,
@@ -696,15 +699,15 @@
     "byBrand": {
       "Chaparral": 66,
       "Godfrey": 56,
-      "Formula": 53,
       "Four Winns": 53,
-      "Sea Ray": 48,
-      "MasterCraft": 41,
+      "Formula": 52,
+      "Sea Ray": 49,
+      "MasterCraft": 40,
       "Cobalt": 38,
       "Barletta": 31,
       "Crownline": 29,
       "Malibu": 29,
-      "Viaggio": 28,
+      "Viaggio": 27,
       "Tige": 25,
       "Yamaha": 25,
       "Premier": 25,
@@ -726,12 +729,12 @@
       "Starcraft": 10,
       "JC Tritoon": 9,
       "Sea-Doo": 9,
+      "Scarab": 9,
       "Chris-Craft": 8,
       "Cruisers Yachts": 8,
       "Bennington": 8,
-      "Supra": 8,
-      "Scarab": 8,
       "Invictus": 7,
+      "Supra": 7,
       "AMP": 6,
       "Donzi": 6,
       "Capoforte": 6,
@@ -766,6 +769,7 @@
       "YOT": 2,
       "Opus": 2,
       "Anthem": 2,
+      "Sunsation": 2,
       "Concept": 2,
       "Princecraft": 2,
       "IRON": 2,
@@ -790,7 +794,6 @@
       "Jeanneau": 1,
       "Midnight Express": 1,
       "Unknown": 1,
-      "Sunsation": 1,
       "Dock & Jetski Dock": 1,
       "Navan": 1,
       "Deep Impact": 1,
