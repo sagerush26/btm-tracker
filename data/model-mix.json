@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T08:11:47.453239+00:00",
+  "lastUpdated": "2026-11-04T13:28:47.540369+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -215,13 +215,13 @@
         "Used": 33
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
-        "Bowrider": 34,
+        "Pontoon / Tritoon": 3,
         "Wakeboard / Ski": 5,
+        "Cruiser / Cabin": 2,
         "Fishing": 1,
-        "Yacht": 1,
         "Performance": 1,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 34,
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -438,8 +438,8 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,

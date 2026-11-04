@@ -1630,13 +1630,13 @@
       "new": 14,
       "used": 33,
       "category": {
-        "Cruiser / Cabin": 2,
-        "Bowrider": 34,
+        "Pontoon / Tritoon": 3,
         "Wakeboard / Ski": 5,
+        "Cruiser / Cabin": 2,
         "Fishing": 1,
-        "Yacht": 1,
         "Performance": 1,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 34,
+        "Yacht": 1
       },
       "brand": {
         "Carver": 1,
@@ -2619,8 +2619,8 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -2723,11 +2723,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           74900,

@@ -43156,13 +43156,13 @@
           "avgPriceUsed": 114863.06,
           "priceRange": "$9,800 - $479,000",
           "category": {
-            "Cruiser / Cabin": 2,
-            "Bowrider": 34,
+            "Pontoon / Tritoon": 3,
             "Wakeboard / Ski": 5,
+            "Cruiser / Cabin": 2,
             "Fishing": 1,
-            "Yacht": 1,
             "Performance": 1,
-            "Pontoon / Tritoon": 3
+            "Bowrider": 34,
+            "Yacht": 1
           },
           "brand": {
             "Carver": 1,
@@ -43349,8 +43349,8 @@
             "Rinker": 2,
             "Trifecta": 1,
             "JC": 1,
-            "Ebbtide": 1,
             "Crest": 1,
+            "Ebbtide": 1,
             "Four Winns": 2,
             "Lowe": 2,
             "Misty Harbor": 1,
@@ -51561,5 +51561,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-03."
     }
   ],
-  "lastUpdated": "2026-11-04T08:11:47.453239+00:00"
+  "lastUpdated": "2026-11-04T13:28:47.540369+00:00"
 }
