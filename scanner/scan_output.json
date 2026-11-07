@@ -3,15 +3,15 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 212,
+      "total": 215,
       "new": 110,
-      "used": 102,
+      "used": 105,
       "category": {
         "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 53,
-        "Center Console": 36,
+        "Center Console": 38,
         "Cruiser / Cabin": 23,
-        "Bowrider": 19,
+        "Bowrider": 20,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -22,11 +22,11 @@
         "Chaparral": 2,
         "Dutch American": 2,
         "Cigarette": 4,
-        "Fountain": 11,
+        "Fountain": 12,
         "Invictus": 7,
         "Pirelli": 1,
         "Chris Craft": 7,
-        "Monterey": 10,
+        "Monterey": 12,
         "Sea Ray": 9,
         "Jeanneau": 1,
         "YOT": 2,
@@ -223,6 +223,10 @@
           "new"
         ],
         [
+          404900,
+          "used"
+        ],
+        [
           403245,
           "new"
         ],
@@ -292,6 +296,10 @@
         ],
         [
           269900,
+          "used"
+        ],
+        [
+          267900,
           "used"
         ],
         [
@@ -659,6 +667,10 @@
           "used"
         ],
         [
+          89900,
+          "used"
+        ],
+        [
           88940,
           "new"
         ],
@@ -910,13 +922,13 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 52,
+      "total": 53,
       "new": 24,
-      "used": 28,
+      "used": 29,
       "category": {
         "Cruiser / Cabin": 17,
         "Yacht": 13,
-        "Performance": 9,
+        "Performance": 10,
         "Fishing": 4,
         "Other": 2,
         "Wakeboard / Ski": 1,
@@ -924,7 +936,7 @@
         "Bowrider": 2
       },
       "brand": {
-        "Sea Ray": 27,
+        "Sea Ray": 28,
         "Boston Whaler": 3,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -998,6 +1010,10 @@
         ],
         [
           189900,
+          "used"
+        ],
+        [
+          199900,
           "used"
         ],
         [
@@ -1641,13 +1657,13 @@
       "new": 14,
       "used": 33,
       "category": {
+        "Pontoon / Tritoon": 3,
         "Fishing": 1,
-        "Bowrider": 34,
+        "Yacht": 1,
         "Performance": 1,
         "Wakeboard / Ski": 5,
         "Cruiser / Cabin": 2,
-        "Yacht": 1,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 34
       },
       "brand": {
         "Carver": 1,
@@ -2429,15 +2445,15 @@
     "performance-marine": {
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "total": 42,
+      "total": 43,
       "new": 19,
-      "used": 23,
+      "used": 24,
       "category": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 37,
         "Pontoon / Tritoon": 6
       },
       "brand": {
-        "Mastercraft": 25,
+        "Mastercraft": 26,
         "Crest": 3,
         "Balise": 3,
         "Supra": 6,
@@ -2576,6 +2592,10 @@
           "used"
         ],
         [
+          159990,
+          "used"
+        ],
+        [
           54990,
           "used"
         ],
@@ -2599,23 +2619,23 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 65,
-      "new": 22,
-      "used": 43,
+      "total": 63,
+      "new": 21,
+      "used": 42,
       "category": {
-        "Pontoon / Tritoon": 27,
+        "Pontoon / Tritoon": 26,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 21,
+        "Bowrider": 20,
         "Power": 1,
         "Other": 14
       },
       "brand": {
         "Southbay": 5,
         "Chaparral": 7,
-        "Cobalt": 2,
+        "Cobalt": 1,
         "Manitou": 2,
-        "Sylvan": 17,
+        "Sylvan": 16,
         "Crownline": 2,
         "Formula": 3,
         "Sea Ray": 5,
@@ -2626,8 +2646,8 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -2674,10 +2694,6 @@
         ],
         [
           114900,
-          "new"
-        ],
-        [
-          107900,
           "new"
         ],
         [
@@ -2763,10 +2779,6 @@
         [
           65900,
           "new"
-        ],
-        [
-          59900,
-          "used"
         ],
         [
           59900,
@@ -4023,6 +4035,10 @@
         ],
         [
           99999,
+          "used"
+        ],
+        [
+          29999,
           "used"
         ],
         [

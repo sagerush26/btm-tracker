@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-11-06T13:25:51.831128+00:00",
+  "lastUpdated": "2026-11-07T12:04:41.135801+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 212,
+      "totalBoats": 215,
       "newBoats": 110,
-      "usedBoats": 102,
+      "usedBoats": 105,
       "avgPriceNew": 329225.73,
-      "avgPriceUsed": 174381.72,
+      "avgPriceUsed": 176663.19,
       "byCondition": {
         "New": 110,
-        "Used": 102
+        "Used": 105
       },
       "byCategory": {
         "Pontoon / Tritoon": 47,
         "Wakeboard / Ski": 53,
-        "Center Console": 36,
+        "Center Console": 38,
         "Cruiser / Cabin": 23,
-        "Bowrider": 19,
+        "Bowrider": 20,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -30,11 +30,11 @@
         "Chaparral": 2,
         "Dutch American": 2,
         "Cigarette": 4,
-        "Fountain": 11,
+        "Fountain": 12,
         "Invictus": 7,
         "Pirelli": 1,
         "Chris-Craft": 7,
-        "Monterey": 10,
+        "Monterey": 12,
         "Sea Ray": 9,
         "Jeanneau": 1,
         "YOT": 2,
@@ -88,19 +88,19 @@
       "id": "marinemax",
       "name": "MarineMax",
       "isOwn": false,
-      "totalBoats": 52,
+      "totalBoats": 53,
       "newBoats": 24,
-      "usedBoats": 28,
+      "usedBoats": 29,
       "avgPriceNew": 543377.67,
-      "avgPriceUsed": 396494.25,
+      "avgPriceUsed": 389715.14,
       "byCondition": {
         "New": 24,
-        "Used": 28
+        "Used": 29
       },
       "byCategory": {
         "Cruiser / Cabin": 17,
         "Yacht": 13,
-        "Performance": 9,
+        "Performance": 10,
         "Fishing": 4,
         "Other": 2,
         "Wakeboard / Ski": 1,
@@ -108,7 +108,7 @@
         "Bowrider": 2
       },
       "byBrand": {
-        "Sea Ray": 27,
+        "Sea Ray": 28,
         "Boston Whaler": 3,
         "Chaparral": 1,
         "Ocean Alexander": 1,
@@ -218,13 +218,13 @@
         "Used": 33
       },
       "byCategory": {
+        "Pontoon / Tritoon": 3,
         "Fishing": 1,
-        "Bowrider": 34,
+        "Yacht": 1,
         "Performance": 1,
         "Wakeboard / Ski": 5,
         "Cruiser / Cabin": 2,
-        "Yacht": 1,
-        "Pontoon / Tritoon": 3
+        "Bowrider": 34
       },
       "byBrand": {
         "Carver": 1,
@@ -378,21 +378,21 @@
       "id": "performance-marine",
       "name": "Performance Marine Watersports",
       "isOwn": false,
-      "totalBoats": 42,
+      "totalBoats": 43,
       "newBoats": 19,
-      "usedBoats": 23,
+      "usedBoats": 24,
       "avgPriceNew": 201699.89,
-      "avgPriceUsed": 162342.94,
+      "avgPriceUsed": 162212.22,
       "byCondition": {
         "New": 19,
-        "Used": 23
+        "Used": 24
       },
       "byCategory": {
-        "Wakeboard / Ski": 36,
+        "Wakeboard / Ski": 37,
         "Pontoon / Tritoon": 6
       },
       "byBrand": {
-        "MasterCraft": 25,
+        "MasterCraft": 26,
         "Crest": 3,
         "Balise": 3,
         "Supra": 6,
@@ -408,29 +408,29 @@
       "id": "heartland-marine",
       "name": "Heartland Marine",
       "isOwn": false,
-      "totalBoats": 65,
-      "newBoats": 22,
-      "usedBoats": 43,
-      "avgPriceNew": 97490.91,
-      "avgPriceUsed": 47809.28,
+      "totalBoats": 63,
+      "newBoats": 21,
+      "usedBoats": 42,
+      "avgPriceNew": 96995.24,
+      "avgPriceUsed": 47521.4,
       "byCondition": {
-        "New": 22,
-        "Used": 43
+        "New": 21,
+        "Used": 42
       },
       "byCategory": {
-        "Pontoon / Tritoon": 27,
+        "Pontoon / Tritoon": 26,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 21,
+        "Bowrider": 20,
         "Power": 1,
         "Other": 14
       },
       "byBrand": {
         "South Bay": 5,
         "Chaparral": 7,
-        "Cobalt": 2,
+        "Cobalt": 1,
         "Manitou": 2,
-        "Sylvan": 17,
+        "Sylvan": 16,
         "Crownline": 2,
         "Formula": 3,
         "Sea Ray": 5,
@@ -441,8 +441,8 @@
         "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -591,7 +591,7 @@
       "newBoats": 67,
       "usedBoats": 37,
       "avgPriceNew": 120888.49,
-      "avgPriceUsed": 37906.41,
+      "avgPriceUsed": 37680.49,
       "byCondition": {
         "New": 67,
         "Used": 37
@@ -677,20 +677,20 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1212,
-    "newBoats": 593,
-    "usedBoats": 617,
+    "totalBoats": 1215,
+    "newBoats": 592,
+    "usedBoats": 621,
     "byCondition": {
-      "New": 593,
-      "Used": 617
+      "New": 592,
+      "Used": 621
     },
     "byCategory": {
-      "Pontoon / Tritoon": 249,
-      "Wakeboard / Ski": 167,
-      "Center Console": 90,
+      "Pontoon / Tritoon": 248,
+      "Wakeboard / Ski": 168,
+      "Center Console": 92,
       "Cruiser / Cabin": 81,
       "Bowrider": 210,
-      "Performance": 97,
+      "Performance": 98,
       "Yacht": 36,
       "Fishing": 74,
       "Power": 17,
@@ -701,9 +701,9 @@
       "Godfrey": 56,
       "Formula": 53,
       "Four Winns": 53,
-      "Sea Ray": 49,
-      "MasterCraft": 40,
-      "Cobalt": 39,
+      "Sea Ray": 50,
+      "MasterCraft": 41,
+      "Cobalt": 38,
       "Barletta": 31,
       "Crownline": 29,
       "Malibu": 29,
@@ -711,17 +711,17 @@
       "Tige": 25,
       "Yamaha": 25,
       "Premier": 25,
-      "Fountain": 20,
+      "Fountain": 21,
       "Axis": 20,
       "Regal": 19,
       "MTI": 19,
       "G3": 19,
       "Sunsation Powerboats": 18,
       "SunCatcher": 18,
-      "Sylvan": 17,
+      "Monterey": 16,
       "Alumacraft": 16,
+      "Sylvan": 16,
       "Cigarette": 15,
-      "Monterey": 14,
       "iKon": 14,
       "MB Sports": 13,
       "Skater": 11,
@@ -840,6 +840,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261106",
-  "date": "2026-11-06"
+  "scanId": "scan-20261107",
+  "date": "2026-11-07"
 }
