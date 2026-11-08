@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T12:04:41.135801+00:00",
+  "lastUpdated": "2026-11-08T12:24:46.194136+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -9,7 +9,7 @@
       "newBoats": 110,
       "usedBoats": 105,
       "avgPriceNew": 329225.73,
-      "avgPriceUsed": 176663.19,
+      "avgPriceUsed": 176640.33,
       "byCondition": {
         "New": 110,
         "Used": 105
@@ -218,13 +218,13 @@
         "Used": 33
       },
       "byCategory": {
-        "Pontoon / Tritoon": 3,
-        "Fishing": 1,
-        "Yacht": 1,
-        "Performance": 1,
         "Wakeboard / Ski": 5,
         "Cruiser / Cabin": 2,
-        "Bowrider": 34
+        "Fishing": 1,
+        "Yacht": 1,
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 34,
+        "Performance": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -252,17 +252,17 @@
       "id": "iguana-marine",
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "totalBoats": 100,
-      "newBoats": 66,
+      "totalBoats": 99,
+      "newBoats": 65,
       "usedBoats": 34,
-      "avgPriceNew": 246595.47,
-      "avgPriceUsed": 107002.33,
+      "avgPriceNew": 220228.09,
+      "avgPriceUsed": 104881.52,
       "byCondition": {
-        "New": 66,
+        "New": 65,
         "Used": 34
       },
       "byCategory": {
-        "Pontoon / Tritoon": 34,
+        "Pontoon / Tritoon": 33,
         "Wakeboard / Ski": 22,
         "Center Console": 5,
         "Cruiser / Cabin": 4,
@@ -283,7 +283,6 @@
         "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 14,
-        "Godrey": 1,
         "Bennington": 1,
         "Rinker": 1,
         "Crownline": 2,
@@ -310,25 +309,25 @@
       "name": "Premier Advantage Marine",
       "isOwn": false,
       "totalBoats": 76,
-      "newBoats": 13,
-      "usedBoats": 63,
-      "avgPriceNew": 91543.08,
-      "avgPriceUsed": 48692.31,
+      "newBoats": 14,
+      "usedBoats": 62,
+      "avgPriceNew": 91425.71,
+      "avgPriceUsed": 47044.0,
       "byCondition": {
-        "New": 13,
-        "Used": 63
+        "New": 14,
+        "Used": 62
       },
       "byCategory": {
         "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
         "Cruiser / Cabin": 6,
-        "Bowrider": 39,
+        "Bowrider": 38,
         "Performance": 0,
         "Yacht": 0,
         "Fishing": 16,
         "Power": 0,
-        "Other": 2
+        "Other": 3
       },
       "byBrand": {
         "Fountain": 1,
@@ -350,23 +349,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 33,
-      "newBoats": 18,
+      "totalBoats": 32,
+      "newBoats": 17,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 257917.0,
       "byCondition": {
-        "New": 18,
+        "New": 17,
         "Used": 15
       },
       "byCategory": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "byBrand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -438,8 +437,8 @@
         "Monterey": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Rinker": 2,
         "Trifecta": 1,
+        "Rinker": 2,
         "JC": 1,
         "Crest": 1,
         "Ebbtide": 1,
@@ -457,19 +456,19 @@
       "id": "stateamind",
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "totalBoats": 95,
-      "newBoats": 61,
+      "totalBoats": 94,
+      "newBoats": 60,
       "usedBoats": 34,
-      "avgPriceNew": 234820.43,
-      "avgPriceUsed": 107002.33,
+      "avgPriceNew": 208532.17,
+      "avgPriceUsed": 104881.52,
       "byCondition": {
-        "New": 61,
+        "New": 60,
         "Used": 34
       },
       "byCategory": {
         "Fishing": 9,
         "Wakeboard / Ski": 28,
-        "Pontoon / Tritoon": 34,
+        "Pontoon / Tritoon": 33,
         "Yacht": 9,
         "Bowrider": 11,
         "Cruiser / Cabin": 2,
@@ -486,7 +485,6 @@
         "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 14,
-        "Godrey": 1,
         "Bennington": 1,
         "Rinker": 1,
         "Crownline": 2,
@@ -590,7 +588,7 @@
       "totalBoats": 104,
       "newBoats": 67,
       "usedBoats": 37,
-      "avgPriceNew": 120888.49,
+      "avgPriceNew": 140339.07,
       "avgPriceUsed": 37680.49,
       "byCondition": {
         "New": 67,
@@ -677,30 +675,30 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1215,
-    "newBoats": 592,
-    "usedBoats": 621,
+    "totalBoats": 1212,
+    "newBoats": 590,
+    "usedBoats": 620,
     "byCondition": {
-      "New": 592,
-      "Used": 621
+      "New": 590,
+      "Used": 620
     },
     "byCategory": {
-      "Pontoon / Tritoon": 248,
+      "Pontoon / Tritoon": 246,
       "Wakeboard / Ski": 168,
       "Center Console": 92,
       "Cruiser / Cabin": 81,
-      "Bowrider": 210,
+      "Bowrider": 208,
       "Performance": 98,
       "Yacht": 36,
       "Fishing": 74,
       "Power": 17,
-      "Other": 86
+      "Other": 87
     },
     "byBrand": {
       "Chaparral": 66,
       "Godfrey": 56,
-      "Formula": 53,
       "Four Winns": 53,
+      "Formula": 52,
       "Sea Ray": 50,
       "MasterCraft": 41,
       "Cobalt": 38,
@@ -776,7 +774,6 @@
       "IRON": 2,
       "Mercury Marine": 2,
       "Black Thunder Powerboats": 2,
-      "Godrey": 2,
       "Tiga": 2,
       "Bass Tracker": 2,
       "granfort": 2,
@@ -840,6 +837,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261107",
-  "date": "2026-11-07"
+  "scanId": "scan-20261108",
+  "date": "2026-11-08"
 }

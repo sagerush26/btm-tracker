@@ -787,7 +787,7 @@
           "used"
         ],
         [
-          39900,
+          37500,
           "used"
         ],
         [
@@ -1657,13 +1657,13 @@
       "new": 14,
       "used": 33,
       "category": {
-        "Pontoon / Tritoon": 3,
-        "Fishing": 1,
-        "Yacht": 1,
-        "Performance": 1,
         "Wakeboard / Ski": 5,
         "Cruiser / Cabin": 2,
-        "Bowrider": 34
+        "Fishing": 1,
+        "Yacht": 1,
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 34,
+        "Performance": 1
       },
       "brand": {
         "Carver": 1,
@@ -1825,11 +1825,11 @@
     "iguana-marine": {
       "name": "Iguana Marine Group",
       "isOwn": false,
-      "total": 100,
-      "new": 66,
+      "total": 99,
+      "new": 65,
       "used": 34,
       "category": {
-        "Pontoon / Tritoon": 34,
+        "Pontoon / Tritoon": 33,
         "Wakeboard / Ski": 22,
         "Center Console": 5,
         "Cruiser / Cabin": 4,
@@ -1850,7 +1850,6 @@
         "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 14,
-        "Godrey": 1,
         "Bennington": 1,
         "Ikon Boats": 1,
         "Rinker": 1,
@@ -1877,6 +1876,10 @@
           "new"
         ],
         [
+          76974,
+          "new"
+        ],
+        [
           282747,
           "new"
         ],
@@ -1889,11 +1892,7 @@
           "used"
         ],
         [
-          79982,
-          "new"
-        ],
-        [
-          159532,
+          118717,
           "new"
         ],
         [
@@ -1901,15 +1900,15 @@
           "used"
         ],
         [
-          120970,
+          109758,
           "new"
         ],
         [
-          104947,
+          94760,
           "new"
         ],
         [
-          117963,
+          106438,
           "new"
         ],
         [
@@ -1917,12 +1916,16 @@
           "new"
         ],
         [
-          164329,
+          158884,
           "used"
         ],
         [
-          468287,
+          426287,
           "used"
+        ],
+        [
+          97393,
+          "new"
         ],
         [
           785365,
@@ -1941,11 +1944,11 @@
           "used"
         ],
         [
-          198000,
+          194673,
           "used"
         ],
         [
-          73758,
+          59993,
           "new"
         ],
         [
@@ -1961,7 +1964,7 @@
           "used"
         ],
         [
-          88987,
+          79782,
           "used"
         ],
         [
@@ -1973,7 +1976,7 @@
           "used"
         ],
         [
-          18782,
+          14872,
           "used"
         ],
         [
@@ -2045,6 +2048,10 @@
           "used"
         ],
         [
+          194987,
+          "new"
+        ],
+        [
           214685,
           "new"
         ],
@@ -2105,19 +2112,39 @@
           "new"
         ],
         [
-          74982,
+          68882,
           "used"
         ],
         [
-          148962,
+          128962,
           "new"
         ],
         [
-          117812,
+          73335,
           "new"
         ],
         [
-          119982,
+          72946,
+          "new"
+        ],
+        [
+          79987,
+          "new"
+        ],
+        [
+          69947,
+          "new"
+        ],
+        [
+          107998,
+          "new"
+        ],
+        [
+          96362,
+          "new"
+        ],
+        [
+          94987,
           "new"
         ],
         [
@@ -2157,27 +2184,27 @@
           "used"
         ]
       ],
-      "priceLow": 18782,
+      "priceLow": 14872,
       "priceHigh": 1875000,
-      "priceQuality": "partial-71pct"
+      "priceQuality": "partial-79pct"
     },
     "premier-advantage": {
       "name": "Premier Advantage Marine",
       "isOwn": false,
       "total": 76,
-      "new": 13,
-      "used": 63,
+      "new": 14,
+      "used": 62,
       "category": {
         "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
         "Cruiser / Cabin": 6,
-        "Bowrider": 39,
+        "Bowrider": 38,
         "Performance": 0,
         "Yacht": 0,
         "Fishing": 16,
         "Power": 0,
-        "Other": 2
+        "Other": 3
       },
       "brand": {
         "Fountain": 1,
@@ -2231,7 +2258,7 @@
         ],
         [
           89900,
-          "used"
+          "new"
         ],
         [
           25900,
@@ -2357,17 +2384,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 33,
-      "new": 18,
+      "total": 32,
+      "new": 17,
       "used": 15,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "brand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2440,7 +2467,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2643,8 +2670,8 @@
         "Monterey": 2,
         "Bennington": 1,
         "Baja": 1,
-        "Rinker": 2,
         "Trifecta": 1,
+        "Rinker": 2,
         "JC": 1,
         "Crest": 1,
         "Ebbtide": 1,
@@ -2916,13 +2943,13 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 95,
-      "new": 61,
+      "total": 94,
+      "new": 60,
       "used": 34,
       "category": {
         "Fishing": 9,
         "Wakeboard / Ski": 28,
-        "Pontoon / Tritoon": 34,
+        "Pontoon / Tritoon": 33,
         "Yacht": 9,
         "Bowrider": 11,
         "Cruiser / Cabin": 2,
@@ -2939,7 +2966,6 @@
         "Supra": 1,
         "Black Thunder Powerboats": 1,
         "Malibu": 14,
-        "Godrey": 1,
         "Bennington": 1,
         "Ikon Boats": 1,
         "Rinker": 1,
@@ -2967,15 +2993,15 @@
           "new"
         ],
         [
+          76974,
+          "new"
+        ],
+        [
           89900,
           "used"
         ],
         [
-          79982,
-          "new"
-        ],
-        [
-          159532,
+          118717,
           "new"
         ],
         [
@@ -2983,15 +3009,15 @@
           "used"
         ],
         [
-          120970,
+          109758,
           "new"
         ],
         [
-          104947,
+          94760,
           "new"
         ],
         [
-          117963,
+          106438,
           "new"
         ],
         [
@@ -2999,12 +3025,16 @@
           "new"
         ],
         [
-          164329,
+          158884,
           "used"
         ],
         [
-          468287,
+          426287,
           "used"
+        ],
+        [
+          97393,
+          "new"
         ],
         [
           785365,
@@ -3019,11 +3049,11 @@
           "used"
         ],
         [
-          198000,
+          194673,
           "used"
         ],
         [
-          73758,
+          59993,
           "new"
         ],
         [
@@ -3039,7 +3069,7 @@
           "used"
         ],
         [
-          88987,
+          79782,
           "used"
         ],
         [
@@ -3051,7 +3081,7 @@
           "used"
         ],
         [
-          18782,
+          14872,
           "used"
         ],
         [
@@ -3123,6 +3153,10 @@
           "used"
         ],
         [
+          194987,
+          "new"
+        ],
+        [
           214685,
           "new"
         ],
@@ -3183,19 +3217,39 @@
           "new"
         ],
         [
-          74982,
+          68882,
           "used"
         ],
         [
-          148962,
+          128962,
           "new"
         ],
         [
-          117812,
+          73335,
           "new"
         ],
         [
-          119982,
+          72946,
+          "new"
+        ],
+        [
+          79987,
+          "new"
+        ],
+        [
+          69947,
+          "new"
+        ],
+        [
+          107998,
+          "new"
+        ],
+        [
+          96362,
+          "new"
+        ],
+        [
+          94987,
           "new"
         ],
         [
@@ -3235,9 +3289,9 @@
           "used"
         ]
       ],
-      "priceLow": 18782,
+      "priceLow": 14872,
       "priceHigh": 1875000,
-      "priceQuality": "partial-72pct"
+      "priceQuality": "partial-80pct"
     },
     "premier-54": {
       "name": "Premier 54 Motorsports",
@@ -3810,6 +3864,10 @@
           "used"
         ],
         [
+          589900,
+          "new"
+        ],
+        [
           259999,
           "new"
         ],
@@ -3819,6 +3877,10 @@
         ],
         [
           51999,
+          "new"
+        ],
+        [
+          469900,
           "new"
         ],
         [
@@ -4058,6 +4120,10 @@
           "new"
         ],
         [
+          469900,
+          "new"
+        ],
+        [
           118999,
           "new"
         ],
@@ -4080,7 +4146,7 @@
       ],
       "priceLow": 3399,
       "priceHigh": 749999,
-      "priceQuality": "partial-88pct"
+      "priceQuality": "partial-91pct"
     },
     "all-about-boats": {
       "name": "All About Boats",
