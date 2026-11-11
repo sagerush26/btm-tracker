@@ -1,7 +1,11 @@
 """
 Scraper for Kelly's Port (kellys-port).
 
-Site (per the user, 2026-10-07):
+UPDATE 2026-11-11: Kelly's moved to a new website (kellysport.com/inventory). scrape() now reads its
+public listing feed (inventory.coasttechnology.org, company 460) first, counting boats shown on the
+website, with boat types and makes. The old DealerSpike reader below is only a fallback.
+
+Old site (per the user, 2026-10-07):
 https://www.kellysport.com/new-boats-for-sale-lake-of-the-ozarks-missouri--inventory?sortby=length_overall%7Casc
 
 UPDATE 2026-10-07: the scanner now reads the user's link first and falls back
@@ -167,6 +171,8 @@ def _normalize_brand(raw_make: str) -> str:
         "tiara yachts": "Tiara Yachts",
         "cobalt": "Cobalt Boats",
         "cobalt boats": "Cobalt Boats",
+        "cruiser yachts": "Cruisers Yachts",
+        "cruisers yachts": "Cruisers Yachts",
     }
     key = name.lower()
     if key in aliases:
@@ -347,7 +353,8 @@ def _fetch_all_items(session: requests.Session):
     return list(items_by_id.values())
 
 
-def scrape() -> dict:
+def _scrape_dealerspike() -> dict:
+    """Old DealerSpike site reader (kept as a fallback)."""
     session = requests.Session()
     items = _fetch_all_items(session)
 
@@ -397,6 +404,68 @@ def scrape() -> dict:
         "priceLow": price_low,
         "priceHigh": price_high,
     }
+
+
+# ---------------------------------------------------------------- new site (Nov 2026)
+# Kelly's moved to a new website (kellysport.com/inventory, built on Coast Technology). Its listings
+# load from a public JSON feed. Only boats flagged display_on_website are counted (what shoppers see).
+FEED_URL = "https://inventory.coasttechnology.org/api/v3/inventory/"
+FEED_COMPANY_ID = 460
+FEED_CLASS_MAP = {
+    "pontoon": "Pontoon / Tritoon", "tritoon": "Pontoon / Tritoon",
+    "bowrider": "Bowrider", "deck boat": "Bowrider",
+    "ski and wakeboard": "Wakeboard / Ski", "wakeboard": "Wakeboard / Ski",
+    "cruiser": "Cruiser / Cabin", "motor yachts": "Yacht", "yacht": "Yacht",
+    "dual console": "Center Console", "center console": "Center Console",
+    "fishing": "Fishing", "high performance": "Performance",
+}
+_FEED_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                 "Chrome/124 Safari/537.36", "Origin": "https://www.kellysport.com", "Referer": "https://www.kellysport.com/inventory",
+                 "Accept": "application/json"}
+
+
+def _scrape_feed() -> dict:
+    units, page = {}, 1
+    while page <= 10:
+        r = requests.get(f"{FEED_URL}?company[]={FEED_COMPANY_ID}&per_page=60&page={page}", headers=_FEED_HEADERS, timeout=60)
+        r.raise_for_status()
+        d = r.json()
+        for u in d.get("data") or []:
+            units[u["id"]] = u
+        if not (d.get("pagination") or {}).get("has_more_pages"):
+            break
+        page += 1
+    shown = [u for u in units.values() if u.get("display_on_website") and not u.get("deleted_at") and not u.get("__soft_deleted")]
+    new_count = used_count = 0
+    category_counts, brand_counts, prices = {}, {}, []
+    for u in shown:
+        cond = ((u.get("condition") or {}).get("name") or "").strip().lower()
+        cond = "new" if cond == "new" else ("used" if cond in ("used", "pre-owned", "preowned") else "unknown")
+        new_count += cond == "new"; used_count += cond == "used"
+        cls = ((u.get("unit_classification") or {}).get("name") or "").strip().lower()
+        cat = FEED_CLASS_MAP.get(cls, "Other")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+        brand = _normalize_brand((u.get("unit_make") or {}).get("name") or "")
+        brand_counts[brand] = brand_counts.get(brand, 0) + 1
+        pr = u.get("price_current")
+        if isinstance(pr, (int, float)) and pr > 100:
+            prices.append((int(round(pr)), cond))
+    if not shown:
+        raise RuntimeError("Kelly's feed returned no website boats")
+    pv = [p for p, _ in prices]
+    return {"id": DEALER_ID, "name": DEALER_NAME, "total": len(shown), "new": new_count, "used": used_count,
+            "category": category_counts, "brand": brand_counts, "prices": prices,
+            "priceLow": min(pv) if pv else None, "priceHigh": max(pv) if pv else None}
+
+
+def scrape() -> dict:
+    """New website feed first; old DealerSpike page only if the feed fails."""
+    try:
+        return _scrape_feed()
+    except Exception as e:  # noqa: BLE001
+        import sys
+        print(f"[kellys_port] feed failed ({e}); trying the old site", file=sys.stderr)
+        return _scrape_dealerspike()
 
 
 if __name__ == "__main__":
