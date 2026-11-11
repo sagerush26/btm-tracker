@@ -14,6 +14,15 @@
     "used": 1,
     "confirmedOn": "2026-11-11",
     "confirmedBy": "Sage",
-    "evidence": "martysmarineloz.com inventory: Sage confirmed 41 new / 1 used (42 total) on Nov 11, 2026"
+    "evidence": "martysmarineloz.com inventory: Sage confirmed 41 new / 1 used (42 total) on Nov 11, 2026; new boats by make on the site's power-pontoon filter: Barletta 40, PlayCraft 1 ; used: 1 Chaparral 23 SSi (bowrider), Osage Beach",
+    "category": {
+      "Pontoon / Tritoon": 41,
+      "Bowrider": 1
+    },
+    "brand": {
+      "Barletta": 40,
+      "PlayCraft": 1,
+      "Chaparral": 1
+    }
   }
 }

@@ -113,6 +113,11 @@ def run_one(module_name, dealer_id, prior):
             n = min(int(p.get("newInventory", 0) or 0), t)
             u = t - n
         carried.update(total=t, new=n, used=u)
+        # Optional hand-confirmed boat-type / make counts (e.g. from the dealer site's filters)
+        if isinstance(conf.get("category"), dict):
+            carried["category"] = {k: int(v) for k, v in conf["category"].items()}
+        if isinstance(conf.get("brand"), dict):
+            carried["brand"] = {k: int(v) for k, v in conf["brand"].items()}
         last_err = f"using count confirmed on {conf.get('confirmedOn')} ({t}); {last_err}"
     return carried, last_err
 
