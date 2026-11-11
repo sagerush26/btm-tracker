@@ -3,15 +3,15 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 209,
+      "total": 208,
       "new": 109,
-      "used": 100,
+      "used": 99,
       "category": {
         "Pontoon / Tritoon": 46,
         "Wakeboard / Ski": 53,
         "Center Console": 38,
         "Cruiser / Cabin": 22,
-        "Bowrider": 20,
+        "Bowrider": 19,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -25,7 +25,7 @@
         "Fountain": 12,
         "Invictus": 7,
         "Pirelli": 1,
-        "Chris Craft": 7,
+        "Chris Craft": 6,
         "Monterey": 12,
         "Sea Ray": 8,
         "Jeanneau": 1,
@@ -172,10 +172,6 @@
         ],
         [
           499900,
-          "used"
-        ],
-        [
-          479900,
           "used"
         ],
         [
@@ -1585,7 +1581,7 @@
           "used"
         ],
         [
-          59950,
+          54950,
           "used"
         ],
         [
@@ -1608,15 +1604,422 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 105,
-      "new": 57,
-      "used": 48,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "total": 100,
+      "new": 55,
+      "used": 45,
+      "category": {
+        "Bowrider": 31,
+        "Cruiser / Cabin": 14,
+        "Pontoon / Tritoon": 42,
+        "Wakeboard / Ski": 11,
+        "Center Console": 2
+      },
+      "brand": {
+        "Regal": 28,
+        "Bennington": 42,
+        "Grady-White": 7,
+        "Nautique": 10,
+        "Cobalt Boats": 4,
+        "Cruisers Yachts": 2,
+        "MasterCraft": 1,
+        "Tiara Yachts": 3,
+        "Sea Ray": 1,
+        "Crownline": 1,
+        "Prestige": 1
+      },
+      "prices": [
+        [
+          234900,
+          "new"
+        ],
+        [
+          399900,
+          "new"
+        ],
+        [
+          625000,
+          "used"
+        ],
+        [
+          109900,
+          "new"
+        ],
+        [
+          54900,
+          "used"
+        ],
+        [
+          129900,
+          "new"
+        ],
+        [
+          449900,
+          "new"
+        ],
+        [
+          460000,
+          "used"
+        ],
+        [
+          249900,
+          "used"
+        ],
+        [
+          369900,
+          "new"
+        ],
+        [
+          289900,
+          "new"
+        ],
+        [
+          409900,
+          "new"
+        ],
+        [
+          339900,
+          "new"
+        ],
+        [
+          309900,
+          "new"
+        ],
+        [
+          325900,
+          "new"
+        ],
+        [
+          359900,
+          "used"
+        ],
+        [
+          649000,
+          "used"
+        ],
+        [
+          94900,
+          "used"
+        ],
+        [
+          639900,
+          "new"
+        ],
+        [
+          449900,
+          "new"
+        ],
+        [
+          339900,
+          "new"
+        ],
+        [
+          415900,
+          "new"
+        ],
+        [
+          339900,
+          "used"
+        ],
+        [
+          189900,
+          "new"
+        ],
+        [
+          1619900,
+          "new"
+        ],
+        [
+          99900,
+          "new"
+        ],
+        [
+          119900,
+          "new"
+        ],
+        [
+          349900,
+          "new"
+        ],
+        [
+          104900,
+          "new"
+        ],
+        [
+          249900,
+          "used"
+        ],
+        [
+          839900,
+          "new"
+        ],
+        [
+          314900,
+          "new"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          524900,
+          "used"
+        ],
+        [
+          124995,
+          "used"
+        ],
+        [
+          335900,
+          "new"
+        ],
+        [
+          324900,
+          "used"
+        ],
+        [
+          139900,
+          "used"
+        ],
+        [
+          139900,
+          "new"
+        ],
+        [
+          99000,
+          "used"
+        ],
+        [
+          119900,
+          "new"
+        ],
+        [
+          139900,
+          "new"
+        ],
+        [
+          134900,
+          "new"
+        ],
+        [
+          574900,
+          "used"
+        ],
+        [
+          699900,
+          "used"
+        ],
+        [
+          299900,
+          "used"
+        ],
+        [
+          44900,
+          "used"
+        ],
+        [
+          249900,
+          "used"
+        ],
+        [
+          229900,
+          "new"
+        ],
+        [
+          199900,
+          "new"
+        ],
+        [
+          124900,
+          "new"
+        ],
+        [
+          1300000,
+          "used"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          399900,
+          "used"
+        ],
+        [
+          59900,
+          "used"
+        ],
+        [
+          1499900,
+          "new"
+        ],
+        [
+          104900,
+          "new"
+        ],
+        [
+          99900,
+          "new"
+        ],
+        [
+          144900,
+          "new"
+        ],
+        [
+          199900,
+          "used"
+        ],
+        [
+          194900,
+          "new"
+        ],
+        [
+          144900,
+          "new"
+        ],
+        [
+          1349990,
+          "new"
+        ],
+        [
+          139900,
+          "new"
+        ],
+        [
+          509900,
+          "new"
+        ],
+        [
+          101900,
+          "new"
+        ],
+        [
+          374900,
+          "used"
+        ],
+        [
+          142900,
+          "new"
+        ],
+        [
+          142900,
+          "new"
+        ],
+        [
+          239900,
+          "new"
+        ],
+        [
+          149900,
+          "used"
+        ],
+        [
+          236900,
+          "new"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          309900,
+          "new"
+        ],
+        [
+          439900,
+          "new"
+        ],
+        [
+          199900,
+          "used"
+        ],
+        [
+          189900,
+          "used"
+        ],
+        [
+          294900,
+          "new"
+        ],
+        [
+          209900,
+          "new"
+        ],
+        [
+          274900,
+          "new"
+        ],
+        [
+          199900,
+          "used"
+        ],
+        [
+          64900,
+          "used"
+        ],
+        [
+          414900,
+          "new"
+        ],
+        [
+          99900,
+          "used"
+        ],
+        [
+          1249900,
+          "used"
+        ],
+        [
+          54900,
+          "used"
+        ],
+        [
+          174900,
+          "used"
+        ],
+        [
+          89900,
+          "used"
+        ],
+        [
+          1150000,
+          "used"
+        ],
+        [
+          229900,
+          "used"
+        ],
+        [
+          59900,
+          "used"
+        ],
+        [
+          219200,
+          "used"
+        ],
+        [
+          599900,
+          "used"
+        ],
+        [
+          399900,
+          "used"
+        ],
+        [
+          749000,
+          "used"
+        ],
+        [
+          199900,
+          "used"
+        ],
+        [
+          219900,
+          "used"
+        ]
+      ],
+      "priceLow": 44900,
+      "priceHigh": 1619900,
+      "priceQuality": "full"
     },
     "village-marina": {
       "name": "Village Marina & Yacht Club",
@@ -1625,12 +2028,12 @@
       "new": 14,
       "used": 33,
       "category": {
+        "Yacht": 1,
+        "Performance": 1,
         "Wakeboard / Ski": 5,
         "Cruiser / Cabin": 2,
-        "Fishing": 1,
         "Bowrider": 34,
-        "Performance": 1,
-        "Yacht": 1,
+        "Fishing": 1,
         "Pontoon / Tritoon": 3
       },
       "brand": {
@@ -2733,11 +3136,11 @@
         ],
         [
           75900,
-          "used"
+          "new"
         ],
         [
           75900,
-          "new"
+          "used"
         ],
         [
           74900,
@@ -3657,11 +4060,18 @@
     "martys-marine": {
       "name": "Marty's Marine",
       "isOwn": false,
-      "total": 32,
-      "new": 28,
-      "used": 4,
-      "category": {},
-      "brand": {},
+      "total": 42,
+      "new": 41,
+      "used": 1,
+      "category": {
+        "Pontoon / Tritoon": 41,
+        "Bowrider": 1
+      },
+      "brand": {
+        "Barletta": 40,
+        "PlayCraft": 1,
+        "Chaparral": 1
+      },
       "prices": [],
       "priceLow": 0,
       "priceHigh": 0,
@@ -4252,22 +4662,27 @@
   },
   "failures": [
     [
-      "kellys-port",
-      "using count confirmed on 2026-11-04 (105); scrape() returned total <= 0"
-    ],
-    [
       "martys-marine",
-      "scrape() returned total <= 0"
+      "using count confirmed on 2026-11-11 (42); scrape() returned total <= 0"
     ]
   ],
   "confirmed": {
-    "kellys-port": {
-      "total": 105,
-      "new": 57,
-      "used": 48,
-      "confirmedOn": "2026-11-04",
+    "martys-marine": {
+      "total": 42,
+      "new": 41,
+      "used": 1,
+      "confirmedOn": "2026-11-11",
       "confirmedBy": "Sage",
-      "evidence": "kellysport.com inventory: Sage confirmed 105 total = 57 new / 48 used on Nov 4, 2026"
+      "evidence": "martysmarineloz.com inventory: Sage confirmed 41 new / 1 used (42 total) on Nov 11, 2026; new boats by make on the site's power-pontoon filter: Barletta 40, PlayCraft 1 ; used: 1 Chaparral 23 SSi (bowrider), Osage Beach",
+      "category": {
+        "Pontoon / Tritoon": 41,
+        "Bowrider": 1
+      },
+      "brand": {
+        "Barletta": 40,
+        "PlayCraft": 1,
+        "Chaparral": 1
+      }
     }
   }
 }

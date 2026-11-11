@@ -47071,19 +47071,19 @@
       "results": [
         {
           "competitorId": "big-thunder-marine",
-          "totalBoats": 209,
+          "totalBoats": 208,
           "newBoats": 109,
-          "usedBoats": 100,
-          "avgPrice": 258871.75,
+          "usedBoats": 99,
+          "avgPrice": 257782.94,
           "avgPriceNew": 330754.63,
-          "avgPriceUsed": 184113.55,
+          "avgPriceUsed": 181125.81,
           "priceRange": "$6,495 - $2,697,900",
           "category": {
             "Pontoon / Tritoon": 46,
             "Wakeboard / Ski": 53,
             "Center Console": 38,
             "Cruiser / Cabin": 22,
-            "Bowrider": 20,
+            "Bowrider": 19,
             "Performance": 13,
             "Yacht": 4,
             "Fishing": 0,
@@ -47097,7 +47097,7 @@
             "Fountain": 12,
             "Invictus": 7,
             "Pirelli": 1,
-            "Chris-Craft": 7,
+            "Chris-Craft": 6,
             "Monterey": 12,
             "Sea Ray": 8,
             "Jeanneau": 1,
@@ -47187,9 +47187,9 @@
           "totalBoats": 105,
           "newBoats": 9,
           "usedBoats": 95,
-          "avgPrice": 538086.31,
+          "avgPrice": 538037.77,
           "avgPriceNew": 504950.0,
-          "avgPriceUsed": 541258.94,
+          "avgPriceUsed": 541205.74,
           "priceRange": "$22,500 - $2,299,950",
           "category": {
             "Fishing": 1,
@@ -47238,15 +47238,33 @@
         },
         {
           "competitorId": "kellys-port",
-          "totalBoats": 105,
-          "newBoats": 57,
-          "usedBoats": 48,
-          "avgPrice": 293315.89,
-          "avgPriceNew": 293315.89,
-          "avgPriceUsed": 293315.89,
-          "priceRange": "N/A",
-          "category": {},
-          "brand": {}
+          "totalBoats": 100,
+          "newBoats": 55,
+          "usedBoats": 45,
+          "avgPrice": 337221.49,
+          "avgPriceNew": 331623.89,
+          "avgPriceUsed": 344251.05,
+          "priceRange": "$44,900 - $1,619,900",
+          "category": {
+            "Bowrider": 31,
+            "Cruiser / Cabin": 14,
+            "Pontoon / Tritoon": 42,
+            "Wakeboard / Ski": 11,
+            "Center Console": 2
+          },
+          "brand": {
+            "Regal": 28,
+            "Bennington": 42,
+            "Grady-White": 7,
+            "Nautique": 10,
+            "Cobalt": 4,
+            "Cruisers Yachts": 2,
+            "MasterCraft": 1,
+            "Tiara Yachts": 3,
+            "Sea Ray": 1,
+            "Crownline": 1,
+            "Prestige": 1
+          }
         },
         {
           "competitorId": "village-marina",
@@ -47258,12 +47276,12 @@
           "avgPriceUsed": 114563.06,
           "priceRange": "$9,800 - $479,000",
           "category": {
+            "Yacht": 1,
+            "Performance": 1,
             "Wakeboard / Ski": 5,
             "Cruiser / Cabin": 2,
-            "Fishing": 1,
             "Bowrider": 34,
-            "Performance": 1,
-            "Yacht": 1,
+            "Fishing": 1,
             "Pontoon / Tritoon": 3
           },
           "brand": {
@@ -47554,15 +47572,22 @@
         },
         {
           "competitorId": "martys-marine",
-          "totalBoats": 32,
-          "newBoats": 28,
-          "usedBoats": 4,
+          "totalBoats": 42,
+          "newBoats": 41,
+          "usedBoats": 1,
           "avgPrice": 107698.0,
           "avgPriceNew": 107698.0,
           "avgPriceUsed": 107698.0,
           "priceRange": "N/A",
-          "category": {},
-          "brand": {}
+          "category": {
+            "Pontoon / Tritoon": 41,
+            "Bowrider": 1
+          },
+          "brand": {
+            "Barletta": 40,
+            "PlayCraft": 1,
+            "Chaparral": 1
+          }
         },
         {
           "competitorId": "surdyke-yamaha",
@@ -55926,12 +55951,12 @@
       "dealerId": "big-thunder-marine",
       "dealerName": "Big Thunder Marine",
       "previousTotal": 215,
-      "newTotal": 209,
-      "change": -6,
+      "newTotal": 208,
+      "change": -7,
       "type": "inventory_decrease",
-      "count": 6,
-      "description": "Big Thunder Marine: 215 -> 209 (-6)",
-      "detail": "Inventory decreased by 6 (was 215, now 209). New: 109, Used: 100. Reflects the normal one-day change since the prior scan on 2026-11-10.",
+      "count": 7,
+      "description": "Big Thunder Marine: 215 -> 208 (-7)",
+      "detail": "Inventory decreased by 7 (was 215, now 208). New: 109, Used: 99. Reflects the normal one-day change since the prior scan on 2026-11-10.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-10."
     },
     {
@@ -55947,6 +55972,21 @@
       "count": 1,
       "description": "MarineMax: 52 -> 51 (-1)",
       "detail": "Inventory decreased by 1 (was 52, now 51). New: 23, Used: 28. Reflects the normal one-day change since the prior scan on 2026-11-10.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-11-10."
+    },
+    {
+      "scanId": "scan-20261111",
+      "date": "2026-11-11",
+      "competitorId": "kellys-port",
+      "dealerId": "kellys-port",
+      "dealerName": "Kelly's Port",
+      "previousTotal": 105,
+      "newTotal": 100,
+      "change": -5,
+      "type": "inventory_decrease",
+      "count": 5,
+      "description": "Kelly's Port: 105 -> 100 (-5)",
+      "detail": "Inventory decreased by 5 (was 105, now 100). New: 55, Used: 45. Reflects the normal one-day change since the prior scan on 2026-11-10.",
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-10."
     },
     {
@@ -55982,6 +56022,21 @@
     {
       "scanId": "scan-20261111",
       "date": "2026-11-11",
+      "competitorId": "martys-marine",
+      "dealerId": "martys-marine",
+      "dealerName": "Marty's Marine",
+      "previousTotal": 32,
+      "newTotal": 42,
+      "change": 10,
+      "type": "inventory_increase",
+      "count": 10,
+      "description": "Marty's Marine: 32 -> 42 (+10)",
+      "detail": "Inventory increased by 10 (was 32, now 42). New: 41, Used: 1. Reflects the normal one-day change since the prior scan on 2026-11-10.",
+      "note": "Reflects the normal one-day change since the prior scan on 2026-11-10."
+    },
+    {
+      "scanId": "scan-20261111",
+      "date": "2026-11-11",
       "competitorId": "all-about-boats",
       "dealerId": "all-about-boats",
       "dealerName": "All About Boats",
@@ -55995,5 +56050,5 @@
       "note": "Reflects the normal one-day change since the prior scan on 2026-11-10."
     }
   ],
-  "lastUpdated": "2026-11-11T13:05:26.836921+00:00"
+  "lastUpdated": "2026-11-11T17:47:55.002604+00:00"
 }
