@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T17:47:55.002604+00:00",
+  "lastUpdated": "2026-11-12T14:07:57.958995+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -91,7 +91,7 @@
       "totalBoats": 51,
       "newBoats": 23,
       "usedBoats": 28,
-      "avgPriceNew": 541682.22,
+      "avgPriceNew": 541790.91,
       "avgPriceUsed": 387704.0,
       "byCondition": {
         "New": 23,
@@ -191,13 +191,13 @@
       "name": "Kelly's Port",
       "isOwn": false,
       "totalBoats": 100,
-      "newBoats": 55,
-      "usedBoats": 45,
+      "newBoats": 56,
+      "usedBoats": 44,
       "avgPriceNew": 331623.89,
-      "avgPriceUsed": 344251.05,
+      "avgPriceUsed": 339379.43,
       "byCondition": {
-        "New": 55,
-        "Used": 45
+        "New": 56,
+        "Used": 44
       },
       "byCategory": {
         "Bowrider": 31,
@@ -226,27 +226,27 @@
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "totalBoats": 47,
+      "totalBoats": 49,
       "newBoats": 14,
-      "usedBoats": 33,
-      "avgPriceNew": 114563.06,
-      "avgPriceUsed": 114563.06,
+      "usedBoats": 35,
+      "avgPriceNew": 122845.14,
+      "avgPriceUsed": 122845.14,
       "byCondition": {
         "New": 14,
-        "Used": 33
+        "Used": 35
       },
       "byCategory": {
-        "Yacht": 1,
+        "Fishing": 1,
+        "Cruiser / Cabin": 2,
         "Performance": 1,
         "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 2,
-        "Bowrider": 34,
-        "Fishing": 1,
-        "Pontoon / Tritoon": 3
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 36,
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
-        "Cobalt": 26,
+        "Cobalt": 27,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -261,7 +261,8 @@
         "Rinker": 1,
         "Yamaha": 1,
         "Regal": 1,
-        "Silverton": 1
+        "Silverton": 1,
+        "Chaparral": 1
       },
       "byLength": {},
       "byPropulsion": {}
@@ -455,11 +456,11 @@
         "Bennington": 2,
         "Formula": 2,
         "Baja": 1,
-        "Rinker": 2,
         "Trifecta": 1,
+        "Rinker": 2,
         "JC": 1,
-        "Crest": 1,
         "Ebbtide": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -689,19 +690,19 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1206,
-    "newBoats": 599,
-    "usedBoats": 605,
+    "totalBoats": 1208,
+    "newBoats": 600,
+    "usedBoats": 606,
     "byCondition": {
-      "New": 599,
-      "Used": 605
+      "New": 600,
+      "Used": 606
     },
     "byCategory": {
       "Pontoon / Tritoon": 298,
       "Wakeboard / Ski": 179,
       "Center Console": 94,
       "Cruiser / Cabin": 92,
-      "Bowrider": 237,
+      "Bowrider": 239,
       "Performance": 98,
       "Yacht": 35,
       "Fishing": 74,
@@ -709,15 +710,15 @@
       "Other": 86
     },
     "byBrand": {
-      "Chaparral": 67,
+      "Chaparral": 68,
       "Godfrey": 56,
       "Four Winns": 53,
       "Formula": 52,
       "Bennington": 51,
       "Sea Ray": 49,
       "Regal": 46,
+      "Cobalt": 43,
       "MasterCraft": 43,
-      "Cobalt": 42,
       "Barletta": 42,
       "Malibu": 29,
       "Crownline": 28,
@@ -854,6 +855,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261111",
-  "date": "2026-11-11"
+  "scanId": "scan-20261112",
+  "date": "2026-11-12"
 }

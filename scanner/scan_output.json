@@ -1117,7 +1117,7 @@
           "new"
         ],
         [
-          809139,
+          811639,
           "new"
         ],
         [
@@ -1605,8 +1605,8 @@
       "name": "Kelly's Port",
       "isOwn": false,
       "total": 100,
-      "new": 55,
-      "used": 45,
+      "new": 56,
+      "used": 44,
       "category": {
         "Bowrider": 31,
         "Cruiser / Cabin": 14,
@@ -1953,6 +1953,10 @@
           "used"
         ],
         [
+          129900,
+          "used"
+        ],
+        [
           64900,
           "used"
         ],
@@ -2024,21 +2028,21 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 47,
+      "total": 49,
       "new": 14,
-      "used": 33,
+      "used": 35,
       "category": {
-        "Yacht": 1,
+        "Fishing": 1,
+        "Cruiser / Cabin": 2,
         "Performance": 1,
         "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 2,
-        "Bowrider": 34,
-        "Fishing": 1,
-        "Pontoon / Tritoon": 3
+        "Pontoon / Tritoon": 3,
+        "Bowrider": 36,
+        "Yacht": 1
       },
       "brand": {
         "Carver": 1,
-        "Cobalt": 26,
+        "Cobalt": 27,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -2053,7 +2057,8 @@
         "Rinker": 1,
         "Yamaha Boats": 1,
         "Regal": 1,
-        "Silverton": 1
+        "Silverton": 1,
+        "Chaparral": 1
       },
       "prices": [
         [
@@ -2187,11 +2192,19 @@
         [
           69900,
           "used"
+        ],
+        [
+          299999,
+          "used"
+        ],
+        [
+          219000,
+          "used"
         ]
       ],
       "priceLow": 9800,
       "priceHigh": 479000,
-      "priceQuality": "partial-70pct"
+      "priceQuality": "partial-71pct"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -3037,11 +3050,11 @@
         "Bennington": 2,
         "Formula": 2,
         "Baja": 1,
-        "Rinker": 2,
         "Trifecta": 1,
+        "Rinker": 2,
         "JC": 1,
-        "Crest": 1,
         "Ebbtide": 1,
+        "Crest": 1,
         "Four Winns": 2,
         "Lowe": 2,
         "Misty Harbor": 1,

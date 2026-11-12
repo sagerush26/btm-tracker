@@ -15,7 +15,7 @@
   "soldByLengthBand": {},
   "soldByCondition": {
     "New": 3676,
-    "Used": 2395
+    "Used": 2396
   },
   "soldByBrand": {
     "Cruisers Yachts": 1,
@@ -90,7 +90,7 @@
   },
   "addedByCategory": {
     "Cruiser / Cabin": 185,
-    "Bowrider": 753,
+    "Bowrider": 755,
     "Performance": 86,
     "Wakeboard / Ski": 195,
     "Pontoon / Tritoon": 675,
@@ -664,6 +664,12 @@
       "totalMarket": 1206,
       "btm": 208,
       "competitors": 998
+    },
+    {
+      "date": "2026-11-12",
+      "totalMarket": 1208,
+      "btm": 208,
+      "competitors": 1000
     }
   ],
   "priceTrend": [
@@ -1155,6 +1161,11 @@
     {
       "date": "2026-11-11",
       "marketAvg": 221107.06,
+      "btmAvg": 257782.94
+    },
+    {
+      "date": "2026-11-12",
+      "marketAvg": 221093.55,
       "btmAvg": 257782.94
     }
   ],
@@ -1664,16 +1675,6 @@
     {
       "date": "2026-10-17",
       "scanId": "scan-20261017",
-      "dealer": "Iguana Marine Group",
-      "competitorId": "iguana-marine",
-      "count": 1,
-      "previousTotal": 99,
-      "newTotal": 100,
-      "detail": "Inventory increased by 1 (was 99, now 100). New: 66, Used: 34. Reflects the normal one-day change since the prior scan on 2026-10-16."
-    },
-    {
-      "date": "2026-10-17",
-      "scanId": "scan-20261017",
       "dealer": "Stateamind Water Sports",
       "competitorId": "stateamind",
       "count": 1,
@@ -2160,6 +2161,16 @@
       "previousTotal": 32,
       "newTotal": 42,
       "detail": "Inventory increased by 10 (was 32, now 42). New: 41, Used: 1. Reflects the normal one-day change since the prior scan on 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "scanId": "scan-20261112",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 2,
+      "previousTotal": 47,
+      "newTotal": 49,
+      "detail": "Inventory increased by 2 (was 47, now 49). New: 14, Used: 35. Reflects the normal one-day change since the prior scan on 2026-11-11."
     }
   ],
   "insights": [
@@ -3970,15 +3981,20 @@
       "date": "2026-11-11",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-11-11 (scan-20261111). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
+    },
+    {
+      "date": "2026-11-12",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-12 (scan-20261112). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
     }
   ],
   "summary": {
-    "date": "2026-11-11",
-    "scanId": "scan-20261111",
-    "marketTotal": 1206,
-    "credibleChangesCount": 7,
+    "date": "2026-11-12",
+    "scanId": "scan-20261112",
+    "marketTotal": 1208,
+    "credibleChangesCount": 1,
     "soldCount": 1774,
-    "addedCount": 1016
+    "addedCount": 1018
   },
   "addedByDealer": {
     "Big Thunder Marine": 89,
@@ -3991,15 +4007,15 @@
     "Premier 54 Motorsports": 90,
     "MarineMax": 59,
     "Performance Boat Center": 48,
-    "Village Marina & Yacht Club": 36,
+    "Village Marina & Yacht Club": 38,
     "Kelly's Port": 63,
     "Surdyke Yamaha & Marina": 30,
     "Stateamind Water Sports": 79,
     "All About Boats": 11
   },
   "addedByCondition": {
-    "New": 3278,
-    "Used": 2347
+    "New": 3279,
+    "Used": 2349
   },
   "addedByBrand": {
     "Aviara": 5,
@@ -4011,7 +4027,7 @@
     "Grady-White": 46,
     "Crownline": 56,
     "Regal": 188,
-    "Cobalt": 143,
+    "Cobalt": 144,
     "Tiara Yachts": 17,
     "Sea Ray": 57,
     "Cruiser": 5,
@@ -4045,7 +4061,7 @@
     "Tracker\u00ae": 4,
     "Bayliner": 5,
     "Harris": 5,
-    "Chaparral": 51,
+    "Chaparral": 52,
     "Premier": 11,
     "Tige": 7,
     "Viaggio": 8,
