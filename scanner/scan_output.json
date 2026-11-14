@@ -7,11 +7,11 @@
       "new": 109,
       "used": 99,
       "category": {
-        "Pontoon / Tritoon": 46,
+        "Pontoon / Tritoon": 45,
         "Wakeboard / Ski": 53,
         "Center Console": 38,
         "Cruiser / Cabin": 22,
-        "Bowrider": 19,
+        "Bowrider": 20,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -26,7 +26,7 @@
         "Invictus": 7,
         "Pirelli": 1,
         "Chris Craft": 6,
-        "Monterey": 12,
+        "Monterey": 13,
         "Sea Ray": 8,
         "Jeanneau": 1,
         "YOT": 2,
@@ -49,7 +49,7 @@
         "Capoforte": 6,
         "Deep Impact": 1,
         "Glasstream": 1,
-        "JC Tritoon": 8,
+        "JC Tritoon": 7,
         "Montara": 2,
         "MB Sports": 12,
         "MasterCraft": 10,
@@ -228,6 +228,10 @@
         ],
         [
           353363,
+          "new"
+        ],
+        [
+          352540,
           "new"
         ],
         [
@@ -819,10 +823,6 @@
           "new"
         ],
         [
-          149820,
-          "new"
-        ],
-        [
           49990,
           "used"
         ],
@@ -894,15 +894,15 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 51,
+      "total": 50,
       "new": 23,
-      "used": 28,
+      "used": 27,
       "category": {
         "Cruiser / Cabin": 16,
         "Performance": 10,
         "Fishing": 4,
         "Yacht": 12,
-        "Other": 2,
+        "Other": 1,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 4,
         "Bowrider": 2
@@ -912,7 +912,6 @@
         "Boston Whaler": 3,
         "Chaparral": 1,
         "Ocean Alexander": 1,
-        "Aquila": 1,
         "Sunseeker": 1,
         "Aviara": 3,
         "Cobalt": 1,
@@ -990,10 +989,6 @@
         ],
         [
           289000,
-          "used"
-        ],
-        [
-          474900,
           "used"
         ],
         [
@@ -1604,21 +1599,21 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 96,
-      "new": 53,
-      "used": 43,
+      "total": 101,
+      "new": 56,
+      "used": 45,
       "category": {
         "Bowrider": 30,
         "Cruiser / Cabin": 13,
-        "Pontoon / Tritoon": 41,
-        "Wakeboard / Ski": 10,
+        "Pontoon / Tritoon": 45,
+        "Wakeboard / Ski": 11,
         "Center Console": 2
       },
       "brand": {
         "Regal": 26,
-        "Bennington": 41,
+        "Bennington": 45,
         "Grady-White": 7,
-        "Nautique": 9,
+        "Nautique": 10,
         "Cobalt Boats": 4,
         "Cruisers Yachts": 2,
         "MasterCraft": 1,
@@ -1833,10 +1828,6 @@
           "new"
         ],
         [
-          1300000,
-          "used"
-        ],
-        [
           209900,
           "new"
         ],
@@ -1885,11 +1876,19 @@
           "new"
         ],
         [
+          229900,
+          "used"
+        ],
+        [
           509900,
           "new"
         ],
         [
           101900,
+          "new"
+        ],
+        [
+          174900,
           "new"
         ],
         [
@@ -1965,6 +1964,10 @@
           "used"
         ],
         [
+          239900,
+          "used"
+        ],
+        [
           1249900,
           "used"
         ],
@@ -2020,21 +2023,21 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 49,
-      "new": 14,
+      "total": 51,
+      "new": 16,
       "used": 35,
       "category": {
-        "Yacht": 1,
         "Fishing": 1,
-        "Bowrider": 36,
-        "Pontoon / Tritoon": 3,
+        "Yacht": 1,
+        "Bowrider": 38,
         "Wakeboard / Ski": 5,
-        "Performance": 1,
-        "Cruiser / Cabin": 2
+        "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
+        "Performance": 1
       },
       "brand": {
         "Carver": 1,
-        "Cobalt": 27,
+        "Cobalt": 29,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -2196,7 +2199,7 @@
       ],
       "priceLow": 9800,
       "priceHigh": 479000,
-      "priceQuality": "partial-71pct"
+      "priceQuality": "partial-69pct"
     },
     "iguana-marine": {
       "name": "Iguana Marine Group",
@@ -2752,17 +2755,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 33,
-      "new": 18,
+      "total": 32,
+      "new": 17,
       "used": 15,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "brand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2835,7 +2838,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2983,6 +2986,10 @@
           "used"
         ],
         [
+          179990,
+          "used"
+        ],
+        [
           159990,
           "used"
         ],
@@ -2997,10 +3004,6 @@
         [
           44990,
           "used"
-        ],
-        [
-          54990,
-          "used"
         ]
       ],
       "priceLow": 44990,
@@ -3010,16 +3013,16 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 67,
+      "total": 65,
       "new": 24,
-      "used": 43,
+      "used": 41,
       "category": {
-        "Pontoon / Tritoon": 30,
+        "Pontoon / Tritoon": 29,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 20,
         "Power": 1,
-        "Other": 14
+        "Other": 13
       },
       "brand": {
         "South": 3,
@@ -3035,7 +3038,6 @@
         "Bennington": 2,
         "Formula": 2,
         "Baja": 1,
-        "Rinker": 2,
         "Trifecta": 1,
         "JC": 1,
         "Crest": 1,
@@ -3043,7 +3045,8 @@
         "Four Winns": 3,
         "Lowe": 2,
         "Misty Harbor": 1,
-        "Hurricane": 2,
+        "Rinker": 1,
+        "Hurricane": 1,
         "Thompson": 1,
         "Harris-Kayot": 1
       },
@@ -3237,10 +3240,6 @@
           "used"
         ],
         [
-          29900,
-          "used"
-        ],
-        [
           25900,
           "used"
         ],
@@ -3282,10 +3281,6 @@
         ],
         [
           19900,
-          "used"
-        ],
-        [
-          17900,
           "used"
         ],
         [
@@ -3959,7 +3954,7 @@
           "used"
         ],
         [
-          32900,
+          29900,
           "used"
         ],
         [
