@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T12:38:33.830087+00:00",
+  "lastUpdated": "2026-11-15T13:04:31.463672+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -189,25 +189,24 @@
       "id": "kellys-port",
       "name": "Kelly's Port",
       "isOwn": false,
-      "totalBoats": 101,
-      "newBoats": 56,
+      "totalBoats": 100,
+      "newBoats": 55,
       "usedBoats": 45,
-      "avgPriceNew": 326716.48,
+      "avgPriceNew": 326543.21,
       "avgPriceUsed": 315529.43,
       "byCondition": {
-        "New": 56,
+        "New": 55,
         "Used": 45
       },
       "byCategory": {
-        "Bowrider": 30,
+        "Bowrider": 32,
         "Cruiser / Cabin": 13,
-        "Pontoon / Tritoon": 45,
-        "Wakeboard / Ski": 11,
-        "Center Console": 2
+        "Pontoon / Tritoon": 44,
+        "Wakeboard / Ski": 11
       },
       "byBrand": {
         "Regal": 26,
-        "Bennington": 45,
+        "Bennington": 44,
         "Grady-White": 7,
         "Nautique": 10,
         "Cobalt": 4,
@@ -235,13 +234,13 @@
         "Used": 35
       },
       "byCategory": {
-        "Fishing": 1,
-        "Yacht": 1,
-        "Bowrider": 38,
         "Wakeboard / Ski": 5,
+        "Bowrider": 38,
         "Pontoon / Tritoon": 3,
+        "Fishing": 1,
+        "Performance": 1,
         "Cruiser / Cabin": 2,
-        "Performance": 1
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
@@ -367,23 +366,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 32,
-      "newBoats": 17,
+      "totalBoats": 33,
+      "newBoats": 18,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 257310.33,
       "byCondition": {
-        "New": 17,
+        "New": 18,
         "Used": 15
       },
       "byCategory": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 26,
+        "Bowrider": 27,
         "Other": 2
       },
       "byBrand": {
-        "Formula": 29,
+        "Formula": 30,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -425,27 +424,27 @@
       "id": "heartland-marine",
       "name": "Heartland Marine",
       "isOwn": false,
-      "totalBoats": 65,
+      "totalBoats": 64,
       "newBoats": 24,
-      "usedBoats": 41,
+      "usedBoats": 40,
       "avgPriceNew": 102566.67,
-      "avgPriceUsed": 47390.22,
+      "avgPriceUsed": 45327.47,
       "byCondition": {
         "New": 24,
-        "Used": 41
+        "Used": 40
       },
       "byCategory": {
         "Pontoon / Tritoon": 29,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
-        "Bowrider": 20,
+        "Bowrider": 19,
         "Power": 1,
         "Other": 13
       },
       "byBrand": {
         "South": 3,
         "South Bay": 4,
-        "Chaparral": 7,
+        "Chaparral": 6,
         "Cobalt": 1,
         "Manitou": 1,
         "Sylvan": 17,
@@ -604,36 +603,40 @@
       "id": "surdyke-yamaha",
       "name": "Surdyke Yamaha & Marina",
       "isOwn": false,
-      "totalBoats": 103,
-      "newBoats": 67,
-      "usedBoats": 36,
-      "avgPriceNew": 141084.34,
-      "avgPriceUsed": 37906.41,
+      "totalBoats": 121,
+      "newBoats": 82,
+      "usedBoats": 39,
+      "avgPriceNew": 130799.74,
+      "avgPriceUsed": 37319.32,
       "byCondition": {
-        "New": 67,
-        "Used": 36
+        "New": 82,
+        "Used": 39
       },
       "byCategory": {
-        "Pontoon / Tritoon": 22,
-        "Center Console": 9,
+        "Pontoon / Tritoon": 21,
+        "Wakeboard / Ski": 1,
+        "Center Console": 11,
         "Cruiser / Cabin": 16,
-        "Bowrider": 18,
+        "Bowrider": 30,
         "Performance": 6,
         "Yacht": 1,
-        "Fishing": 24,
+        "Fishing": 25,
         "Power": 1,
-        "Other": 6
+        "Other": 9
       },
       "byBrand": {
+        "Yamaha Marine": 10,
         "Beneteau": 6,
         "Cobalt": 1,
-        "Yamaha": 20,
+        "Yamaha": 27,
         "Scarab": 7,
         "SunCatcher": 18,
         "Sun Tracker": 1,
-        "G3": 18,
+        "Suncatcher": 1,
+        "G3": 17,
         "Sundance": 1,
         "Axopar": 11,
+        "Landa": 1,
         "Ranger": 2,
         "Bayliner": 3,
         "Four Winns": 3,
@@ -690,46 +693,46 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1205,
-    "newBoats": 601,
-    "usedBoats": 602,
+    "totalBoats": 1222,
+    "newBoats": 616,
+    "usedBoats": 604,
     "byCondition": {
-      "New": 601,
-      "Used": 602
+      "New": 616,
+      "Used": 604
     },
     "byCategory": {
-      "Pontoon / Tritoon": 302,
-      "Wakeboard / Ski": 178,
+      "Pontoon / Tritoon": 300,
+      "Wakeboard / Ski": 179,
       "Center Console": 94,
       "Cruiser / Cabin": 91,
-      "Bowrider": 240,
+      "Bowrider": 254,
       "Performance": 97,
       "Yacht": 35,
-      "Fishing": 74,
+      "Fishing": 75,
       "Power": 13,
-      "Other": 81
+      "Other": 84
     },
     "byBrand": {
-      "Chaparral": 65,
+      "Chaparral": 64,
       "Godfrey": 56,
-      "Bennington": 54,
       "Four Winns": 54,
-      "Formula": 51,
+      "Bennington": 53,
+      "Formula": 52,
       "Sea Ray": 49,
       "Cobalt": 44,
       "Regal": 44,
       "MasterCraft": 43,
       "Barletta": 42,
+      "Yamaha": 32,
       "Malibu": 29,
       "Crownline": 28,
       "Viaggio": 27,
       "Tige": 25,
-      "Yamaha": 25,
       "Premier": 24,
       "Fountain": 21,
       "Axis": 20,
       "MTI": 19,
-      "G3": 19,
+      "G3": 18,
       "SunCatcher": 18,
       "Monterey": 17,
       "Sunsation Powerboats": 17,
@@ -742,6 +745,7 @@
       "Skater": 11,
       "Axopar": 11,
       "Cruisers Yachts": 10,
+      "Yamaha Marine": 10,
       "Starcraft": 10,
       "Scarab": 9,
       "Supra": 8,
@@ -844,7 +848,9 @@
       "NauticStar": 1,
       "Stingray": 1,
       "Triton": 1,
+      "Suncatcher": 1,
       "Sundance": 1,
+      "Landa": 1,
       "Nitro": 1,
       "Bass Cat": 1,
       "Tahoe\u00ae": 1,
@@ -855,6 +861,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261114",
-  "date": "2026-11-14"
+  "scanId": "scan-20261115",
+  "date": "2026-11-15"
 }
