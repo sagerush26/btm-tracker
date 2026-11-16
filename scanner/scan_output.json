@@ -894,14 +894,14 @@
     "marinemax": {
       "name": "MarineMax",
       "isOwn": false,
-      "total": 50,
+      "total": 49,
       "new": 23,
-      "used": 27,
+      "used": 26,
       "category": {
         "Cruiser / Cabin": 16,
         "Performance": 10,
         "Fishing": 4,
-        "Yacht": 12,
+        "Yacht": 11,
         "Other": 1,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 4,
@@ -911,7 +911,6 @@
         "Sea Ray": 27,
         "Boston Whaler": 3,
         "Chaparral": 1,
-        "Ocean Alexander": 1,
         "Sunseeker": 1,
         "Aviara": 3,
         "Cobalt": 1,
@@ -981,10 +980,6 @@
         ],
         [
           199900,
-          "used"
-        ],
-        [
-          745000,
           "used"
         ],
         [
@@ -2022,12 +2017,12 @@
       "new": 16,
       "used": 35,
       "category": {
+        "Cruiser / Cabin": 2,
         "Wakeboard / Ski": 5,
         "Bowrider": 38,
-        "Pontoon / Tritoon": 3,
         "Fishing": 1,
         "Performance": 1,
-        "Cruiser / Cabin": 2,
+        "Pontoon / Tritoon": 3,
         "Yacht": 1
       },
       "brand": {
@@ -2750,17 +2745,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 33,
-      "new": 18,
+      "total": 32,
+      "new": 17,
       "used": 15,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "brand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2833,7 +2828,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -4095,8 +4090,7 @@
         "Scarab": 7,
         "SunCatcher": 18,
         "Sun Tracker": 1,
-        "SUNCATCHER": 1,
-        "G3": 17,
+        "G3": 18,
         "Sundance": 1,
         "Axopar": 11,
         "Landa": 1,

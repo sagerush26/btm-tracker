@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T13:04:31.463672+00:00",
+  "lastUpdated": "2026-11-16T14:08:41.979562+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -88,20 +88,20 @@
       "id": "marinemax",
       "name": "MarineMax",
       "isOwn": false,
-      "totalBoats": 50,
+      "totalBoats": 49,
       "newBoats": 23,
-      "usedBoats": 27,
+      "usedBoats": 26,
       "avgPriceNew": 541790.91,
-      "avgPriceUsed": 384474.52,
+      "avgPriceUsed": 370608.15,
       "byCondition": {
         "New": 23,
-        "Used": 27
+        "Used": 26
       },
       "byCategory": {
         "Cruiser / Cabin": 16,
         "Performance": 10,
         "Fishing": 4,
-        "Yacht": 12,
+        "Yacht": 11,
         "Other": 1,
         "Wakeboard / Ski": 1,
         "Pontoon / Tritoon": 4,
@@ -111,7 +111,6 @@
         "Sea Ray": 27,
         "Boston Whaler": 3,
         "Chaparral": 1,
-        "Ocean Alexander": 1,
         "Sunseeker": 1,
         "Aviara": 3,
         "Cobalt": 1,
@@ -234,12 +233,12 @@
         "Used": 35
       },
       "byCategory": {
+        "Cruiser / Cabin": 2,
         "Wakeboard / Ski": 5,
         "Bowrider": 38,
-        "Pontoon / Tritoon": 3,
         "Fishing": 1,
         "Performance": 1,
-        "Cruiser / Cabin": 2,
+        "Pontoon / Tritoon": 3,
         "Yacht": 1
       },
       "byBrand": {
@@ -366,23 +365,23 @@
       "id": "formula-boats-mo",
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "totalBoats": 33,
-      "newBoats": 18,
+      "totalBoats": 32,
+      "newBoats": 17,
       "usedBoats": 15,
       "avgPriceNew": 914454.0,
       "avgPriceUsed": 257310.33,
       "byCondition": {
-        "New": 18,
+        "New": 17,
         "Used": 15
       },
       "byCategory": {
         "Center Console": 1,
         "Cruiser / Cabin": 3,
-        "Bowrider": 27,
+        "Bowrider": 26,
         "Other": 2
       },
       "byBrand": {
-        "Formula": 30,
+        "Formula": 29,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -632,8 +631,7 @@
         "Scarab": 7,
         "SunCatcher": 18,
         "Sun Tracker": 1,
-        "Suncatcher": 1,
-        "G3": 17,
+        "G3": 18,
         "Sundance": 1,
         "Axopar": 11,
         "Landa": 1,
@@ -693,21 +691,21 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1222,
-    "newBoats": 616,
-    "usedBoats": 604,
+    "totalBoats": 1220,
+    "newBoats": 615,
+    "usedBoats": 603,
     "byCondition": {
-      "New": 616,
-      "Used": 604
+      "New": 615,
+      "Used": 603
     },
     "byCategory": {
       "Pontoon / Tritoon": 300,
       "Wakeboard / Ski": 179,
       "Center Console": 94,
       "Cruiser / Cabin": 91,
-      "Bowrider": 254,
+      "Bowrider": 253,
       "Performance": 97,
-      "Yacht": 35,
+      "Yacht": 34,
       "Fishing": 75,
       "Power": 13,
       "Other": 84
@@ -717,7 +715,7 @@
       "Godfrey": 56,
       "Four Winns": 54,
       "Bennington": 53,
-      "Formula": 52,
+      "Formula": 51,
       "Sea Ray": 49,
       "Cobalt": 44,
       "Regal": 44,
@@ -732,7 +730,7 @@
       "Fountain": 21,
       "Axis": 20,
       "MTI": 19,
-      "G3": 18,
+      "G3": 19,
       "SunCatcher": 18,
       "Monterey": 17,
       "Sunsation Powerboats": 17,
@@ -821,7 +819,6 @@
       "Heritage": 1,
       "Correct Craft": 1,
       "Cypress Cay": 1,
-      "Ocean Alexander": 1,
       "Sunseeker": 1,
       "Azimut": 1,
       "Saxdor": 1,
@@ -848,7 +845,6 @@
       "NauticStar": 1,
       "Stingray": 1,
       "Triton": 1,
-      "Suncatcher": 1,
       "Sundance": 1,
       "Landa": 1,
       "Nitro": 1,
@@ -861,6 +857,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261115",
-  "date": "2026-11-15"
+  "scanId": "scan-20261116",
+  "date": "2026-11-16"
 }

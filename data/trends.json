@@ -1,21 +1,21 @@
 {
   "soldByCategory": {
     "Cruiser / Cabin": 46,
-    "Bowrider": 100,
+    "Bowrider": 101,
     "Performance": 109,
     "Other": 99,
     "Center Console": 23,
     "Pontoon / Tritoon": 248,
     "Wakeboard / Ski": 50,
     "Fishing": 51,
-    "Yacht": 14,
+    "Yacht": 15,
     "Power": 5
   },
   "soldByPriceBand": {},
   "soldByLengthBand": {},
   "soldByCondition": {
-    "New": 3684,
-    "Used": 2404
+    "New": 3685,
+    "Used": 2405
   },
   "soldByBrand": {
     "Cruisers Yachts": 1,
@@ -33,7 +33,7 @@
     "Godfrey": 6,
     "Skater": 2,
     "MTI": 3,
-    "Formula": 21,
+    "Formula": 22,
     "Manitou": 4,
     "Harris": 4,
     "Fountain": 2,
@@ -79,9 +79,9 @@
     "Premier Advantage Marine": 74,
     "Heartland Marine": 258,
     "Premier 54 Motorsports": 79,
-    "MarineMax": 157,
+    "MarineMax": 158,
     "Performance Boat Center": 155,
-    "Formula Boats of Missouri": 62,
+    "Formula Boats of Missouri": 63,
     "Marty's Marine": 109,
     "Performance Marine Watersports": 87,
     "Stateamind Water Sports": 95,
@@ -690,6 +690,12 @@
       "totalMarket": 1222,
       "btm": 208,
       "competitors": 1014
+    },
+    {
+      "date": "2026-11-16",
+      "totalMarket": 1220,
+      "btm": 208,
+      "competitors": 1012
     }
   ],
   "priceTrend": [
@@ -1202,29 +1208,14 @@
       "date": "2026-11-15",
       "marketAvg": 218182.57,
       "btmAvg": 258781.56
+    },
+    {
+      "date": "2026-11-16",
+      "marketAvg": 217685.01,
+      "btmAvg": 258781.56
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-10-18",
-      "scanId": "scan-20261018",
-      "dealer": "Surdyke Yamaha & Marina",
-      "competitorId": "surdyke-yamaha",
-      "count": 1,
-      "previousTotal": 103,
-      "newTotal": 102,
-      "detail": "Inventory decreased by 1 (was 103, now 102). New: 69, Used: 33. Reflects the normal one-day change since the prior scan on 2026-10-17."
-    },
-    {
-      "date": "2026-10-19",
-      "scanId": "scan-20261019",
-      "dealer": "Performance Boat Center",
-      "competitorId": "performance-boat-center",
-      "count": 1,
-      "previousTotal": 101,
-      "newTotal": 100,
-      "detail": "Inventory decreased by 1 (was 101, now 100). New: 9, Used: 90. Reflects the normal one-day change since the prior scan on 2026-10-18."
-    },
     {
       "date": "2026-10-19",
       "scanId": "scan-20261019",
@@ -1704,6 +1695,26 @@
       "previousTotal": 65,
       "newTotal": 64,
       "detail": "Inventory decreased by 1 (was 65, now 64). New: 24, Used: 40. Reflects the normal one-day change since the prior scan on 2026-11-14."
+    },
+    {
+      "date": "2026-11-16",
+      "scanId": "scan-20261116",
+      "dealer": "MarineMax",
+      "competitorId": "marinemax",
+      "count": 1,
+      "previousTotal": 50,
+      "newTotal": 49,
+      "detail": "Inventory decreased by 1 (was 50, now 49). New: 23, Used: 26. Reflects the normal one-day change since the prior scan on 2026-11-15."
+    },
+    {
+      "date": "2026-11-16",
+      "scanId": "scan-20261116",
+      "dealer": "Formula Boats of Missouri",
+      "competitorId": "formula-boats-mo",
+      "count": 1,
+      "previousTotal": 33,
+      "newTotal": 32,
+      "detail": "Inventory decreased by 1 (was 33, now 32). New: 17, Used: 15. Reflects the normal one-day change since the prior scan on 2026-11-15."
     }
   ],
   "recentlyAdded": [
@@ -4036,14 +4047,19 @@
       "date": "2026-11-15",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-11-15 (scan-20261115). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
+    },
+    {
+      "date": "2026-11-16",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-16 (scan-20261116). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
     }
   ],
   "summary": {
-    "date": "2026-11-15",
-    "scanId": "scan-20261115",
-    "marketTotal": 1222,
-    "credibleChangesCount": 4,
-    "soldCount": 1790,
+    "date": "2026-11-16",
+    "scanId": "scan-20261116",
+    "marketTotal": 1220,
+    "credibleChangesCount": 2,
+    "soldCount": 1792,
     "addedCount": 1048
   },
   "addedByDealer": {
@@ -4096,7 +4112,7 @@
     "Godrey": 2,
     "Axopar": 33,
     "Beneteau": 18,
-    "G3": 64,
+    "G3": 65,
     "Scarab": 35,
     "SunCatcher": 51,
     "Ranger": 5,
