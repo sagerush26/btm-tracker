@@ -171,7 +171,7 @@
           "used"
         ],
         [
-          499900,
+          475000,
           "used"
         ],
         [
@@ -1126,33 +1126,32 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 104,
+      "total": 102,
       "new": 9,
-      "used": 94,
+      "used": 92,
       "category": {
         "Fishing": 1,
-        "Other": 40,
+        "Other": 41,
         "Bowrider": 8,
-        "Center Console": 31,
-        "Performance": 19,
+        "Center Console": 30,
+        "Performance": 17,
         "Power": 2,
         "Cruiser / Cabin": 3
       },
       "brand": {
         "Skater": 11,
-        "Sunsation Powerboats": 17,
+        "Sunsation Powerboats": 18,
         "MTI": 19,
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
-        "Sunsation": 1,
         "Regal": 1,
         "Ford": 1,
         "Interceptor": 1,
-        "Cigarette": 11,
+        "Cigarette": 10,
         "Monterey": 2,
         "Concept": 1,
-        "Fountain": 7,
+        "Fountain": 6,
         "Crownline": 1,
         "Bennington": 2,
         "MasterCraft": 1,
@@ -1235,11 +1234,11 @@
           "used"
         ],
         [
-          2299950,
+          2249950,
           "used"
         ],
         [
-          659950,
+          629950,
           "used"
         ],
         [
@@ -1251,7 +1250,7 @@
           "used"
         ],
         [
-          429950,
+          399950,
           "new"
         ],
         [
@@ -1527,10 +1526,6 @@
           "used"
         ],
         [
-          229950,
-          "used"
-        ],
-        [
           215000,
           "used"
         ],
@@ -1552,10 +1547,6 @@
         ],
         [
           34950,
-          "used"
-        ],
-        [
-          99950,
           "used"
         ],
         [
@@ -1588,26 +1579,26 @@
         ]
       ],
       "priceLow": 22500,
-      "priceHigh": 2299950,
+      "priceHigh": 2249950,
       "priceQuality": "full"
     },
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 100,
-      "new": 55,
+      "total": 102,
+      "new": 57,
       "used": 45,
       "category": {
         "Bowrider": 32,
         "Cruiser / Cabin": 13,
         "Pontoon / Tritoon": 44,
-        "Wakeboard / Ski": 11
+        "Wakeboard / Ski": 13
       },
       "brand": {
         "Regal": 26,
         "Bennington": 44,
         "Grady-White": 7,
-        "Nautique": 10,
+        "Nautique": 12,
         "Cobalt Boats": 4,
         "Cruisers Yachts": 2,
         "MasterCraft": 1,
@@ -2018,12 +2009,12 @@
       "used": 35,
       "category": {
         "Cruiser / Cabin": 2,
-        "Wakeboard / Ski": 5,
         "Bowrider": 38,
-        "Fishing": 1,
-        "Performance": 1,
+        "Yacht": 1,
         "Pontoon / Tritoon": 3,
-        "Yacht": 1
+        "Wakeboard / Ski": 5,
+        "Fishing": 1,
+        "Performance": 1
       },
       "brand": {
         "Carver": 1,
@@ -3003,16 +2994,15 @@
     "heartland-marine": {
       "name": "Heartland Marine",
       "isOwn": false,
-      "total": 64,
+      "total": 65,
       "new": 24,
-      "used": 40,
+      "used": 41,
       "category": {
-        "Pontoon / Tritoon": 29,
+        "Pontoon / Tritoon": 30,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 19,
-        "Power": 1,
-        "Other": 13
+        "Other": 14
       },
       "brand": {
         "South": 3,
@@ -3020,15 +3010,16 @@
         "Chaparral": 6,
         "Cobalt": 1,
         "Manitou": 1,
+        "Bennington": 3,
         "Sylvan": 17,
         "Crownline": 2,
-        "Sea Ray": 6,
+        "Sea Ray": 5,
         "Regal": 3,
         "Monterey": 2,
-        "Bennington": 2,
         "Formula": 2,
         "Baja": 1,
         "Trifecta": 1,
+        "MasterCraft": 1,
         "JC": 1,
         "Crest": 1,
         "Ebbtide": 1,
@@ -3059,6 +3050,10 @@
         ],
         [
           159900,
+          "used"
+        ],
+        [
+          149900,
           "used"
         ],
         [
@@ -3206,10 +3201,6 @@
           "used"
         ],
         [
-          36900,
-          "used"
-        ],
-        [
           29900,
           "used"
         ],
@@ -3223,6 +3214,10 @@
         ],
         [
           29900,
+          "used"
+        ],
+        [
+          25900,
           "used"
         ],
         [
