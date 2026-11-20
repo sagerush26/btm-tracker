@@ -3,13 +3,13 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 206,
-      "new": 109,
+      "total": 207,
+      "new": 110,
       "used": 97,
       "category": {
         "Pontoon / Tritoon": 45,
         "Wakeboard / Ski": 53,
-        "Center Console": 37,
+        "Center Console": 38,
         "Cruiser / Cabin": 21,
         "Bowrider": 20,
         "Performance": 13,
@@ -23,17 +23,17 @@
         "Dutch American": 2,
         "Cigarette": 4,
         "Fountain": 12,
-        "Invictus": 7,
+        "Invictus": 8,
         "Pirelli": 1,
         "Chris Craft": 6,
         "Monterey": 13,
         "Sea Ray": 8,
         "Jeanneau": 1,
         "YOT": 2,
+        "Opus": 2,
         "Schaefer": 1,
         "Tige": 21,
         "Amp": 1,
-        "Opus": 2,
         "Donzi": 6,
         "Cobalt": 4,
         "Formula": 6,
@@ -95,7 +95,7 @@
           "new"
         ],
         [
-          1098843,
+          925000,
           "new"
         ],
         [
@@ -151,11 +151,7 @@
           "new"
         ],
         [
-          537265,
-          "new"
-        ],
-        [
-          536744,
+          544737,
           "new"
         ],
         [
@@ -164,6 +160,10 @@
         ],
         [
           529900,
+          "new"
+        ],
+        [
+          516789,
           "new"
         ],
         [
@@ -191,10 +191,6 @@
           "used"
         ],
         [
-          449000,
-          "new"
-        ],
-        [
           447282,
           "new"
         ],
@@ -219,15 +215,19 @@
           "used"
         ],
         [
-          403245,
-          "new"
-        ],
-        [
           353363,
           "new"
         ],
         [
           352540,
+          "new"
+        ],
+        [
+          350000,
+          "new"
+        ],
+        [
+          350000,
           "new"
         ],
         [
@@ -347,7 +347,7 @@
           "new"
         ],
         [
-          212820,
+          212500,
           "new"
         ],
         [
@@ -363,7 +363,7 @@
           "new"
         ],
         [
-          206353,
+          202500,
           "new"
         ],
         [
@@ -373,10 +373,6 @@
         [
           199997,
           "used"
-        ],
-        [
-          199302,
-          "new"
         ],
         [
           199000,
@@ -433,6 +429,14 @@
         [
           169900,
           "used"
+        ],
+        [
+          165000,
+          "new"
+        ],
+        [
+          165000,
+          "new"
         ],
         [
           164997,
@@ -607,10 +611,6 @@
           "new"
         ],
         [
-          101496,
-          "new"
-        ],
-        [
           99900,
           "used"
         ],
@@ -679,10 +679,6 @@
           "new"
         ],
         [
-          81858,
-          "new"
-        ],
-        [
           79990,
           "used"
         ],
@@ -737,6 +733,14 @@
         [
           57500,
           "used"
+        ],
+        [
+          56500,
+          "new"
+        ],
+        [
+          56500,
+          "new"
         ],
         [
           55997,
@@ -803,6 +807,10 @@
           "new"
         ],
         [
+          212500,
+          "new"
+        ],
+        [
           194370,
           "new"
         ],
@@ -827,15 +835,11 @@
           "new"
         ],
         [
-          337580,
-          "new"
-        ],
-        [
-          277372,
-          "new"
-        ],
-        [
           263600,
+          "new"
+        ],
+        [
+          212500,
           "new"
         ],
         [
@@ -1107,7 +1111,7 @@
       "isOwn": false,
       "total": 106,
       "new": 9,
-      "used": 96,
+      "used": 95,
       "category": {
         "Fishing": 1,
         "Other": 41,
@@ -1118,7 +1122,7 @@
         "Cruiser / Cabin": 3
       },
       "brand": {
-        "Skater": 11,
+        "Skater": 10,
         "Sunsation Powerboats": 18,
         "MTI": 19,
         "Outerlimits": 3,
@@ -1168,6 +1172,10 @@
         [
           899950,
           "used"
+        ],
+        [
+          249950,
+          "unknown"
         ],
         [
           1399950,
@@ -1470,10 +1478,6 @@
           "used"
         ],
         [
-          359950,
-          "used"
-        ],
-        [
           119950,
           "used"
         ],
@@ -1581,20 +1585,20 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 102,
-      "new": 57,
-      "used": 45,
+      "total": 105,
+      "new": 59,
+      "used": 46,
       "category": {
-        "Bowrider": 32,
+        "Bowrider": 33,
         "Cruiser / Cabin": 13,
-        "Pontoon / Tritoon": 44,
-        "Wakeboard / Ski": 13
+        "Pontoon / Tritoon": 45,
+        "Wakeboard / Ski": 14
       },
       "brand": {
-        "Regal": 26,
-        "Bennington": 44,
+        "Regal": 27,
+        "Bennington": 45,
         "Grady-White": 7,
-        "Nautique": 12,
+        "Nautique": 13,
         "Cobalt Boats": 4,
         "Cruisers Yachts": 2,
         "MasterCraft": 1,
@@ -1642,6 +1646,10 @@
         ],
         [
           369900,
+          "new"
+        ],
+        [
+          199900,
           "new"
         ],
         [
@@ -1901,6 +1909,10 @@
           "new"
         ],
         [
+          439900,
+          "new"
+        ],
+        [
           199900,
           "used"
         ],
@@ -1991,6 +2003,10 @@
         [
           219900,
           "used"
+        ],
+        [
+          194900,
+          "used"
         ]
       ],
       "priceLow": 44900,
@@ -2004,13 +2020,13 @@
       "new": 16,
       "used": 36,
       "category": {
-        "Cruiser / Cabin": 2,
         "Pontoon / Tritoon": 3,
-        "Fishing": 1,
+        "Bowrider": 39,
+        "Wakeboard / Ski": 5,
         "Performance": 1,
         "Yacht": 1,
-        "Wakeboard / Ski": 5,
-        "Bowrider": 39
+        "Fishing": 1,
+        "Cruiser / Cabin": 2
       },
       "brand": {
         "Carver": 1,
@@ -2200,9 +2216,9 @@
         "Other": 1
       },
       "brand": {
+        "Axis": 10,
         "iKon": 6,
         "Formula": 7,
-        "Axis": 10,
         "Godfrey": 28,
         "Coach Pontoons": 2,
         "Four Winns": 5,
@@ -2232,6 +2248,10 @@
       },
       "prices": [
         [
+          89900,
+          "used"
+        ],
+        [
           110756,
           "new"
         ],
@@ -2246,10 +2266,6 @@
         [
           401198,
           "new"
-        ],
-        [
-          89900,
-          "used"
         ],
         [
           118717,
@@ -2551,15 +2567,15 @@
     "premier-advantage": {
       "name": "Premier Advantage Marine",
       "isOwn": false,
-      "total": 72,
+      "total": 73,
       "new": 12,
-      "used": 60,
+      "used": 61,
       "category": {
         "Pontoon / Tritoon": 5,
         "Wakeboard / Ski": 5,
         "Center Console": 3,
         "Cruiser / Cabin": 6,
-        "Bowrider": 37,
+        "Bowrider": 38,
         "Performance": 0,
         "Yacht": 0,
         "Fishing": 16,
@@ -2569,7 +2585,7 @@
       "brand": {
         "Fountain": 1,
         "Four Winns": 33,
-        "Sea Ray": 1,
+        "Sea Ray": 2,
         "Regal": 1,
         "Chaparral": 4,
         "Crownline": 2,
@@ -2626,6 +2642,10 @@
         ],
         [
           89900,
+          "used"
+        ],
+        [
+          34900,
           "used"
         ],
         [
@@ -3303,8 +3323,8 @@
       "new": 60,
       "used": 34,
       "category": {
-        "Fishing": 9,
         "Wakeboard / Ski": 28,
+        "Fishing": 9,
         "Pontoon / Tritoon": 33,
         "Yacht": 9,
         "Bowrider": 11,
@@ -3313,8 +3333,8 @@
         "Center Console": 1
       },
       "brand": {
-        "iKon": 6,
         "Axis": 10,
+        "iKon": 6,
         "Godfrey": 28,
         "Coach Pontoons": 2,
         "Four Winns": 5,
@@ -3345,16 +3365,16 @@
       },
       "prices": [
         [
+          89900,
+          "used"
+        ],
+        [
           110756,
           "new"
         ],
         [
           76974,
           "new"
-        ],
-        [
-          89900,
-          "used"
         ],
         [
           118717,
@@ -3730,7 +3750,7 @@
           "new"
         ],
         [
-          59900,
+          54900,
           "used"
         ],
         [
