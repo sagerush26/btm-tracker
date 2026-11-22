@@ -1109,12 +1109,12 @@
     "performance-boat-center": {
       "name": "Performance Boat Center",
       "isOwn": false,
-      "total": 108,
+      "total": 109,
       "new": 9,
-      "used": 97,
+      "used": 98,
       "category": {
         "Fishing": 1,
-        "Other": 42,
+        "Other": 43,
         "Bowrider": 8,
         "Center Console": 32,
         "Performance": 19,
@@ -1124,7 +1124,7 @@
       "brand": {
         "Skater": 10,
         "Sunsation Powerboats": 18,
-        "MTI": 19,
+        "MTI": 20,
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
@@ -1324,6 +1324,10 @@
         ],
         [
           799950,
+          "used"
+        ],
+        [
+          699950,
           "used"
         ],
         [
@@ -1594,18 +1598,18 @@
     "kellys-port": {
       "name": "Kelly's Port",
       "isOwn": false,
-      "total": 107,
+      "total": 106,
       "new": 60,
-      "used": 46,
+      "used": 45,
       "category": {
         "Bowrider": 33,
-        "Cruiser / Cabin": 13,
         "Pontoon / Tritoon": 46,
+        "Cruiser / Cabin": 12,
         "Wakeboard / Ski": 14,
         "Other": 1
       },
       "brand": {
-        "Regal": 28,
+        "Regal": 27,
         "Bennington": 46,
         "Grady-White": 7,
         "Nautique": 13,
@@ -1625,10 +1629,6 @@
         [
           399900,
           "new"
-        ],
-        [
-          625000,
-          "used"
         ],
         [
           109900,
@@ -2030,13 +2030,13 @@
       "new": 16,
       "used": 35,
       "category": {
-        "Cruiser / Cabin": 2,
         "Wakeboard / Ski": 5,
-        "Bowrider": 38,
         "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
+        "Yacht": 1,
         "Fishing": 1,
         "Performance": 1,
-        "Yacht": 1
+        "Bowrider": 38
       },
       "brand": {
         "Carver": 1,
@@ -2852,8 +2852,9 @@
         "Balise": 3,
         "Supra": 6,
         "Cobalt": 2,
-        "Moomba": 2,
-        "Nautique": 1
+        "Moomba": 1,
+        "Nautique": 1,
+        "Tige": 1
       },
       "prices": [
         [
@@ -3003,11 +3004,15 @@
         [
           54990,
           "used"
+        ],
+        [
+          44990,
+          "used"
         ]
       ],
-      "priceLow": 54990,
+      "priceLow": 44990,
       "priceHigh": 435990,
-      "priceQuality": "partial-82pct"
+      "priceQuality": "partial-84pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
@@ -4107,7 +4112,7 @@
         "Yamaha Marine": 10,
         "Beneteau": 6,
         "Cobalt Boats": 1,
-        "Yamaha Boats": 18,
+        "Yamaha Boats": 19,
         "Scarab": 6,
         "SunCatcher": 16,
         "Sun Tracker": 1,
@@ -4116,7 +4121,7 @@
         "Axopar": 11,
         "Landa": 1,
         "RANGER": 1,
-        "Yamaha": 7,
+        "Yamaha": 6,
         "Bayliner": 3,
         "Four Winns": 3,
         "Nitro": 1,

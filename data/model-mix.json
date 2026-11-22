@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:50:01.701947+00:00",
+  "lastUpdated": "2026-11-22T13:42:44.184415+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -127,18 +127,18 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 108,
+      "totalBoats": 109,
       "newBoats": 9,
-      "usedBoats": 97,
+      "usedBoats": 98,
       "avgPriceNew": 501616.67,
-      "avgPriceUsed": 534215.71,
+      "avgPriceUsed": 535889.8,
       "byCondition": {
         "New": 9,
-        "Used": 97
+        "Used": 98
       },
       "byCategory": {
         "Fishing": 1,
-        "Other": 42,
+        "Other": 43,
         "Bowrider": 8,
         "Center Console": 32,
         "Performance": 19,
@@ -148,7 +148,7 @@
       "byBrand": {
         "Skater": 10,
         "Sunsation Powerboats": 18,
-        "MTI": 19,
+        "MTI": 20,
         "Outerlimits": 3,
         "IRON": 2,
         "Performance Powerboats": 4,
@@ -188,24 +188,24 @@
       "id": "kellys-port",
       "name": "Kelly's Port",
       "isOwn": false,
-      "totalBoats": 107,
+      "totalBoats": 106,
       "newBoats": 60,
-      "usedBoats": 46,
+      "usedBoats": 45,
       "avgPriceNew": 326301.64,
-      "avgPriceUsed": 312848.78,
+      "avgPriceUsed": 305754.43,
       "byCondition": {
         "New": 60,
-        "Used": 46
+        "Used": 45
       },
       "byCategory": {
         "Bowrider": 33,
-        "Cruiser / Cabin": 13,
         "Pontoon / Tritoon": 46,
+        "Cruiser / Cabin": 12,
         "Wakeboard / Ski": 14,
         "Other": 1
       },
       "byBrand": {
-        "Regal": 28,
+        "Regal": 27,
         "Bennington": 46,
         "Grady-White": 7,
         "Nautique": 13,
@@ -234,13 +234,13 @@
         "Used": 35
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
         "Wakeboard / Ski": 5,
-        "Bowrider": 38,
         "Pontoon / Tritoon": 3,
+        "Cruiser / Cabin": 2,
+        "Yacht": 1,
         "Fishing": 1,
         "Performance": 1,
-        "Yacht": 1
+        "Bowrider": 38
       },
       "byBrand": {
         "Carver": 1,
@@ -398,7 +398,7 @@
       "newBoats": 21,
       "usedBoats": 24,
       "avgPriceNew": 202674.9,
-      "avgPriceUsed": 176813.53,
+      "avgPriceUsed": 169490.0,
       "byCondition": {
         "New": 21,
         "Used": 24
@@ -414,8 +414,9 @@
         "Balise": 3,
         "Supra": 6,
         "Cobalt": 2,
-        "Moomba": 2,
-        "Nautique": 1
+        "Moomba": 1,
+        "Nautique": 1,
+        "Tige": 1
       },
       "byLength": {},
       "byPropulsion": {}
@@ -704,13 +705,13 @@
       "Pontoon / Tritoon": 301,
       "Wakeboard / Ski": 181,
       "Center Console": 95,
-      "Cruiser / Cabin": 90,
+      "Cruiser / Cabin": 89,
       "Bowrider": 252,
       "Performance": 95,
       "Yacht": 34,
       "Fishing": 73,
       "Power": 12,
-      "Other": 91
+      "Other": 92
     },
     "byBrand": {
       "Chaparral": 63,
@@ -719,7 +720,7 @@
       "Four Winns": 54,
       "Formula": 50,
       "Sea Ray": 47,
-      "Regal": 47,
+      "Regal": 46,
       "Cobalt": 45,
       "MasterCraft": 45,
       "Barletta": 42,
@@ -727,12 +728,12 @@
       "Crownline": 28,
       "Malibu": 28,
       "Viaggio": 27,
-      "Tige": 24,
+      "Tige": 25,
       "Premier": 24,
       "Fountain": 20,
+      "MTI": 20,
       "Axis": 20,
       "Nautique": 19,
-      "MTI": 19,
       "Sunsation Powerboats": 18,
       "G3": 18,
       "Monterey": 17,
@@ -777,7 +778,6 @@
       "Schaefer": 3,
       "Montara": 3,
       "Evotti": 3,
-      "Moomba": 3,
       "Aviara": 3,
       "Ranger": 3,
       "Baja": 3,
@@ -791,6 +791,7 @@
       "Opus": 2,
       "Anthem": 2,
       "Concept": 2,
+      "Moomba": 2,
       "Princecraft": 2,
       "IRON": 2,
       "Statement": 2,
@@ -861,6 +862,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261121",
-  "date": "2026-11-21"
+  "scanId": "scan-20261122",
+  "date": "2026-11-22"
 }
