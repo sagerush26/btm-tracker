@@ -1,7 +1,7 @@
 {
   "soldByCategory": {
     "Cruiser / Cabin": 50,
-    "Bowrider": 105,
+    "Bowrider": 106,
     "Performance": 113,
     "Other": 100,
     "Center Console": 25,
@@ -92,7 +92,7 @@
     "Surdyke Yamaha & Marina": 346
   },
   "addedByCategory": {
-    "Cruiser / Cabin": 187,
+    "Cruiser / Cabin": 188,
     "Bowrider": 777,
     "Performance": 88,
     "Wakeboard / Ski": 200,
@@ -733,6 +733,12 @@
       "totalMarket": 1224,
       "btm": 207,
       "competitors": 1017
+    },
+    {
+      "date": "2026-11-23",
+      "totalMarket": 1224,
+      "btm": 207,
+      "competitors": 1017
     }
   ],
   "priceTrend": [
@@ -1278,6 +1284,11 @@
     },
     {
       "date": "2026-11-22",
+      "marketAvg": 219377.38,
+      "btmAvg": 254990.13
+    },
+    {
+      "date": "2026-11-23",
       "marketAvg": 219377.38,
       "btmAvg": 254990.13
     }
@@ -4149,13 +4160,18 @@
       "date": "2026-11-22",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-11-22 (scan-20261122). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
+    },
+    {
+      "date": "2026-11-23",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-23 (scan-20261123). 2 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine, stateamind."
     }
   ],
   "summary": {
-    "date": "2026-11-22",
-    "scanId": "scan-20261122",
+    "date": "2026-11-23",
+    "scanId": "scan-20261123",
     "marketTotal": 1224,
-    "credibleChangesCount": 2,
+    "credibleChangesCount": 0,
     "soldCount": 1810,
     "addedCount": 1070
   },

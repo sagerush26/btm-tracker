@@ -10,8 +10,8 @@
         "Pontoon / Tritoon": 45,
         "Wakeboard / Ski": 53,
         "Center Console": 38,
-        "Cruiser / Cabin": 21,
-        "Bowrider": 20,
+        "Cruiser / Cabin": 22,
+        "Bowrider": 19,
         "Performance": 13,
         "Yacht": 4,
         "Fishing": 0,
@@ -2030,12 +2030,12 @@
       "new": 16,
       "used": 35,
       "category": {
-        "Wakeboard / Ski": 5,
         "Pontoon / Tritoon": 3,
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
         "Fishing": 1,
+        "Wakeboard / Ski": 5,
+        "Yacht": 1,
         "Performance": 1,
+        "Cruiser / Cabin": 2,
         "Bowrider": 38
       },
       "brand": {
@@ -3334,352 +3334,12 @@
       "total": 94,
       "new": 60,
       "used": 34,
-      "category": {
-        "Wakeboard / Ski": 28,
-        "Fishing": 9,
-        "Pontoon / Tritoon": 33,
-        "Yacht": 9,
-        "Bowrider": 11,
-        "Cruiser / Cabin": 2,
-        "Other": 1,
-        "Center Console": 1
-      },
-      "brand": {
-        "Axis": 10,
-        "iKon": 6,
-        "Godfrey": 28,
-        "Coach Pontoons": 2,
-        "Four Winns": 5,
-        "HCB": 3,
-        "Supra": 1,
-        "Black Thunder Powerboats": 1,
-        "Malibu": 14,
-        "Bennington": 1,
-        "Ikon Boats": 1,
-        "Rinker": 1,
-        "Crownline": 1,
-        "Tiga": 1,
-        "Bass Tracker": 1,
-        "Formula": 2,
-        "Statement Marine": 2,
-        "Schaefer": 1,
-        "granfort": 1,
-        "Crowline": 1,
-        "Avalon": 2,
-        "Chapparal": 1,
-        "Cruisers Yachts": 1,
-        "MasterCraft": 1,
-        "Regal": 2,
-        "Nautique": 1,
-        "Schaefer Yachts": 1,
-        "Caymas Boats": 1,
-        "Crownline Boats": 1
-      },
-      "prices": [
-        [
-          89900,
-          "used"
-        ],
-        [
-          110756,
-          "new"
-        ],
-        [
-          76974,
-          "new"
-        ],
-        [
-          118717,
-          "new"
-        ],
-        [
-          81000,
-          "used"
-        ],
-        [
-          109758,
-          "new"
-        ],
-        [
-          94760,
-          "new"
-        ],
-        [
-          106438,
-          "new"
-        ],
-        [
-          1875000,
-          "new"
-        ],
-        [
-          158884,
-          "used"
-        ],
-        [
-          426287,
-          "used"
-        ],
-        [
-          97393,
-          "new"
-        ],
-        [
-          785365,
-          "new"
-        ],
-        [
-          143762,
-          "used"
-        ],
-        [
-          53672,
-          "used"
-        ],
-        [
-          194673,
-          "used"
-        ],
-        [
-          59993,
-          "new"
-        ],
-        [
-          164900,
-          "used"
-        ],
-        [
-          290000,
-          "used"
-        ],
-        [
-          59000,
-          "used"
-        ],
-        [
-          79782,
-          "used"
-        ],
-        [
-          74999,
-          "used"
-        ],
-        [
-          84987,
-          "used"
-        ],
-        [
-          14872,
-          "used"
-        ],
-        [
-          239995,
-          "new"
-        ],
-        [
-          54995,
-          "new"
-        ],
-        [
-          122995,
-          "new"
-        ],
-        [
-          95000,
-          "used"
-        ],
-        [
-          24000,
-          "used"
-        ],
-        [
-          23000,
-          "used"
-        ],
-        [
-          39900,
-          "used"
-        ],
-        [
-          154900,
-          "used"
-        ],
-        [
-          684632,
-          "new"
-        ],
-        [
-          172000,
-          "new"
-        ],
-        [
-          144986,
-          "new"
-        ],
-        [
-          162467,
-          "new"
-        ],
-        [
-          99900,
-          "used"
-        ],
-        [
-          54756,
-          "used"
-        ],
-        [
-          29000,
-          "used"
-        ],
-        [
-          309900,
-          "used"
-        ],
-        [
-          48752,
-          "used"
-        ],
-        [
-          194987,
-          "new"
-        ],
-        [
-          214685,
-          "new"
-        ],
-        [
-          162699,
-          "new"
-        ],
-        [
-          149991,
-          "new"
-        ],
-        [
-          151763,
-          "new"
-        ],
-        [
-          27900,
-          "used"
-        ],
-        [
-          109900,
-          "used"
-        ],
-        [
-          119900,
-          "used"
-        ],
-        [
-          39917,
-          "new"
-        ],
-        [
-          44873,
-          "new"
-        ],
-        [
-          44887,
-          "new"
-        ],
-        [
-          239917,
-          "new"
-        ],
-        [
-          89000,
-          "used"
-        ],
-        [
-          94982,
-          "used"
-        ],
-        [
-          693705,
-          "new"
-        ],
-        [
-          84900,
-          "new"
-        ],
-        [
-          68882,
-          "used"
-        ],
-        [
-          128962,
-          "new"
-        ],
-        [
-          73335,
-          "new"
-        ],
-        [
-          72946,
-          "new"
-        ],
-        [
-          79987,
-          "new"
-        ],
-        [
-          69947,
-          "new"
-        ],
-        [
-          107998,
-          "new"
-        ],
-        [
-          96362,
-          "new"
-        ],
-        [
-          94987,
-          "new"
-        ],
-        [
-          79900,
-          "used"
-        ],
-        [
-          146079,
-          "new"
-        ],
-        [
-          181516,
-          "new"
-        ],
-        [
-          196941,
-          "new"
-        ],
-        [
-          54900,
-          "used"
-        ],
-        [
-          186281,
-          "new"
-        ],
-        [
-          145690,
-          "new"
-        ],
-        [
-          137772,
-          "new"
-        ],
-        [
-          19900,
-          "used"
-        ]
-      ],
-      "priceLow": 14872,
-      "priceHigh": 1875000,
-      "priceQuality": "partial-80pct"
+      "category": {},
+      "brand": {},
+      "prices": [],
+      "priceLow": 0,
+      "priceHigh": 0,
+      "priceQuality": "range-only"
     },
     "premier-54": {
       "name": "Premier 54 Motorsports",
@@ -4112,7 +3772,7 @@
         "Yamaha Marine": 10,
         "Beneteau": 6,
         "Cobalt Boats": 1,
-        "Yamaha Boats": 19,
+        "Yamaha Boats": 18,
         "Scarab": 6,
         "SunCatcher": 16,
         "Sun Tracker": 1,
@@ -4121,7 +3781,7 @@
         "Axopar": 11,
         "Landa": 1,
         "RANGER": 1,
-        "Yamaha": 6,
+        "Yamaha": 7,
         "Bayliner": 3,
         "Four Winns": 3,
         "Nitro": 1,
@@ -4730,6 +4390,10 @@
     }
   },
   "failures": [
+    [
+      "stateamind",
+      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 418, in scrape\n    html = _fetch_inventory_page_html(session)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 234, in _fetch_inventory_page_html\n    resp.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.stateamind.com/missouri-all-boat-inventory/\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 425, in scrape\n    hits = _fetch_via_playwright()\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 373, in _fetch_via_playwright\n    raise RuntimeError(\nRuntimeError: Playwright fallback failed to capture any Algolia network requests; page structure may have changed.\n"
+    ],
     [
       "martys-marine",
       "using count confirmed on 2026-11-11 (42); scrape() returned total <= 0"
