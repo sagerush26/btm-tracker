@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-11-24T16:38:10.522773+00:00",
+  "lastUpdated": "2026-11-25T16:21:06.581538+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "totalBoats": 206,
+      "totalBoats": 207,
       "newBoats": 110,
-      "usedBoats": 96,
-      "avgPriceNew": 325036.67,
-      "avgPriceUsed": 178481.83,
+      "usedBoats": 97,
+      "avgPriceNew": 321912.98,
+      "avgPriceUsed": 177568.62,
       "byCondition": {
         "New": 110,
-        "Used": 96
+        "Used": 97
       },
       "byCategory": {
         "Pontoon / Tritoon": 45,
         "Wakeboard / Ski": 53,
         "Center Console": 37,
-        "Cruiser / Cabin": 22,
+        "Cruiser / Cabin": 23,
         "Bowrider": 19,
         "Performance": 13,
         "Yacht": 4,
@@ -66,6 +66,7 @@
         "Barletta": 2,
         "Cruisers Yachts": 1,
         "Nautical Racing Group": 1,
+        "Four Winns": 1,
         "Nautique": 2,
         "Spectre": 1,
         "Heritage": 1,
@@ -125,21 +126,21 @@
       "id": "performance-boat-center",
       "name": "Performance Boat Center",
       "isOwn": false,
-      "totalBoats": 109,
+      "totalBoats": 110,
       "newBoats": 9,
-      "usedBoats": 98,
+      "usedBoats": 99,
       "avgPriceNew": 501616.67,
-      "avgPriceUsed": 535889.8,
+      "avgPriceUsed": 531730.4,
       "byCondition": {
         "New": 9,
-        "Used": 98
+        "Used": 99
       },
       "byCategory": {
         "Fishing": 1,
         "Other": 43,
         "Bowrider": 8,
         "Center Console": 32,
-        "Performance": 19,
+        "Performance": 20,
         "Power": 2,
         "Cruiser / Cabin": 4
       },
@@ -161,6 +162,7 @@
         "Crownline": 1,
         "Bennington": 2,
         "MasterCraft": 1,
+        "Princecraft": 2,
         "Tige": 1,
         "Cobalt": 1,
         "Wright Performance": 1,
@@ -169,14 +171,13 @@
         "Ranger": 1,
         "Chris-Craft": 1,
         "Active": 1,
-        "Princecraft": 1,
         "Mystic": 1,
         "Statement": 2,
         "Mercury Marine": 2,
-        "Freightliner": 1,
         "Baja": 1,
         "Sea Ray": 2,
         "Scarab": 1,
+        "Black": 1,
         "Wellcraft": 1
       },
       "byLength": {},
@@ -222,27 +223,27 @@
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "totalBoats": 51,
-      "newBoats": 16,
-      "usedBoats": 35,
-      "avgPriceNew": 135536.97,
-      "avgPriceUsed": 135536.97,
+      "totalBoats": 55,
+      "newBoats": 17,
+      "usedBoats": 38,
+      "avgPriceNew": 130057.66,
+      "avgPriceUsed": 130057.66,
       "byCondition": {
-        "New": 16,
-        "Used": 35
+        "New": 17,
+        "Used": 38
       },
       "byCategory": {
-        "Fishing": 1,
-        "Performance": 1,
-        "Bowrider": 38,
+        "Wakeboard / Ski": 6,
         "Pontoon / Tritoon": 3,
-        "Yacht": 1,
-        "Wakeboard / Ski": 5,
-        "Cruiser / Cabin": 2
+        "Cruiser / Cabin": 2,
+        "Performance": 1,
+        "Bowrider": 41,
+        "Fishing": 1,
+        "Yacht": 1
       },
       "byBrand": {
         "Carver": 1,
-        "Cobalt": 29,
+        "Cobalt": 32,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -251,7 +252,7 @@
         "Formula": 1,
         "Four Winns": 3,
         "Sea Ray": 3,
-        "Crownline": 2,
+        "Crownline": 3,
         "South Bay": 1,
         "Larson": 1,
         "Rinker": 1,
@@ -423,21 +424,21 @@
       "id": "heartland-marine",
       "name": "Heartland Marine",
       "isOwn": false,
-      "totalBoats": 66,
+      "totalBoats": 64,
       "newBoats": 24,
-      "usedBoats": 42,
+      "usedBoats": 40,
       "avgPriceNew": 102566.67,
-      "avgPriceUsed": 46307.12,
+      "avgPriceUsed": 47227.47,
       "byCondition": {
         "New": 24,
-        "Used": 42
+        "Used": 40
       },
       "byCategory": {
-        "Pontoon / Tritoon": 30,
+        "Pontoon / Tritoon": 29,
         "Wakeboard / Ski": 1,
         "Cruiser / Cabin": 1,
         "Bowrider": 18,
-        "Other": 16
+        "Other": 15
       },
       "byBrand": {
         "South": 3,
@@ -450,10 +451,9 @@
         "Crownline": 2,
         "Regal": 5,
         "Monterey": 2,
-        "Sea Ray": 4,
+        "Sea Ray": 3,
         "Formula": 2,
         "Baja": 1,
-        "Trifecta": 1,
         "MasterCraft": 1,
         "JC": 1,
         "Ebbtide": 1,
@@ -494,7 +494,7 @@
       "totalBoats": 99,
       "newBoats": 57,
       "usedBoats": 41,
-      "avgPriceNew": 189583.02,
+      "avgPriceNew": 198869.31,
       "avgPriceUsed": 96223.81,
       "byCondition": {
         "New": 57,
@@ -655,40 +655,40 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1222,
-    "newBoats": 619,
-    "usedBoats": 599,
+    "totalBoats": 1226,
+    "newBoats": 620,
+    "usedBoats": 602,
     "byCondition": {
-      "New": 619,
-      "Used": 599
+      "New": 620,
+      "Used": 602
     },
     "byCategory": {
-      "Pontoon / Tritoon": 270,
-      "Wakeboard / Ski": 153,
+      "Pontoon / Tritoon": 269,
+      "Wakeboard / Ski": 154,
       "Center Console": 93,
-      "Cruiser / Cabin": 88,
-      "Bowrider": 238,
-      "Performance": 94,
+      "Cruiser / Cabin": 89,
+      "Bowrider": 241,
+      "Performance": 95,
       "Yacht": 25,
       "Fishing": 64,
       "Power": 12,
-      "Other": 91
+      "Other": 90
     },
     "byBrand": {
       "Chaparral": 62,
       "Bennington": 57,
-      "Four Winns": 49,
+      "Four Winns": 50,
+      "Cobalt": 48,
       "Formula": 48,
-      "Sea Ray": 46,
-      "Cobalt": 45,
+      "Sea Ray": 45,
       "Regal": 44,
       "MasterCraft": 44,
       "Barletta": 42,
       "Yamaha": 30,
       "Godfrey": 28,
       "Viaggio": 27,
+      "Crownline": 26,
       "Tige": 25,
-      "Crownline": 25,
       "Premier": 24,
       "Fountain": 20,
       "MTI": 20,
@@ -733,6 +733,7 @@
       "PlayCraft": 4,
       "Montara": 3,
       "Evotti": 3,
+      "Princecraft": 3,
       "Boston Whaler": 3,
       "Aviara": 3,
       "Ranger": 3,
@@ -750,7 +751,6 @@
       "Anthem": 2,
       "Concept": 2,
       "Moomba": 2,
-      "Princecraft": 2,
       "IRON": 2,
       "Statement": 2,
       "Mercury Marine": 2,
@@ -786,7 +786,7 @@
       "Kenworth": 1,
       "Active": 1,
       "Mystic": 1,
-      "Freightliner": 1,
+      "Black": 1,
       "Prestige": 1,
       "Carver": 1,
       "Pioneer": 1,
@@ -800,7 +800,6 @@
       "Chapparal": 1,
       "Schaefer Yachts DBA": 1,
       "Caymas": 1,
-      "Trifecta": 1,
       "JC": 1,
       "Ebbtide": 1,
       "Hurricane": 1,
@@ -821,6 +820,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261124",
-  "date": "2026-11-24"
+  "scanId": "scan-20261125",
+  "date": "2026-11-25"
 }
