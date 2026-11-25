@@ -86,6 +86,11 @@ DEALER_NAME = "Stateamind Water Sports"
 INVENTORY_URL = "https://www.stateamind.com/missouri-all-boat-inventory/"
 ALGOLIA_INDEX = "prod_boats"
 
+# Sage (Nov 25, 2026): count ONLY the Lake of the Ozarks location, i.e. the
+# site's Location filter = "Lake of the Ozarks" with New / Used toggles.
+# Confirmed by hand that day: 35 new + 15 used = 50.
+LOCATION_ONLY = "Lake of the Ozarks"
+
 DEFAULT_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -408,6 +413,15 @@ def _hit_to_price_tuple(hit: dict) -> Optional[tuple[int, str]]:
     return (int(price), usage)
 
 
+def _hit_location(hit: dict) -> str:
+    loc = hit.get("location")
+    if isinstance(loc, dict):
+        return (loc.get("display_name") or "").strip()
+    if isinstance(loc, list) and loc and isinstance(loc[0], dict):
+        return (loc[0].get("display_name") or "").strip()
+    return str(loc or "").strip()
+
+
 def scrape() -> dict:
     session = requests.Session()
 
@@ -417,12 +431,27 @@ def scrape() -> dict:
     try:
         html = _fetch_inventory_page_html(session)
         config = _derive_algolia_config(html)
+    except Exception:
+        # The inventory page itself now returns 403 to non-browser clients
+        # (seen Nov 2026), but the public Algolia feed behind it still answers.
+        # Query it directly with the known public search-only config.
+        method_used = "algolia_http_direct"
+        config = {
+            "app_id": FALLBACK_APP_ID,
+            "api_key": FALLBACK_API_KEY,
+            "filters": FALLBACK_FILTERS,
+        }
+    try:
         hits = _fetch_via_algolia_http(config)
         if not hits:
             raise RuntimeError("Algolia HTTP path returned zero hits.")
     except Exception:
         method_used = "playwright_fallback"
         hits = _fetch_via_playwright()
+
+    hits = [h for h in hits if _hit_location(h) == LOCATION_ONLY]
+    if not hits:
+        raise RuntimeError(f"No boats found at location {LOCATION_ONLY!r}.")
 
     total = len(hits)
 

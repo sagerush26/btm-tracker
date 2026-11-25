@@ -24,5 +24,13 @@
       "PlayCraft": 1,
       "Chaparral": 1
     }
+  },
+  "stateamind": {
+    "total": 50,
+    "new": 35,
+    "used": 15,
+    "confirmedOn": "2026-11-25",
+    "confirmedBy": "Sage",
+    "evidence": "stateamind.com/missouri-all-boat-inventory: Location filter = Lake of the Ozarks; Sage confirmed 35 new / 15 used (50 total) on Nov 25, 2026. Tracker counts the Lake of the Ozarks location only."
   }
 }
