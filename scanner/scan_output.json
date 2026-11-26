@@ -3,16 +3,16 @@
     "big-thunder-marine": {
       "name": "Big Thunder Marine",
       "isOwn": true,
-      "total": 207,
+      "total": 208,
       "new": 110,
-      "used": 97,
+      "used": 98,
       "category": {
         "Pontoon / Tritoon": 45,
         "Wakeboard / Ski": 53,
         "Center Console": 37,
         "Cruiser / Cabin": 23,
         "Bowrider": 19,
-        "Performance": 13,
+        "Performance": 14,
         "Yacht": 4,
         "Fishing": 0,
         "Power": 7,
@@ -21,7 +21,7 @@
       "brand": {
         "Dutch American": 2,
         "Cigarette": 4,
-        "Fountain": 12,
+        "Fountain": 13,
         "Invictus": 8,
         "Pirelli": 1,
         "Chris Craft": 6,
@@ -66,10 +66,10 @@
         "Moomba": 1,
         "Princecraft": 1,
         "Chaparral": 2,
-        "Harris FloteBote": 1,
         "Correct Craft": 1,
         "SEA DOO": 4,
         "CYPRESS CAY": 1,
+        "Harris FloteBote": 1,
         "Bennington": 1
       },
       "prices": [
@@ -203,6 +203,10 @@
         ],
         [
           404900,
+          "used"
+        ],
+        [
+          369900,
           "used"
         ],
         [
@@ -758,10 +762,6 @@
           "used"
         ],
         [
-          39900,
-          "used"
-        ],
-        [
           37500,
           "used"
         ],
@@ -804,6 +804,10 @@
         [
           194370,
           "new"
+        ],
+        [
+          39900,
+          "used"
         ],
         [
           25997,
@@ -2029,13 +2033,13 @@
       "new": 17,
       "used": 38,
       "category": {
-        "Wakeboard / Ski": 6,
-        "Pontoon / Tritoon": 3,
         "Cruiser / Cabin": 2,
+        "Yacht": 1,
         "Performance": 1,
         "Bowrider": 41,
         "Fishing": 1,
-        "Yacht": 1
+        "Pontoon / Tritoon": 3,
+        "Wakeboard / Ski": 6
       },
       "brand": {
         "Carver": 1,
@@ -2760,17 +2764,17 @@
     "formula-boats-mo": {
       "name": "Formula Boats of Missouri",
       "isOwn": false,
-      "total": 31,
-      "new": 17,
+      "total": 30,
+      "new": 16,
       "used": 14,
       "category": {
         "Center Console": 1,
         "Cruiser / Cabin": 2,
-        "Bowrider": 26,
+        "Bowrider": 25,
         "Other": 2
       },
       "brand": {
-        "Formula": 28,
+        "Formula": 27,
         "Cobalt": 1,
         "Regal": 1,
         "Chaparral": 1
@@ -2839,7 +2843,7 @@
       ],
       "priceLow": 69995,
       "priceHigh": 914454,
-      "priceQuality": "partial-48pct"
+      "priceQuality": "partial-50pct"
     },
     "performance-marine": {
       "name": "Performance Marine Watersports",
@@ -2960,7 +2964,7 @@
           "used"
         ],
         [
-          174990,
+          159990,
           "used"
         ],
         [
@@ -3010,15 +3014,11 @@
         [
           54990,
           "used"
-        ],
-        [
-          44990,
-          "used"
         ]
       ],
-      "priceLow": 44990,
+      "priceLow": 54990,
       "priceHigh": 435990,
-      "priceQuality": "partial-84pct"
+      "priceQuality": "partial-82pct"
     },
     "heartland-marine": {
       "name": "Heartland Marine",
@@ -3324,15 +3324,180 @@
     "stateamind": {
       "name": "Stateamind Water Sports",
       "isOwn": false,
-      "total": 94,
-      "new": 60,
-      "used": 34,
-      "category": {},
-      "brand": {},
-      "prices": [],
-      "priceLow": 0,
-      "priceHigh": 0,
-      "priceQuality": "range-only"
+      "total": 50,
+      "new": 35,
+      "used": 15,
+      "category": {
+        "Wakeboard / Ski": 11,
+        "Pontoon / Tritoon": 26,
+        "Bowrider": 6,
+        "Fishing": 3,
+        "Yacht": 4
+      },
+      "brand": {
+        "Axis": 4,
+        "Godfrey": 24,
+        "Coach Pontoons": 1,
+        "Supra": 1,
+        "Black Thunder Powerboats": 1,
+        "Malibu": 5,
+        "Bennington": 1,
+        "Ikon Boats": 1,
+        "Rinker": 1,
+        "Crownline": 1,
+        "Four Winns": 4,
+        "Statement Marine": 1,
+        "MasterCraft": 1,
+        "Schaefer Yachts": 1,
+        "Caymas Boats": 1,
+        "HCB": 1,
+        "iKon": 1
+      },
+      "prices": [
+        [
+          89900,
+          "used"
+        ],
+        [
+          118717,
+          "new"
+        ],
+        [
+          158884,
+          "used"
+        ],
+        [
+          426287,
+          "used"
+        ],
+        [
+          97393,
+          "new"
+        ],
+        [
+          53672,
+          "used"
+        ],
+        [
+          194673,
+          "used"
+        ],
+        [
+          164900,
+          "used"
+        ],
+        [
+          79782,
+          "used"
+        ],
+        [
+          74999,
+          "used"
+        ],
+        [
+          84987,
+          "used"
+        ],
+        [
+          14872,
+          "used"
+        ],
+        [
+          239995,
+          "new"
+        ],
+        [
+          54995,
+          "new"
+        ],
+        [
+          122995,
+          "new"
+        ],
+        [
+          162467,
+          "new"
+        ],
+        [
+          48752,
+          "used"
+        ],
+        [
+          194987,
+          "new"
+        ],
+        [
+          214685,
+          "new"
+        ],
+        [
+          44887,
+          "new"
+        ],
+        [
+          239917,
+          "new"
+        ],
+        [
+          94982,
+          "used"
+        ],
+        [
+          693705,
+          "new"
+        ],
+        [
+          68882,
+          "used"
+        ],
+        [
+          73335,
+          "new"
+        ],
+        [
+          72946,
+          "new"
+        ],
+        [
+          79987,
+          "new"
+        ],
+        [
+          69947,
+          "new"
+        ],
+        [
+          107998,
+          "new"
+        ],
+        [
+          96362,
+          "new"
+        ],
+        [
+          94987,
+          "new"
+        ],
+        [
+          79900,
+          "used"
+        ],
+        [
+          186281,
+          "new"
+        ],
+        [
+          145690,
+          "new"
+        ],
+        [
+          137772,
+          "new"
+        ]
+      ],
+      "priceLow": 14872,
+      "priceHigh": 693705,
+      "priceQuality": "partial-70pct"
     },
     "premier-54": {
       "name": "Premier 54 Motorsports",
@@ -3697,6 +3862,10 @@
         [
           289900,
           "used"
+        ],
+        [
+          274517,
+          "new"
         ],
         [
           109900,
@@ -4423,10 +4592,6 @@
     }
   },
   "failures": [
-    [
-      "stateamind",
-      "Traceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 418, in scrape\n    html = _fetch_inventory_page_html(session)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 234, in _fetch_inventory_page_html\n    resp.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.stateamind.com/missouri-all-boat-inventory/\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/run_scan.py\", line 82, in run_one\n    result = mod.scrape()\n             ^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 425, in scrape\n    hits = _fetch_via_playwright()\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/btm-tracker/btm-tracker/scanner/dealers/stateamind.py\", line 373, in _fetch_via_playwright\n    raise RuntimeError(\nRuntimeError: Playwright fallback failed to capture any Algolia network requests; page structure may have changed.\n"
-    ],
     [
       "martys-marine",
       "using count confirmed on 2026-11-11 (42); scrape() returned total <= 0"
