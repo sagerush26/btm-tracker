@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T15:56:27.648725+00:00",
+  "lastUpdated": "2026-11-27T15:44:11.630005+00:00",
   "dealers": [
     {
       "id": "big-thunder-marine",
@@ -223,27 +223,27 @@
       "id": "village-marina",
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "totalBoats": 55,
+      "totalBoats": 54,
       "newBoats": 17,
-      "usedBoats": 38,
-      "avgPriceNew": 130057.66,
-      "avgPriceUsed": 130057.66,
+      "usedBoats": 37,
+      "avgPriceNew": 132761.95,
+      "avgPriceUsed": 132761.95,
       "byCondition": {
         "New": 17,
-        "Used": 38
+        "Used": 37
       },
       "byCategory": {
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
-        "Performance": 1,
-        "Bowrider": 41,
-        "Fishing": 1,
         "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 6
+        "Yacht": 1,
+        "Fishing": 1,
+        "Performance": 1,
+        "Bowrider": 40,
+        "Wakeboard / Ski": 6,
+        "Cruiser / Cabin": 2
       },
       "byBrand": {
         "Carver": 1,
-        "Cobalt": 32,
+        "Cobalt": 31,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -456,8 +456,8 @@
         "Baja": 1,
         "MasterCraft": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 3,
         "Lowe": 2,
         "Misty Harbor": 1,
@@ -678,19 +678,19 @@
     }
   ],
   "marketTotals": {
-    "totalBoats": 1182,
+    "totalBoats": 1181,
     "newBoats": 594,
-    "usedBoats": 584,
+    "usedBoats": 583,
     "byCondition": {
       "New": 594,
-      "Used": 584
+      "Used": 583
     },
     "byCategory": {
       "Pontoon / Tritoon": 295,
       "Wakeboard / Ski": 165,
       "Center Console": 93,
       "Cruiser / Cabin": 89,
-      "Bowrider": 246,
+      "Bowrider": 245,
       "Performance": 96,
       "Yacht": 29,
       "Fishing": 67,
@@ -702,7 +702,7 @@
       "Bennington": 58,
       "Four Winns": 54,
       "Godfrey": 52,
-      "Cobalt": 48,
+      "Cobalt": 47,
       "Formula": 47,
       "Sea Ray": 45,
       "MasterCraft": 45,
@@ -844,6 +844,6 @@
     "byLength": {},
     "byPropulsion": {}
   },
-  "scanId": "scan-20261126",
-  "date": "2026-11-26"
+  "scanId": "scan-20261127",
+  "date": "2026-11-27"
 }

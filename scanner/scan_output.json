@@ -2029,21 +2029,21 @@
     "village-marina": {
       "name": "Village Marina & Yacht Club",
       "isOwn": false,
-      "total": 55,
+      "total": 54,
       "new": 17,
-      "used": 38,
+      "used": 37,
       "category": {
-        "Cruiser / Cabin": 2,
-        "Yacht": 1,
-        "Performance": 1,
-        "Bowrider": 41,
-        "Fishing": 1,
         "Pontoon / Tritoon": 3,
-        "Wakeboard / Ski": 6
+        "Yacht": 1,
+        "Fishing": 1,
+        "Performance": 1,
+        "Bowrider": 40,
+        "Wakeboard / Ski": 6,
+        "Cruiser / Cabin": 2
       },
       "brand": {
         "Carver": 1,
-        "Cobalt": 32,
+        "Cobalt": 31,
         "Sea-Doo": 1,
         "Premier": 1,
         "Manitou": 1,
@@ -2100,10 +2100,6 @@
         ],
         [
           73900,
-          "used"
-        ],
-        [
-          29999,
           "used"
         ],
         [
@@ -3049,8 +3045,8 @@
         "Baja": 1,
         "MasterCraft": 1,
         "JC": 1,
-        "Ebbtide": 1,
         "Crest": 1,
+        "Ebbtide": 1,
         "Four Winns": 3,
         "Lowe": 2,
         "Misty Harbor": 1,

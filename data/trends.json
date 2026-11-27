@@ -1,7 +1,7 @@
 {
   "soldByCategory": {
     "Cruiser / Cabin": 50,
-    "Bowrider": 109,
+    "Bowrider": 110,
     "Performance": 114,
     "Other": 101,
     "Center Console": 26,
@@ -15,7 +15,7 @@
   "soldByLengthBand": {},
   "soldByCondition": {
     "New": 3717,
-    "Used": 2444
+    "Used": 2445
   },
   "soldByBrand": {
     "Cruisers Yachts": 1,
@@ -28,7 +28,7 @@
     "Regal": 7,
     "Crownline": 10,
     "MasterCraft": 7,
-    "Cobalt": 11,
+    "Cobalt": 12,
     "Sylvan": 4,
     "Godfrey": 6,
     "Skater": 3,
@@ -87,7 +87,7 @@
     "Performance Marine Watersports": 87,
     "Stateamind Water Sports": 139,
     "All About Boats": 24,
-    "Village Marina & Yacht Club": 61,
+    "Village Marina & Yacht Club": 62,
     "Big Thunder Marine": 111,
     "Surdyke Yamaha & Marina": 346
   },
@@ -757,6 +757,12 @@
       "totalMarket": 1182,
       "btm": 208,
       "competitors": 974
+    },
+    {
+      "date": "2026-11-27",
+      "totalMarket": 1181,
+      "btm": 208,
+      "competitors": 973
     }
   ],
   "priceTrend": [
@@ -1324,19 +1330,14 @@
       "date": "2026-11-26",
       "marketAvg": 221270.15,
       "btmAvg": 252836.66
+    },
+    {
+      "date": "2026-11-27",
+      "marketAvg": 221471.03,
+      "btmAvg": 252836.66
     }
   ],
   "recentlySold": [
-    {
-      "date": "2026-11-02",
-      "scanId": "scan-20261102",
-      "dealer": "Village Marina & Yacht Club",
-      "competitorId": "village-marina",
-      "count": 1,
-      "previousTotal": 48,
-      "newTotal": 47,
-      "detail": "Inventory decreased by 1 (was 48, now 47). New: 14, Used: 33. Reflects the normal one-day change since the prior scan on 2026-11-01."
-    },
     {
       "date": "2026-11-03",
       "scanId": "scan-20261103",
@@ -1826,6 +1827,16 @@
       "previousTotal": 94,
       "newTotal": 50,
       "detail": "Inventory decreased by 44 (was 94, now 50). New: 35, Used: 15. Reflects the normal one-day change since the prior scan on 2026-11-25."
+    },
+    {
+      "date": "2026-11-27",
+      "scanId": "scan-20261127",
+      "dealer": "Village Marina & Yacht Club",
+      "competitorId": "village-marina",
+      "count": 1,
+      "previousTotal": 55,
+      "newTotal": 54,
+      "detail": "Inventory decreased by 1 (was 55, now 54). New: 17, Used: 37. Reflects the normal one-day change since the prior scan on 2026-11-26."
     }
   ],
   "recentlyAdded": [
@@ -4213,14 +4224,19 @@
       "date": "2026-11-26",
       "type": "data_quality",
       "text": "Nightly scan completed 2026-11-26 (scan-20261126). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
+    },
+    {
+      "date": "2026-11-27",
+      "type": "data_quality",
+      "text": "Nightly scan completed 2026-11-27 (scan-20261127). 1 dealer(s) failed to load live data and are showing carried-forward values from the prior scan: martys-marine."
     }
   ],
   "summary": {
-    "date": "2026-11-26",
-    "scanId": "scan-20261126",
-    "marketTotal": 1182,
-    "credibleChangesCount": 3,
-    "soldCount": 1861,
+    "date": "2026-11-27",
+    "scanId": "scan-20261127",
+    "marketTotal": 1181,
+    "credibleChangesCount": 1,
+    "soldCount": 1862,
     "addedCount": 1079
   },
   "addedByDealer": {
